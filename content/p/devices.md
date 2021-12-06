@@ -18,8 +18,9 @@ They're listed in alphabetical order.
 - Apple iPhone X 256GB [Handphone] (late 2018) -> my daily driver, perfect fit for my hand.
 - Apple Watch Series 3 42mm [Smartwatch] (early 2021) -> heartbeat and general physical activity tracker, at least it's cheaper than Garmin's.
 - Audio Technica ATH-M50x [Headphone] (~2016) -> best general use headphone IMO.
-- Dell U2417H [24" LED Monitor] (mid 2018) -> I love this monitor, might buy another one if my old monitor dies.
-- HP W2072a [20" LED Monitor] (~2012) -> one of my earliest monitor, still going strong!
+- Dell U2417H [24" IPS Monitor] (mid 2018) -> I love this monitor, might buy another one if my old monitor dies.
+- HP W2072a [20" TN Monitor] (~2012) -> one of my earliest monitor, still going strong!
+- ViewSonic XG2431 [24" 240Hz IPS Monitor] (late 2021) -> impulsive purchase, first time looking at monitor with high refresh rate, recommended by a friend.
 - KBParadise V80 Vintage MX Brown switch [Keyboard] (late 2018) -> I won't go back to full sized keyboard.
 - Lenovo B40-70 [Laptop] (mid 2015) -> from my uni, avoid this thing if possible, the frame is weaker than a rice cracker.
 - Logitech M325 [Wireless Mouse] (early 2014) -> decent mouse with ridiculous lifetime.
