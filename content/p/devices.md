@@ -1,10 +1,10 @@
 +++
 title = "Device List"
 date = "2021-03-02T22:38:10+07:00"
+author = "Yosua"
 authorTwitter = "darcien_" #do not include @
 cover = ""
 tags = ["list"]
-keywords = ["devices"]
 description = "List of devices that I use, mainly to make sure I don't forget that I (used to) own these things."
 showFullContent = false
 lastmod = "2022-05-31"

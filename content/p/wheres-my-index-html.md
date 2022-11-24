@@ -1,10 +1,10 @@
 +++
 title = "Where's My index.html?"
 date = "2020-05-20T19:18:21+07:00"
+author = "Yosua"
 authorTwitter = "darcien_" #do not include @
 cover = ""
 tags = ["git", "TIL", "site"]
-keywords = ["git"]
 description = "How I learned about git submodules behavior when trying to deploy this site."
 showFullContent = false
 +++
@@ -29,13 +29,13 @@ Just add a bunch of markdowns, modify the config a bit, and maybe tweak the them
 I didn't think it would be this easy to make a site that looks nice(in my opinion).
 Deploying it should also be trivial right? Oh how I couldn't be more wrong.
 
-
 ## Problem
 
 Initially, I wanted to make the site compile on my machine, pack it up, and `scp` it to the server.
 
 But that's boring.
 And there are other points that I care:
+
 - What if I wanted to create a new post on a different machine? Do I need to setup the env on the other machine too?
 - Maybe I want to automatically build if the site repo is updated?
 
@@ -90,13 +90,14 @@ What happened here, I'm pretty sure I commited the entire theme to the repo.
 
 Is it because I used `git submodule` to add the theme? A quick googling tells me that this is case.
 
->When you clone a project with submodule in it, by default you get the directories that contain submodules, but none of the files within them yet.[^1]
+> When you clone a project with submodule in it, by default you get the directories that contain submodules, but none of the files within them yet.[^1]
 
 OMG, all the time I spent debugging this.
 I probably could save them if I actually read how to use submodules first.
 
 Since I already cloned the repo, all I need is to fetch the missing submodules.
 This command did the trick:
+
 ```shell
 # This command will fetch and update all the submodules in the repo.
 $ git submodule update --init --recursive

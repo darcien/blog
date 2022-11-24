@@ -4,8 +4,11 @@ draft: false
 ---
 
 Hi there, my name is Yosua Ian Sebastian.
-Currently I'm working as a software engineer in [KodeFox](https://kodefox.com/).
+Currently I'm working as a software engineer to pay the bills and put food on the table for my parents.
 
-The main goals for this site are to practice my writing skills and keep some public notes that might benefit some people.
+Any writings on this site is my personal opinion and does not represent the view of my employer yada yada.
+
+Initially I started this blog to practice writing, but it's not going really well.
+This blog will probably end up as a daily life ramblings and a bit techincal posts here and there.
 
 You could find me on [GitHub](https://github.com/darcien) or [Twitter](https://twitter.com/darcien_).

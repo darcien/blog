@@ -1,9 +1,9 @@
 +++
 title = "Monitor Notes"
 date = "2021-12-06T19:18:21+07:00"
+author = "Yosua"
 authorTwitter = "darcien_" #do not include @
 tags = ["note"]
-keywords = ["monitor"]
 description = "A diary of boring adventure in setting up monitors. Also works as a timecapsule letter, dear future me, don't repeat these mistakes."
 lastmod = "2022-05-31"
 +++

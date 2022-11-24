@@ -1,6 +1,7 @@
 +++
 title = "Buyee or Geek Jack?"
 date = "2020-12-20T19:35:46+07:00"
+author = "Yosua"
 authorTwitter = "darcien_" #do not include @
 cover = ""
 tags = ["vtuber"]
