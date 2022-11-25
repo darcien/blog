@@ -18,5 +18,8 @@
     "titleBar.inactiveBackground": "#1e90ff99",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#1E90FF"
+  "peacock.color": "#1E90FF",
+  "search.exclude": {
+    "public": true
+  }
 }

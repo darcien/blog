@@ -15,12 +15,9 @@ post FILENAME:
 build:
   hugo --quiet --minify --gc --cleanDestinationDir
 
-# Stage all changes
-add:
-  git add --all
-
 # Commit staged changes
 commit MESSAGE:
+  git add --all
   git commit -m "{{MESSAGE}}"
 
 # Push to remote repo, this essentially triggers the deployment 
@@ -28,7 +25,8 @@ deploy:
   git push -u origin master
 
 # Commit all changes and deploy it
-doit: add
+doit: build
+  git add --all
   # windows dont like heart hands https://emojipedia.org/heart-hands/
   git commit -m "just do it 🫶"
   just deploy
