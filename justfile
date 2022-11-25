@@ -1,4 +1,4 @@
-THEME_TERMINAL_DIR := join(justfile_directory(), "themes", "terminal")
+THEME_DIR := join(justfile_directory(), "themes", "PaperMod")
 DEFAULT_THEME_COMMIT_MESSAGE := 'update theme'
 # TODO: date is not cross platform, maybe use npx date-now-cli ir non date default
 DEFAULT_COMMIT_MESSAGE := `date "+%Y-%m-%dT%H:%M:%S"`
@@ -13,7 +13,7 @@ post FILENAME:
 
 # Build the site
 build:
-  hugo
+  hugo --quiet --minify --gc --cleanDestinationDir
 
 # Stage all changes
 add:
@@ -35,7 +35,7 @@ doit: add
 
 # Pull and rebase from remote
 pull:
-  git pull origin master --rebase
+  git pull origin master --rebase --recurse-submodules
 
 # Run local server including drafts
 dev:
@@ -47,10 +47,10 @@ run:
 
 # Commit changes in terminal sub module and push theme changes to remote
 pushtheme MESSAGE=DEFAULT_THEME_COMMIT_MESSAGE:
-  @echo "Committing changes in {{THEME_TERMINAL_DIR}} and pushing to GitHub..."
-  @cd "{{THEME_TERMINAL_DIR}}" && git add --all
-  @cd "{{THEME_TERMINAL_DIR}}" && git commit -m "{{MESSAGE}}"
-  @cd "{{THEME_TERMINAL_DIR}}" && git push -u origin master
+  @echo "Committing changes in {{THEME_DIR}} and pushing to GitHub..."
+  @cd "{{THEME_DIR}}" && git add --all
+  @cd "{{THEME_DIR}}" && git commit -m "{{MESSAGE}}"
+  @cd "{{THEME_DIR}}" && git push -u origin master
 
 # This project runs on at least 3 different OSes,
 # and every single one of them have different setup.

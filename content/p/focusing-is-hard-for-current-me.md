@@ -1,14 +1,9 @@
-+++
-title = "Focusing Is Hard For Current Me"
-date = "2022-11-25T01:30:43+07:00"
-author = "Yosua"
-authorTwitter = "darcien_" #do not include @
-cover = ""
-tags = ["random", "100DaysToOffload"]
-keywords = []
-showFullContent = false
-draft = false
-+++
+---
+title: "Focusing Is Hard For Current Me"
+date: 2022-11-25T01:30:43+07:00
+tags: ["life", "100DaysToOffload"]
+summary: "These days, I can not focus on one thing for extended amount of time."
+---
 
 It's almost 2am now. What? It's already this late!?
 

@@ -1,16 +1,11 @@
-+++
-title = "Buyee or Geek Jack?"
-date = "2020-12-20T19:35:46+07:00"
-author = "Yosua"
-authorTwitter = "darcien_" #do not include @
-cover = ""
-tags = ["vtuber"]
-keywords = ["vtuber", "buyee", "geek jack"]
-description = "My notes and comparison regarding buying VTuber goods through Buyee and Geek Jack."
-showFullContent = false
-lastmod = "2021-03-23"
-+++
-
+---
+title: "Buyee or Geek Jack?"
+date: "2020-12-20T19:35:46+07:00"
+tags: ["vtuber"]
+author: "Yosua"
+summary: "My personal experiences from buying VTuber goods through Buyee and Geek Jack."
+showToc: true
+---
 
 ## Intro
 
@@ -26,33 +21,32 @@ I want to compare the experience of buying the goods through Buyee and Geek Jack
 All prices are in JPY. Prices doesn't include customs tax etc. Service fee include things like consolidation and protective packages.
 Some goods are pre-ordered, so the total days doesn't count the days where the service are waiting for the goods to be shipped from the seller.
 
-| Goods | Goods Price | Service | Service Fee | Delivery Fee | Date Bought | Received After x Days | Total Days |
-| ----- | ----------: | ------- | ----------: | -----------: | :---------: | :-----------: | ----------: |
-| Hoshimachi Phone Case + T-Shirt | 8500 | Buyee | 1800 | 3442 | 25-06-2020 | 27 | 27 |
-| Watame Birthday 2020 Full Set | 10000 | Geek Jack | - | 2000 | 11-07-2020 | 102 | 19 |
-| Marin Birthday 2020 Full Set | 10000 | Buyee | 1800 | 3080 | 07-08-2020 | 133 | 8 |
-| Shion 2nd Anniv Full Set | 10000 | Buyee | 1800 | 2810 | 18-08-2020 | 122 | 23 |
-| Mio Birthday 2020 Full Set | 9000 | Buyee | 800 | 3991 | 11-09-2020 | 102 | 6 |
-| Beyond the Stage Supporting Set + Tapestry | 13000 | Geek Jack | - | 2400 | 24-10-2020 | ~93 | 12 |
-| Beyond the Stage Hoodie | 7500 | Geek Jack | - | 2400 | 30-10-2020 | ~87 | 12 |
-| Hoshimachi 500K Subs Goods | 11000 | Buyee | 800 | 3265 | 19-10-2020 | 151 | 17 |
-| Shirakami Birthday 2020 Full Set | 10000 | Buyee | 800 | 3265 | 6-10-2020 | 164 | 17 |
+| Goods                                      | Goods Price | Service   | Service Fee | Delivery Fee | Date Bought | Received After x Days | Total Days |
+| ------------------------------------------ | ----------: | --------- | ----------: | -----------: | :---------: | :-------------------: | ---------: |
+| Hoshimachi Phone Case + T-Shirt            |        8500 | Buyee     |        1800 |         3442 | 25-06-2020  |          27           |         27 |
+| Watame Birthday 2020 Full Set              |       10000 | Geek Jack |           - |         2000 | 11-07-2020  |          102          |         19 |
+| Marin Birthday 2020 Full Set               |       10000 | Buyee     |        1800 |         3080 | 07-08-2020  |          133          |          8 |
+| Shion 2nd Anniv Full Set                   |       10000 | Buyee     |        1800 |         2810 | 18-08-2020  |          122          |         23 |
+| Mio Birthday 2020 Full Set                 |        9000 | Buyee     |         800 |         3991 | 11-09-2020  |          102          |          6 |
+| Beyond the Stage Supporting Set + Tapestry |       13000 | Geek Jack |           - |         2400 | 24-10-2020  |          ~93          |         12 |
+| Beyond the Stage Hoodie                    |        7500 | Geek Jack |           - |         2400 | 30-10-2020  |          ~87          |         12 |
+| Hoshimachi 500K Subs Goods                 |       11000 | Buyee     |         800 |         3265 | 19-10-2020  |          151          |         17 |
+| Shirakami Birthday 2020 Full Set           |       10000 | Buyee     |         800 |         3265 |  6-10-2020  |          164          |         17 |
 
 ## Services Comparison
 
 - Order status tracking
 
-Both services provide the order status. Buyee displays the order status on the site and sends notification email. 
+Both services provide the order status. Buyee displays the order status on the site and sends notification email.
 Geek Jack only show something like "Order Status Succeeded" in the site. Everything else goes to the email.
 They'll sent something like "The benefits of [Goods Name] will arrive at our warehouse next week. We will start shipping as soon as possible."
 
 {{< figure
-    src="/img/buyee-status.png"
-    alt="Buyee order status"
-    caption="Here's how it looks on Buyee's site"
-    position="center"
-    style="border-radius: 8px;"
->}}
+src="/img/buyee-status.png"
+alt="Buyee order status"
+caption="Here's how it looks on Buyee's site"
+position="center"
+style="border-radius: 8px;" >}}
 
 Overall, there's not much difference for the order status udaptes other than the misleading status in the Geek Jack site.
 
@@ -71,15 +65,15 @@ Both Buyee and Geek Jack doesn't work really well for limited quantity goods. I 
 
 Buyee support various delivery, but most of them have low upper limit for size or weight[^1].
 So most of the time, the only ones available are EMS(Japan Post International Courier), DHL, and Japan Post Seamail.
+
 <!-- TODO: Expand on DHL here -->
 
 {{< figure
-    src="/img/buyee-shipping-method.png"
-    alt="Buyee shipping methods"
-    caption="These are the available methods at Buyee on March 2021"
-    position="center"
-    style="border-radius: 8px;"
->}}
+src="/img/buyee-shipping-method.png"
+alt="Buyee shipping methods"
+caption="These are the available methods at Buyee on March 2021"
+position="center"
+style="border-radius: 8px;" >}}
 
 Meanwhile, Geek Jack only ships with EMS, so there's no choice there[^2].
 
@@ -101,12 +95,11 @@ They might still split it into multiple packages if it's too big though.
 And the protective packaging is another optional service which they add a bunch of air bags and other protective packaging to the goods[^4].
 
 {{< figure
-    src="/img/buyee-air-bag.jpg"
-    alt="Air bag from buyee"
-    caption="These are the air bags from Buyee"
-    position="center"
-    style="border-radius: 8px;"
->}}
+src="/img/buyee-air-bag.jpg"
+alt="Air bag from buyee"
+caption="These are the air bags from Buyee"
+position="center"
+style="border-radius: 8px;" >}}
 
 It costs 1500 JPY, which is pretty expensive in my opinion.
 But I don't want to take any risk when buying fragile goods like acrylic panel, so I opted in anyway.
@@ -167,6 +160,7 @@ I know that BOOTH should still have the download link available since the produc
 So I tried to contact the customer support one more time, this time using the individual package number instead of the consolidated one.
 
 And they replied:
+
 ```
 Fri, Dec 18, 2020 at 17:13
 
@@ -227,16 +221,11 @@ For now I prefer using Buyee to buy it from BOOTH.
 In the future I think I'll try buying through Indonesian based proxy service like [kyou.id](https://kyou.id/).
 
 ## References
+
 [^1]: https://web.archive.org/web/20201227111304/https://buyee.jp/help/yahoo/guide/shipping-method?lang=en
-
 [^2]: https://web.archive.org/web/20201227111350/https://www.geekjack.net/
-
 [^3]: https://web.archive.org/web/20201222115318/https://buyee.jp/help/yahoo/guide/consolidate
-
 [^4]: https://web.archive.org/web/20201222115304/https://buyee.jp/help/yahoo/guide/packing
-
 [^5]: https://web.archive.org/web/20201227121519/https://faq.buyee.jp/article/187?lang=en
-
 [^6]: https://web.archive.org/web/20201229091738/https://buyee.jp/help/yahoo/guide/plans?lang=en
-
 [^7]: https://web.archive.org/web/20201229092917/https://www.geekjack.net/faq.html

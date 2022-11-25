@@ -1,5 +1,5 @@
-public/
-
 # OS file lock style for Hugo
 # https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417/2
 .hugo_build.lock
+
+.DS_Store
