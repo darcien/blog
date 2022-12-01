@@ -1,7 +1,7 @@
 ---
 title: "Device List"
 date: 2021-03-02T22:38:10+07:00
-tags: ["memo"]
+tags: ["note"]
 draft: false
 summary: "List of devices that I use, mainly to make sure I don't forget that I (used to) own these things."
 ---
