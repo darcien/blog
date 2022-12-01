@@ -1,8 +1,8 @@
 ---
-title: "Template post"
-date: 2020-09-15T11:30:03+00:00
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
 tags: ["untagged"]
-draft: false
+draft: true
 # summary: "summary shown in the post list"
 # description: "Desc text shown below title"
 # disableHLJS: false
