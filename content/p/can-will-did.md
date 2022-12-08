@@ -1,7 +1,7 @@
 ---
 title: "Can - Will - Did"
 date: 2022-12-01T18:45:35+07:00
-tags: ["reflection", "100DaysToOffload"]
+tags: ["musing", "100DaysToOffload"]
 summary: "I can do it. Actually, I will do it. Finally, I did it!"
 ---
 
