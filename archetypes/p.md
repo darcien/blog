@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-tags: ["untagged"]
+tags: ["untagged", "100DaysToOffload"]
 draft: true
 # summary: "summary shown in the post list"
 # description: "Desc text shown below title"
@@ -18,3 +18,7 @@ draft: true
 #     relative: false # when using page bundles set this to true
 #     hidden: true # only hide on current single page
 ---
+
+---
+
+Post x of [#100DaysToOffload](https://100daystooffload.com/).

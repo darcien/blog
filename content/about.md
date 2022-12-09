@@ -9,6 +9,7 @@ Currently I'm working as a software engineer to pay the bills and put food on th
 Any writings on this site is my personal opinion and does not represent the view of my employer yada yada.
 
 Initially I started this blog to practice writing, but it's not going really well.
+For now I'm trying to write something and post consistently.
 This blog will probably end up as a daily life ramblings, musings, and (maybe) technical posts.
 
-You could find me on [GitHub](https://github.com/darcien) or [Twitter](https://twitter.com/darcien_).
+You could find me on [Twitter](https://twitter.com/darcien_).

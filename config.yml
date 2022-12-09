@@ -104,14 +104,10 @@ params:
       url: "https://twitter.com/darcien_"
     - name: github
       url: "https://github.com/darcien"
-    - name: ycombinator
-      url: "https://news.ycombinator.com/user?id=darcien"
-    - name: email
-      url: "mailto:hello@darcien.me"
-    - name: steam
-      url: "https://steamcommunity.com/id/darcien"
     - name: strava
       url: "https://www.strava.com/athletes/39346424"
+    - name: email
+      url: "mailto:hello@darcien.me"
 
   # analytics:
   #   google:
