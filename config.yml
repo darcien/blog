@@ -102,10 +102,6 @@ params:
   socialIcons:
     - name: twitter
       url: "https://twitter.com/darcien_"
-    - name: github
-      url: "https://github.com/darcien"
-    - name: strava
-      url: "https://www.strava.com/athletes/39346424"
     - name: email
       url: "mailto:hello@darcien.me"
 
