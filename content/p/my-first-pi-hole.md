@@ -2,7 +2,7 @@
 title: "My First Pi-hole"
 date: 2022-12-12T16:01:20+07:00
 tags: ["homesetup", "100DaysToOffload"]
-summary: "Putting a 7 y.o Raspbian model 2 to work."
+summary: "Putting a 7 y.o. Raspbian model 2 to work."
 ---
 
 I bought my first Raspberry Pi at 2015, it was model 2.
