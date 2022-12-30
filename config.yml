@@ -141,16 +141,20 @@ menu:
       url: /about
       weight: 10
     - name: search
-      url: search
+      url: /search
       weight: 15
     - identifier: tags
       name: tags
-      url: /tags/
+      url: /tags
       weight: 20
+    - identifier: rss
+      name: rss
+      url: /p/index.xml
+      weight: 30
     - identifier: source
       name: source
       url: https://github.com/darcien/blog
-      weight: 30
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
