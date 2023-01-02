@@ -1,7 +1,7 @@
 ---
 title: "Where's My index.html?"
 date: 2020-05-20T19:18:21+07:00
-tags: ["git", "TIL", "site"]
+tags: ["git", "til", "site"]
 summary: "How I learned about git submodules behavior when trying to deploy this site."
 showToc: true
 ---
