@@ -12,3 +12,11 @@ list of essay of writings, pgraham, booker
 - fav quotes
 
 - itunes, license, item not available in country
+
+- add isp from pln to fiber post
+
+- TIL cycling quandrant from zwift
+
+- deno fresh is pretty fresh
+- stoicism
+- story of life, some kind of journal, being a contractor for fintech
