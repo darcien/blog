@@ -37,6 +37,11 @@ style="border-radius: 8px;" >}}
 
 ---
 
+Test run done, work just fine under normal load so far.
+It also free up 2 slot from my usual power strip, which is great!
+
+---
+
 [^line-interactive]: [This person bought a non-line interacive PSU](https://fitzcarraldoblog.wordpress.com/2020/08/09/that-ups-you-bought-for-your-home-server-may-not-be-as-useful-as-you-think/), which is not very useful according to their experience.
 
 ---
