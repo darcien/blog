@@ -1,7 +1,7 @@
 ---
 title: "I Have No Power Here"
 date: 2023-04-26T19:28:39+07:00
-tags: ["til", "100DaysToOffload"]
+tags: ["til", "100DaysToOffload", "cycling"]
 draft: false
 summary: "Workout data synced from HealthFit to intervals.icu does not include data that's not supported by Apple Health."
 ---
