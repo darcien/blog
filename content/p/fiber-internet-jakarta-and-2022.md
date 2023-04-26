@@ -126,6 +126,10 @@ Now, I have no idea whether that person just quit from being a sales or it's the
 There's still some hope from this ISP if I tried to contact them again.
 But not now, right now I don't have the patience to sit out months just for them to check whether they have available slots for me or not.
 
+Bonus: I can't login to my customer account after changing the default password to a 25-characters password.
+Pressing login does nothing, no message or UI feedback whatsoever.
+I suspect my password is over the length limit they have for password 🙃.
+
 ---
 
 Post 12 of [#100DaysToOffload](https://100daystooffload.com/).
