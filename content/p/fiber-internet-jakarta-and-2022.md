@@ -68,9 +68,9 @@ I'm convinced I don't need to live in this city.
 There's not much point in finding the ultimate ISP if every other aspects in life also sucks here for me.
 Might as well try to move to a better place.
 
-## 2023ish - Iconnet
+## 2023-01-09 - Iconnet
 
-First time I heard about "Iconnect" from my coworkers. Apparently it's backed by Indo's PLN.
+First time I heard about "Iconnet" from my coworkers. Apparently it's backed by Indo's PLN.
 I checked their site, apparently my place is covered.
 But, it's not great according to my source 🫠.
 
