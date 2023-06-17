@@ -1,5 +1,5 @@
 ---
-title: "Picking Live Stream Platform as Viewer"
+title: "Picking Paid Live Stream Platform as Viewer"
 date: 2023-06-17T21:28:02+07:00
 tags: ["web", "internet", "note", "100DaysToOffload"]
 summary: "Short note comparing between available live stream platform"
