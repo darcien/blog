@@ -14,18 +14,21 @@ Link: https://ib.eplus.jp
 
 Last watched: 2023-03-18, hololive 4th fes
 
+Rating: avoid if possible 👎
+
 Okay-ish for watching the live stream.
 Unuseable for watching the archives.
 Getting a bunch of audio issues on the archives like noises and out of sync,
 after a while, no audio plays.
 
-Rating: avoid if possible 👎
-
-### hololive official fanclub
+### hololive official fanclub (subscribe only with no one time ticket, kinda counts)
 
 Link: https://hololive-fc.com
 
-Last watched: 2023-02-27, variety show with Fairouz Ai as guest
+Last watched: 2023-06-21, variety show with Asaka as guest
+
+Rating: decent but no choice on exclusive content 😐
+(Firefox user: bad site 👎)
 
 A relatively new hololive exclusive platform, showed up at early 2022.
 Suprisingly decent considering it's their own platform
@@ -40,14 +43,13 @@ And most of the videos views and comments are weirdly exact multiples of thousan
 Also, they stopped supporting Firefox on 2023-05-30[^hololive-fc-firefox].
 Which is a sad thing, but not a dealbreaker.
 
-Rating: decent but no choice on exclusive content 😐
-(Firefox user: bad site 👎)
-
 ### Niconico (Dwango)
 
 Link: https://live.nicovideo.jp
 
 Last watched: 2023-03-15, Nornis 1st live
+
+Rating: paid for video, only got the audio 😭
 
 Same old nico nico douga but with different name.
 Functionally, it's great.
@@ -59,19 +61,17 @@ been good regardless of ISP.
 Plus, to watch archive (Timeshift in Niconico) you need to subsribe to their
 premium service(2023-06-17: cost JPY 550 per month).
 
-Rating: paid for video, only got the audio 😭
-
 ### SPWN
 
 Link: https://virtual.spwn.jp
 
 Last watched: 2022-03-20, hololive 3rd fes
 
+Rating: pretty safe choice if available 👍
+
 So far the most platform I've been using and has the least problem with.
 From time to time has bad connection to Indo
 even after turning on low latency mode on their video player.
-
-Rating: pretty safe choice if available 👍
 
 ### YouTube (member only live, kinda counts)
 
@@ -79,18 +79,21 @@ Link: https://youtube.com
 
 Last watched: pretty much every month
 
+Rating: probably the live you want to watch is not here 😔
+
 It's YouTube.
 They probaby have the best infra for running live stream in the world right now.
 
 But they don't run ticketing for one-time watch.
-
-Rating: probably the live you want to watch is not here 😔
 
 ### Z-aN
 
 Link: https://www.zan-live.com
 
 Last watched: 2023-06-17, Planet Station stage 8
+
+Rating: my new go to platform 🫶
+(Firefox user: Booo, please fix the video player 🤕)
 
 First time watched on Z-aN, surprisingly a great platform!
 Good to the point it become a trigger for me to make this notes.
@@ -105,9 +108,6 @@ src="/img/zan-on-firefox-fail.jpg"
 alt="Z-aN video player fail with `The m3u8 file loaded file` error message"
 caption="On Firefox, after few mins the video player will error out, needing a page refresh"
 align="center" >}}
-
-Rating: my new go to platform 🫶
-(Firefox user: Booo, please fix the video player 🤕)
 
 {{< figure
 src="/img/zan-date-byte.png"

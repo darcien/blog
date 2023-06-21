@@ -1,7 +1,7 @@
 ---
 title: "YouTube Removed Sort Options?"
 date: 2022-12-20T22:57:21+07:00
-tags: ["youtube", "sadweb", "100DaysToOffload"]
+tags: ["youtube", "web", "100DaysToOffload"]
 summary: "I don't understand why YouTube keep making weird decisions."
 ---
 
