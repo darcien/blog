@@ -12,7 +12,7 @@ I got a recommendation for a survival handbook from my friend.
 {{< figure
 src="/img/book-cover-worst-case-scenario-handbook.jpg"
 caption="Cover of the book 'The Worst-Case Scenario Survival Handbook' by Joshua Piven and David Borgenicht"
-height="320px"
+maxHeight="320"
 align="center" >}}
 
 Finally finished reading it today, my first non-fiction book after a while.
