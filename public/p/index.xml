@@ -1,4 +1,107 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/p/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 Jun 2023 17:45:06 +0700</lastBuildDate><atom:link href="https://darcien.dev/p/index.xml" rel="self" type="application/rss+xml"/><item><title>10 Years After Penguin Summer</title><link>https://darcien.dev/p/10-years-after-penguin-summer/</link><pubDate>Sat, 24 Jun 2023 17:45:06 +0700</pubDate><guid>https://darcien.dev/p/10-years-after-penguin-summer/</guid><description>Feeling nostalgic when cleaning up.</description><content:encoded><![CDATA[<p>10 years ago, I was your average highschooler.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/p/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 Jun 2023 08:38:06 +0000</lastBuildDate><atom:link href="https://darcien.dev/p/index.xml" rel="self" type="application/rss+xml"/><item><title>Buying T-shirt from BOOTH.pm from Indo (still) Expensive</title><link>https://darcien.dev/p/actual-prices-for-goods-from-booth/</link><pubDate>Thu, 29 Jun 2023 08:38:06 +0000</pubDate><guid>https://darcien.dev/p/actual-prices-for-goods-from-booth/</guid><description>I bought a t-shirt from BOOTH.pm (again) and the tax costs me an arm and a leg.</description><content:encoded><![CDATA[<p>I bought a bunch of goods from Pixiv BOOTH again using Buyee as proxy.
+Guess how it much it actually costs
+after including all shipping fee, tax and duties?</p>
+<p>To simplify things, all JPY will be in IDR
+using exchange rate from date of purchase (2023-06-02)
+1 JPY = 106 IDR.</p>
+<h3 id="goodies">Goodies</h3>
+<p>What&rsquo;s in the bundle:</p>
+<ul>
+<li>T-shirt: IDR 424000 (JPY 4000)</li>
+<li>Acrylic figure (~14cm): IDR 233200 (JPY 2200)</li>
+<li>Stickers: IDR 169600 (JPY 1600)</li>
+</ul>
+<p>Total amount: IDR 826800 (JPY 7800)</p>
+<p>Total weight: 720g
+Dimensions: 40 x 30 x 10 cm</p>
+<h3 id="shipping">Shipping</h3>
+<p>Shipping fee from seller to Buyee - domestic: IDR 77380 (JPY 730)
+Shipping fee from Buyee to me (DHL) - international: IDR 387430 (JPY 3655)</p>
+<p>Total shipping: IDR 464810</p>
+<p>Note that Indo&rsquo;s import duties calculation includes the freight cost,
+in this case it should be the DHL shipping fee only.</p>
+<h3 id="tax-duties-etc">Tax, duties, etc.</h3>
+<p>Inbound charges invoice a.k.a tax and duties breakdown from DHL:</p>
+<ul>
+<li>Import export duties: IDR 497000</li>
+<li>Advance payment charges: IDR 150000</li>
+<li>Services VAT: IDR 16500</li>
+</ul>
+<p>Total tax and duties: IDR 663500</p>
+<h3 id="total">Total</h3>
+<p>Total = goodies + shipping + tax, duties, etc.</p>
+<p>Total = 826800 + 464810 + 663500</p>
+<p>Total = 1955110 IDR</p>
+<p>A t-shirt, a small piece of printed plastic, and a bunch of stickers
+cost me Rp1.955.110 in total.</p>
+<h3 id="thoughts">Thoughts</h3>
+<p>I feel sad.
+Why does it cost so much for importing a t-shirt.
+It&rsquo;s not a premium or branded t-shirt.
+Is it because the money went to another country,
+so this needs to be taxed heavily to dicourage me from buying imported goods?
+To keep local business flourishing?</p>
+<p>For reference, the minimum monthly wage in my place is around IDR 4900000<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+That&rsquo;s 40% of the monthly pay.
+It blows my mind every time I have to pay and realize the price disparity
+between a developed vs developing country 😞.</p>
+<h2 id="omake---banana-for-scale">Omake - Banana for scale</h2>
+<p>1Kg of Cavendish banana from Sunpride costs around IDR 22000 in my place.
+Let&rsquo;s say there are 6 bananas per Kg, so each banana costs IDR 4000 rounded up.</p>
+<p>With the tax and duties alone, I could buy 663500 / 4000 = 166 bananas.
+I could ate banana everyday for 5.5 months straight!</p>
+<h2 id="omake---pricey-doughnut">Omake - Pricey doughnut</h2>
+
+
+
+
+
+
+
+
+<script
+    data-slug-hash="QWJpoxQ"
+    data-user="darcien"
+    data-height="500"
+    data-default-tab="result"
+    
+    
+    class='codepen'
+    async
+    src="//codepen.io/assets/embed/ei.js"
+></script>
+<h2 id="omake---t-shirt-prices">Omake - T-shirt prices</h2>
+
+
+
+
+
+
+
+
+<script
+    data-slug-hash="NWEpmPM"
+    data-user="darcien"
+    data-height="500"
+    data-default-tab="result"
+    
+    
+    class='codepen'
+    async
+    src="//codepen.io/assets/embed/ei.js"
+></script>
+<hr>
+<p>Post 16 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://web.archive.org/web/20230629103540/https://disnakertrans.jakarta.go.id/index.php/berita/kebijakan-ump-dki-jakarta-2023">https://web.archive.org/web/20230629103540/https://disnakertrans.jakarta.go.id/index.php/berita/kebijakan-ump-dki-jakarta-2023</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>10 Years After Penguin Summer</title><link>https://darcien.dev/p/10-years-after-penguin-summer/</link><pubDate>Sat, 24 Jun 2023 17:45:06 +0700</pubDate><guid>https://darcien.dev/p/10-years-after-penguin-summer/</guid><description>Feeling nostalgic when cleaning up.</description><content:encoded><![CDATA[<p>10 years ago, I was your average highschooler.
 I have no idea how to buy English translated light novel(LN) and have it delivered to Indo.
 Even if I knew, probably will be too expensive for me.</p>
 <p>Book stores like Kinokuniya probably sell popular raw/untranslated LNs,

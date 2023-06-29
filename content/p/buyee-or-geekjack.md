@@ -1,7 +1,7 @@
 ---
 title: "Buyee or Geek Jack?"
 date: "2020-12-20T19:35:46+07:00"
-tags: ["vtuber"]
+tags: ["japan", "import"]
 author: "Yosua"
 summary: "My personal experiences from buying VTuber goods through Buyee and Geek Jack."
 showToc: true

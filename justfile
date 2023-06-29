@@ -37,7 +37,7 @@ pull:
 
 # Run local server including drafts
 dev:
-  hugo server --buildDrafts
+  hugo server --buildDrafts -p 7084
 
 # Run optimized server
 run:

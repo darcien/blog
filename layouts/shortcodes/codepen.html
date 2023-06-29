@@ -1,0 +1,19 @@
+{{/* From https://kinson.io/post/embed-codepen/ */}}
+{{/* DEFAULTS */}}
+{{ $user    := "darcien" }}
+{{ $height  := 640 }}
+{{ $tab     := "result" }}{{/* html|css|js|result */}}
+{{ $theme   := "dark" }}
+
+
+<script
+    data-slug-hash="{{ .Get "id" }}"
+    data-user="{{ or (.Get "user") $user }}"
+    data-height="{{ or (.Get "height") $height }}"
+    data-default-tab="{{ or (.Get "tab") $tab }}"
+    {{/*  using default codepen theme, custom theme is commented out  */}}
+    {{/*  data-theme-id="{{ or (.Get "theme") $theme }}"  */}}
+    class='codepen'
+    async
+    src="//codepen.io/assets/embed/ei.js"
+></script>
