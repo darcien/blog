@@ -19,6 +19,7 @@
         <link>{{ .Permalink }}</link>
     {{- with site.Params.images }}
         <image>
+            <title>{{ site.Title }}</title>
             <url>{{ index . 0 | absURL }}</url>
             <link>{{ index . 0 | absURL }}</link>
         </image>
