@@ -19,6 +19,7 @@
     <channel>
         <title>Yosua Ian Sebastian's blog</title>
         <link>{{ .Permalink }}</link>
+        <description>Recent posts in my blog</description>
     {{- with site.Params.images }}
         <image>
             <title>{{ site.Title }}</title>
