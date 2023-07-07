@@ -148,7 +148,7 @@ menu:
       weight: 20
     - identifier: rss
       name: rss
-      url: /p/index.xml
+      url: /index.xml
       weight: 30
     - identifier: source
       name: source
