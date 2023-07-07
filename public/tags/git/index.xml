@@ -1,1 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>git on A blog by Yosua Ian Sebastian</title><link>https://darcien.dev/tags/git/</link><description>Recent content in git on A blog by Yosua Ian Sebastian</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 20 May 2020 19:18:21 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Where's My index.html?</title><link>https://darcien.dev/p/wheres-my-index-html/</link><pubDate>Wed, 20 May 2020 19:18:21 +0700</pubDate><guid>https://darcien.dev/p/wheres-my-index-html/</guid><description>How I learned about git submodules behavior when trying to deploy this site.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/git/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 20 May 2020 19:18:21 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Where's My index.html?</title><link>https://darcien.dev/p/wheres-my-index-html/</link><pubDate>Wed, 20 May 2020 19:18:21 +0700</pubDate><guid>https://darcien.dev/p/wheres-my-index-html/</guid><description>How I learned about git submodules behavior when trying to deploy this site.</description><content:encoded><![CDATA[<h2 id="intro">Intro</h2>
+<p>&ldquo;I can&rsquo;t wait to try out the new <del>Daddy</del> Caddy!&rdquo;</p>
+<p>That&rsquo;s what I thought while working on this new site.
+<a href="https://caddyserver.com/v2">Caddy</a> just released their v2 the other day.
+So I wanted to replace my old Nginx server just for the sake of it.</p>
+<p>Before doing that, maybe it&rsquo;s better if I have something to serve from the server.</p>
+<p>&ldquo;It&rsquo;s time for you to graduate from redirect slave!&rdquo;.</p>
+<p>And that&rsquo;s my main reason for making this site.
+This site is generated with <a href="https://gohugo.io/">Hugo</a> and using a nice premade <a href="https://github.com/panr/hugo-theme-terminal">theme</a>.</p>
+<p>Just add a bunch of markdowns, modify the config a bit, and maybe tweak the theme fonts, and I&rsquo;m done!</p>
+<p>I didn&rsquo;t think it would be this easy to make a site that looks nice(in my opinion).
+Deploying it should also be trivial right? Oh how I couldn&rsquo;t be more wrong.</p>
+<h2 id="problem">Problem</h2>
+<p>Initially, I wanted to make the site compile on my machine, pack it up, and <code>scp</code> it to the server.</p>
+<p>But that&rsquo;s boring.
+And there are other points that I care:</p>
+<ul>
+<li>What if I wanted to create a new post on a different machine? Do I need to setup the env on the other machine too?</li>
+<li>Maybe I want to automatically build if the site repo is updated?</li>
+</ul>
+<p>Okay, that&rsquo;s it. I want to make the site compile on the server.</p>
+<p>I quickly created a new remote repo, pushed it all up, and then pulled it from the server.</p>
+<p>To build the site, all I need is just the <code>hugo</code> binary.
+The server ran on a super common linux distro, should be easy.</p>
+<p>The installation docs mentioned an official debian package available.
+Ran <code>sudo apt-get install hugo</code>, and the installation finished without problem.
+There&rsquo;s a warning about the Linux package usually is a few versions behind.
+Well, a <em>few</em> versions behind should be fine right?</p>
+<p>So, I went ahead and built the site, <code>hugo -D</code>, easy peasy.
+Now just need to serve the build result.</p>
+<p>Here&rsquo;s where things start to spiral down.</p>
+<p>When I tried opening the site, it&rsquo;s returning 403. Why!?</p>
+<p>Oh, maybe I forgot to change the permission for the build result directory.
+Hmm, no, it&rsquo;s already 755.</p>
+<p>So I checked the access log. Hmm, it&rsquo;s accessing the right thing, there&rsquo;s nothing out of norm.</p>
+<p>Moving on, I checked the content of the build directory.
+Aha! There&rsquo;s no <code>index.html</code> in the build result.
+Which is weird&hellip; Why the resulting build is different here?
+My machine is MacOS, and I believe in Hugo&rsquo;s cross platform support.
+Maybe there&rsquo;s something else?</p>
+<p>Hmmmmm, maybe it&rsquo;s the <code>hugo</code> binary itself 🤔.
+Surprise! Running <code>hugo version</code> gives me <code>v0.40.1</code>.
+Man this is really old, I could find one or two fossils in here.</p>
+<p>Might as well install the binary with the same version as my machine directly.
+At the current time, it&rsquo;s <code>v0.71.0</code>.
+Proceed to download and install the binary, yada yada yada, now I got the same version on the server.</p>
+<p>After building with same binary, the output should be the same.
+Wrong! It still doesn&rsquo;t generate the <code>index.html</code> 😭.</p>
+<p>Pretty desperate at this point.
+Maybe I should recheck the entire source again?
+Hmm, there&rsquo;s nothing out of the norm.
+The theme? I highly doubt it, but let&rsquo;s check it anyway.</p>
+<p>Huh? The theme directory is empty?
+What happened here, I&rsquo;m pretty sure I commited the entire theme to the repo.</p>
+<p>Is it because I used <code>git submodule</code> to add the theme? A quick googling tells me that this is case.</p>
+<blockquote>
+<p>When you clone a project with submodule in it, by default you get the directories that contain submodules, but none of the files within them yet.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
+<p>OMG, all the time I spent debugging this.
+I probably could save them if I actually read how to use submodules first.</p>
+<p>Since I already cloned the repo, all I need is to fetch the missing submodules.
+This command did the trick:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># This command will fetch and update all the submodules in the repo.</span>
+</span></span><span class="line"><span class="cl">$ git submodule update --init --recursive
+</span></span></code></pre></div><p>Finally, it&rsquo;s the moment of truth.</p>
+<p>Yatta! The <code>index.html</code> is here, and I can open the site 🥳🎉.</p>
+<p>Now my old server has been officially promoted to be a redirect servant and HTML server.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Be careful when running any commands that you&rsquo;re not familiar with.
+While it might work now.
+It might cause headache or maybe even trip you in the future.
+Proceed carefully 😉.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">https://git-scm.com/book/en/v2/Git-Tools-Submodules</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item></channel></rss>

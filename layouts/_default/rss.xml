@@ -6,6 +6,8 @@
 {{- else -}}
 {{- $pages = $pctx.Pages -}}
 {{- end -}}
+<!-- Make RSS in home only list actual post a.k.a /content/p, not about page etc.  -->
+{{- if .IsHome -}}{{ $pages = where $pages "Type" "p" }}{{- end -}}
 {{- $limit := site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}

@@ -1,3 +1,1646 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>A blog by Yosua Ian Sebastian</title><link>https://darcien.dev/</link><description>Recent content on A blog by Yosua Ian Sebastian</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Jul 2023 15:46:46 +0000</lastBuildDate><atom:link href="https://darcien.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Road to NixOS: The Infection</title><link>https://darcien.dev/p/road-to-nixos-infection/</link><pubDate>Mon, 03 Jul 2023 15:46:46 +0000</pubDate><guid>https://darcien.dev/p/road-to-nixos-infection/</guid><description>The start of a journey; migrating a hobby server to NixOS.</description></item><item><title>Buying T-shirt from BOOTH.pm from Indo (still) Expensive</title><link>https://darcien.dev/p/actual-prices-for-goods-from-booth/</link><pubDate>Thu, 29 Jun 2023 08:38:06 +0000</pubDate><guid>https://darcien.dev/p/actual-prices-for-goods-from-booth/</guid><description>I bought a t-shirt from BOOTH.pm (again) and the tax costs me an arm and a leg.</description></item><item><title>10 Years After Penguin Summer</title><link>https://darcien.dev/p/10-years-after-penguin-summer/</link><pubDate>Sat, 24 Jun 2023 17:45:06 +0700</pubDate><guid>https://darcien.dev/p/10-years-after-penguin-summer/</guid><description>Feeling nostalgic when cleaning up.</description></item><item><title>Afterread: The Worst-Case Scenario Survival Handbook</title><link>https://darcien.dev/p/afterread-worst-case-scenario-survival-handbook/</link><pubDate>Sun, 18 Jun 2023 22:58:06 +0700</pubDate><guid>https://darcien.dev/p/afterread-worst-case-scenario-survival-handbook/</guid><description>Highlights and new things I got from the book</description></item><item><title>Picking Paid Live Stream Platform as Viewer</title><link>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</link><pubDate>Sat, 17 Jun 2023 21:28:02 +0700</pubDate><guid>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</guid><description>Short note comparing between available live stream platform</description></item><item><title>I Have No Power Here</title><link>https://darcien.dev/p/i-have-no-power-here/</link><pubDate>Wed, 26 Apr 2023 19:28:39 +0700</pubDate><guid>https://darcien.dev/p/i-have-no-power-here/</guid><description>Workout data synced from HealthFit to intervals.icu does not include data that&amp;rsquo;s not supported by Apple Health.</description></item><item><title>My First UPS</title><link>https://darcien.dev/p/my-first-ups/</link><pubDate>Fri, 03 Mar 2023 22:17:35 +0700</pubDate><guid>https://darcien.dev/p/my-first-ups/</guid><description>Bye-bye power outage, you won&amp;rsquo;t be missed 👋</description></item><item><title>TypeScript Inlay Hints Exists in VSCode</title><link>https://darcien.dev/p/typescript-inlay-hints-exists-in-vscode/</link><pubDate>Mon, 02 Jan 2023 17:16:53 +0700</pubDate><guid>https://darcien.dev/p/typescript-inlay-hints-exists-in-vscode/</guid><description>First TIL of 2023</description></item><item><title>Fiber Internet, Jakarta, and 2022</title><link>https://darcien.dev/p/fiber-internet-jakarta-and-2022/</link><pubDate>Fri, 30 Dec 2022 22:33:38 +0700</pubDate><guid>https://darcien.dev/p/fiber-internet-jakarta-and-2022/</guid><description>My short journey of trying to find a decent ISP in my place.</description></item><item><title>The Melancholy of the Melancholy of Subculture Society</title><link>https://darcien.dev/p/the-melancholy-of-the-melancholy-of-subculture-society/</link><pubDate>Thu, 29 Dec 2022 20:10:22 +0700</pubDate><guid>https://darcien.dev/p/the-melancholy-of-the-melancholy-of-subculture-society/</guid><description>Thoughts around &amp;ldquo;The Melancholy of Subculture Society&amp;rdquo; by Gwern Branwen</description></item><item><title>YouTube Removed Sort Options?</title><link>https://darcien.dev/p/youtube-removed-sort-options/</link><pubDate>Tue, 20 Dec 2022 22:57:21 +0700</pubDate><guid>https://darcien.dev/p/youtube-removed-sort-options/</guid><description>I don&amp;rsquo;t understand why YouTube keep making weird decisions.</description></item><item><title>My First Pi-hole</title><link>https://darcien.dev/p/my-first-pi-hole/</link><pubDate>Mon, 12 Dec 2022 16:01:20 +0700</pubDate><guid>https://darcien.dev/p/my-first-pi-hole/</guid><description>Putting a 7 y.o. Raspbian model 2 to work.</description></item><item><title>Can you use Apple Watch for HR monitor in Zwift?</title><link>https://darcien.dev/p/can-you-use-apple-watch-for-hr-monitor-in-zwift/</link><pubDate>Thu, 08 Dec 2022 23:27:06 +0700</pubDate><guid>https://darcien.dev/p/can-you-use-apple-watch-for-hr-monitor-in-zwift/</guid><description>Spoiler: no 😔</description></item><item><title>SQLFluff Is a Thing</title><link>https://darcien.dev/p/sqlfluff-is-a-thing/</link><pubDate>Thu, 08 Dec 2022 22:09:26 +0700</pubDate><guid>https://darcien.dev/p/sqlfluff-is-a-thing/</guid><description>A fluff that I wish I had known earlier.</description></item><item><title>My 2022 Without Context</title><link>https://darcien.dev/p/my-2022-without-context/</link><pubDate>Thu, 01 Dec 2022 19:52:09 +0700</pubDate><guid>https://darcien.dev/p/my-2022-without-context/</guid><description>Would writing out past events with less context help me see it more objectively? A writing experiment!</description></item><item><title>Can - Will - Did</title><link>https://darcien.dev/p/can-will-did/</link><pubDate>Thu, 01 Dec 2022 18:45:35 +0700</pubDate><guid>https://darcien.dev/p/can-will-did/</guid><description>I can do it. Actually, I will do it. Finally, I did it!</description></item><item><title>Focusing Is Hard For Current Me</title><link>https://darcien.dev/p/focusing-is-hard-for-current-me/</link><pubDate>Fri, 25 Nov 2022 01:30:43 +0700</pubDate><guid>https://darcien.dev/p/focusing-is-hard-for-current-me/</guid><description>These days, I can not focus on one thing for extended amount of time.</description></item><item><title>Monitor Notes</title><link>https://darcien.dev/p/monitor-notes/</link><pubDate>Mon, 06 Dec 2021 19:18:21 +0700</pubDate><guid>https://darcien.dev/p/monitor-notes/</guid><description>A diary of boring adventure in setting up monitors. Also works as a timecapsule letter, dear future me, don&amp;rsquo;t repeat these mistakes.</description></item><item><title>Device List</title><link>https://darcien.dev/p/devices/</link><pubDate>Tue, 02 Mar 2021 22:38:10 +0700</pubDate><guid>https://darcien.dev/p/devices/</guid><description>List of devices that I use, mainly to make sure I don&amp;rsquo;t forget that I (used to) own these things.</description></item><item><title>Buyee or Geek Jack?</title><link>https://darcien.dev/p/buyee-or-geekjack/</link><pubDate>Sun, 20 Dec 2020 19:35:46 +0700</pubDate><guid>https://darcien.dev/p/buyee-or-geekjack/</guid><description>My personal experiences from buying VTuber goods through Buyee and Geek Jack.</description></item><item><title>Where's My index.html?</title><link>https://darcien.dev/p/wheres-my-index-html/</link><pubDate>Wed, 20 May 2020 19:18:21 +0700</pubDate><guid>https://darcien.dev/p/wheres-my-index-html/</guid><description>How I learned about git submodules behavior when trying to deploy this site.</description></item><item><title>About</title><link>https://darcien.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://darcien.dev/about/</guid><description>Hi there, my name is Yosua Ian Sebastian. Currently I&amp;rsquo;m working as a software engineer to pay the bills and put food on the table for my parents.
-Any writings on this site is my personal opinion and does not represent the view of my employer yada yada.
-Initially I started this blog to practice writing, but it&amp;rsquo;s not going really well. For now I&amp;rsquo;m trying to write something and post consistently.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Jul 2023 15:46:46 +0000</lastBuildDate><atom:link href="https://darcien.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Road to NixOS: The Infection</title><link>https://darcien.dev/p/road-to-nixos-infection/</link><pubDate>Mon, 03 Jul 2023 15:46:46 +0000</pubDate><guid>https://darcien.dev/p/road-to-nixos-infection/</guid><description>The start of a journey; migrating a hobby server to NixOS.</description><content:encoded><![CDATA[<p>Disclaimer: This series is not a guide nor a walkthrough for NixOS.
+This is intended to be a public notes of my journey here.</p>
+<h2 id="why">Why?</h2>
+<p>Indo&rsquo;s goverment announced extended holiday for 28-30 June 2023<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+This gives me unexpected free time.
+So I decided to tinker with NixOS.
+Migrating an existing Ubuntu 18 hobby server that has a bunch of services
+running in it should be enough learning material.</p>
+<h2 id="toe-dipping">Toe Dipping</h2>
+<p>Before renting a cloud host, I want to try NixOS locally first.
+What I tried:</p>
+<h3 id="nixos-on-wsl">NixOS on WSL</h3>
+<p>This kinda work thanks to community effort in <a href="https://github.com/nix-community/NixOS-WSL">NixOS-WSL</a>.
+There are plethora of issues stemming from WSL.
+Most of them have known workaround,
+so I kept trying.
+Until docker happened.
+I couldn&rsquo;t connect to docker container running in NixOS from Windows.
+The maintainer of NixOS-WSL seems to experience the same issue<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
+I&rsquo;m not familiar enough with WSL and NixOS to debug this, dropping&hellip;</p>
+<h3 id="nixos-as-guest-vm-virtualbox">NixOS as guest VM (VirtualBox)</h3>
+<p>I have a bunch of ancient Arch Linux VMs here, they all work great.
+Then NixOS should work just fine right?
+Well yes, until I tried to reboot the NixOS.
+Seems like the drive where NixOS is not bootable?
+I don&rsquo;t think it&rsquo;s because I used the minimal NixOS image when installing,
+instead of using the one with desktop environment included.</p>
+<p>I was proven wrong.
+After reading the manual again, the minimal image boots into the installer,
+not an installed NixOS<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+Following the manual seems easy enough,
+but I doubt it&rsquo;s worth to do on a throwaway VM.</p>
+<h2 id="nixos-infect-entered-the-room">NixOS-Infect entered the room</h2>
+<blockquote>
+<h3 id="what-is-this">What is this?</h3>
+<p>A script to install NixOS on non-NixOS hosts.</p>
+<p>NixOS-Infect is so named because of the high likelihood of rendering a system inoperable. Use with extreme caution and preferably only on newly provisioned systems.</p>
+<p><a href="https://github.com/elitak/nixos-infect">https://github.com/elitak/nixos-infect</a></p>
+</blockquote>
+<p>I stumbled over this when searching around NixOS.
+And seeing nixos-infect support the latest LTS Ubuntu (22.04 atm)
+on Digital Ocean is trigger to use this instead of VM on my desktop.</p>
+<p>So I went ahead and created a new droplet, AMD CPU + 2 GB RAM.
+Along this, I also learnt &ldquo;user data&rdquo; which can be used to run script
+on droplet creation.
+Specifically I need the user data to run the infect script.</p>
+<p>While waiting for the infect script to finish,
+I learnt few tricks like
+how to make <code>less</code> follow the tail like docker logs<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">less +F /tmp/infect.log
+</span></span></code></pre></div><p>By the time I looked at the log again, it is already rebooting,
+which is a good sign!</p>
+<p>Fast forward few frames&hellip;</p>
+<p>I tried ssh-ing to the droplet using root user&hellip; it worked, I&rsquo;m in!</p>
+<p>From this point, it&rsquo;s all tinkering with the config, learning Nix language, and
+a lot of <code>sudo nixos-rebuild switch</code>.</p>
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+<p>I&rsquo;m writing this from the NixOS droplet.
+So far I&rsquo;m really happy with the result.</p>
+<p>Years ago I set up Arch Linux on a bunch of old laptops and desktops but didn&rsquo;t
+write anything after it.
+This time I&rsquo;m determined to leave some notes on the new journey.</p>
+<p>Next post is about making the NixOS more sane as dev environment!</p>
+<hr>
+<p>Post 17 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://web.archive.org/web/20230703173600/https://en.tempo.co/read/1739780/govt-announces-2-eid-al-adha-joint-leave-days-jokowi-confirms">https://web.archive.org/web/20230703173600/https://en.tempo.co/read/1739780/govt-announces-2-eid-al-adha-joint-leave-days-jokowi-confirms</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://github.com/nix-community/NixOS-WSL/issues/235#issuecomment-1575977960">https://github.com/nix-community/NixOS-WSL/issues/235#issuecomment-1575977960</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://nixos.org/manual/nixos/stable/index.html#sec-installation-manual">https://nixos.org/manual/nixos/stable/index.html#sec-installation-manual</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://unix.stackexchange.com/a/474">https://unix.stackexchange.com/a/474</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>Buying T-shirt from BOOTH.pm from Indo (still) Expensive</title><link>https://darcien.dev/p/actual-prices-for-goods-from-booth/</link><pubDate>Thu, 29 Jun 2023 08:38:06 +0000</pubDate><guid>https://darcien.dev/p/actual-prices-for-goods-from-booth/</guid><description>I bought a t-shirt from BOOTH.pm (again) and the tax costs me an arm and a leg.</description><content:encoded><![CDATA[<p>I bought a bunch of goods from Pixiv BOOTH again using Buyee as proxy.
+Guess how it much it actually costs
+after including all shipping fee, tax and duties?</p>
+<p>To simplify things, all JPY will be in IDR
+using exchange rate from date of purchase (2023-06-02)
+1 JPY = 106 IDR.</p>
+<h3 id="goodies">Goodies</h3>
+<p>What&rsquo;s in the bundle:</p>
+<ul>
+<li>T-shirt: IDR 424000 (JPY 4000)</li>
+<li>Acrylic figure (~14cm): IDR 233200 (JPY 2200)</li>
+<li>Stickers: IDR 169600 (JPY 1600)</li>
+</ul>
+<p>Total amount: IDR 826800 (JPY 7800)</p>
+<p>Total weight: 720g
+Dimensions: 40 x 30 x 10 cm</p>
+<h3 id="shipping">Shipping</h3>
+<p>Shipping fee from seller to Buyee - domestic: IDR 77380 (JPY 730)
+Shipping fee from Buyee to me (DHL) - international: IDR 387430 (JPY 3655)</p>
+<p>Total shipping: IDR 464810</p>
+<p>Note that Indo&rsquo;s import duties calculation includes the freight cost,
+in this case it should be the DHL shipping fee only.</p>
+<h3 id="tax-duties-etc">Tax, duties, etc.</h3>
+<p>Inbound charges invoice a.k.a tax and duties breakdown from DHL:</p>
+<ul>
+<li>Import export duties: IDR 497000</li>
+<li>Advance payment charges: IDR 150000</li>
+<li>Services VAT: IDR 16500</li>
+</ul>
+<p>Total tax and duties: IDR 663500</p>
+<h3 id="total">Total</h3>
+<p>Total = goodies + shipping + tax, duties, etc.</p>
+<p>Total = 826800 + 464810 + 663500</p>
+<p>Total = 1955110 IDR</p>
+<p>A t-shirt, a small piece of printed plastic, and a bunch of stickers
+cost me Rp1.955.110 in total.</p>
+<h3 id="thoughts">Thoughts</h3>
+<p>I feel sad.
+Why does it cost so much for importing a t-shirt.
+It&rsquo;s not a premium or branded t-shirt.
+Is it because the money went to another country,
+so this needs to be taxed heavily to dicourage me from buying imported goods?
+To keep local business flourishing?</p>
+<p>For reference, the minimum monthly wage in my place is around IDR 4900000<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+That&rsquo;s 40% of the monthly pay.
+It blows my mind every time I have to pay and realize the price disparity
+between a developed vs developing country 😞.</p>
+<h2 id="omake---banana-for-scale">Omake - Banana for scale</h2>
+<p>1Kg of Cavendish banana from Sunpride costs around IDR 22000 in my place.
+Let&rsquo;s say there are 6 bananas per Kg, so each banana costs IDR 4000 rounded up.</p>
+<p>With the tax and duties alone, I could buy 663500 / 4000 = 166 bananas.
+I could ate banana everyday for 5.5 months straight!</p>
+<h2 id="omake---pricey-doughnut">Omake - Pricey doughnut</h2>
+
+
+
+
+
+
+
+
+<script
+    data-slug-hash="QWJpoxQ"
+    data-user="darcien"
+    data-height="500"
+    data-default-tab="result"
+    
+    
+    class='codepen'
+    async
+    src="//codepen.io/assets/embed/ei.js"
+></script>
+<h2 id="omake---t-shirt-prices">Omake - T-shirt prices</h2>
+
+
+
+
+
+
+
+
+<script
+    data-slug-hash="NWEpmPM"
+    data-user="darcien"
+    data-height="500"
+    data-default-tab="result"
+    
+    
+    class='codepen'
+    async
+    src="//codepen.io/assets/embed/ei.js"
+></script>
+<hr>
+<p>Post 16 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://web.archive.org/web/20230629103540/https://disnakertrans.jakarta.go.id/index.php/berita/kebijakan-ump-dki-jakarta-2023">https://web.archive.org/web/20230629103540/https://disnakertrans.jakarta.go.id/index.php/berita/kebijakan-ump-dki-jakarta-2023</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>10 Years After Penguin Summer</title><link>https://darcien.dev/p/10-years-after-penguin-summer/</link><pubDate>Sat, 24 Jun 2023 17:45:06 +0700</pubDate><guid>https://darcien.dev/p/10-years-after-penguin-summer/</guid><description>Feeling nostalgic when cleaning up.</description><content:encoded><![CDATA[<p>10 years ago, I was your average highschooler.
+I have no idea how to buy English translated light novel(LN) and have it delivered to Indo.
+Even if I knew, probably will be too expensive for me.</p>
+<p>Book stores like Kinokuniya probably sell popular raw/untranslated LNs,
+but I can&rsquo;t read those without opening a dictionary side by side.
+So I end up reading a lot of &ldquo;free&rdquo; fan translated on online site like <a href="https://www.baka-tsuki.org">Baka-Tsuki</a>.</p>
+<p>Then on March 20th 2013, Shining Rose Media(Shiromedia) published their first LN<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
+It&rsquo;s &ldquo;Penguin Summer&rdquo; by Mutsuzuka Akira, translated to Bahasa Indonesia.
+It costs like IDR 50000, I can buy it with few weeks worth of pocket money!</p>
+<figure class="align-center ">
+    <img loading="lazy" src="/img/shiromedia-penguin-front.jpg#center"
+         alt="Front side of &amp;lsquo;Penguin Summer&amp;rsquo;" style="max-height: 640px;"/> <figcaption>
+            <p>Front side of &lsquo;Penguin Summer&rsquo;</p>
+        </figcaption>
+</figure>
+
+<p>I thought this is going to be the great age of LN in Indo.
+Every LN I have read for free will be properly localized then I can pay for it.
+Turn out I was wrong.</p>
+<p>On 2017, Shiromedia released &ldquo;Absolute Duo Vol.2&rdquo; by Hiiragiboshi Takumi<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+Ever since then, there has been no updates on their social media.
+That means no new LN from Shiromedia in the last 6 years 🥲.</p>
+<p>My only salvation is that I&rsquo;ve succeeded in buying every single LN published by Shiromedia for collection.</p>
+<figure class="align-center ">
+    <img loading="lazy" src="/img/shiromedia-all-side-left.jpg#center"
+         alt="Every LN published by Shiromedia. Ordered by publish date from left (oldest) to right (newest)." style="max-height: 640px;"/> <figcaption>
+            <p>Every LN published by Shiromedia. Ordered by publish date from left (oldest) to right (newest).</p>
+        </figcaption>
+</figure>
+
+<figure class="align-center ">
+    <img loading="lazy" src="/img/shiromedia-all-side-right.jpg#center"
+         alt="On the reverse side, even though they&amp;rsquo;re ordered from left (newest) to right (oldest),
+the yellowing aren&amp;rsquo;t ordered.
+Probably because I brought some of these to my trips." style="max-height: 640px;"/> <figcaption>
+            <p>On the reverse side, even though they&rsquo;re ordered from left (newest) to right (oldest),
+the yellowing aren&rsquo;t ordered.
+Probably because I brought some of these to my trips.</p>
+        </figcaption>
+</figure>
+
+<p>With the decline of physical book markets to the point bookstores are closing,
+I doubt LN production will ever make a comeback in Indo.
+Looking at these books now makes me feel really nostalgic.
+I probably will try to keep these books as long as possible for collection.</p>
+<h2 id="omake-1---nanana">Omake 1 - Nanana</h2>
+<p>Ryuugajou Nanana no Maizoukin a.k.a Ryuugajou Nanana&rsquo;s Buried Treasure by Ootorino Kazuma
+is probably my favourite series out of all LNs published by Shiromedia.</p>
+<figure class="align-center ">
+    <img loading="lazy" src="/img/shiromedia-nanana-front.jpg#center"
+         alt="Front side of &amp;ldquo;Ryuugajou Nanana&amp;rsquo;s Buried Treasure&amp;rdquo;" style="max-height: 640px;"/> <figcaption>
+            <p>Front side of &ldquo;Ryuugajou Nanana&rsquo;s Buried Treasure&rdquo;</p>
+        </figcaption>
+</figure>
+
+<figure class="align-center ">
+    <img loading="lazy" src="/img/shiromedia-nanana-back.jpg#center"
+         alt="Back side of &amp;ldquo;Ryuugajou Nanana&amp;rsquo;s Buried Treasure&amp;rdquo;.
+Yes, it&amp;rsquo;s still sealed. Even the price tag is still there.
+Yes, I&amp;rsquo;ve read it before (English version though)." style="max-height: 640px;"/> <figcaption>
+            <p>Back side of &ldquo;Ryuugajou Nanana&rsquo;s Buried Treasure&rdquo;.
+Yes, it&rsquo;s still sealed. Even the price tag is still there.
+Yes, I&rsquo;ve read it before (English version though).</p>
+        </figcaption>
+</figure>
+
+<h2 id="omake-2---extra-photos">Omake 2 - Extra photos</h2>
+<figure class="align-center ">
+    <img loading="lazy" src="/img/shiromedia-penguin-no-jacket.jpg#center"
+         alt="&amp;ldquo;Penguin Summer&amp;rdquo; without jacket." style="max-height: 640px;"/> <figcaption>
+            <p>&ldquo;Penguin Summer&rdquo; without jacket.</p>
+        </figcaption>
+</figure>
+
+<figure class="align-center ">
+    <img loading="lazy" src="/img/shiromedia-penguin-jacket-only.jpg#center"
+         alt="&amp;ldquo;Penguin Summer&amp;rdquo; dust jacket" style="max-height: 640px;"/> <figcaption>
+            <p>&ldquo;Penguin Summer&rdquo; <a href="https://en.wikipedia.org/wiki/Dust_jacket">dust jacket</a></p>
+        </figcaption>
+</figure>
+
+<figure class="align-center ">
+    <img loading="lazy" src="/img/shiromedia-penguin-bookmark.jpg#center"
+         alt="&amp;lsquo;Penguin Summer&amp;rsquo; bookmark bonus from first press release." style="max-height: 640px;"/> <figcaption>
+            <p>&lsquo;Penguin Summer&rsquo; bookmark bonus from first press release.</p>
+        </figcaption>
+</figure>
+
+<hr>
+<p>Post 15 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://shiningrosemedia.wordpress.com/2013/03/20/buku-penguin-summer-telah-terbit/">https://shiningrosemedia.wordpress.com/2013/03/20/buku-penguin-summer-telah-terbit/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Shiromedia called these novel &ldquo;lite novel&rdquo;
+instead of the commonly used &ldquo;light novel&rdquo;, not sure why.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://web.archive.org/web/20210917125718/https://shiningrosemedia.wordpress.com/2017/11/07/ln-absolute-duo-ii-telah-tersedia-di-gramedia/">https://web.archive.org/web/20210917125718/https://shiningrosemedia.wordpress.com/2017/11/07/ln-absolute-duo-ii-telah-tersedia-di-gramedia/</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>Afterread: The Worst-Case Scenario Survival Handbook</title><link>https://darcien.dev/p/afterread-worst-case-scenario-survival-handbook/</link><pubDate>Sun, 18 Jun 2023 22:58:06 +0700</pubDate><guid>https://darcien.dev/p/afterread-worst-case-scenario-survival-handbook/</guid><description>Highlights and new things I got from the book</description><content:encoded><![CDATA[<p>After sharing <a href="https://www.adfg.alaska.gov/index.cfm%3Fadfg%3Dlivewith.aggressivemoose">an article</a>
+from Alaska Department of Fish and Game about how to deal with aggresive moose,
+I got a recommendation for a survival handbook from my friend.</p>
+<figure class="align-center ">
+    <img loading="lazy" src="/img/book-cover-worst-case-scenario-handbook.jpg#center"
+         alt="Cover of the book &amp;lsquo;The Worst-Case Scenario Survival Handbook&amp;rsquo; by Joshua Piven and David Borgenicht" style="max-height: 320px;"/> <figcaption>
+            <p>Cover of the book &lsquo;The Worst-Case Scenario Survival Handbook&rsquo; by Joshua Piven and David Borgenicht</p>
+        </figcaption>
+</figure>
+
+<p>Finally finished reading it today, my first non-fiction book after a while.
+I don&rsquo;t know how useful it would be, but I love this kind of book.</p>
+<p>Some of my favourite highlights from the book:</p>
+<blockquote>
+<p>Whatever the situation, whether you&rsquo;re out in the mountains, on board a plane,
+or driving cross-country, to &ldquo;survive&rdquo; means &ldquo;to outlive, to remain alive or in existence;
+live on. To continue to exist or live after.&rdquo;
+After all, that&rsquo;s what it&rsquo;s really all about—about continuing to exist,
+no matter how dire the circumstances.</p>
+</blockquote>
+<blockquote>
+<ul>
+<li>You have to be prepared—mentally, physijcally, and equipment-wise.</li>
+<li>You must not ignore the importance of the mental aspects of survival—in particular,
+stay calm and do not panic.</li>
+<li>You must have a survival plan that considers the following essential elements:
+food, fire, water, and shelter (as well as signals and first aid).</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>And you just never know when things might take a turn for the worse.
+Or the worst.</p>
+</blockquote>
+<blockquote>
+<p>Thankfully, the first key to surviving any worst-case scenario is simply this:</p>
+<p>Do Not Panic.</p>
+</blockquote>
+<blockquote>
+<p>Destroy your passport (unless you’re French).
+A passport will allow pirates to quickly identify you and demand ransom from
+family members; Americans, Brits, and citizens of other wealthy Western nations
+make appealing targets. Pirates are less likely to kidnap French citizens,
+due to the French government’s steadfast refusal to negotiate—and recent
+deadly counterattacks by the French military. If you speak French, use it.</p>
+</blockquote>
+<blockquote>
+<p>High-risk search teams keep the following phrase in mind at all times:
+<em>Look for the presence of the unusual or the absence of the usual</em></p>
+</blockquote>
+<blockquote>
+<p><strong>Admit your own fallibility, even if the gaslighter will not.</strong></p>
+<p>&hellip;</p>
+<p>&ldquo;We are all occasionally name-callers, or hypocrites, or incorrect
+in our beliefs—I am simply able to acknowledge to that.
+You seem unable to do so.&rdquo;</p>
+</blockquote>
+<blockquote>
+<p><strong>Agree to disagree.</strong></p>
+<p>You will never win an argument with a gaslighter—just stay true to your own
+values and beliefs, and let the conflict subside.</p>
+</blockquote>
+<blockquote>
+<p><strong>Do not immediately assume that a clown is dangerous.</strong></p>
+</blockquote>
+<blockquote>
+<ul>
+<li>
+<p>Is the clown on the street in broad daylight?</p>
+<p>Likelihood: <strong>SAFE</strong></p>
+</li>
+<li>
+<p>Is the clown hiding in the woods, bushes, or a sewer drain?</p>
+<p>Likelihood: <strong>DANGEROUS</strong></p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>The sun rises in the east and sets in the west—even in Australia.</p>
+</blockquote>
+<blockquote>
+<p>Though seemingly impossible, begin to limit your time online.
+Start with five hours online a day,
+and slowly reduce time online by one hour a day for four days.
+Consider learning a new skill (cooking, painting, surgery)
+to fill your newly free time.</p>
+</blockquote>
+<blockquote>
+<p>The longer the water boils, the more microorganisms that are killed.
+Beyond 10 minutes, however, no further purification occurs.</p>
+</blockquote>
+<p>I thoroughly enjoyed their mix of useful trivia, I-probably-will-never-use-this information,
+examples and illustrations. And the sprinkled jokes here and there is the icing
+on the cake.</p>
+<p>Reading the experts and sources also amaze me on all these peoples doing
+things that are extraordinary from my point of view.</p>
+<p>Some new things I learnt from the experts section:</p>
+<ul>
+<li><a href="https://en.wiktionary.org/wiki/tauromaquia">tauromaquia</a>: bullfighting.</li>
+<li><a href="https://en.wikipedia.org/wiki/Demolition_derby">demolition derby</a>: last man standing brawl with cars.</li>
+<li><a href="https://www.psychologytoday.com/us/blog/ambigamy/201709/psycho-proctologist-speaks-what-makes-ass-ass">psycho-proctologist</a>: someone who tries to define the
+definition of assholes.</li>
+</ul>
+<p>Looking forward reading more book like this!</p>
+<hr>
+<p>Post 14 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>Picking Paid Live Stream Platform as Viewer</title><link>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</link><pubDate>Sat, 17 Jun 2023 21:28:02 +0700</pubDate><guid>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</guid><description>Short note comparing between available live stream platform</description><content:encoded><![CDATA[<h2 id="platforms">Platforms</h2>
+<h3 id="eplus">eplus</h3>
+<p>Link: <a href="https://ib.eplus.jp">https://ib.eplus.jp</a></p>
+<p>Last watched: 2023-03-18, hololive 4th fes</p>
+<p>Rating: avoid if possible 👎</p>
+<p>Okay-ish for watching the live stream.
+Unuseable for watching the archives.
+Getting a bunch of audio issues on the archives like noises and out of sync,
+after a while, no audio plays.</p>
+<h3 id="hololive-official-fanclub-subscribe-only-with-no-one-time-ticket-kinda-counts">hololive official fanclub (subscribe only with no one time ticket, kinda counts)</h3>
+<p>Link: <a href="https://hololive-fc.com">https://hololive-fc.com</a></p>
+<p>Last watched: 2023-06-21, variety show with Asaka as guest</p>
+<p>Rating: decent but no choice on exclusive content 😐
+(Firefox user: bad site 👎)</p>
+<p>A relatively new hololive exclusive platform, showed up at early 2022.
+Suprisingly decent considering it&rsquo;s their own platform
+and doesn&rsquo;t have the same problem with Niconico even though they list Dwango
+in the footer<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Their website feels weird though with all commenters&rsquo; name feels
+generated
+(2023-06-17: Seems like this is no longer the case, names are no longer bot-like).
+And most of the videos views and comments are weirdly exact multiples of thousand.</p>
+<p>Also, they stopped supporting Firefox on 2023-05-30<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
+Which is a sad thing, but not a dealbreaker.</p>
+<h3 id="niconico-dwango">Niconico (Dwango)</h3>
+<p>Link: <a href="https://live.nicovideo.jp">https://live.nicovideo.jp</a></p>
+<p>Last watched: 2023-03-15, Nornis 1st live</p>
+<p>Rating: paid for video, only got the audio 😭</p>
+<p>Same old nico nico douga but with different name.
+Functionally, it&rsquo;s great.
+Pratically, I can&rsquo;t like it.</p>
+<p>Last time I watched Nornis&rsquo; live, it&rsquo;s still stutter on lowest stream quality.
+I don&rsquo;t know if what&rsquo;s causing it, but Niconico connection to Indo has never
+been good regardless of ISP.
+Plus, to watch archive (Timeshift in Niconico) you need to subsribe to their
+premium service(2023-06-17: cost JPY 550 per month).</p>
+<h3 id="spwn">SPWN</h3>
+<p>Link: <a href="https://virtual.spwn.jp">https://virtual.spwn.jp</a></p>
+<p>Last watched: 2022-03-20, hololive 3rd fes</p>
+<p>Rating: pretty safe choice if available 👍</p>
+<p>So far the most platform I&rsquo;ve been using and has the least problem with.
+From time to time has bad connection to Indo
+even after turning on low latency mode on their video player.</p>
+<h3 id="youtube-member-only-live-kinda-counts">YouTube (member only live, kinda counts)</h3>
+<p>Link: <a href="https://youtube.com">https://youtube.com</a></p>
+<p>Last watched: pretty much every month</p>
+<p>Rating: probably the live you want to watch is not here 😔</p>
+<p>It&rsquo;s YouTube.
+They probaby have the best infra for running live stream in the world right now.</p>
+<p>But they don&rsquo;t run ticketing for one-time watch.</p>
+<h3 id="z-an">Z-aN</h3>
+<p>Link: <a href="https://www.zan-live.com">https://www.zan-live.com</a></p>
+<p>Last watched: 2023-06-17, Planet Station stage 8</p>
+<p>Rating: my new go to platform 🫶
+(Firefox user: Booo, please fix the video player 🤕)</p>
+<p>First time watched on Z-aN, surprisingly a great platform!
+Good to the point it become a trigger for me to make this notes.
+From registration flow, payment (it uses Stripe at the moment), stream connection,
+archives, even bonus digital goods from buying tickets, this Z-aN tick all the boxes.</p>
+<p>My only gripe is Z-aN is unusable on Firefox.
+Works smoothly on Vivaldi so I have not tried other browsers.</p>
+<figure class="align-center ">
+    <img loading="lazy" src="/img/zan-on-firefox-fail.jpg#center"
+         alt="Z-aN video player fail with `The m3u8 file loaded file` error message"/> <figcaption>
+            <p>On Firefox, after few mins the video player will error out, needing a page refresh</p>
+        </figcaption>
+</figure>
+
+<figure class="align-center ">
+    <img loading="lazy" src="/img/zan-date-byte.png#center"
+         alt="Showing date input with &#39;Please enter your date of birth as a single-byte number.&#39; from Z-aN registration flow"/> <figcaption>
+            <p>Bonus: Z-aN wants me to enter my date of birth as a single-byte number, I have no idea how to convert a date into a single byte.</p>
+        </figcaption>
+</figure>
+
+<h2 id="backstory">Backstory</h2>
+<p>Starting to lose track with the many live streaming platform out there.
+So I created this note to avoid using the bad ones if possible.
+Most of the time there&rsquo;s no choices though.
+Even when there are choices, at most it&rsquo;s 2, it&rsquo;s pick bad or the less bad one 🥲.</p>
+<hr>
+<p>Post 13 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<p>2023-06-17: Web archive for hololive-fc.com does not load for me right now.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://web.archive.org/web/20230617152311/https://hololive-fc.com/">https://web.archive.org/web/20230617152311/https://hololive-fc.com/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://web.archive.org/web/20230617155122/https://hololive-fc.com/notification/114">https://web.archive.org/web/20230617155122/https://hololive-fc.com/notification/114</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>I Have No Power Here</title><link>https://darcien.dev/p/i-have-no-power-here/</link><pubDate>Wed, 26 Apr 2023 19:28:39 +0700</pubDate><guid>https://darcien.dev/p/i-have-no-power-here/</guid><description>Workout data synced from HealthFit to intervals.icu does not include data that&amp;rsquo;s not supported by Apple Health.</description><content:encoded><![CDATA[<p>I&rsquo;ve been using Zwift with a Wahoo Kickr for a while.
+But graphs in Zwift isn&rsquo;t fancy enough.
+I want ✨fancy✨ graphs like in <a href="https://intervals.icu/">intervals.icu</a>.</p>
+<p>So I&rsquo;ve been downloading FIT files from Zwift manually,
+transfer them to my phone,
+and use <a href="https://apps.apple.com/us/app/healthfit/id1202650514">HealthFit</a> to sync them to other places, including intervals.icu.</p>
+<p>Here comes the main topic,
+the workout in Zwift always show current power output.
+But when I check the workout in intervals.icu, it says no power data 🤔.</p>
+<p>I thought it&rsquo;s just FIT file from Zwift doesn&rsquo;t contain the power data when exported.
+Turns out that&rsquo;s not the case.
+When the exported FIT file is opened using <a href="https://www.fitfileviewer.com/">FIT File Viewer</a>, I can see the power data.
+Same thing when the FIT file uploaded to intervals.icu directly, power is there.</p>
+<p>So the issue was between HealthFit &lt;-&gt; intervals.icu.
+I did a short internet search but couldn&rsquo;t find people with similar issues.
+End up sending an email to HealthFit support about this.</p>
+<p>The reply got is this:</p>
+<blockquote>
+<p>From S. Lizeray</p>
+<p>&hellip;</p>
+<p>Apple Health does not support cycling power, only running power. Hence it can’t be uploaded to the fitness platforms.</p>
+</blockquote>
+<p>Okay, so it&rsquo;s not a HealthFit issue, apparently it is an Apple Health limitation?</p>
+<p>I did another search and found some lead:</p>
+<blockquote>
+<p><a href="https://forum.intervals.icu/t/healthfit-sync-for-activities-and-health-metrics/2718/35">From slizeray</a></p>
+<p>HealthFit mirrors Apple Health and Apple Health is the only source of truth for HealthFit.</p>
+<p>In addition, power data is not supported in Apple Health, so there is no power data in it.</p>
+</blockquote>
+<p>Hey, this confirms it!</p>
+<p>I guess this means I would just stop using HealthFit and upload FIT files directly to intervals.icu if I want to see the power data 🥺.</p>
+<p>P.S. Shoutout to Stéphane Lizeray, I&rsquo;m not sure if this person is a one person army building HealthFit,
+but thanks for HealthFit, fast support response, and all the informative replies in intervals.icu forum.</p>
+<p>P.S.S. Dear Apple, I wish power data is supported in Apple Health 🙏.</p>
+<hr>
+<p>Post 11 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>My First UPS</title><link>https://darcien.dev/p/my-first-ups/</link><pubDate>Fri, 03 Mar 2023 22:17:35 +0700</pubDate><guid>https://darcien.dev/p/my-first-ups/</guid><description>Bye-bye power outage, you won&amp;rsquo;t be missed 👋</description><content:encoded><![CDATA[<p>After 10 years of owning a desktop PC, I finally bought my first UPS!</p>
+<p>Initially I planned to buy an UPS way earlier, but keep holding off from buying for various reasons.
+It&rsquo;ll be hard to move places if I have UPS.
+It probably won&rsquo;t solve my badly grounded wirings in my place.
+What about compatibility with PFC active PSU?
+Macbook chargers?
+Oh no, the vendor recommends using cable under 2m from the socket to UPS for best operation.
+I don&rsquo;t have that kind of close-to-floor sockets in my place.</p>
+<p>Ah, fuck it. I&rsquo;m tired having my PC crashing down whenever there&rsquo;s power outage in my area.
+That&rsquo;s what I thought last week.</p>
+<p>I quickly search around and try to find which brand has decent quality and support in my country.
+APC it is.
+I still need to buy a watt-meter though to figure out which model buy.
+Definitely buying a line interactive one though<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>After I&rsquo;m done measuring all my equipment watt usage, I decided to buy this guy, <a href="https://www.apc.com/ph/en/product/BVX1200LI-MS/apc-easy-ups-bvx-1200va-230v-avr-universal-sockets/">APC BVX1200LI-MS</a>.
+Rated for 1200VA and max 650W.</p>
+<p>Today, this bad boy arrived. So I&rsquo;m going to leave it to charge overnight and test it tomorrow morning.</p>
+<figure>
+    <img loading="lazy" src="/img/ups-apc.jpg"
+         alt="Front side of the UPS."/> <figcaption>
+            <p>Front look of the UPS.</p>
+        </figcaption>
+</figure>
+
+<hr>
+<p>Test run done, work just fine under normal load so far.
+It also free up 2 slot from my usual power strip, which is great!</p>
+<hr>
+<hr>
+<p>Post 10 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://fitzcarraldoblog.wordpress.com/2020/08/09/that-ups-you-bought-for-your-home-server-may-not-be-as-useful-as-you-think/">This person bought a non-line interacive PSU</a>, which is not very useful according to their experience.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>TypeScript Inlay Hints Exists in VSCode</title><link>https://darcien.dev/p/typescript-inlay-hints-exists-in-vscode/</link><pubDate>Mon, 02 Jan 2023 17:16:53 +0700</pubDate><guid>https://darcien.dev/p/typescript-inlay-hints-exists-in-vscode/</guid><description>First TIL of 2023</description><content:encoded><![CDATA[<p>TIL inlay hints for TypeScript already exists on VSCode<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+I thought it was a Deno only thing<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>First time I saw inlay hints was on a Rust codebase few years ago<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+Initially I thought it was annoying, pushing unfinished code around with hints.</p>
+<p>But now, after spending few days with inlay hints enabled by default on a Deno codebase,
+I love inlay hints<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>!
+It&rsquo;s like my dream of named args in TS came true<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.</p>
+<p>Sure using object destructure kinda works as a workaround.
+But there are times where the function is coming from a 3rd party SDK or used in hundred different places.
+And it was really hard to read and understand all those pesky inline booleans.</p>
+<p>From today, those issues are no longer a thing!
+<figure>
+    <img loading="lazy" src="/img/til-inlay-hint.png"
+         alt="Comparison of TS inlay hints off vs on."/> <figcaption>
+            <p>Comparison of TS inlay hints turned off vs on. Left is off; right is on.</p>
+        </figcaption>
+</figure>
+
+These inlay hints settings are configured under <code>typescript.inlayHints.*</code> in the <code>settings.json</code>.</p>
+<hr>
+<p>Post 9 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://code.visualstudio.com/docs/typescript/typescript-editing#_inlay-hints">https://code.visualstudio.com/docs/typescript/typescript-editing#_inlay-hints</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://deno.com/blog/v1.27#inlay-hints">https://deno.com/blog/v1.27#inlay-hints</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://rust-analyzer.github.io/manual.html#inlay-hints">https://rust-analyzer.github.io/manual.html#inlay-hints</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://deno.com/blog/v1.29#inlay-hints-are-enabled-by-default-in-vscode-extension">https://deno.com/blog/v1.29#inlay-hints-are-enabled-by-default-in-vscode-extension</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://github.com/microsoft/TypeScript/issues/467">https://github.com/microsoft/TypeScript/issues/467</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://reasonml.github.io/docs/en/function#named-arguments">https://reasonml.github.io/docs/en/function#named-arguments</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>Fiber Internet, Jakarta, and 2022</title><link>https://darcien.dev/p/fiber-internet-jakarta-and-2022/</link><pubDate>Fri, 30 Dec 2022 22:33:38 +0700</pubDate><guid>https://darcien.dev/p/fiber-internet-jakarta-and-2022/</guid><description>My short journey of trying to find a decent ISP in my place.</description><content:encoded><![CDATA[<p>Today is the last day of 2022.
+Internet connection is already close being a public utility.
+And here I am, having a hard time trying to find decent ISP that can provides service to my place.</p>
+<p>I&rsquo;ve been trying to change providers since at least 4 months ago.
+And this effort will probably continue to 2023.</p>
+<h2 id="provider-checklist">Provider Checklist</h2>
+<p>I&rsquo;m looking at these things while looking for ISP:</p>
+<ul>
+<li>Available at my place (duh)</li>
+<li>Sane pricing, I&rsquo;m not going to pay for enterprise pricing</li>
+<li>No scummy practice (ok, maybe at least minimal, none at all is unlikely to exists)</li>
+<li>Use fiber connection or better</li>
+<li>No weird quota or policy on rate limiting</li>
+<li>Good uptime (it&rsquo;s 2022, please don&rsquo;t timeout when it&rsquo;s raining)</li>
+</ul>
+<p>And these are nice to have but not required:</p>
+<ul>
+<li>Internet only (no, I do not want to subscribe to your whatever TV/CCTV/streaming services)</li>
+<li>Bring-my-own-modem or at least don&rsquo;t charge me with overpriced modem rent per month to the point I can buy the modem 4 times a year</li>
+<li>IPv6 support (is this even a thing in Indonesia?)</li>
+</ul>
+<p>Here I go, checking every single ISP that provides fiber connection and operates in Indonesia.
+Like every single one of them, from &ldquo;every person know this name&rdquo; to &ldquo;is that an actual service name?&rdquo;.</p>
+<h2 id="is-it-available-in-my-place">Is it available in my place?</h2>
+<table>
+<thead>
+<tr>
+<th>ISP</th>
+<th>available</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.balifiber.id/home/bf_home">BaliFiber</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://biznethome.net/">Biznet Home</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://cbn.id/personal/fiber/cbn-fiber.html">CBN Fiber</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://www.firstmedia.com/">First Media</a></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><a href="https://groovy.id/">Groovy</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://iconnet.id/">Iconnet (PLN)</a></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><a href="https://indihome.co.id/">IndiHome (Telkom)</a></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><a href="https://indonet.co.id/id/internet-broadband/">indonet</a></td>
+<td>❔*</td>
+</tr>
+<tr>
+<td><a href="https://hifi.ioh.co.id/">Indosat HiFi (Indosat Ooredoo Hutchison)</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://www.megavision.net.id/">Megavision</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://mncplay.id/en/">MNC Play</a></td>
+<td>❔**</td>
+</tr>
+<tr>
+<td><a href="https://myrepublic.co.id/">MyRepublic</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://home.oxygen.id/">Oxygen.id</a></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><a href="https://www.transvision.co.id/hispeed.html">Transvision Hi-Speed</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://www.xlhome.co.id/">XL Home</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://satu.xl.co.id/">XL Satu Fiber</a></td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+<p>*: indonet seems to only offer enterprise plan, I&rsquo;m not going to contact their sales for checking that.</p>
+<p>**: MNC Play requires me to fill a form with personal identification etc. to check for coverage area.
+I already did that with another ISP, got a lot of spam calls and no coverage, no thanks.</p>
+<p>ISP availability last checked at: <code>2022-12-31</code></p>
+<h2 id="2023-04-26---escape-from-jakarta">2023-04-26 - Escape from Jakarta</h2>
+<p>I probably won&rsquo;t be updating this page anymore.
+I&rsquo;m convinced I don&rsquo;t need to live in this city.
+There&rsquo;s not much point in finding the ultimate ISP if every other aspects in life also sucks here for me.
+Might as well try to move to a better place.</p>
+<h2 id="2023-01-09---iconnet">2023-01-09 - Iconnet</h2>
+<p>First time I heard about &ldquo;Iconnet&rdquo; from my coworkers. Apparently it&rsquo;s backed by Indo&rsquo;s PLN.
+I checked their site, apparently my place is covered.
+But, it&rsquo;s not great according to my source 🫠.</p>
+<figure>
+    <img loading="lazy" src="/img/isp-iconnet-testimony.png"
+         alt="Screenshot of Iconnet landing page showing empty testimony section taken on 2023-04-26."/> <figcaption>
+            <p>What makes this ISP even funnier is that their own landing page have an empty testimony section.</p>
+        </figcaption>
+</figure>
+
+<h2 id="2022-12-31---first-media">2022-12-31 - First Media</h2>
+<p>I already used First Media from the time they start showing up in my area (probably around ~2013).
+At that time, they provide real fast connection.
+But over the time, their price keeps climbing while the stability spirals downhill.
+People I know have been saying this is because they keep adding more customers to existing terminals
+regardless of the terminal capacity instead of adding more terminals 😕.</p>
+<p>Fast forward 10 years later, after asking around, they still have the same issues.
+Ignoring the ridiculous amount of spam from their marketing,
+I hate the fact that their prices varies based on how much pressure you put into their customer support
+or sales.
+The more you complaint and want to cut their connection, the more discount you get 🤨.
+Not being transparent with the pricing model is a bad enough sign for me to stay away.</p>
+<h2 id="2022-11-27---oxygenid">2022-11-27 - Oxygen.id</h2>
+<p>A promising ISP, if I could actually use it.</p>
+<p>2022-10-01, late night: I applied via their online registration.</p>
+<p>Same day, 9 p.m.: Contacted by their sales via WhatsApp, asking for location coordinates etc.</p>
+<p>2022-10-03: Registration and payment completed, waiting for their technician now.</p>
+<p>2022-10-04: Their technician came while it&rsquo;s raining heavily. Technician said all nearby terminals are full. Need to request validation team and see whether they can free up some unused terminal slots.</p>
+<p>2022-10-10: Call from their sales, validation in progress.</p>
+<p>2022-10-18: Another call from their sales, validation still in progress and might take even more time. They&rsquo;re asking to refund my money for now.</p>
+<p>2022-11-27: I asked the same sales for updates on the validation. No reply.</p>
+<p>Later on their sales did &ldquo;react&rdquo; to my messages though:
+<figure>
+    <img loading="lazy" src="/img/isp-oxygen-sales-react.jpg"
+         alt="Oxygen.id sales reacted with tears of joy emoji to my inquiries"/> <figcaption>
+            <p>Truly a 😂 moment.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Now, I have no idea whether that person just quit from being a sales or it&rsquo;s their official response.
+There&rsquo;s still some hope from this ISP if I tried to contact them again.
+But not now, right now I don&rsquo;t have the patience to sit out months just for them to check whether they have available slots for me or not.</p>
+<p>Bonus: I can&rsquo;t login to my customer account after changing the default password to a 25-characters password.
+Pressing login does nothing, no message or UI feedback whatsoever.
+I suspect my password is over the length limit they have for password 🙃.</p>
+<hr>
+<p>Post 12 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+]]></content:encoded></item><item><title>The Melancholy of the Melancholy of Subculture Society</title><link>https://darcien.dev/p/the-melancholy-of-the-melancholy-of-subculture-society/</link><pubDate>Thu, 29 Dec 2022 20:10:22 +0700</pubDate><guid>https://darcien.dev/p/the-melancholy-of-the-melancholy-of-subculture-society/</guid><description>Thoughts around &amp;ldquo;The Melancholy of Subculture Society&amp;rdquo; by Gwern Branwen</description><content:encoded><![CDATA[<p>It&rsquo;s that time of the year again, where I&rsquo;m having annual existensial crisis.
+My favourite way to stop myself from spiraling into despair is to browse the orange site.
+That day, I found a link to <a href="https://wiki.nikiv.dev/">Nikita Voloboev&rsquo;s personal wiki</a>.
+I don&rsquo;t remember the exact link anymore, I think it was some kind of article about configuring macOS.
+That wiki is massive, I quickly got into the rabbit hole, specifically the psychology section.</p>
+<p>I&rsquo;m not done reading everything there, but there is one piece I really liked, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society">&ldquo;The Melancholy of Subculture Society&rdquo; by Gwern Branwen</a>.</p>
+<p>That essay hits me close to home.
+Maybe it&rsquo;s just my brain pattern matching with what is being described there.
+But the phenomenon mentioned there eerily match my personal experiences.
+And here I am, trying to write my story and the dilemma that comes with the choices.</p>
+<h2 id="rationalizing-my-choice">Rationalizing My Choice</h2>
+<blockquote>
+<p>The point the critic wants to make is that life is short and a zero-sum game. You lose a third of the day to sleep, another third to making a living, and now you’ve little left. To be really productive, you can’t divide your energies across multiple cultures—you can’t be truly successful in mainstream culture, and at the same time be able to devote enough effort in the field of, say, mechanical models⁠, to be called an Otaking⁠. A straddler takes onto his head the overhead of learning and participating in both, and receives no benefits (he will suffer socially in the esteem of the ‘normals’, and will be able to achieve little in his ‘hobby’ due to lack of time and a desire to not go overboard).⁠⁠</p>
+<p>The otaku &amp; hikikomori recognizes this dilemma and he chooses—to reject normal life! He rejects life in the larger culture for his subculture⁠⁠. It’s a simple matter of comparative advantage⁠; it’s easier to be a big fish in a small pond than in a large one.⁠⁠</p>
+<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#opting-out">The Melancholy of Subculture Society</a></p>
+</blockquote>
+<p>Time is arguably one of the most important resources a person can have.
+And it&rsquo;s finite (until someone proves time travel or immortality is feasible).
+So, if a person decides to dedicate their time into something they like instead of what is mainstream, that is a rational choice.</p>
+<p>At the same time, this is a lonely and cold path.
+Depending on what the person liked, it might be a real niche.
+Finding communities of same minded people to share findings will be a challenge.
+Picking a larger subculture that comprises their niche would be an option.
+At the end of the day, that subculture wouldn&rsquo;t exactly fit the niche.
+Creating more fragmentations within.</p>
+<p>Maybe it&rsquo;s fine to accept that as the universal truth?
+Maybe it&rsquo;s fine to be part of a subculture that have a member size of one?
+Maybe it&rsquo;s fine to be thrown out like a piece of gear that does not fit anywhere in the mainstream clockwork?</p>
+<p>Opting out from the mainstream should be a choice consciously made, not forced into making.</p>
+<h2 id="ant-looking-at-the-world">Ant Looking at the World</h2>
+<blockquote>
+<p>The national identity fragments under the assault of burgeoning subcultures. At last, the critic beholds the natural endpoint of this process: the long nightmare of nationalism falls like a weight from the minds of the living, as the nation becomes some lines on a map, some laws you follow. No one particularly cares. The geek thinks, ‘Meh: here, Canada, London, Japan, Singapore—as long as FedEx can reach me and there’s a good Internet connection, what’s the difference?’ (Nor are the technically-inclined alone in this.⁠⁠)</p>
+<p>You can test this yourself. Tell yourself —‘The country I live in now is the best country in the world for people like me; I would be terribly unhappy if I was exiled.’ If your mental reply goes something like, ‘Why, what’s so special about the USA? It’s not particularly economically or politically free, it’s not the only civilized English-speaking country, it’s not the wealthiest⁠⁠…’, then you are headed down the path of opting out.</p>
+<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#the-bigger-screen">The Melancholy of Subculture Society</a></p>
+</blockquote>
+<p>I can&rsquo;t help but to say yes and yes here.
+During the time of peace, it&rsquo;s really hard to fight for your own country.
+Especially not when your own countrymen judges yourself based of your grandparents origin.
+Oh come on, we&rsquo;re both evolved from the same single-celled organism eons ago, why can&rsquo;t we get along?
+Without the force and will to unite people into a single nation, it&rsquo;s normal for people to flock into their own interests.
+Opting out from the national culture.</p>
+<p>The natural reaction from the ruling party of the culture would of course be negative.
+As a country could not stand by itself.
+It needs it&rsquo;s people to to keep the culture alive.</p>
+<p>This is such a weird world.
+You&rsquo;re born into a group of peoples.
+You&rsquo;re taught the history and culture of your group.
+Now you are expected to fight for that culture for your whole life?</p>
+<p>NO! I would argue the rational action is to live and see the world with your own eyes.
+After that, if you decide to be part of your original culture, that is fine.
+Or maybe no, you might find a subculture out there that you find worth living for, that is also fine.
+Being forced into living a culture because the people around you did so is not fine at all.
+(Realistically, this free choice is hard to execute for various reason.)</p>
+<h2 id="coping-mechanism">Coping Mechanism</h2>
+<blockquote>
+<p>Leaving a culture, and joining a subculture, is a way for the monkey mind to cope with the modern world.</p>
+<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#subcultures-set-you-free">The Melancholy of Subculture Society</a></p>
+</blockquote>
+<p>I totally agree with this section where being part of a subculture is a way to free yourself from the bigger culture.
+Not to the point it become escapism.
+But to be a healthy person, not under any pressure to be the very best while sacrificing everything.</p>
+<p>A natural thing that would happen just like how:
+a father want to be best dad in the family, he doesn&rsquo;t care about being the best dad in the solar system;
+a kid want to be the fastest kid in the class, that kid wouldn&rsquo;t care about being the fastest person in the continent.</p>
+<h2 id="congratulations-you-have-won-the-knowledge">Congratulations! You Have Won The Knowledge</h2>
+<blockquote>
+<p>This is the curse of knowledge: those who know, do not do—and those who do not know, do.</p>
+<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#a-winner-is-you">The Melancholy of Subculture Society</a></p>
+</blockquote>
+<p>The curse of knowledge, that is probably my favourite quote from the essay.
+Calling it a curse is really clever.
+Some times it&rsquo;s painful, holding a knowledge, you agonize over telling the truth to the other person.
+You can lessen your pain by sharing the burden of knowledge, at the cost of hurting others.</p>
+<h2 id="subculture-for-life">Subculture for Life</h2>
+<blockquote>
+<p>If someone really prefers their subculture, which gives them mental ease and physical health, then what right do the rest have to interfere and drag them into the main culture? Large homogeneous cultures are accomplished only with great effort, and much bloodshed of body and mind. Their benefits are unclear, and the justifications transparently self-serving. Perhaps we should accept gracefully the inevitable sundering of ‘national’ cultures, and learn to operate within a truly multicultural world. Each of us with a niche of our own, on respectful (if uncomprehending) terms with all the other subcultures.</p>
+<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#sympathy-for-the-poor-devil">The Melancholy of Subculture Society</a></p>
+</blockquote>
+<p>As the subcultures are formed as a resting place and coping mechanism,
+people with the same subculture will naturally flock together after some time.
+Are the bigger cultures destinied to be broken into pieces?
+And small subcultures will eventually grow into mainstream culture?
+Will this cycle repeats just like how history is believed to repeats itself?</p>
+<p>Maybe at the end, the disappearance of subcultures doesn&rsquo;t matter.
+People lived their lives, believing in their choices.
+Good or bad, matter not.
+Who am I to judge them?</p>
+<h2 id="omake---behind-the-text">Omake - Behind the Text</h2>
+<p>The melancholy essay written by Gwern don&rsquo;t have the answer I&rsquo;m looking for in my life.
+It&rsquo;s not scientifically proven or peer reviewed by experts.
+Yet, it helped me for accepting myself,
+&ldquo;I made my own choice to be in this subculture, I reject normal live!&rdquo;
+Here I am, continuing my journey on understanding myself and shaping my own subculture.</p>
+<p>Someone mentioned this essay is hard to read and grok because it&rsquo;s like a puzzle made by stream of consciousness<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+And I think it&rsquo;s amazing, being able to write your consciousness into an actual writings.
+I know I have thoughts for each sections of the essay, but it was really hard to pour these thoughts into writings.</p>
+<hr>
+<p>Post 8 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://news.ycombinator.com/item?id=6587295">https://news.ycombinator.com/item?id=6587295</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>YouTube Removed Sort Options?</title><link>https://darcien.dev/p/youtube-removed-sort-options/</link><pubDate>Tue, 20 Dec 2022 22:57:21 +0700</pubDate><guid>https://darcien.dev/p/youtube-removed-sort-options/</guid><description>I don&amp;rsquo;t understand why YouTube keep making weird decisions.</description><content:encoded><![CDATA[<p>I know that YouTube is a product owned by a megacorp.
+I&rsquo;m not entitled to any of it&rsquo;s features.
+But it&rsquo;s still frustating when a button or dropdown is not there when I want to click on it.</p>
+<p>Few months ago they removed the ability to sort from the oldest video in a channel.
+Leaving only sort alphabetically and from the most popular video.
+So if I I&rsquo;m interested in a channel and want to see the older videos, I need to scroll all the way to the bottom, loading every videos in-between.</p>
+<p>But now, the dropdown itself is gone!
+No more channel videos sort for me.</p>
+<p>Is it a technical limitation?
+Operating at the scale of YouTube would probably have problems I&rsquo;ll never encounter in my whole life.</p>
+<p>Or is it decided by the higher ups after looking at some numbers?
+An arbitrary decision because only small percentage of the users click on the dropdown.</p>
+<p>I probably will never know why they removed the sort dropdown.</p>
+<p>Or why they keep changing the border radius.</p>
+<p>Or why they reintroduced the dark theme as &ldquo;ambient mode&rdquo;.</p>
+<p>Or why they keep stuffing things in channel name row when watching a video, so I can only see 5 chars of the channel name and 6 buttons in the same row.</p>
+<p>Or why they make only 8 playlists visible at a time when saving a video. At least give me an inline search or show a bigger modal.</p>
+<p>Or why they keep pushing for Shorts to my face.</p>
+<p>My biggest gripe is that they never communicate most of these changes.
+One day you open the website and part of the website just changed.
+It could be a slap-in-the-face or did-this-text-size-increase-by-one-px kind.
+You&rsquo;ll never know until you checked it.</p>
+<hr>
+<p>Bonus: I did not expect to see a private video notice on <a href="https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">an official page</a>.</p>
+<figure>
+    <img loading="lazy" src="/img/youtube-select-private.png"
+         alt="A private video embed in YouTube Select product page."/> <figcaption>
+            <p>A private video embed in YouTube Select product page. Screenshot taken on 2022-12-21 from Indonesia. I can see it was not private on 2022-12-20 from this <a href="https://web.archive.org/web/20221220004520/https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">Wayback Machine snapshot</a>.</p>
+        </figcaption>
+</figure>
+
+<hr>
+<p>Post 7 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>My First Pi-hole</title><link>https://darcien.dev/p/my-first-pi-hole/</link><pubDate>Mon, 12 Dec 2022 16:01:20 +0700</pubDate><guid>https://darcien.dev/p/my-first-pi-hole/</guid><description>Putting a 7 y.o. Raspbian model 2 to work.</description><content:encoded><![CDATA[<p>I bought my first Raspberry Pi at 2015, it was model 2.
+I was an idealist and foolish college freshman at the time.
+Things happened, and fast forward 7 years later, my Pi was collecting dust.
+And here I am thinking want I want to do over the new year break.
+So, as a QoL improvement to my home network, it might be nice to have a <a href="https://pi-hole.net/">Pi-hole</a>.</p>
+<p>I&rsquo;m surprised the SD card is still alive and it&rsquo;s still running 2018&rsquo;s version Raspbian.
+Hardware also looks good, so I proceed to nuke the SD card and install the latest OS.
+Seems like Raspbian is no longer a thing, they have Raspberry Pi OS now<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>It didn&rsquo;t even take 3 hours to get everything running and working.
+I expected it to take a lot more time as I&rsquo;m setting this up while having lunch.</p>
+<ul>
+<li>Raspberry OS download and write to SD (30 mins)
+<ul>
+<li>They have official imaging utility now, downloading the image and writing it to the SD card is a breeze now<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</li>
+<li>My internet speed sucks though, so the download still take some time.</li>
+</ul>
+</li>
+<li>Setup static IP for the Pi (needed for Pi-hole) (10 mins)
+<ul>
+<li>I hate the built-in interface of the ISP provided router with passion (it&rsquo;s Huawei from IndiHome BTW).
+It is sluggish and hard to navigate.</li>
+</ul>
+</li>
+<li>Install and set-up Pi-hole on the Pi (20 mins)
+<ul>
+<li>Pi-hole has install script, and that really helps saving some time<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+Yes, running unknown script from the internet is dangerous, I understand the risk.</li>
+</ul>
+</li>
+<li>Finding admin account for my ISP provided router (10 mins)
+<ul>
+<li>I just realized the admin user that I use cannot be used to change the DNS server settings.
+Google here I go.
+Thankfully I found an user I can use real quick, it&rsquo;s <code>telecomadmin</code><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</li>
+</ul>
+</li>
+<li>Change default DNS server to Pi-hole in the home router (5 mins)</li>
+<li>Test everything is working (60 mins and counting)</li>
+</ul>
+<p>So far it&rsquo;s working great!</p>
+<figure>
+    <img loading="lazy" src="/img/first-pi-hole-admin-console.png"
+         alt="Admin console of Pi-hole"/> <figcaption>
+            <p>I&rsquo;m feeling happy when looking at the queries blocked number going up.</p>
+        </figcaption>
+</figure>
+
+<p>I still need to figure out some things though:</p>
+<ul>
+<li>Why some query didn&rsquo;t go through Pi-hole?</li>
+<li>How do I back up the SD card? The 7 y.o. SD card won&rsquo;t last forever.</li>
+<li>Can I lower the Raspbian temperature? Making it sit in on top of a running router does not help at all.</li>
+<li>Do I need to set up HTTPS for the console?</li>
+<li>Should I set up my VPN to use Pi-hole as the DNS server? I&rsquo;m already using Tailscale for VPN and the Pi is connected to it. Maybe I&rsquo;ll have an answer after running Pi-hole for a month or so. Tailscale also have official guide <a href="https://tailscale.com/kb/1114/pi-hole/">here</a>, so this should be a supported use case.</li>
+<li>Should I set up <a href="https://docs.pi-hole.net/guides/dns/unbound/">unbound</a>?</li>
+</ul>
+<p>Some blog posts that I found useful while setting up Pi-hole:</p>
+<ul>
+<li><a href="https://www.troyhunt.com/mmm-pi-hole/">&ldquo;Mmm&hellip; Pi-hole&hellip;&rdquo; by Troy Hunt</a></li>
+<li><a href="https://scotthelme.co.uk/catching-naughty-devices-on-my-home-network/">&ldquo;Catching and dealing with naughty devices on my home network&rdquo; by Scott Helme</a></li>
+<li><a href="https://www.crosstalksolutions.com/the-worlds-greatest-pi-hole-and-unbound-tutorial-2023">&ldquo;The World’s Greatest Pi-hole (and Unbound) Tutorial 2023&rdquo; by Crosstalk Solutions</a></li>
+</ul>
+<hr>
+<p>Post 6 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.tomshardware.com/news/raspberry-pi-os-no-longer-raspbian">https://www.tomshardware.com/news/raspberry-pi-os-no-longer-raspbian</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://github.com/pi-hole/pi-hole/#one-step-automated-install">https://github.com/pi-hole/pi-hole/#one-step-automated-install</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://forum.huawei.com/enterprise/en/how-to-login-hg8245h/thread/762243-100181">https://forum.huawei.com/enterprise/en/how-to-login-hg8245h/thread/762243-100181</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>Can you use Apple Watch for HR monitor in Zwift?</title><link>https://darcien.dev/p/can-you-use-apple-watch-for-hr-monitor-in-zwift/</link><pubDate>Thu, 08 Dec 2022 23:27:06 +0700</pubDate><guid>https://darcien.dev/p/can-you-use-apple-watch-for-hr-monitor-in-zwift/</guid><description>Spoiler: no 😔</description><content:encoded><![CDATA[<p>I&rsquo;ve been using <a href="https://www.zwift.com/">Zwift</a> for a month or two.
+They made my indoor cycling experience better with all the virtual tracks and online community.</p>
+<p>There&rsquo;s just one thing that frustates me, pairing Apple Watch with Zwift for heart rate monitor.
+Once in a blue moon, it just worked.
+But most of the time, it is just pure frustration.</p>
+<p>As someone who just want to pedal for distraction from work stress and workout,
+fiddling and restarting things for 30 minutes before pedaling is just painful.</p>
+<p>Turns out it&rsquo;s not just me that had this issue, and it&rsquo;s been happening since forever.
+Some threads I found in the Zwift support forum with
+people trying to figure out some magic algorithm to pair it:</p>
+<ul>
+<li><a href="https://forums.zwift.com/t/apple-watch-had-enough/519015">https://forums.zwift.com/t/apple-watch-had-enough/519015</a></li>
+<li><a href="https://forums.zwift.com/t/hr-via-apple-watch/581701">https://forums.zwift.com/t/hr-via-apple-watch/581701</a></li>
+<li><a href="https://forums.zwift.com/t/apple-watch-integration/569350">https://forums.zwift.com/t/apple-watch-integration/569350</a></li>
+<li><a href="https://forums.zwift.com/t/apple-watch-official-answer/534867">https://forums.zwift.com/t/apple-watch-official-answer/534867</a></li>
+<li><a href="https://forums.zwift.com/t/connecting-apple-watch-for-heart-rate/595500">https://forums.zwift.com/t/connecting-apple-watch-for-heart-rate/595500</a></li>
+<li><a href="https://forums.zwift.com/t/are-we-giving-up-on-apple-watch-support/510599">https://forums.zwift.com/t/are-we-giving-up-on-apple-watch-support/510599</a></li>
+<li><a href="https://forums.zwift.com/t/please-fix-the-apple-watch-heart-rate-monitoring/557530">https://forums.zwift.com/t/please-fix-the-apple-watch-heart-rate-monitoring/557530</a></li>
+<li><a href="https://forums.zwift.com/t/apple-watch-hrate/592428">https://forums.zwift.com/t/apple-watch-hrate/592428</a></li>
+<li><a href="https://forums.zwift.com/t/apple-watch-refuses-to-send-data/523720">https://forums.zwift.com/t/apple-watch-refuses-to-send-data/523720</a></li>
+<li><a href="https://forums.zwift.com/t/apple-watch-ultra/592440">https://forums.zwift.com/t/apple-watch-ultra/592440</a></li>
+</ul>
+<p>And after going all those threads, I finally found something more official in this <a href="https://forums.zwift.com/t/upcoming-changes-to-supported-operating-systems-december-2021/561496">December 2021 changes</a></p>
+<blockquote>
+<p>Additionally, for Apple Watch owners: we are aware that this experience needs upgrades and we are working on a longer term vision for support. In the meantime, the Zwift Game and Companion apps will be removed from the Watch App Store.This means:</p>
+<ul>
+<li>New users will not be able to install the Zwift Game or Companion apps</li>
+<li>Legacy users will be able to use the watch apps, but will receive no updates to either app</li>
+</ul>
+</blockquote>
+<p>Okay, cool. At least at this point I know I can give up peacefully.
+Apple Watch has never been the perfect device for workout partner.
+The GPS acquisition time could take over 30 minutes.
+The battery life isn&rsquo;t that great either with the sensors on workout mode.
+And that&rsquo;s fine, because at the end of the day, Apple Watch is just a general purpose device
+and it worked really well for that purpose.</p>
+<p>Now I&rsquo;m feeling conflicted, I&rsquo;m happy that I got my answers.
+At the same time, I feel sad that I can&rsquo;t use what I already own and need to spent more money on dedicated device.</p>
+<p>I guess I&rsquo;ll just browse for cheap and good HR monitor, and feel excited about my upcoming device instead.</p>
+<hr>
+<p>Post 5 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>SQLFluff Is a Thing</title><link>https://darcien.dev/p/sqlfluff-is-a-thing/</link><pubDate>Thu, 08 Dec 2022 22:09:26 +0700</pubDate><guid>https://darcien.dev/p/sqlfluff-is-a-thing/</guid><description>A fluff that I wish I had known earlier.</description><content:encoded><![CDATA[<blockquote>
+<p>The SQL Linter for Humans</p>
+<p>Bored of not having a good SQL linter that works with whichever dialect you’re working with? Fluff is an extensible and modular linter designed to help you write good SQL and catch errors and bad SQL before it hits your database.</p>
+<p>From <a href="https://www.sqlfluff.com">https://www.sqlfluff.com</a></p>
+</blockquote>
+<p>Earlier today at work, I was helping my coworker debugging his SQL.
+The SQL was fairly simple.
+It creates a few tables, create some foreign keys, and insert some data.</p>
+<p>But when we execute the SQL, it is failing.
+Part of the SQL looks like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="s2">&#34;public&#34;</span><span class="p">.</span><span class="s2">&#34;some_table&#34;</span><span class="w"> </span><span class="p">(</span><span class="s2">&#34;category&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;description&#34;</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s2">&#34;drama&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;tears and blood&#34;</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></div><p>And the DB spits out this error:</p>
+<pre tabindex="0"><code>SQL Error [42703]: ERROR: column &#34;drama&#34; does not exist
+</code></pre><p>A battle-hardened SQL veteran would probably notice the issue immediately.
+But it&rsquo;s not very clear to regular human like me.</p>
+<p>If you guessed the problem is the quotes, then you&rsquo;re correct.
+String value must use single quotes as the double quotes is reserved for objects in PostgreSQL, like table and column names<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>I found it out after a bit of trial and error, a bit of headbanging, and no googling attempt.
+Which leads to me trying to find the tool to help writing an actually valid SQL, not one that looks kinda valid but not really.
+And that&rsquo;s how I found this fluff, which give somewhat better error message:</p>
+<pre tabindex="0"><code>L057 	2 / 22
+
+Do not use special characters in identifiers.
+</code></pre><p>Hey, at least it&rsquo;s not complaining about &ldquo;no drama&rdquo;.
+And the mentioning the cause is a special characters already helped pinpoint the issue.</p>
+<p>So, I am today years old when I learned:</p>
+<ul>
+<li>use single quotes for string, and double quotes for identifier,</li>
+<li><a href="https://www.sqlfluff.com/">SQLFluff</a> is a thing.</li>
+</ul>
+<hr>
+<p>Post 4 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.postgresql.org/docs/current/sql-syntax-lexical.html">https://www.postgresql.org/docs/current/sql-syntax-lexical.html</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>My 2022 Without Context</title><link>https://darcien.dev/p/my-2022-without-context/</link><pubDate>Thu, 01 Dec 2022 19:52:09 +0700</pubDate><guid>https://darcien.dev/p/my-2022-without-context/</guid><description>Would writing out past events with less context help me see it more objectively? A writing experiment!</description><content:encoded><![CDATA[<p>I thought about making this while laying on the bed, so it probably won&rsquo;t make much sense.
+I&rsquo;ll do it anyway because that&rsquo;s what I do here.</p>
+<p>They are in no particular order and might grow when I remember more things.</p>
+<p>In 2022:</p>
+<ul>
+<li>I paid someone to get some laser shot into my eyes.</li>
+<li>I decided to sleep under the same roof with my parents again.</li>
+<li>I bought a spinning iron so I can ride my bicycle inside my bed room.</li>
+<li>I bought a black chair that feels better than my white chair.</li>
+<li>My fear become a reality, I feel alone even with other people around.</li>
+<li>I overused my hands and fingers to the point I can&rsquo;t move.</li>
+<li>I rode a big truck together with my motorbike and 2 strangers.</li>
+<li>I spent like 90% of my time within 2 meter radius of my bed.</li>
+<li>I bought a keyboard that looks broken to a layman from Hungary.</li>
+<li>I bought a bag made of weed&rsquo;s legal cousin. Haven&rsquo;t arrived yet though.</li>
+<li>I took a day off just to find a plastic card.</li>
+</ul>
+<p>Yeah, some of these sounds pretty crazy if you&rsquo;re missing the context.
+This might be a good way to start a conversation.
+I need to try this on someone from the office tomorrow.</p>
+<hr>
+<p>Post 3 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>Can - Will - Did</title><link>https://darcien.dev/p/can-will-did/</link><pubDate>Thu, 01 Dec 2022 18:45:35 +0700</pubDate><guid>https://darcien.dev/p/can-will-did/</guid><description>I can do it. Actually, I will do it. Finally, I did it!</description><content:encoded><![CDATA[<p>Some times, I just need to do it.
+I feel like, if I were to do planning, and do it later when I have &ldquo;free time&rdquo;, it will never happen.</p>
+<p>2 days ago, my coworker said &ldquo;Aww, Discord doesn&rsquo;t have built in command for random number picker :(&rdquo;.
+I jokingly replied &ldquo;I can build that&rdquo;.
+Probably nobody expected me to actually build it.
+Not even me at the time.</p>
+<p>Later on, I continue working as usual, but it was a bad day.
+I keep getting the same red error screen of death until the end of work day.
+Feeling defeated, I don&rsquo;t want to end my day like this.</p>
+<p>Then I remembered the earlier random number picker conversation.
+I will build that, it should be a good refresher.
+I have no good reason why I decided so.
+There are probably Discord apps that provide it already.
+There are probably countless of website that could do that for you with extra browser clicks.</p>
+<p>Fast forward few hours later.
+I did it!</p>
+<figure>
+    <img loading="lazy" src="/img/bernard-roll.gif"
+         alt="gif showing the built random number picker in Discord"/> <figcaption>
+            <p>Showcase of Bernard in action</p>
+        </figcaption>
+</figure>
+
+<p>It probably took around 5 hours.
+Mostly spent on reading Discord documentation on how to do it.</p>
+<p>I put the code over <a href="https://github.com/darcien/bernard-bot">here</a>.
+Yeah, it doesn&rsquo;t have tests.
+Yes, it&rsquo;s a bit messy.
+But hey, I&rsquo;m still proud of it.
+My previous post is all about me not being able to focus on doing 1 thing.
+And the fact that I could focus long enough to finish is a good thing!</p>
+<hr>
+<p>Post 2 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>Focusing Is Hard For Current Me</title><link>https://darcien.dev/p/focusing-is-hard-for-current-me/</link><pubDate>Fri, 25 Nov 2022 01:30:43 +0700</pubDate><guid>https://darcien.dev/p/focusing-is-hard-for-current-me/</guid><description>These days, I can not focus on one thing for extended amount of time.</description><content:encoded><![CDATA[<p>It&rsquo;s almost 2am now. What? It&rsquo;s already this late!?</p>
+<p>I started touching the codebase for this blog at 8pm.
+Why would it take 6 hours just to write some texts?</p>
+<p>Okay, tracking back my steps.
+This is my Windows machine, it&rsquo;s been forever since I used it to write anything including codes.
+Usually it&rsquo;s just a glorified media player or video editing workhorse.
+Oh all the distractions in this entertainment device&hellip;</p>
+<p>And I&rsquo;m typing on a &ldquo;new&rdquo; keyboard, my first split keyboard.
+It doesn&rsquo;t even have arrow keys.
+It has trackball and trackpoint on it though.
+Turns out not having a dedicated arrow keys is a major productity killer for me right now.
+Most common text manipulation shortcut I use needs arrow keys.
+And adding one extra mod key to press doesn&rsquo;t help.
+It puts my hand into a really clunky position.
+And you can throw muscle memory out of the window.</p>
+<p>The wooden palm rest is nice though.</p>
+<p>I also tried setting up Sapling, a git compatible SCM.
+Super interesting for me as I like the stacked PR approach.
+Maybe if I use it here, it will give me some good productivity and mood boost!
+1 hour trying, and&hellip; nope. I will stick with plain old git.
+It is compatible with git, but you can&rsquo;t use existing local git repo and start using sl (Sapling binary, equivalent to git) right away.
+You need to clone the remote again using <code>sl clone</code> as it use <code>.sl</code> instead of <code>.git</code>.
+The fact that sl errors with <code>abort: '&lt;path&gt;' is not inside a repository, but this command requires a repository!</code> does not help all.
+(Google only return 1 hit for that error and it&rsquo;s the source repo :), thankfully someone posted an issue upstream and has provided solution there, so thanks for that.)</p>
+<p>It&rsquo;s not only that, I also had a bunch of problem with sub modules and default-push behavior not working correctly.
+The web manual and help output from the binary also doesn&rsquo;t match.
+Undocumented commands here and there.
+Sapling is cool, probably it works great in Meta, but for me and my solo micro sized project, nah.</p>
+<p>After that, I also had to deal with a bunch of Windows env things.
+I&rsquo;m pretty sure I already have hugo binary installed and ready to use.
+Why would I get unknown command when running it?
+Maybe I fucked up some time ago, maybe a Windows update, maybe a rogue install script, who knows?
+Here we go, spelunking into Windows system env just to run a binary without specifying the full path every single time.</p>
+<p>Okay, Windows env all fixed up, good path, binary is in the path, all good.
+Or not, still not found in built-in command prompt in VSCode.
+Yes I opened a new prompt, not working.
+Closed all open prompt, reopen, still not working.
+I&rsquo;m tired, a full restart will definitely fix this and that&rsquo;s what I do.</p>
+<p>The turn off and then on again trick sure works!
+(Later on I realized restarting just VSCode also works)</p>
+<p>Now we have everything, I would start writing right?
+Turns out no, I just had to try and clean things up.
+Documents things here and there, setup <code>justfile</code> (Makefile alternative for running commands, not building) and all the mumbo jumbo since this is my first time using it.</p>
+<p>Finally, here we are nearing the end of the post.
+It&rsquo;s not even 1 hour to write all this messy ramblings.</p>
+<p>It&rsquo;s past 2am now and I realized it&rsquo;s really hard for me to focus right now, I would make excuses to avoid doing things to myself.
+I just want to write right now.
+I don&rsquo;t care whether people read this or not.
+Cleaning and documenting things here are nice, not much point if only I used it though.
+Next time, I should focus more on the goal and resist the distractions.</p>
+<hr>
+<p>I already had the plan for updating this blog this month, but the final push is seeing this <a href="https://garrit.xyz/posts/2022-11-24-smart-move-google">post</a> in HN and saw the 100 posts challenge.</p>
+<p>Post 1 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>Monitor Notes</title><link>https://darcien.dev/p/monitor-notes/</link><pubDate>Mon, 06 Dec 2021 19:18:21 +0700</pubDate><guid>https://darcien.dev/p/monitor-notes/</guid><description>A diary of boring adventure in setting up monitors. Also works as a timecapsule letter, dear future me, don&amp;rsquo;t repeat these mistakes.</description><content:encoded><![CDATA[<h2 id="monitors-used">Monitors Used</h2>
+<ul>
+<li>Dell U2417H [24&quot; 60Hz IPS Monitor]</li>
+<li>ViewSonic XG2431 [24&quot; 240Hz IPS Monitor]</li>
+</ul>
+<h2 id="macos--viewsonic-issues">MacOS + ViewSonic Issues</h2>
+<p>Can&rsquo;t use random USB-C cable + USB hub for connecting ViewSonic to M1 MacBook Air running Big Sur.</p>
+<p>Mac detected the monitor, but monitor show &ldquo;no signal&rdquo;.</p>
+<p>Maybe cable or hub issue? Used the same exact cable and hub with different monitor, worked.</p>
+<p>Maybe monitor port issue? Used same HDMI port with Windows desktop, worked.</p>
+<p>Then I found this review on <a href="https://www.amazon.com/review/R19FF79H8JO7G9/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&amp;ASIN=B07JVKS8JQ">Amazon</a> for different ViewSonic model:</p>
+<blockquote>
+<p>Other reviewers here have noted all the pros about this monitor, I will just add that 1-) the adjustable stand is especially easy to use and useful for long hours and avoiding neck pain and 2-) reminder that they ship only a display port/USB cable and an HDMI cable with it even though monitor is USB -C enabled. if you are running Mojave 10.14 or later the adapters for display port and HDMI simply will not work, the mac book will never see the monitor. You <em>must</em> get a USB-C 3.1 to C cable. Then you can just plug it all in. Also need to add a shout out to Anne at Amazon (complimentary) tech support for helping figure all this out by coordinating with ViewSonic because it wasn&rsquo;t documented anywhere at the point at which I was trying to do it. Thank you Anne!</p>
+<ul>
+<li>bookkook, 2019 March</li>
+</ul>
+</blockquote>
+<p>Hey, that problem sounds familiar.</p>
+<p>So I just learned there&rsquo;s a lot of USB-C variant, and USB-C 3.1 gen 2 is a thing.</p>
+<p>Currently ordering a new cable, will update later.</p>
+<p>Update: It&rsquo;s 2022 and I bought a new cable.</p>
+<p>It&rsquo;s <a href="https://www.ventioncable.com/product/usb-c-to-hdmi-cable-2/">HDMI to USB-C from Vention</a>.
+Surprise! It worked! I&rsquo;ll skip the story of the package courier miss-deliver the cable and I had to buy it twice.</p>
+<p>After using it a full day without problems, I realized a fatal miss when it&rsquo;s time to charge the laptop.
+Macbook air only have 2 USB-C ports! 1 for monitor, and the other one for USB hub, this is for keyboard etc. and I can&rsquo;t work without it.</p>
+<p>Okay, back to square one. I tried rummaging through my jumbled mess cable collection and found a HDMI to HDMI cable.
+Not sure where it&rsquo;s from, maybe from Nintendo Switch.
+It looks exactly like your average HDMI cable, and it&rsquo;s pretty old, but there&rsquo;s no harm in trying it right?</p>
+<p>Another surprise! I have zero idea why, but connecting that old HDMI cable to the USB Hub and it worked! Mac could properly detect the monitor now.
+The only thing I can identify from the cable is E202584 AWM from a company called Linkiss.</p>
+<p>In a way, I wasted a total of IDR 319K for unused cables and few hours to look into the cause.
+What I learnt from this:</p>
+<ul>
+<li>I have no idea how HDMI works</li>
+<li>I have even less idea how USB C works</li>
+</ul>
+<h2 id="windows--monitors-with-mixed-hdr-mode">Windows + Monitors with Mixed HDR Mode</h2>
+<p>Windows 10 with multi-monitor, but only some of them have support HDR.</p>
+<p>If HDR is enabled on supported monitors, this will break preview feature from Windows on non-HDR monitor. E.g. win+tab will show black desktop and windows, hovering on running program from taskbar will show black window instead of actual preview.</p>
+<p>Solution, turn off HDR :(</p>
+]]></content:encoded></item><item><title>Device List</title><link>https://darcien.dev/p/devices/</link><pubDate>Tue, 02 Mar 2021 22:38:10 +0700</pubDate><guid>https://darcien.dev/p/devices/</guid><description>List of devices that I use, mainly to make sure I don&amp;rsquo;t forget that I (used to) own these things.</description><content:encoded><![CDATA[<p>List of devices that I use, mainly to make sure I don&rsquo;t forget that I (used to) own these things.
+The year is the approximate year I obtained them.</p>
+<p>They&rsquo;re listed in alphabetical order.</p>
+<h2 id="functional">Functional</h2>
+<ul>
+<li>Apple iPhone X 256GB [Handphone] (late 2018) -&gt; my daily driver, perfect fit for my hand.</li>
+<li>Apple Watch Series 3 42mm [Smartwatch] (early 2021) -&gt; heartbeat and general physical activity tracker, at least it&rsquo;s cheaper than Garmin&rsquo;s.</li>
+<li>Audio Technica ATH-M50x [Headphone] (~2016) -&gt; best general use headphone IMO.</li>
+<li>Dell U2417H [24&quot; IPS Monitor] (mid 2018) -&gt; I love this monitor, might buy another one if my old monitor dies.</li>
+<li>Endgame Gear XM1r [Wired Mouse] (early 2022) -&gt; I don&rsquo;t know why this is marketed as gaming mouse, but this is my perfect casual mouse and it has just right weight.</li>
+<li>HP W2072a [20&quot; TN Monitor] (~2012) -&gt; one of my earliest monitor, still going strong!</li>
+<li>ViewSonic XG2431 [24&quot; 240Hz IPS Monitor] (late 2021) -&gt; impulsive purchase, first time looking at monitor with high refresh rate, recommended by a friend.</li>
+<li>KBParadise V80 Vintage MX Brown switch [Keyboard] (late 2018) -&gt; I won&rsquo;t go back to full sized keyboard.</li>
+<li>Lenovo B40-70 [Laptop] (mid 2015) -&gt; from my uni, avoid this thing if possible, the frame is weaker than a rice cracker.</li>
+<li>Logitech M325 [Wireless Mouse] (early 2014) -&gt; decent mouse with ridiculous lifetime.</li>
+<li>Nintendo Switch Lite [Game Console] (mid 2019)* -&gt; why I can&rsquo;t dock it :&lt;</li>
+<li>Nintendo Switch v2 [Game Console] (late 2020) -&gt; it can docks :D</li>
+<li>ORICO SHC-U3 4 Port [USB Hub] (mid 2020) -&gt; some cheapo USB 3.0 hub, I need more ports.</li>
+<li>Pioneer XDP-30R [Digital Audio Player] (early 2019) -&gt; awesome HQ audio player for the price, it also got mechanical volume dial, I love it!</li>
+<li>Rock DT-618 [Wireless Charger] (late 2018) -&gt; kinda meh, slow charge and heats up after awhile.</li>
+<li>Samson Meteor Mic [Condenser Microphone] (late 2017) -&gt; decent portable condenser mic, sadly it&rsquo;s USB only though.</li>
+<li>Sony DualShock 4 v2 CUH-ZCT2 [Wireless Gamepad] (~2016) -&gt; you can&rsquo;t have a dead cable if you don&rsquo;t have any cables ;)</li>
+<li>Sony SRS-XB10 [Wireless Speaker] (late 2018) -&gt; got it for free, pretty decent mono speaker.</li>
+<li>Sony WH-1000XM3 [Wireless Headphone] (late 2018)* -&gt; pretty good noise cancelling, sadly not a good match with my ear shapes.</li>
+<li>Yamaha AG06 [Audio Interface] (late 2020) -&gt; a godsent for managing all of my audio inputs, I also love its mechanical interface.</li>
+</ul>
+<h2 id="needs-fixing">Needs Fixing</h2>
+<ul>
+<li>OnePlus One 16GB [Handphone (early 2016) -&gt; used to be flagship killer, need new battery.</li>
+<li>Sony PSP-3000 [Game Console] (~2010) -&gt; need to replace the membrane for the buttons, power switch kinda broken, screen also have dead pixel lines.</li>
+</ul>
+<h2 id="not-sure">Not Sure</h2>
+<ul>
+<li>Nintendo Game Boy Advance SP AGS-001 [Game Console] (~200x) -&gt; the display brightness sucks, also the chargers keep dying.</li>
+<li>Nintendo Game Boy Color CGB-001 [Game Console] (~200x) -&gt; probably still works, need AA batteries though.</li>
+<li>Nintendo SNES North American SNS-001 model [Game Console] (~200x) -&gt; not sure if this thing still alive or not, this thing is older than me.</li>
+<li>Samsung C3590 [Handphone] (~2013) -&gt; fav flip phone, haven&rsquo;t used it for years.</li>
+<li>Sennheiser HD202 [Headphone] (~2014) -&gt; probably still works, haven&rsquo;t used it again since M50x.</li>
+<li>Sony PlayStation PS1 original model [Game Console] (~200x) -&gt; same, no idea about this one after all these years.</li>
+</ul>
+<h2 id="dead">Dead</h2>
+<ul>
+<li>HP Mini 110 (I think, I forgot if it&rsquo;s 110 or 210, but it&rsquo;s the 10'1&quot; screen) [Notebook] (~2010) -&gt; dead HDD and battery, half dead monitor, not worth repairing.</li>
+<li>Logitech F310 Gamepad [Gamepad] (~2013) -&gt; dead cable, then I fked up when soldering the new one.</li>
+<li>Nokia C7-00 [Handphone] (~2011) -&gt; handed off to family member, dead battery etc.</li>
+<li>Sennheiser CX 1.00 [Earphone] (early 2016) -&gt; probably just dead cable, but not worth repairing.</li>
+</ul>
+<h2 id="not-yet-owned-aka-wishlist">Not yet owned AKA wishlist</h2>
+<ul>
+<li>Bluray player -&gt; Already owned a bunch of bluray discs but can&rsquo;t play them :(</li>
+</ul>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>* - no longer using them, for sale.</li>
+</ul>
+]]></content:encoded></item><item><title>Buyee or Geek Jack?</title><link>https://darcien.dev/p/buyee-or-geekjack/</link><pubDate>Sun, 20 Dec 2020 19:35:46 +0700</pubDate><guid>https://darcien.dev/p/buyee-or-geekjack/</guid><description>My personal experiences from buying VTuber goods through Buyee and Geek Jack.</description><content:encoded><![CDATA[<h2 id="intro">Intro</h2>
+<p>Recently I&rsquo;ve been hooked with VTuber from Hololive and Nijisanji.
+Usually they sell the official goods through <a href="https://booth.pm/">BOOTH</a> or <a href="https://www.geekjack.net/">Geek Jack</a>.
+Geek Jack ships globally, but BOOTH ship to Japan address only.
+So I need another proxy service like <a href="https://buyee.jp/">Buyee</a> if I were to buy from BOOTH.</p>
+<p>I want to compare the experience of buying the goods through Buyee and Geek Jack, so I will keep notes of them here.</p>
+<h2 id="data">Data</h2>
+<p>All prices are in JPY. Prices doesn&rsquo;t include customs tax etc. Service fee include things like consolidation and protective packages.
+Some goods are pre-ordered, so the total days doesn&rsquo;t count the days where the service are waiting for the goods to be shipped from the seller.</p>
+<table>
+<thead>
+<tr>
+<th>Goods</th>
+<th style="text-align:right">Goods Price</th>
+<th>Service</th>
+<th style="text-align:right">Service Fee</th>
+<th style="text-align:right">Delivery Fee</th>
+<th style="text-align:center">Date Bought</th>
+<th style="text-align:center">Received After x Days</th>
+<th style="text-align:right">Total Days</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hoshimachi Phone Case + T-Shirt</td>
+<td style="text-align:right">8500</td>
+<td>Buyee</td>
+<td style="text-align:right">1800</td>
+<td style="text-align:right">3442</td>
+<td style="text-align:center">25-06-2020</td>
+<td style="text-align:center">27</td>
+<td style="text-align:right">27</td>
+</tr>
+<tr>
+<td>Watame Birthday 2020 Full Set</td>
+<td style="text-align:right">10000</td>
+<td>Geek Jack</td>
+<td style="text-align:right">-</td>
+<td style="text-align:right">2000</td>
+<td style="text-align:center">11-07-2020</td>
+<td style="text-align:center">102</td>
+<td style="text-align:right">19</td>
+</tr>
+<tr>
+<td>Marin Birthday 2020 Full Set</td>
+<td style="text-align:right">10000</td>
+<td>Buyee</td>
+<td style="text-align:right">1800</td>
+<td style="text-align:right">3080</td>
+<td style="text-align:center">07-08-2020</td>
+<td style="text-align:center">133</td>
+<td style="text-align:right">8</td>
+</tr>
+<tr>
+<td>Shion 2nd Anniv Full Set</td>
+<td style="text-align:right">10000</td>
+<td>Buyee</td>
+<td style="text-align:right">1800</td>
+<td style="text-align:right">2810</td>
+<td style="text-align:center">18-08-2020</td>
+<td style="text-align:center">122</td>
+<td style="text-align:right">23</td>
+</tr>
+<tr>
+<td>Mio Birthday 2020 Full Set</td>
+<td style="text-align:right">9000</td>
+<td>Buyee</td>
+<td style="text-align:right">800</td>
+<td style="text-align:right">3991</td>
+<td style="text-align:center">11-09-2020</td>
+<td style="text-align:center">102</td>
+<td style="text-align:right">6</td>
+</tr>
+<tr>
+<td>Beyond the Stage Supporting Set + Tapestry</td>
+<td style="text-align:right">13000</td>
+<td>Geek Jack</td>
+<td style="text-align:right">-</td>
+<td style="text-align:right">2400</td>
+<td style="text-align:center">24-10-2020</td>
+<td style="text-align:center">~93</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td>Beyond the Stage Hoodie</td>
+<td style="text-align:right">7500</td>
+<td>Geek Jack</td>
+<td style="text-align:right">-</td>
+<td style="text-align:right">2400</td>
+<td style="text-align:center">30-10-2020</td>
+<td style="text-align:center">~87</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td>Hoshimachi 500K Subs Goods</td>
+<td style="text-align:right">11000</td>
+<td>Buyee</td>
+<td style="text-align:right">800</td>
+<td style="text-align:right">3265</td>
+<td style="text-align:center">19-10-2020</td>
+<td style="text-align:center">151</td>
+<td style="text-align:right">17</td>
+</tr>
+<tr>
+<td>Shirakami Birthday 2020 Full Set</td>
+<td style="text-align:right">10000</td>
+<td>Buyee</td>
+<td style="text-align:right">800</td>
+<td style="text-align:right">3265</td>
+<td style="text-align:center">6-10-2020</td>
+<td style="text-align:center">164</td>
+<td style="text-align:right">17</td>
+</tr>
+</tbody>
+</table>
+<h2 id="services-comparison">Services Comparison</h2>
+<ul>
+<li>Order status tracking</li>
+</ul>
+<p>Both services provide the order status. Buyee displays the order status on the site and sends notification email.
+Geek Jack only show something like &ldquo;Order Status Succeeded&rdquo; in the site. Everything else goes to the email.
+They&rsquo;ll sent something like &ldquo;The benefits of [Goods Name] will arrive at our warehouse next week. We will start shipping as soon as possible.&rdquo;</p>
+<figure>
+    <img loading="lazy" src="/img/buyee-status.png"
+         alt="Buyee order status"/> <figcaption>
+            <p>Here&rsquo;s how it looks on Buyee&rsquo;s site</p>
+        </figcaption>
+</figure>
+
+<p>Overall, there&rsquo;s not much difference for the order status udaptes other than the misleading status in the Geek Jack site.</p>
+<ul>
+<li>Buying limited quantity goods</li>
+</ul>
+<p>Since Buyee is a proxy service, when I buy goods through Buyee, I need to wait for someone from Buyee confirm my order and buy it for me.
+I&rsquo;m not sure if it&rsquo;s an automated service or there&rsquo;s an actual person doing it behind the scene. All of my orders are bought within 24 hours, there are also times when the items are bought within 1 hour, which is really fast!</p>
+<p>Most of the time, that service speed is good enough. But things are different for limited quantity goods! Stuffs like full set goods that have postcard with handwritten autograph as bonus will be out of stock in no time. Just like the previous Ayame Birthday 2020 pack which sold out in less than 2 minutes. Buyee service doesn&rsquo;t work for goods like that!</p>
+<p>So I tried using Geek Jack for limited goods. Spoiler: it doesn&rsquo;t end well. The website doesn&rsquo;t load at all when a new limited goods are released! I guess everyone outside of Japan had the same idea and flocked to Geek Jack to buy it. And boom, connection timed out! Waited a bit and reloaded the page&hellip; I was greeted by a big &ldquo;SOLD OUT&rdquo; plastered over the goods page. That&rsquo;s it, I&rsquo;m buying the replica autograph set 🙂.</p>
+<p>Both Buyee and Geek Jack doesn&rsquo;t work really well for limited quantity goods. I think I need to use something like forwarding service from <a href="https://www.tenso.com/en">Tenso</a> so I can buy it directly from the seller. I&rsquo;ll try it in the future.</p>
+<ul>
+<li>Delivery courier choices</li>
+</ul>
+<p>Buyee support various delivery, but most of them have low upper limit for size or weight<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+So most of the time, the only ones available are EMS(Japan Post International Courier), DHL, and Japan Post Seamail.</p>
+<!-- raw HTML omitted -->
+<figure>
+    <img loading="lazy" src="/img/buyee-shipping-method.png"
+         alt="Buyee shipping methods"/> <figcaption>
+            <p>These are the available methods at Buyee on March 2021</p>
+        </figcaption>
+</figure>
+
+<p>Meanwhile, Geek Jack only ships with EMS, so there&rsquo;s no choice there<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Updates: On January 2021, Geek Jack seems to ship my package with <a href="https://www.global.ecmsglobal.com/">ECMS</a> instad of EMS. When the package arrived in Indonesia, I got contacted by their staff, asking confirmation whether I want to pay for the tax or not. Then I got hit by expensive entry tax that basically doubles the price. At this point I don&rsquo;t think I can recommend Geek Jack over Buyee for cheaper total fee.</p>
+<ul>
+<li>Prices</li>
+</ul>
+<p>The prices aspect is pretty hard to compare. Mostly it depends on what I buy, which additional services I use, and which delivery courier I pick.</p>
+<p>If I wanted to buy one item, I think I might prefer Geek Jack for it&rsquo;s simplicity. Most of the time, the delivery price is included in the goods price, no extra charges whatsoever. They&rsquo;re around 2000 to 3000 JPY. So I can just add to cart, pay for it, and done.</p>
+<p>When the delivery fee is not included, it&rsquo;ll be added on the checkout process. Usually it&rsquo;s 2400 JPY.</p>
+<p>With Buyee, since it&rsquo;s a proxy service, I can actually buy multiple items from different sellers. Those items will be stored in their warehouse until I decide when to ship them. They offer free storage for 30 days, which is plenty enough.</p>
+<p>There are two services from Buyee that I usually use, package consolidation and protective packaging.
+Package consolidation is just a service to consolidate multiple packages into a single package. It costs 500 JPY to consolidate 2 packages<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+They might still split it into multiple packages if it&rsquo;s too big though.
+And the protective packaging is another optional service which they add a bunch of air bags and other protective packaging to the goods<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
+<figure>
+    <img loading="lazy" src="/img/buyee-air-bag.jpg"
+         alt="Air bag from buyee"/> <figcaption>
+            <p>These are the air bags from Buyee</p>
+        </figcaption>
+</figure>
+
+<p>It costs 1500 JPY, which is pretty expensive in my opinion.
+But I don&rsquo;t want to take any risk when buying fragile goods like acrylic panel, so I opted in anyway.</p>
+<p>Other than that, Buyee also charges for the shipping fee from the seller to Buyee. From my experience, they ranges from 700 to 1000 JPY.</p>
+<p>After totalling all the additional services and fee, on average I would pay ~3900 JPY for each package when using Buyee.
+Which is around 44% more expensive than buying from Geek Jack.</p>
+<ul>
+<li>Payment</li>
+</ul>
+<p>Both services accepts PayPal, so I don&rsquo;t really try other payment method here.</p>
+<ul>
+<li>Digital items</li>
+</ul>
+<p>Sometimes the goods include digital items like situational voice or song.</p>
+<p>With Geek Jack, after purchasing, I can download it from the website.
+If I remember correctly, they limit it so I can only download it 100 times.</p>
+<p>But at the time of writing this, they removed the download link.
+And there&rsquo;s an announcement regarding the digital items on the homepage: &ldquo;After purchasing a digital product, Our customer service will contact you by email for the download link of the digital product.&rdquo;.
+So I guess I need to contact the customer service if I want to download my old purchases again?
+I&rsquo;m not really sure about this one but thankfully I already downloaded them all and backed them up.</p>
+<p>Meanwhile, Buyee is not really suitable for digital products, but they still somewhat support it<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>.
+Basically, after purchasing the goods, I need to contact the support so they can add the downloadable content to my account.</p>
+<p>At first, I thought this process was automatic, so I didn&rsquo;t contact the support.
+But after the physical goods from the same package arrived at my place and I still got no news about the digital items, I decided to contact customer service.</p>
+<p>For the first inquiry, I used the consolidated package number, and this is their response:</p>
+<pre tabindex="0"><code>Fri, Dec 18, 2020 at 11:01
+
+Dear Yosua Ian Sebastian,
+
+This is the Buyee customer support.
+Thank you for using our service.
+
+In response to your concern for package [REDACTED], upon confirming, we have confirmed that the package has already shipped out from our warehouse. Therefore, we are afraid to inform you that we are unable to meet your request this time.
+
+We are afraid we can no longer contact the seller for any inquiry. Basically, the purpose of contacting the seller is to gather information about the item and it should be done prior to bidding or any transactions.
+
+Thank you in advance for your understanding.
+
+Please do not hesitate to contact us if you have any other questions or concerns.
+
+Sincerely,
+[REDACTED]
+Buyee customer support
+</code></pre><p>Okay, that doesn&rsquo;t sound really good.
+I know that BOOTH should still have the download link available since the product was relatively new.</p>
+<p>So I tried to contact the customer support one more time, this time using the individual package number instead of the consolidated one.</p>
+<p>And they replied:</p>
+<pre tabindex="0"><code>Fri, Dec 18, 2020 at 17:13
+
+Dear Yosua Ian Sebastian,
+
+This is the Buyee customer support.
+Thank you for using our service.
+
+Regarding the auction ID [REDACTED], we will contact the seller to arrange the transaction. We have confirmed from our related department that the voice packs of these items will be available on January 31, 2021.
+
+It usually takes around 2-3 business days for the code/information to be shown on your &#34;My Page&#34; once available.
+
+You will be notified by email after the code/information is available, and you will find it in the &lt;Digital Products&gt; section of your &#34;My Page&#34;.
+
+Thank you for your patience and understanding.
+
+Please do not hesitate to contact us if you have any other questions or concerns.
+
+Sincerely,
+[REDACTED]
+Buyee customer support
+</code></pre><p>Nice! There&rsquo;s still some hope to get my digital goods!
+I haven&rsquo;t got any email notification regarding it after one week has passed though.
+Probably I&rsquo;ll wait until the holiday season is over before contacting the customer support again.</p>
+<p>Overall, both of them are kinda questionable regarding digital goods. So, if the goods are digital only, there&rsquo;s no physical goods in the set, buying directly on BOOTH might be better.</p>
+<ul>
+<li>Changing delivery address</li>
+</ul>
+<p>Changing the delivery address is only possible before the goods are shipped(duh).</p>
+<p>For Buyee, it&rsquo;s possible to select a different address before shipping, simple enough.</p>
+<p>For Geek Jack, I need to contact the customer service to change the delivery address.
+It&rsquo;s simple enough though, I just need to specify the order ID and new address.
+Usually they also send confirmation email for the address before shipping, so I can also reply that email.</p>
+<ul>
+<li>Insurance</li>
+</ul>
+<p>Now this part is something I haven&rsquo;t fully explored.</p>
+<p>The standard plan for Buyee includes insured delivery and inspection.
+The insured delivery covers for damage during transit etc.
+While the inspection will check for mismatch between the delivered goods and the online description.
+That standard plan only costs 500 JPY, so I always use it<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.
+And I never got mismatch or damaged product, so I can&rsquo;t comment too much on the service itself.</p>
+<p>Geek Jack seems to accept exchanging damaged item: &ldquo;If the item was damaged at the time of receipt, please send us email with the picture to know the damaged parts and the receiving date and time. We accept exchanging or returning within seven days of the arrival of the item.&rdquo;<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>
+But I haven&rsquo;t tried it before, probably the delivery cost is going to sting a bit.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>If the goods are available on Geek Jack, it might be cheaper and easier to just buy it from them. (Assuming they still use EMS.)
+For now I prefer using Buyee to buy it from BOOTH.</p>
+<p>In the future I think I&rsquo;ll try buying through Indonesian based proxy service like <a href="https://kyou.id/">kyou.id</a>.</p>
+<h2 id="references">References</h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://web.archive.org/web/20201227111304/https://buyee.jp/help/yahoo/guide/shipping-method?lang=en">https://web.archive.org/web/20201227111304/https://buyee.jp/help/yahoo/guide/shipping-method?lang=en</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://web.archive.org/web/20201227111350/https://www.geekjack.net/">https://web.archive.org/web/20201227111350/https://www.geekjack.net/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://web.archive.org/web/20201222115318/https://buyee.jp/help/yahoo/guide/consolidate">https://web.archive.org/web/20201222115318/https://buyee.jp/help/yahoo/guide/consolidate</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://web.archive.org/web/20201222115304/https://buyee.jp/help/yahoo/guide/packing">https://web.archive.org/web/20201222115304/https://buyee.jp/help/yahoo/guide/packing</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://web.archive.org/web/20201227121519/https://faq.buyee.jp/article/187?lang=en">https://web.archive.org/web/20201227121519/https://faq.buyee.jp/article/187?lang=en</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://web.archive.org/web/20201229091738/https://buyee.jp/help/yahoo/guide/plans?lang=en">https://web.archive.org/web/20201229091738/https://buyee.jp/help/yahoo/guide/plans?lang=en</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="https://web.archive.org/web/20201229092917/https://www.geekjack.net/faq.html">https://web.archive.org/web/20201229092917/https://www.geekjack.net/faq.html</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>Where's My index.html?</title><link>https://darcien.dev/p/wheres-my-index-html/</link><pubDate>Wed, 20 May 2020 19:18:21 +0700</pubDate><guid>https://darcien.dev/p/wheres-my-index-html/</guid><description>How I learned about git submodules behavior when trying to deploy this site.</description><content:encoded><![CDATA[<h2 id="intro">Intro</h2>
+<p>&ldquo;I can&rsquo;t wait to try out the new <del>Daddy</del> Caddy!&rdquo;</p>
+<p>That&rsquo;s what I thought while working on this new site.
+<a href="https://caddyserver.com/v2">Caddy</a> just released their v2 the other day.
+So I wanted to replace my old Nginx server just for the sake of it.</p>
+<p>Before doing that, maybe it&rsquo;s better if I have something to serve from the server.</p>
+<p>&ldquo;It&rsquo;s time for you to graduate from redirect slave!&rdquo;.</p>
+<p>And that&rsquo;s my main reason for making this site.
+This site is generated with <a href="https://gohugo.io/">Hugo</a> and using a nice premade <a href="https://github.com/panr/hugo-theme-terminal">theme</a>.</p>
+<p>Just add a bunch of markdowns, modify the config a bit, and maybe tweak the theme fonts, and I&rsquo;m done!</p>
+<p>I didn&rsquo;t think it would be this easy to make a site that looks nice(in my opinion).
+Deploying it should also be trivial right? Oh how I couldn&rsquo;t be more wrong.</p>
+<h2 id="problem">Problem</h2>
+<p>Initially, I wanted to make the site compile on my machine, pack it up, and <code>scp</code> it to the server.</p>
+<p>But that&rsquo;s boring.
+And there are other points that I care:</p>
+<ul>
+<li>What if I wanted to create a new post on a different machine? Do I need to setup the env on the other machine too?</li>
+<li>Maybe I want to automatically build if the site repo is updated?</li>
+</ul>
+<p>Okay, that&rsquo;s it. I want to make the site compile on the server.</p>
+<p>I quickly created a new remote repo, pushed it all up, and then pulled it from the server.</p>
+<p>To build the site, all I need is just the <code>hugo</code> binary.
+The server ran on a super common linux distro, should be easy.</p>
+<p>The installation docs mentioned an official debian package available.
+Ran <code>sudo apt-get install hugo</code>, and the installation finished without problem.
+There&rsquo;s a warning about the Linux package usually is a few versions behind.
+Well, a <em>few</em> versions behind should be fine right?</p>
+<p>So, I went ahead and built the site, <code>hugo -D</code>, easy peasy.
+Now just need to serve the build result.</p>
+<p>Here&rsquo;s where things start to spiral down.</p>
+<p>When I tried opening the site, it&rsquo;s returning 403. Why!?</p>
+<p>Oh, maybe I forgot to change the permission for the build result directory.
+Hmm, no, it&rsquo;s already 755.</p>
+<p>So I checked the access log. Hmm, it&rsquo;s accessing the right thing, there&rsquo;s nothing out of norm.</p>
+<p>Moving on, I checked the content of the build directory.
+Aha! There&rsquo;s no <code>index.html</code> in the build result.
+Which is weird&hellip; Why the resulting build is different here?
+My machine is MacOS, and I believe in Hugo&rsquo;s cross platform support.
+Maybe there&rsquo;s something else?</p>
+<p>Hmmmmm, maybe it&rsquo;s the <code>hugo</code> binary itself 🤔.
+Surprise! Running <code>hugo version</code> gives me <code>v0.40.1</code>.
+Man this is really old, I could find one or two fossils in here.</p>
+<p>Might as well install the binary with the same version as my machine directly.
+At the current time, it&rsquo;s <code>v0.71.0</code>.
+Proceed to download and install the binary, yada yada yada, now I got the same version on the server.</p>
+<p>After building with same binary, the output should be the same.
+Wrong! It still doesn&rsquo;t generate the <code>index.html</code> 😭.</p>
+<p>Pretty desperate at this point.
+Maybe I should recheck the entire source again?
+Hmm, there&rsquo;s nothing out of the norm.
+The theme? I highly doubt it, but let&rsquo;s check it anyway.</p>
+<p>Huh? The theme directory is empty?
+What happened here, I&rsquo;m pretty sure I commited the entire theme to the repo.</p>
+<p>Is it because I used <code>git submodule</code> to add the theme? A quick googling tells me that this is case.</p>
+<blockquote>
+<p>When you clone a project with submodule in it, by default you get the directories that contain submodules, but none of the files within them yet.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
+<p>OMG, all the time I spent debugging this.
+I probably could save them if I actually read how to use submodules first.</p>
+<p>Since I already cloned the repo, all I need is to fetch the missing submodules.
+This command did the trick:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># This command will fetch and update all the submodules in the repo.</span>
+</span></span><span class="line"><span class="cl">$ git submodule update --init --recursive
+</span></span></code></pre></div><p>Finally, it&rsquo;s the moment of truth.</p>
+<p>Yatta! The <code>index.html</code> is here, and I can open the site 🥳🎉.</p>
+<p>Now my old server has been officially promoted to be a redirect servant and HTML server.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Be careful when running any commands that you&rsquo;re not familiar with.
+While it might work now.
+It might cause headache or maybe even trip you in the future.
+Proceed carefully 😉.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">https://git-scm.com/book/en/v2/Git-Tools-Submodules</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item></channel></rss>

@@ -1,1 +1,203 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>til on A blog by Yosua Ian Sebastian</title><link>https://darcien.dev/tags/til/</link><description>Recent content in til on A blog by Yosua Ian Sebastian</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 26 Apr 2023 19:28:39 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/til/index.xml" rel="self" type="application/rss+xml"/><item><title>I Have No Power Here</title><link>https://darcien.dev/p/i-have-no-power-here/</link><pubDate>Wed, 26 Apr 2023 19:28:39 +0700</pubDate><guid>https://darcien.dev/p/i-have-no-power-here/</guid><description>Workout data synced from HealthFit to intervals.icu does not include data that&amp;rsquo;s not supported by Apple Health.</description></item><item><title>TypeScript Inlay Hints Exists in VSCode</title><link>https://darcien.dev/p/typescript-inlay-hints-exists-in-vscode/</link><pubDate>Mon, 02 Jan 2023 17:16:53 +0700</pubDate><guid>https://darcien.dev/p/typescript-inlay-hints-exists-in-vscode/</guid><description>First TIL of 2023</description></item><item><title>SQLFluff Is a Thing</title><link>https://darcien.dev/p/sqlfluff-is-a-thing/</link><pubDate>Thu, 08 Dec 2022 22:09:26 +0700</pubDate><guid>https://darcien.dev/p/sqlfluff-is-a-thing/</guid><description>A fluff that I wish I had known earlier.</description></item><item><title>Where's My index.html?</title><link>https://darcien.dev/p/wheres-my-index-html/</link><pubDate>Wed, 20 May 2020 19:18:21 +0700</pubDate><guid>https://darcien.dev/p/wheres-my-index-html/</guid><description>How I learned about git submodules behavior when trying to deploy this site.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/til/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 26 Apr 2023 19:28:39 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/til/index.xml" rel="self" type="application/rss+xml"/><item><title>I Have No Power Here</title><link>https://darcien.dev/p/i-have-no-power-here/</link><pubDate>Wed, 26 Apr 2023 19:28:39 +0700</pubDate><guid>https://darcien.dev/p/i-have-no-power-here/</guid><description>Workout data synced from HealthFit to intervals.icu does not include data that&amp;rsquo;s not supported by Apple Health.</description><content:encoded><![CDATA[<p>I&rsquo;ve been using Zwift with a Wahoo Kickr for a while.
+But graphs in Zwift isn&rsquo;t fancy enough.
+I want ✨fancy✨ graphs like in <a href="https://intervals.icu/">intervals.icu</a>.</p>
+<p>So I&rsquo;ve been downloading FIT files from Zwift manually,
+transfer them to my phone,
+and use <a href="https://apps.apple.com/us/app/healthfit/id1202650514">HealthFit</a> to sync them to other places, including intervals.icu.</p>
+<p>Here comes the main topic,
+the workout in Zwift always show current power output.
+But when I check the workout in intervals.icu, it says no power data 🤔.</p>
+<p>I thought it&rsquo;s just FIT file from Zwift doesn&rsquo;t contain the power data when exported.
+Turns out that&rsquo;s not the case.
+When the exported FIT file is opened using <a href="https://www.fitfileviewer.com/">FIT File Viewer</a>, I can see the power data.
+Same thing when the FIT file uploaded to intervals.icu directly, power is there.</p>
+<p>So the issue was between HealthFit &lt;-&gt; intervals.icu.
+I did a short internet search but couldn&rsquo;t find people with similar issues.
+End up sending an email to HealthFit support about this.</p>
+<p>The reply got is this:</p>
+<blockquote>
+<p>From S. Lizeray</p>
+<p>&hellip;</p>
+<p>Apple Health does not support cycling power, only running power. Hence it can’t be uploaded to the fitness platforms.</p>
+</blockquote>
+<p>Okay, so it&rsquo;s not a HealthFit issue, apparently it is an Apple Health limitation?</p>
+<p>I did another search and found some lead:</p>
+<blockquote>
+<p><a href="https://forum.intervals.icu/t/healthfit-sync-for-activities-and-health-metrics/2718/35">From slizeray</a></p>
+<p>HealthFit mirrors Apple Health and Apple Health is the only source of truth for HealthFit.</p>
+<p>In addition, power data is not supported in Apple Health, so there is no power data in it.</p>
+</blockquote>
+<p>Hey, this confirms it!</p>
+<p>I guess this means I would just stop using HealthFit and upload FIT files directly to intervals.icu if I want to see the power data 🥺.</p>
+<p>P.S. Shoutout to Stéphane Lizeray, I&rsquo;m not sure if this person is a one person army building HealthFit,
+but thanks for HealthFit, fast support response, and all the informative replies in intervals.icu forum.</p>
+<p>P.S.S. Dear Apple, I wish power data is supported in Apple Health 🙏.</p>
+<hr>
+<p>Post 11 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>TypeScript Inlay Hints Exists in VSCode</title><link>https://darcien.dev/p/typescript-inlay-hints-exists-in-vscode/</link><pubDate>Mon, 02 Jan 2023 17:16:53 +0700</pubDate><guid>https://darcien.dev/p/typescript-inlay-hints-exists-in-vscode/</guid><description>First TIL of 2023</description><content:encoded><![CDATA[<p>TIL inlay hints for TypeScript already exists on VSCode<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+I thought it was a Deno only thing<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>First time I saw inlay hints was on a Rust codebase few years ago<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+Initially I thought it was annoying, pushing unfinished code around with hints.</p>
+<p>But now, after spending few days with inlay hints enabled by default on a Deno codebase,
+I love inlay hints<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>!
+It&rsquo;s like my dream of named args in TS came true<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.</p>
+<p>Sure using object destructure kinda works as a workaround.
+But there are times where the function is coming from a 3rd party SDK or used in hundred different places.
+And it was really hard to read and understand all those pesky inline booleans.</p>
+<p>From today, those issues are no longer a thing!
+<figure>
+    <img loading="lazy" src="/img/til-inlay-hint.png"
+         alt="Comparison of TS inlay hints off vs on."/> <figcaption>
+            <p>Comparison of TS inlay hints turned off vs on. Left is off; right is on.</p>
+        </figcaption>
+</figure>
+
+These inlay hints settings are configured under <code>typescript.inlayHints.*</code> in the <code>settings.json</code>.</p>
+<hr>
+<p>Post 9 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://code.visualstudio.com/docs/typescript/typescript-editing#_inlay-hints">https://code.visualstudio.com/docs/typescript/typescript-editing#_inlay-hints</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://deno.com/blog/v1.27#inlay-hints">https://deno.com/blog/v1.27#inlay-hints</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://rust-analyzer.github.io/manual.html#inlay-hints">https://rust-analyzer.github.io/manual.html#inlay-hints</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://deno.com/blog/v1.29#inlay-hints-are-enabled-by-default-in-vscode-extension">https://deno.com/blog/v1.29#inlay-hints-are-enabled-by-default-in-vscode-extension</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://github.com/microsoft/TypeScript/issues/467">https://github.com/microsoft/TypeScript/issues/467</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://reasonml.github.io/docs/en/function#named-arguments">https://reasonml.github.io/docs/en/function#named-arguments</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>SQLFluff Is a Thing</title><link>https://darcien.dev/p/sqlfluff-is-a-thing/</link><pubDate>Thu, 08 Dec 2022 22:09:26 +0700</pubDate><guid>https://darcien.dev/p/sqlfluff-is-a-thing/</guid><description>A fluff that I wish I had known earlier.</description><content:encoded><![CDATA[<blockquote>
+<p>The SQL Linter for Humans</p>
+<p>Bored of not having a good SQL linter that works with whichever dialect you’re working with? Fluff is an extensible and modular linter designed to help you write good SQL and catch errors and bad SQL before it hits your database.</p>
+<p>From <a href="https://www.sqlfluff.com">https://www.sqlfluff.com</a></p>
+</blockquote>
+<p>Earlier today at work, I was helping my coworker debugging his SQL.
+The SQL was fairly simple.
+It creates a few tables, create some foreign keys, and insert some data.</p>
+<p>But when we execute the SQL, it is failing.
+Part of the SQL looks like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="s2">&#34;public&#34;</span><span class="p">.</span><span class="s2">&#34;some_table&#34;</span><span class="w"> </span><span class="p">(</span><span class="s2">&#34;category&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;description&#34;</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s2">&#34;drama&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;tears and blood&#34;</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></div><p>And the DB spits out this error:</p>
+<pre tabindex="0"><code>SQL Error [42703]: ERROR: column &#34;drama&#34; does not exist
+</code></pre><p>A battle-hardened SQL veteran would probably notice the issue immediately.
+But it&rsquo;s not very clear to regular human like me.</p>
+<p>If you guessed the problem is the quotes, then you&rsquo;re correct.
+String value must use single quotes as the double quotes is reserved for objects in PostgreSQL, like table and column names<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>I found it out after a bit of trial and error, a bit of headbanging, and no googling attempt.
+Which leads to me trying to find the tool to help writing an actually valid SQL, not one that looks kinda valid but not really.
+And that&rsquo;s how I found this fluff, which give somewhat better error message:</p>
+<pre tabindex="0"><code>L057 	2 / 22
+
+Do not use special characters in identifiers.
+</code></pre><p>Hey, at least it&rsquo;s not complaining about &ldquo;no drama&rdquo;.
+And the mentioning the cause is a special characters already helped pinpoint the issue.</p>
+<p>So, I am today years old when I learned:</p>
+<ul>
+<li>use single quotes for string, and double quotes for identifier,</li>
+<li><a href="https://www.sqlfluff.com/">SQLFluff</a> is a thing.</li>
+</ul>
+<hr>
+<p>Post 4 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.postgresql.org/docs/current/sql-syntax-lexical.html">https://www.postgresql.org/docs/current/sql-syntax-lexical.html</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>Where's My index.html?</title><link>https://darcien.dev/p/wheres-my-index-html/</link><pubDate>Wed, 20 May 2020 19:18:21 +0700</pubDate><guid>https://darcien.dev/p/wheres-my-index-html/</guid><description>How I learned about git submodules behavior when trying to deploy this site.</description><content:encoded><![CDATA[<h2 id="intro">Intro</h2>
+<p>&ldquo;I can&rsquo;t wait to try out the new <del>Daddy</del> Caddy!&rdquo;</p>
+<p>That&rsquo;s what I thought while working on this new site.
+<a href="https://caddyserver.com/v2">Caddy</a> just released their v2 the other day.
+So I wanted to replace my old Nginx server just for the sake of it.</p>
+<p>Before doing that, maybe it&rsquo;s better if I have something to serve from the server.</p>
+<p>&ldquo;It&rsquo;s time for you to graduate from redirect slave!&rdquo;.</p>
+<p>And that&rsquo;s my main reason for making this site.
+This site is generated with <a href="https://gohugo.io/">Hugo</a> and using a nice premade <a href="https://github.com/panr/hugo-theme-terminal">theme</a>.</p>
+<p>Just add a bunch of markdowns, modify the config a bit, and maybe tweak the theme fonts, and I&rsquo;m done!</p>
+<p>I didn&rsquo;t think it would be this easy to make a site that looks nice(in my opinion).
+Deploying it should also be trivial right? Oh how I couldn&rsquo;t be more wrong.</p>
+<h2 id="problem">Problem</h2>
+<p>Initially, I wanted to make the site compile on my machine, pack it up, and <code>scp</code> it to the server.</p>
+<p>But that&rsquo;s boring.
+And there are other points that I care:</p>
+<ul>
+<li>What if I wanted to create a new post on a different machine? Do I need to setup the env on the other machine too?</li>
+<li>Maybe I want to automatically build if the site repo is updated?</li>
+</ul>
+<p>Okay, that&rsquo;s it. I want to make the site compile on the server.</p>
+<p>I quickly created a new remote repo, pushed it all up, and then pulled it from the server.</p>
+<p>To build the site, all I need is just the <code>hugo</code> binary.
+The server ran on a super common linux distro, should be easy.</p>
+<p>The installation docs mentioned an official debian package available.
+Ran <code>sudo apt-get install hugo</code>, and the installation finished without problem.
+There&rsquo;s a warning about the Linux package usually is a few versions behind.
+Well, a <em>few</em> versions behind should be fine right?</p>
+<p>So, I went ahead and built the site, <code>hugo -D</code>, easy peasy.
+Now just need to serve the build result.</p>
+<p>Here&rsquo;s where things start to spiral down.</p>
+<p>When I tried opening the site, it&rsquo;s returning 403. Why!?</p>
+<p>Oh, maybe I forgot to change the permission for the build result directory.
+Hmm, no, it&rsquo;s already 755.</p>
+<p>So I checked the access log. Hmm, it&rsquo;s accessing the right thing, there&rsquo;s nothing out of norm.</p>
+<p>Moving on, I checked the content of the build directory.
+Aha! There&rsquo;s no <code>index.html</code> in the build result.
+Which is weird&hellip; Why the resulting build is different here?
+My machine is MacOS, and I believe in Hugo&rsquo;s cross platform support.
+Maybe there&rsquo;s something else?</p>
+<p>Hmmmmm, maybe it&rsquo;s the <code>hugo</code> binary itself 🤔.
+Surprise! Running <code>hugo version</code> gives me <code>v0.40.1</code>.
+Man this is really old, I could find one or two fossils in here.</p>
+<p>Might as well install the binary with the same version as my machine directly.
+At the current time, it&rsquo;s <code>v0.71.0</code>.
+Proceed to download and install the binary, yada yada yada, now I got the same version on the server.</p>
+<p>After building with same binary, the output should be the same.
+Wrong! It still doesn&rsquo;t generate the <code>index.html</code> 😭.</p>
+<p>Pretty desperate at this point.
+Maybe I should recheck the entire source again?
+Hmm, there&rsquo;s nothing out of the norm.
+The theme? I highly doubt it, but let&rsquo;s check it anyway.</p>
+<p>Huh? The theme directory is empty?
+What happened here, I&rsquo;m pretty sure I commited the entire theme to the repo.</p>
+<p>Is it because I used <code>git submodule</code> to add the theme? A quick googling tells me that this is case.</p>
+<blockquote>
+<p>When you clone a project with submodule in it, by default you get the directories that contain submodules, but none of the files within them yet.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
+<p>OMG, all the time I spent debugging this.
+I probably could save them if I actually read how to use submodules first.</p>
+<p>Since I already cloned the repo, all I need is to fetch the missing submodules.
+This command did the trick:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># This command will fetch and update all the submodules in the repo.</span>
+</span></span><span class="line"><span class="cl">$ git submodule update --init --recursive
+</span></span></code></pre></div><p>Finally, it&rsquo;s the moment of truth.</p>
+<p>Yatta! The <code>index.html</code> is here, and I can open the site 🥳🎉.</p>
+<p>Now my old server has been officially promoted to be a redirect servant and HTML server.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Be careful when running any commands that you&rsquo;re not familiar with.
+While it might work now.
+It might cause headache or maybe even trip you in the future.
+Proceed carefully 😉.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">https://git-scm.com/book/en/v2/Git-Tools-Submodules</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item></channel></rss>

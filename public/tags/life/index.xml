@@ -1,1 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>life on A blog by Yosua Ian Sebastian</title><link>https://darcien.dev/tags/life/</link><description>Recent content in life on A blog by Yosua Ian Sebastian</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 25 Nov 2022 01:30:43 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/life/index.xml" rel="self" type="application/rss+xml"/><item><title>Focusing Is Hard For Current Me</title><link>https://darcien.dev/p/focusing-is-hard-for-current-me/</link><pubDate>Fri, 25 Nov 2022 01:30:43 +0700</pubDate><guid>https://darcien.dev/p/focusing-is-hard-for-current-me/</guid><description>These days, I can not focus on one thing for extended amount of time.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/life/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 25 Nov 2022 01:30:43 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/life/index.xml" rel="self" type="application/rss+xml"/><item><title>Focusing Is Hard For Current Me</title><link>https://darcien.dev/p/focusing-is-hard-for-current-me/</link><pubDate>Fri, 25 Nov 2022 01:30:43 +0700</pubDate><guid>https://darcien.dev/p/focusing-is-hard-for-current-me/</guid><description>These days, I can not focus on one thing for extended amount of time.</description><content:encoded><![CDATA[<p>It&rsquo;s almost 2am now. What? It&rsquo;s already this late!?</p>
+<p>I started touching the codebase for this blog at 8pm.
+Why would it take 6 hours just to write some texts?</p>
+<p>Okay, tracking back my steps.
+This is my Windows machine, it&rsquo;s been forever since I used it to write anything including codes.
+Usually it&rsquo;s just a glorified media player or video editing workhorse.
+Oh all the distractions in this entertainment device&hellip;</p>
+<p>And I&rsquo;m typing on a &ldquo;new&rdquo; keyboard, my first split keyboard.
+It doesn&rsquo;t even have arrow keys.
+It has trackball and trackpoint on it though.
+Turns out not having a dedicated arrow keys is a major productity killer for me right now.
+Most common text manipulation shortcut I use needs arrow keys.
+And adding one extra mod key to press doesn&rsquo;t help.
+It puts my hand into a really clunky position.
+And you can throw muscle memory out of the window.</p>
+<p>The wooden palm rest is nice though.</p>
+<p>I also tried setting up Sapling, a git compatible SCM.
+Super interesting for me as I like the stacked PR approach.
+Maybe if I use it here, it will give me some good productivity and mood boost!
+1 hour trying, and&hellip; nope. I will stick with plain old git.
+It is compatible with git, but you can&rsquo;t use existing local git repo and start using sl (Sapling binary, equivalent to git) right away.
+You need to clone the remote again using <code>sl clone</code> as it use <code>.sl</code> instead of <code>.git</code>.
+The fact that sl errors with <code>abort: '&lt;path&gt;' is not inside a repository, but this command requires a repository!</code> does not help all.
+(Google only return 1 hit for that error and it&rsquo;s the source repo :), thankfully someone posted an issue upstream and has provided solution there, so thanks for that.)</p>
+<p>It&rsquo;s not only that, I also had a bunch of problem with sub modules and default-push behavior not working correctly.
+The web manual and help output from the binary also doesn&rsquo;t match.
+Undocumented commands here and there.
+Sapling is cool, probably it works great in Meta, but for me and my solo micro sized project, nah.</p>
+<p>After that, I also had to deal with a bunch of Windows env things.
+I&rsquo;m pretty sure I already have hugo binary installed and ready to use.
+Why would I get unknown command when running it?
+Maybe I fucked up some time ago, maybe a Windows update, maybe a rogue install script, who knows?
+Here we go, spelunking into Windows system env just to run a binary without specifying the full path every single time.</p>
+<p>Okay, Windows env all fixed up, good path, binary is in the path, all good.
+Or not, still not found in built-in command prompt in VSCode.
+Yes I opened a new prompt, not working.
+Closed all open prompt, reopen, still not working.
+I&rsquo;m tired, a full restart will definitely fix this and that&rsquo;s what I do.</p>
+<p>The turn off and then on again trick sure works!
+(Later on I realized restarting just VSCode also works)</p>
+<p>Now we have everything, I would start writing right?
+Turns out no, I just had to try and clean things up.
+Documents things here and there, setup <code>justfile</code> (Makefile alternative for running commands, not building) and all the mumbo jumbo since this is my first time using it.</p>
+<p>Finally, here we are nearing the end of the post.
+It&rsquo;s not even 1 hour to write all this messy ramblings.</p>
+<p>It&rsquo;s past 2am now and I realized it&rsquo;s really hard for me to focus right now, I would make excuses to avoid doing things to myself.
+I just want to write right now.
+I don&rsquo;t care whether people read this or not.
+Cleaning and documenting things here are nice, not much point if only I used it though.
+Next time, I should focus more on the goal and resist the distractions.</p>
+<hr>
+<p>I already had the plan for updating this blog this month, but the final push is seeing this <a href="https://garrit.xyz/posts/2022-11-24-smart-move-google">post</a> in HN and saw the 100 posts challenge.</p>
+<p>Post 1 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item></channel></rss>

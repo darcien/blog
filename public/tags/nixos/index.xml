@@ -1,1 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>nixos on A blog by Yosua Ian Sebastian</title><link>https://darcien.dev/tags/nixos/</link><description>Recent content in nixos on A blog by Yosua Ian Sebastian</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Jul 2023 15:46:46 +0000</lastBuildDate><atom:link href="https://darcien.dev/tags/nixos/index.xml" rel="self" type="application/rss+xml"/><item><title>Road to NixOS: The Infection</title><link>https://darcien.dev/p/road-to-nixos-infection/</link><pubDate>Mon, 03 Jul 2023 15:46:46 +0000</pubDate><guid>https://darcien.dev/p/road-to-nixos-infection/</guid><description>The start of a journey; migrating a hobby server to NixOS.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/nixos/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Jul 2023 15:46:46 +0000</lastBuildDate><atom:link href="https://darcien.dev/tags/nixos/index.xml" rel="self" type="application/rss+xml"/><item><title>Road to NixOS: The Infection</title><link>https://darcien.dev/p/road-to-nixos-infection/</link><pubDate>Mon, 03 Jul 2023 15:46:46 +0000</pubDate><guid>https://darcien.dev/p/road-to-nixos-infection/</guid><description>The start of a journey; migrating a hobby server to NixOS.</description><content:encoded><![CDATA[<p>Disclaimer: This series is not a guide nor a walkthrough for NixOS.
+This is intended to be a public notes of my journey here.</p>
+<h2 id="why">Why?</h2>
+<p>Indo&rsquo;s goverment announced extended holiday for 28-30 June 2023<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+This gives me unexpected free time.
+So I decided to tinker with NixOS.
+Migrating an existing Ubuntu 18 hobby server that has a bunch of services
+running in it should be enough learning material.</p>
+<h2 id="toe-dipping">Toe Dipping</h2>
+<p>Before renting a cloud host, I want to try NixOS locally first.
+What I tried:</p>
+<h3 id="nixos-on-wsl">NixOS on WSL</h3>
+<p>This kinda work thanks to community effort in <a href="https://github.com/nix-community/NixOS-WSL">NixOS-WSL</a>.
+There are plethora of issues stemming from WSL.
+Most of them have known workaround,
+so I kept trying.
+Until docker happened.
+I couldn&rsquo;t connect to docker container running in NixOS from Windows.
+The maintainer of NixOS-WSL seems to experience the same issue<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
+I&rsquo;m not familiar enough with WSL and NixOS to debug this, dropping&hellip;</p>
+<h3 id="nixos-as-guest-vm-virtualbox">NixOS as guest VM (VirtualBox)</h3>
+<p>I have a bunch of ancient Arch Linux VMs here, they all work great.
+Then NixOS should work just fine right?
+Well yes, until I tried to reboot the NixOS.
+Seems like the drive where NixOS is not bootable?
+I don&rsquo;t think it&rsquo;s because I used the minimal NixOS image when installing,
+instead of using the one with desktop environment included.</p>
+<p>I was proven wrong.
+After reading the manual again, the minimal image boots into the installer,
+not an installed NixOS<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+Following the manual seems easy enough,
+but I doubt it&rsquo;s worth to do on a throwaway VM.</p>
+<h2 id="nixos-infect-entered-the-room">NixOS-Infect entered the room</h2>
+<blockquote>
+<h3 id="what-is-this">What is this?</h3>
+<p>A script to install NixOS on non-NixOS hosts.</p>
+<p>NixOS-Infect is so named because of the high likelihood of rendering a system inoperable. Use with extreme caution and preferably only on newly provisioned systems.</p>
+<p><a href="https://github.com/elitak/nixos-infect">https://github.com/elitak/nixos-infect</a></p>
+</blockquote>
+<p>I stumbled over this when searching around NixOS.
+And seeing nixos-infect support the latest LTS Ubuntu (22.04 atm)
+on Digital Ocean is trigger to use this instead of VM on my desktop.</p>
+<p>So I went ahead and created a new droplet, AMD CPU + 2 GB RAM.
+Along this, I also learnt &ldquo;user data&rdquo; which can be used to run script
+on droplet creation.
+Specifically I need the user data to run the infect script.</p>
+<p>While waiting for the infect script to finish,
+I learnt few tricks like
+how to make <code>less</code> follow the tail like docker logs<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">less +F /tmp/infect.log
+</span></span></code></pre></div><p>By the time I looked at the log again, it is already rebooting,
+which is a good sign!</p>
+<p>Fast forward few frames&hellip;</p>
+<p>I tried ssh-ing to the droplet using root user&hellip; it worked, I&rsquo;m in!</p>
+<p>From this point, it&rsquo;s all tinkering with the config, learning Nix language, and
+a lot of <code>sudo nixos-rebuild switch</code>.</p>
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+<p>I&rsquo;m writing this from the NixOS droplet.
+So far I&rsquo;m really happy with the result.</p>
+<p>Years ago I set up Arch Linux on a bunch of old laptops and desktops but didn&rsquo;t
+write anything after it.
+This time I&rsquo;m determined to leave some notes on the new journey.</p>
+<p>Next post is about making the NixOS more sane as dev environment!</p>
+<hr>
+<p>Post 17 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://web.archive.org/web/20230703173600/https://en.tempo.co/read/1739780/govt-announces-2-eid-al-adha-joint-leave-days-jokowi-confirms">https://web.archive.org/web/20230703173600/https://en.tempo.co/read/1739780/govt-announces-2-eid-al-adha-joint-leave-days-jokowi-confirms</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://github.com/nix-community/NixOS-WSL/issues/235#issuecomment-1575977960">https://github.com/nix-community/NixOS-WSL/issues/235#issuecomment-1575977960</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://nixos.org/manual/nixos/stable/index.html#sec-installation-manual">https://nixos.org/manual/nixos/stable/index.html#sec-installation-manual</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://unix.stackexchange.com/a/474">https://unix.stackexchange.com/a/474</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item></channel></rss>

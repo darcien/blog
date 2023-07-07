@@ -1,1 +1,395 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>japan on A blog by Yosua Ian Sebastian</title><link>https://darcien.dev/tags/japan/</link><description>Recent content in japan on A blog by Yosua Ian Sebastian</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 Jun 2023 08:38:06 +0000</lastBuildDate><atom:link href="https://darcien.dev/tags/japan/index.xml" rel="self" type="application/rss+xml"/><item><title>Buying T-shirt from BOOTH.pm from Indo (still) Expensive</title><link>https://darcien.dev/p/actual-prices-for-goods-from-booth/</link><pubDate>Thu, 29 Jun 2023 08:38:06 +0000</pubDate><guid>https://darcien.dev/p/actual-prices-for-goods-from-booth/</guid><description>I bought a t-shirt from BOOTH.pm (again) and the tax costs me an arm and a leg.</description></item><item><title>Buyee or Geek Jack?</title><link>https://darcien.dev/p/buyee-or-geekjack/</link><pubDate>Sun, 20 Dec 2020 19:35:46 +0700</pubDate><guid>https://darcien.dev/p/buyee-or-geekjack/</guid><description>My personal experiences from buying VTuber goods through Buyee and Geek Jack.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/japan/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 Jun 2023 08:38:06 +0000</lastBuildDate><atom:link href="https://darcien.dev/tags/japan/index.xml" rel="self" type="application/rss+xml"/><item><title>Buying T-shirt from BOOTH.pm from Indo (still) Expensive</title><link>https://darcien.dev/p/actual-prices-for-goods-from-booth/</link><pubDate>Thu, 29 Jun 2023 08:38:06 +0000</pubDate><guid>https://darcien.dev/p/actual-prices-for-goods-from-booth/</guid><description>I bought a t-shirt from BOOTH.pm (again) and the tax costs me an arm and a leg.</description><content:encoded><![CDATA[<p>I bought a bunch of goods from Pixiv BOOTH again using Buyee as proxy.
+Guess how it much it actually costs
+after including all shipping fee, tax and duties?</p>
+<p>To simplify things, all JPY will be in IDR
+using exchange rate from date of purchase (2023-06-02)
+1 JPY = 106 IDR.</p>
+<h3 id="goodies">Goodies</h3>
+<p>What&rsquo;s in the bundle:</p>
+<ul>
+<li>T-shirt: IDR 424000 (JPY 4000)</li>
+<li>Acrylic figure (~14cm): IDR 233200 (JPY 2200)</li>
+<li>Stickers: IDR 169600 (JPY 1600)</li>
+</ul>
+<p>Total amount: IDR 826800 (JPY 7800)</p>
+<p>Total weight: 720g
+Dimensions: 40 x 30 x 10 cm</p>
+<h3 id="shipping">Shipping</h3>
+<p>Shipping fee from seller to Buyee - domestic: IDR 77380 (JPY 730)
+Shipping fee from Buyee to me (DHL) - international: IDR 387430 (JPY 3655)</p>
+<p>Total shipping: IDR 464810</p>
+<p>Note that Indo&rsquo;s import duties calculation includes the freight cost,
+in this case it should be the DHL shipping fee only.</p>
+<h3 id="tax-duties-etc">Tax, duties, etc.</h3>
+<p>Inbound charges invoice a.k.a tax and duties breakdown from DHL:</p>
+<ul>
+<li>Import export duties: IDR 497000</li>
+<li>Advance payment charges: IDR 150000</li>
+<li>Services VAT: IDR 16500</li>
+</ul>
+<p>Total tax and duties: IDR 663500</p>
+<h3 id="total">Total</h3>
+<p>Total = goodies + shipping + tax, duties, etc.</p>
+<p>Total = 826800 + 464810 + 663500</p>
+<p>Total = 1955110 IDR</p>
+<p>A t-shirt, a small piece of printed plastic, and a bunch of stickers
+cost me Rp1.955.110 in total.</p>
+<h3 id="thoughts">Thoughts</h3>
+<p>I feel sad.
+Why does it cost so much for importing a t-shirt.
+It&rsquo;s not a premium or branded t-shirt.
+Is it because the money went to another country,
+so this needs to be taxed heavily to dicourage me from buying imported goods?
+To keep local business flourishing?</p>
+<p>For reference, the minimum monthly wage in my place is around IDR 4900000<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+That&rsquo;s 40% of the monthly pay.
+It blows my mind every time I have to pay and realize the price disparity
+between a developed vs developing country 😞.</p>
+<h2 id="omake---banana-for-scale">Omake - Banana for scale</h2>
+<p>1Kg of Cavendish banana from Sunpride costs around IDR 22000 in my place.
+Let&rsquo;s say there are 6 bananas per Kg, so each banana costs IDR 4000 rounded up.</p>
+<p>With the tax and duties alone, I could buy 663500 / 4000 = 166 bananas.
+I could ate banana everyday for 5.5 months straight!</p>
+<h2 id="omake---pricey-doughnut">Omake - Pricey doughnut</h2>
+
+
+
+
+
+
+
+
+<script
+    data-slug-hash="QWJpoxQ"
+    data-user="darcien"
+    data-height="500"
+    data-default-tab="result"
+    
+    
+    class='codepen'
+    async
+    src="//codepen.io/assets/embed/ei.js"
+></script>
+<h2 id="omake---t-shirt-prices">Omake - T-shirt prices</h2>
+
+
+
+
+
+
+
+
+<script
+    data-slug-hash="NWEpmPM"
+    data-user="darcien"
+    data-height="500"
+    data-default-tab="result"
+    
+    
+    class='codepen'
+    async
+    src="//codepen.io/assets/embed/ei.js"
+></script>
+<hr>
+<p>Post 16 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://web.archive.org/web/20230629103540/https://disnakertrans.jakarta.go.id/index.php/berita/kebijakan-ump-dki-jakarta-2023">https://web.archive.org/web/20230629103540/https://disnakertrans.jakarta.go.id/index.php/berita/kebijakan-ump-dki-jakarta-2023</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>Buyee or Geek Jack?</title><link>https://darcien.dev/p/buyee-or-geekjack/</link><pubDate>Sun, 20 Dec 2020 19:35:46 +0700</pubDate><guid>https://darcien.dev/p/buyee-or-geekjack/</guid><description>My personal experiences from buying VTuber goods through Buyee and Geek Jack.</description><content:encoded><![CDATA[<h2 id="intro">Intro</h2>
+<p>Recently I&rsquo;ve been hooked with VTuber from Hololive and Nijisanji.
+Usually they sell the official goods through <a href="https://booth.pm/">BOOTH</a> or <a href="https://www.geekjack.net/">Geek Jack</a>.
+Geek Jack ships globally, but BOOTH ship to Japan address only.
+So I need another proxy service like <a href="https://buyee.jp/">Buyee</a> if I were to buy from BOOTH.</p>
+<p>I want to compare the experience of buying the goods through Buyee and Geek Jack, so I will keep notes of them here.</p>
+<h2 id="data">Data</h2>
+<p>All prices are in JPY. Prices doesn&rsquo;t include customs tax etc. Service fee include things like consolidation and protective packages.
+Some goods are pre-ordered, so the total days doesn&rsquo;t count the days where the service are waiting for the goods to be shipped from the seller.</p>
+<table>
+<thead>
+<tr>
+<th>Goods</th>
+<th style="text-align:right">Goods Price</th>
+<th>Service</th>
+<th style="text-align:right">Service Fee</th>
+<th style="text-align:right">Delivery Fee</th>
+<th style="text-align:center">Date Bought</th>
+<th style="text-align:center">Received After x Days</th>
+<th style="text-align:right">Total Days</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hoshimachi Phone Case + T-Shirt</td>
+<td style="text-align:right">8500</td>
+<td>Buyee</td>
+<td style="text-align:right">1800</td>
+<td style="text-align:right">3442</td>
+<td style="text-align:center">25-06-2020</td>
+<td style="text-align:center">27</td>
+<td style="text-align:right">27</td>
+</tr>
+<tr>
+<td>Watame Birthday 2020 Full Set</td>
+<td style="text-align:right">10000</td>
+<td>Geek Jack</td>
+<td style="text-align:right">-</td>
+<td style="text-align:right">2000</td>
+<td style="text-align:center">11-07-2020</td>
+<td style="text-align:center">102</td>
+<td style="text-align:right">19</td>
+</tr>
+<tr>
+<td>Marin Birthday 2020 Full Set</td>
+<td style="text-align:right">10000</td>
+<td>Buyee</td>
+<td style="text-align:right">1800</td>
+<td style="text-align:right">3080</td>
+<td style="text-align:center">07-08-2020</td>
+<td style="text-align:center">133</td>
+<td style="text-align:right">8</td>
+</tr>
+<tr>
+<td>Shion 2nd Anniv Full Set</td>
+<td style="text-align:right">10000</td>
+<td>Buyee</td>
+<td style="text-align:right">1800</td>
+<td style="text-align:right">2810</td>
+<td style="text-align:center">18-08-2020</td>
+<td style="text-align:center">122</td>
+<td style="text-align:right">23</td>
+</tr>
+<tr>
+<td>Mio Birthday 2020 Full Set</td>
+<td style="text-align:right">9000</td>
+<td>Buyee</td>
+<td style="text-align:right">800</td>
+<td style="text-align:right">3991</td>
+<td style="text-align:center">11-09-2020</td>
+<td style="text-align:center">102</td>
+<td style="text-align:right">6</td>
+</tr>
+<tr>
+<td>Beyond the Stage Supporting Set + Tapestry</td>
+<td style="text-align:right">13000</td>
+<td>Geek Jack</td>
+<td style="text-align:right">-</td>
+<td style="text-align:right">2400</td>
+<td style="text-align:center">24-10-2020</td>
+<td style="text-align:center">~93</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td>Beyond the Stage Hoodie</td>
+<td style="text-align:right">7500</td>
+<td>Geek Jack</td>
+<td style="text-align:right">-</td>
+<td style="text-align:right">2400</td>
+<td style="text-align:center">30-10-2020</td>
+<td style="text-align:center">~87</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td>Hoshimachi 500K Subs Goods</td>
+<td style="text-align:right">11000</td>
+<td>Buyee</td>
+<td style="text-align:right">800</td>
+<td style="text-align:right">3265</td>
+<td style="text-align:center">19-10-2020</td>
+<td style="text-align:center">151</td>
+<td style="text-align:right">17</td>
+</tr>
+<tr>
+<td>Shirakami Birthday 2020 Full Set</td>
+<td style="text-align:right">10000</td>
+<td>Buyee</td>
+<td style="text-align:right">800</td>
+<td style="text-align:right">3265</td>
+<td style="text-align:center">6-10-2020</td>
+<td style="text-align:center">164</td>
+<td style="text-align:right">17</td>
+</tr>
+</tbody>
+</table>
+<h2 id="services-comparison">Services Comparison</h2>
+<ul>
+<li>Order status tracking</li>
+</ul>
+<p>Both services provide the order status. Buyee displays the order status on the site and sends notification email.
+Geek Jack only show something like &ldquo;Order Status Succeeded&rdquo; in the site. Everything else goes to the email.
+They&rsquo;ll sent something like &ldquo;The benefits of [Goods Name] will arrive at our warehouse next week. We will start shipping as soon as possible.&rdquo;</p>
+<figure>
+    <img loading="lazy" src="/img/buyee-status.png"
+         alt="Buyee order status"/> <figcaption>
+            <p>Here&rsquo;s how it looks on Buyee&rsquo;s site</p>
+        </figcaption>
+</figure>
+
+<p>Overall, there&rsquo;s not much difference for the order status udaptes other than the misleading status in the Geek Jack site.</p>
+<ul>
+<li>Buying limited quantity goods</li>
+</ul>
+<p>Since Buyee is a proxy service, when I buy goods through Buyee, I need to wait for someone from Buyee confirm my order and buy it for me.
+I&rsquo;m not sure if it&rsquo;s an automated service or there&rsquo;s an actual person doing it behind the scene. All of my orders are bought within 24 hours, there are also times when the items are bought within 1 hour, which is really fast!</p>
+<p>Most of the time, that service speed is good enough. But things are different for limited quantity goods! Stuffs like full set goods that have postcard with handwritten autograph as bonus will be out of stock in no time. Just like the previous Ayame Birthday 2020 pack which sold out in less than 2 minutes. Buyee service doesn&rsquo;t work for goods like that!</p>
+<p>So I tried using Geek Jack for limited goods. Spoiler: it doesn&rsquo;t end well. The website doesn&rsquo;t load at all when a new limited goods are released! I guess everyone outside of Japan had the same idea and flocked to Geek Jack to buy it. And boom, connection timed out! Waited a bit and reloaded the page&hellip; I was greeted by a big &ldquo;SOLD OUT&rdquo; plastered over the goods page. That&rsquo;s it, I&rsquo;m buying the replica autograph set 🙂.</p>
+<p>Both Buyee and Geek Jack doesn&rsquo;t work really well for limited quantity goods. I think I need to use something like forwarding service from <a href="https://www.tenso.com/en">Tenso</a> so I can buy it directly from the seller. I&rsquo;ll try it in the future.</p>
+<ul>
+<li>Delivery courier choices</li>
+</ul>
+<p>Buyee support various delivery, but most of them have low upper limit for size or weight<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+So most of the time, the only ones available are EMS(Japan Post International Courier), DHL, and Japan Post Seamail.</p>
+<!-- raw HTML omitted -->
+<figure>
+    <img loading="lazy" src="/img/buyee-shipping-method.png"
+         alt="Buyee shipping methods"/> <figcaption>
+            <p>These are the available methods at Buyee on March 2021</p>
+        </figcaption>
+</figure>
+
+<p>Meanwhile, Geek Jack only ships with EMS, so there&rsquo;s no choice there<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Updates: On January 2021, Geek Jack seems to ship my package with <a href="https://www.global.ecmsglobal.com/">ECMS</a> instad of EMS. When the package arrived in Indonesia, I got contacted by their staff, asking confirmation whether I want to pay for the tax or not. Then I got hit by expensive entry tax that basically doubles the price. At this point I don&rsquo;t think I can recommend Geek Jack over Buyee for cheaper total fee.</p>
+<ul>
+<li>Prices</li>
+</ul>
+<p>The prices aspect is pretty hard to compare. Mostly it depends on what I buy, which additional services I use, and which delivery courier I pick.</p>
+<p>If I wanted to buy one item, I think I might prefer Geek Jack for it&rsquo;s simplicity. Most of the time, the delivery price is included in the goods price, no extra charges whatsoever. They&rsquo;re around 2000 to 3000 JPY. So I can just add to cart, pay for it, and done.</p>
+<p>When the delivery fee is not included, it&rsquo;ll be added on the checkout process. Usually it&rsquo;s 2400 JPY.</p>
+<p>With Buyee, since it&rsquo;s a proxy service, I can actually buy multiple items from different sellers. Those items will be stored in their warehouse until I decide when to ship them. They offer free storage for 30 days, which is plenty enough.</p>
+<p>There are two services from Buyee that I usually use, package consolidation and protective packaging.
+Package consolidation is just a service to consolidate multiple packages into a single package. It costs 500 JPY to consolidate 2 packages<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+They might still split it into multiple packages if it&rsquo;s too big though.
+And the protective packaging is another optional service which they add a bunch of air bags and other protective packaging to the goods<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
+<figure>
+    <img loading="lazy" src="/img/buyee-air-bag.jpg"
+         alt="Air bag from buyee"/> <figcaption>
+            <p>These are the air bags from Buyee</p>
+        </figcaption>
+</figure>
+
+<p>It costs 1500 JPY, which is pretty expensive in my opinion.
+But I don&rsquo;t want to take any risk when buying fragile goods like acrylic panel, so I opted in anyway.</p>
+<p>Other than that, Buyee also charges for the shipping fee from the seller to Buyee. From my experience, they ranges from 700 to 1000 JPY.</p>
+<p>After totalling all the additional services and fee, on average I would pay ~3900 JPY for each package when using Buyee.
+Which is around 44% more expensive than buying from Geek Jack.</p>
+<ul>
+<li>Payment</li>
+</ul>
+<p>Both services accepts PayPal, so I don&rsquo;t really try other payment method here.</p>
+<ul>
+<li>Digital items</li>
+</ul>
+<p>Sometimes the goods include digital items like situational voice or song.</p>
+<p>With Geek Jack, after purchasing, I can download it from the website.
+If I remember correctly, they limit it so I can only download it 100 times.</p>
+<p>But at the time of writing this, they removed the download link.
+And there&rsquo;s an announcement regarding the digital items on the homepage: &ldquo;After purchasing a digital product, Our customer service will contact you by email for the download link of the digital product.&rdquo;.
+So I guess I need to contact the customer service if I want to download my old purchases again?
+I&rsquo;m not really sure about this one but thankfully I already downloaded them all and backed them up.</p>
+<p>Meanwhile, Buyee is not really suitable for digital products, but they still somewhat support it<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>.
+Basically, after purchasing the goods, I need to contact the support so they can add the downloadable content to my account.</p>
+<p>At first, I thought this process was automatic, so I didn&rsquo;t contact the support.
+But after the physical goods from the same package arrived at my place and I still got no news about the digital items, I decided to contact customer service.</p>
+<p>For the first inquiry, I used the consolidated package number, and this is their response:</p>
+<pre tabindex="0"><code>Fri, Dec 18, 2020 at 11:01
+
+Dear Yosua Ian Sebastian,
+
+This is the Buyee customer support.
+Thank you for using our service.
+
+In response to your concern for package [REDACTED], upon confirming, we have confirmed that the package has already shipped out from our warehouse. Therefore, we are afraid to inform you that we are unable to meet your request this time.
+
+We are afraid we can no longer contact the seller for any inquiry. Basically, the purpose of contacting the seller is to gather information about the item and it should be done prior to bidding or any transactions.
+
+Thank you in advance for your understanding.
+
+Please do not hesitate to contact us if you have any other questions or concerns.
+
+Sincerely,
+[REDACTED]
+Buyee customer support
+</code></pre><p>Okay, that doesn&rsquo;t sound really good.
+I know that BOOTH should still have the download link available since the product was relatively new.</p>
+<p>So I tried to contact the customer support one more time, this time using the individual package number instead of the consolidated one.</p>
+<p>And they replied:</p>
+<pre tabindex="0"><code>Fri, Dec 18, 2020 at 17:13
+
+Dear Yosua Ian Sebastian,
+
+This is the Buyee customer support.
+Thank you for using our service.
+
+Regarding the auction ID [REDACTED], we will contact the seller to arrange the transaction. We have confirmed from our related department that the voice packs of these items will be available on January 31, 2021.
+
+It usually takes around 2-3 business days for the code/information to be shown on your &#34;My Page&#34; once available.
+
+You will be notified by email after the code/information is available, and you will find it in the &lt;Digital Products&gt; section of your &#34;My Page&#34;.
+
+Thank you for your patience and understanding.
+
+Please do not hesitate to contact us if you have any other questions or concerns.
+
+Sincerely,
+[REDACTED]
+Buyee customer support
+</code></pre><p>Nice! There&rsquo;s still some hope to get my digital goods!
+I haven&rsquo;t got any email notification regarding it after one week has passed though.
+Probably I&rsquo;ll wait until the holiday season is over before contacting the customer support again.</p>
+<p>Overall, both of them are kinda questionable regarding digital goods. So, if the goods are digital only, there&rsquo;s no physical goods in the set, buying directly on BOOTH might be better.</p>
+<ul>
+<li>Changing delivery address</li>
+</ul>
+<p>Changing the delivery address is only possible before the goods are shipped(duh).</p>
+<p>For Buyee, it&rsquo;s possible to select a different address before shipping, simple enough.</p>
+<p>For Geek Jack, I need to contact the customer service to change the delivery address.
+It&rsquo;s simple enough though, I just need to specify the order ID and new address.
+Usually they also send confirmation email for the address before shipping, so I can also reply that email.</p>
+<ul>
+<li>Insurance</li>
+</ul>
+<p>Now this part is something I haven&rsquo;t fully explored.</p>
+<p>The standard plan for Buyee includes insured delivery and inspection.
+The insured delivery covers for damage during transit etc.
+While the inspection will check for mismatch between the delivered goods and the online description.
+That standard plan only costs 500 JPY, so I always use it<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.
+And I never got mismatch or damaged product, so I can&rsquo;t comment too much on the service itself.</p>
+<p>Geek Jack seems to accept exchanging damaged item: &ldquo;If the item was damaged at the time of receipt, please send us email with the picture to know the damaged parts and the receiving date and time. We accept exchanging or returning within seven days of the arrival of the item.&rdquo;<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>
+But I haven&rsquo;t tried it before, probably the delivery cost is going to sting a bit.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>If the goods are available on Geek Jack, it might be cheaper and easier to just buy it from them. (Assuming they still use EMS.)
+For now I prefer using Buyee to buy it from BOOTH.</p>
+<p>In the future I think I&rsquo;ll try buying through Indonesian based proxy service like <a href="https://kyou.id/">kyou.id</a>.</p>
+<h2 id="references">References</h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://web.archive.org/web/20201227111304/https://buyee.jp/help/yahoo/guide/shipping-method?lang=en">https://web.archive.org/web/20201227111304/https://buyee.jp/help/yahoo/guide/shipping-method?lang=en</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://web.archive.org/web/20201227111350/https://www.geekjack.net/">https://web.archive.org/web/20201227111350/https://www.geekjack.net/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://web.archive.org/web/20201222115318/https://buyee.jp/help/yahoo/guide/consolidate">https://web.archive.org/web/20201222115318/https://buyee.jp/help/yahoo/guide/consolidate</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://web.archive.org/web/20201222115304/https://buyee.jp/help/yahoo/guide/packing">https://web.archive.org/web/20201222115304/https://buyee.jp/help/yahoo/guide/packing</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://web.archive.org/web/20201227121519/https://faq.buyee.jp/article/187?lang=en">https://web.archive.org/web/20201227121519/https://faq.buyee.jp/article/187?lang=en</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://web.archive.org/web/20201229091738/https://buyee.jp/help/yahoo/guide/plans?lang=en">https://web.archive.org/web/20201229091738/https://buyee.jp/help/yahoo/guide/plans?lang=en</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="https://web.archive.org/web/20201229092917/https://www.geekjack.net/faq.html">https://web.archive.org/web/20201229092917/https://www.geekjack.net/faq.html</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item></channel></rss>

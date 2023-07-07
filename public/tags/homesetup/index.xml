@@ -1,1 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>homesetup on A blog by Yosua Ian Sebastian</title><link>https://darcien.dev/tags/homesetup/</link><description>Recent content in homesetup on A blog by Yosua Ian Sebastian</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 03 Mar 2023 22:17:35 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/homesetup/index.xml" rel="self" type="application/rss+xml"/><item><title>My First UPS</title><link>https://darcien.dev/p/my-first-ups/</link><pubDate>Fri, 03 Mar 2023 22:17:35 +0700</pubDate><guid>https://darcien.dev/p/my-first-ups/</guid><description>Bye-bye power outage, you won&amp;rsquo;t be missed 👋</description></item><item><title>My First Pi-hole</title><link>https://darcien.dev/p/my-first-pi-hole/</link><pubDate>Mon, 12 Dec 2022 16:01:20 +0700</pubDate><guid>https://darcien.dev/p/my-first-pi-hole/</guid><description>Putting a 7 y.o. Raspbian model 2 to work.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/homesetup/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 03 Mar 2023 22:17:35 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/homesetup/index.xml" rel="self" type="application/rss+xml"/><item><title>My First UPS</title><link>https://darcien.dev/p/my-first-ups/</link><pubDate>Fri, 03 Mar 2023 22:17:35 +0700</pubDate><guid>https://darcien.dev/p/my-first-ups/</guid><description>Bye-bye power outage, you won&amp;rsquo;t be missed 👋</description><content:encoded><![CDATA[<p>After 10 years of owning a desktop PC, I finally bought my first UPS!</p>
+<p>Initially I planned to buy an UPS way earlier, but keep holding off from buying for various reasons.
+It&rsquo;ll be hard to move places if I have UPS.
+It probably won&rsquo;t solve my badly grounded wirings in my place.
+What about compatibility with PFC active PSU?
+Macbook chargers?
+Oh no, the vendor recommends using cable under 2m from the socket to UPS for best operation.
+I don&rsquo;t have that kind of close-to-floor sockets in my place.</p>
+<p>Ah, fuck it. I&rsquo;m tired having my PC crashing down whenever there&rsquo;s power outage in my area.
+That&rsquo;s what I thought last week.</p>
+<p>I quickly search around and try to find which brand has decent quality and support in my country.
+APC it is.
+I still need to buy a watt-meter though to figure out which model buy.
+Definitely buying a line interactive one though<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>After I&rsquo;m done measuring all my equipment watt usage, I decided to buy this guy, <a href="https://www.apc.com/ph/en/product/BVX1200LI-MS/apc-easy-ups-bvx-1200va-230v-avr-universal-sockets/">APC BVX1200LI-MS</a>.
+Rated for 1200VA and max 650W.</p>
+<p>Today, this bad boy arrived. So I&rsquo;m going to leave it to charge overnight and test it tomorrow morning.</p>
+<figure>
+    <img loading="lazy" src="/img/ups-apc.jpg"
+         alt="Front side of the UPS."/> <figcaption>
+            <p>Front look of the UPS.</p>
+        </figcaption>
+</figure>
+
+<hr>
+<p>Test run done, work just fine under normal load so far.
+It also free up 2 slot from my usual power strip, which is great!</p>
+<hr>
+<hr>
+<p>Post 10 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://fitzcarraldoblog.wordpress.com/2020/08/09/that-ups-you-bought-for-your-home-server-may-not-be-as-useful-as-you-think/">This person bought a non-line interacive PSU</a>, which is not very useful according to their experience.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>My First Pi-hole</title><link>https://darcien.dev/p/my-first-pi-hole/</link><pubDate>Mon, 12 Dec 2022 16:01:20 +0700</pubDate><guid>https://darcien.dev/p/my-first-pi-hole/</guid><description>Putting a 7 y.o. Raspbian model 2 to work.</description><content:encoded><![CDATA[<p>I bought my first Raspberry Pi at 2015, it was model 2.
+I was an idealist and foolish college freshman at the time.
+Things happened, and fast forward 7 years later, my Pi was collecting dust.
+And here I am thinking want I want to do over the new year break.
+So, as a QoL improvement to my home network, it might be nice to have a <a href="https://pi-hole.net/">Pi-hole</a>.</p>
+<p>I&rsquo;m surprised the SD card is still alive and it&rsquo;s still running 2018&rsquo;s version Raspbian.
+Hardware also looks good, so I proceed to nuke the SD card and install the latest OS.
+Seems like Raspbian is no longer a thing, they have Raspberry Pi OS now<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>It didn&rsquo;t even take 3 hours to get everything running and working.
+I expected it to take a lot more time as I&rsquo;m setting this up while having lunch.</p>
+<ul>
+<li>Raspberry OS download and write to SD (30 mins)
+<ul>
+<li>They have official imaging utility now, downloading the image and writing it to the SD card is a breeze now<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</li>
+<li>My internet speed sucks though, so the download still take some time.</li>
+</ul>
+</li>
+<li>Setup static IP for the Pi (needed for Pi-hole) (10 mins)
+<ul>
+<li>I hate the built-in interface of the ISP provided router with passion (it&rsquo;s Huawei from IndiHome BTW).
+It is sluggish and hard to navigate.</li>
+</ul>
+</li>
+<li>Install and set-up Pi-hole on the Pi (20 mins)
+<ul>
+<li>Pi-hole has install script, and that really helps saving some time<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+Yes, running unknown script from the internet is dangerous, I understand the risk.</li>
+</ul>
+</li>
+<li>Finding admin account for my ISP provided router (10 mins)
+<ul>
+<li>I just realized the admin user that I use cannot be used to change the DNS server settings.
+Google here I go.
+Thankfully I found an user I can use real quick, it&rsquo;s <code>telecomadmin</code><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</li>
+</ul>
+</li>
+<li>Change default DNS server to Pi-hole in the home router (5 mins)</li>
+<li>Test everything is working (60 mins and counting)</li>
+</ul>
+<p>So far it&rsquo;s working great!</p>
+<figure>
+    <img loading="lazy" src="/img/first-pi-hole-admin-console.png"
+         alt="Admin console of Pi-hole"/> <figcaption>
+            <p>I&rsquo;m feeling happy when looking at the queries blocked number going up.</p>
+        </figcaption>
+</figure>
+
+<p>I still need to figure out some things though:</p>
+<ul>
+<li>Why some query didn&rsquo;t go through Pi-hole?</li>
+<li>How do I back up the SD card? The 7 y.o. SD card won&rsquo;t last forever.</li>
+<li>Can I lower the Raspbian temperature? Making it sit in on top of a running router does not help at all.</li>
+<li>Do I need to set up HTTPS for the console?</li>
+<li>Should I set up my VPN to use Pi-hole as the DNS server? I&rsquo;m already using Tailscale for VPN and the Pi is connected to it. Maybe I&rsquo;ll have an answer after running Pi-hole for a month or so. Tailscale also have official guide <a href="https://tailscale.com/kb/1114/pi-hole/">here</a>, so this should be a supported use case.</li>
+<li>Should I set up <a href="https://docs.pi-hole.net/guides/dns/unbound/">unbound</a>?</li>
+</ul>
+<p>Some blog posts that I found useful while setting up Pi-hole:</p>
+<ul>
+<li><a href="https://www.troyhunt.com/mmm-pi-hole/">&ldquo;Mmm&hellip; Pi-hole&hellip;&rdquo; by Troy Hunt</a></li>
+<li><a href="https://scotthelme.co.uk/catching-naughty-devices-on-my-home-network/">&ldquo;Catching and dealing with naughty devices on my home network&rdquo; by Scott Helme</a></li>
+<li><a href="https://www.crosstalksolutions.com/the-worlds-greatest-pi-hole-and-unbound-tutorial-2023">&ldquo;The World’s Greatest Pi-hole (and Unbound) Tutorial 2023&rdquo; by Crosstalk Solutions</a></li>
+</ul>
+<hr>
+<p>Post 6 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.tomshardware.com/news/raspberry-pi-os-no-longer-raspbian">https://www.tomshardware.com/news/raspberry-pi-os-no-longer-raspbian</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://github.com/pi-hole/pi-hole/#one-step-automated-install">https://github.com/pi-hole/pi-hole/#one-step-automated-install</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://forum.huawei.com/enterprise/en/how-to-login-hg8245h/thread/762243-100181">https://forum.huawei.com/enterprise/en/how-to-login-hg8245h/thread/762243-100181</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item></channel></rss>

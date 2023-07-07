@@ -1,1 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>musing on A blog by Yosua Ian Sebastian</title><link>https://darcien.dev/tags/musing/</link><description>Recent content in musing on A blog by Yosua Ian Sebastian</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 08 Dec 2022 23:27:06 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/musing/index.xml" rel="self" type="application/rss+xml"/><item><title>Can you use Apple Watch for HR monitor in Zwift?</title><link>https://darcien.dev/p/can-you-use-apple-watch-for-hr-monitor-in-zwift/</link><pubDate>Thu, 08 Dec 2022 23:27:06 +0700</pubDate><guid>https://darcien.dev/p/can-you-use-apple-watch-for-hr-monitor-in-zwift/</guid><description>Spoiler: no 😔</description></item><item><title>Can - Will - Did</title><link>https://darcien.dev/p/can-will-did/</link><pubDate>Thu, 01 Dec 2022 18:45:35 +0700</pubDate><guid>https://darcien.dev/p/can-will-did/</guid><description>I can do it. Actually, I will do it. Finally, I did it!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/musing/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 08 Dec 2022 23:27:06 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/musing/index.xml" rel="self" type="application/rss+xml"/><item><title>Can you use Apple Watch for HR monitor in Zwift?</title><link>https://darcien.dev/p/can-you-use-apple-watch-for-hr-monitor-in-zwift/</link><pubDate>Thu, 08 Dec 2022 23:27:06 +0700</pubDate><guid>https://darcien.dev/p/can-you-use-apple-watch-for-hr-monitor-in-zwift/</guid><description>Spoiler: no 😔</description><content:encoded><![CDATA[<p>I&rsquo;ve been using <a href="https://www.zwift.com/">Zwift</a> for a month or two.
+They made my indoor cycling experience better with all the virtual tracks and online community.</p>
+<p>There&rsquo;s just one thing that frustates me, pairing Apple Watch with Zwift for heart rate monitor.
+Once in a blue moon, it just worked.
+But most of the time, it is just pure frustration.</p>
+<p>As someone who just want to pedal for distraction from work stress and workout,
+fiddling and restarting things for 30 minutes before pedaling is just painful.</p>
+<p>Turns out it&rsquo;s not just me that had this issue, and it&rsquo;s been happening since forever.
+Some threads I found in the Zwift support forum with
+people trying to figure out some magic algorithm to pair it:</p>
+<ul>
+<li><a href="https://forums.zwift.com/t/apple-watch-had-enough/519015">https://forums.zwift.com/t/apple-watch-had-enough/519015</a></li>
+<li><a href="https://forums.zwift.com/t/hr-via-apple-watch/581701">https://forums.zwift.com/t/hr-via-apple-watch/581701</a></li>
+<li><a href="https://forums.zwift.com/t/apple-watch-integration/569350">https://forums.zwift.com/t/apple-watch-integration/569350</a></li>
+<li><a href="https://forums.zwift.com/t/apple-watch-official-answer/534867">https://forums.zwift.com/t/apple-watch-official-answer/534867</a></li>
+<li><a href="https://forums.zwift.com/t/connecting-apple-watch-for-heart-rate/595500">https://forums.zwift.com/t/connecting-apple-watch-for-heart-rate/595500</a></li>
+<li><a href="https://forums.zwift.com/t/are-we-giving-up-on-apple-watch-support/510599">https://forums.zwift.com/t/are-we-giving-up-on-apple-watch-support/510599</a></li>
+<li><a href="https://forums.zwift.com/t/please-fix-the-apple-watch-heart-rate-monitoring/557530">https://forums.zwift.com/t/please-fix-the-apple-watch-heart-rate-monitoring/557530</a></li>
+<li><a href="https://forums.zwift.com/t/apple-watch-hrate/592428">https://forums.zwift.com/t/apple-watch-hrate/592428</a></li>
+<li><a href="https://forums.zwift.com/t/apple-watch-refuses-to-send-data/523720">https://forums.zwift.com/t/apple-watch-refuses-to-send-data/523720</a></li>
+<li><a href="https://forums.zwift.com/t/apple-watch-ultra/592440">https://forums.zwift.com/t/apple-watch-ultra/592440</a></li>
+</ul>
+<p>And after going all those threads, I finally found something more official in this <a href="https://forums.zwift.com/t/upcoming-changes-to-supported-operating-systems-december-2021/561496">December 2021 changes</a></p>
+<blockquote>
+<p>Additionally, for Apple Watch owners: we are aware that this experience needs upgrades and we are working on a longer term vision for support. In the meantime, the Zwift Game and Companion apps will be removed from the Watch App Store.This means:</p>
+<ul>
+<li>New users will not be able to install the Zwift Game or Companion apps</li>
+<li>Legacy users will be able to use the watch apps, but will receive no updates to either app</li>
+</ul>
+</blockquote>
+<p>Okay, cool. At least at this point I know I can give up peacefully.
+Apple Watch has never been the perfect device for workout partner.
+The GPS acquisition time could take over 30 minutes.
+The battery life isn&rsquo;t that great either with the sensors on workout mode.
+And that&rsquo;s fine, because at the end of the day, Apple Watch is just a general purpose device
+and it worked really well for that purpose.</p>
+<p>Now I&rsquo;m feeling conflicted, I&rsquo;m happy that I got my answers.
+At the same time, I feel sad that I can&rsquo;t use what I already own and need to spent more money on dedicated device.</p>
+<p>I guess I&rsquo;ll just browse for cheap and good HR monitor, and feel excited about my upcoming device instead.</p>
+<hr>
+<p>Post 5 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>Can - Will - Did</title><link>https://darcien.dev/p/can-will-did/</link><pubDate>Thu, 01 Dec 2022 18:45:35 +0700</pubDate><guid>https://darcien.dev/p/can-will-did/</guid><description>I can do it. Actually, I will do it. Finally, I did it!</description><content:encoded><![CDATA[<p>Some times, I just need to do it.
+I feel like, if I were to do planning, and do it later when I have &ldquo;free time&rdquo;, it will never happen.</p>
+<p>2 days ago, my coworker said &ldquo;Aww, Discord doesn&rsquo;t have built in command for random number picker :(&rdquo;.
+I jokingly replied &ldquo;I can build that&rdquo;.
+Probably nobody expected me to actually build it.
+Not even me at the time.</p>
+<p>Later on, I continue working as usual, but it was a bad day.
+I keep getting the same red error screen of death until the end of work day.
+Feeling defeated, I don&rsquo;t want to end my day like this.</p>
+<p>Then I remembered the earlier random number picker conversation.
+I will build that, it should be a good refresher.
+I have no good reason why I decided so.
+There are probably Discord apps that provide it already.
+There are probably countless of website that could do that for you with extra browser clicks.</p>
+<p>Fast forward few hours later.
+I did it!</p>
+<figure>
+    <img loading="lazy" src="/img/bernard-roll.gif"
+         alt="gif showing the built random number picker in Discord"/> <figcaption>
+            <p>Showcase of Bernard in action</p>
+        </figcaption>
+</figure>
+
+<p>It probably took around 5 hours.
+Mostly spent on reading Discord documentation on how to do it.</p>
+<p>I put the code over <a href="https://github.com/darcien/bernard-bot">here</a>.
+Yeah, it doesn&rsquo;t have tests.
+Yes, it&rsquo;s a bit messy.
+But hey, I&rsquo;m still proud of it.
+My previous post is all about me not being able to focus on doing 1 thing.
+And the fact that I could focus long enough to finish is a good thing!</p>
+<hr>
+<p>Post 2 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item></channel></rss>

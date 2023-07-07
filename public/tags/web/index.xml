@@ -1,1 +1,129 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>web on A blog by Yosua Ian Sebastian</title><link>https://darcien.dev/tags/web/</link><description>Recent content in web on A blog by Yosua Ian Sebastian</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 17 Jun 2023 21:28:02 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Picking Paid Live Stream Platform as Viewer</title><link>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</link><pubDate>Sat, 17 Jun 2023 21:28:02 +0700</pubDate><guid>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</guid><description>Short note comparing between available live stream platform</description></item><item><title>YouTube Removed Sort Options?</title><link>https://darcien.dev/p/youtube-removed-sort-options/</link><pubDate>Tue, 20 Dec 2022 22:57:21 +0700</pubDate><guid>https://darcien.dev/p/youtube-removed-sort-options/</guid><description>I don&amp;rsquo;t understand why YouTube keep making weird decisions.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/web/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 17 Jun 2023 21:28:02 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Picking Paid Live Stream Platform as Viewer</title><link>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</link><pubDate>Sat, 17 Jun 2023 21:28:02 +0700</pubDate><guid>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</guid><description>Short note comparing between available live stream platform</description><content:encoded><![CDATA[<h2 id="platforms">Platforms</h2>
+<h3 id="eplus">eplus</h3>
+<p>Link: <a href="https://ib.eplus.jp">https://ib.eplus.jp</a></p>
+<p>Last watched: 2023-03-18, hololive 4th fes</p>
+<p>Rating: avoid if possible 👎</p>
+<p>Okay-ish for watching the live stream.
+Unuseable for watching the archives.
+Getting a bunch of audio issues on the archives like noises and out of sync,
+after a while, no audio plays.</p>
+<h3 id="hololive-official-fanclub-subscribe-only-with-no-one-time-ticket-kinda-counts">hololive official fanclub (subscribe only with no one time ticket, kinda counts)</h3>
+<p>Link: <a href="https://hololive-fc.com">https://hololive-fc.com</a></p>
+<p>Last watched: 2023-06-21, variety show with Asaka as guest</p>
+<p>Rating: decent but no choice on exclusive content 😐
+(Firefox user: bad site 👎)</p>
+<p>A relatively new hololive exclusive platform, showed up at early 2022.
+Suprisingly decent considering it&rsquo;s their own platform
+and doesn&rsquo;t have the same problem with Niconico even though they list Dwango
+in the footer<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Their website feels weird though with all commenters&rsquo; name feels
+generated
+(2023-06-17: Seems like this is no longer the case, names are no longer bot-like).
+And most of the videos views and comments are weirdly exact multiples of thousand.</p>
+<p>Also, they stopped supporting Firefox on 2023-05-30<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
+Which is a sad thing, but not a dealbreaker.</p>
+<h3 id="niconico-dwango">Niconico (Dwango)</h3>
+<p>Link: <a href="https://live.nicovideo.jp">https://live.nicovideo.jp</a></p>
+<p>Last watched: 2023-03-15, Nornis 1st live</p>
+<p>Rating: paid for video, only got the audio 😭</p>
+<p>Same old nico nico douga but with different name.
+Functionally, it&rsquo;s great.
+Pratically, I can&rsquo;t like it.</p>
+<p>Last time I watched Nornis&rsquo; live, it&rsquo;s still stutter on lowest stream quality.
+I don&rsquo;t know if what&rsquo;s causing it, but Niconico connection to Indo has never
+been good regardless of ISP.
+Plus, to watch archive (Timeshift in Niconico) you need to subsribe to their
+premium service(2023-06-17: cost JPY 550 per month).</p>
+<h3 id="spwn">SPWN</h3>
+<p>Link: <a href="https://virtual.spwn.jp">https://virtual.spwn.jp</a></p>
+<p>Last watched: 2022-03-20, hololive 3rd fes</p>
+<p>Rating: pretty safe choice if available 👍</p>
+<p>So far the most platform I&rsquo;ve been using and has the least problem with.
+From time to time has bad connection to Indo
+even after turning on low latency mode on their video player.</p>
+<h3 id="youtube-member-only-live-kinda-counts">YouTube (member only live, kinda counts)</h3>
+<p>Link: <a href="https://youtube.com">https://youtube.com</a></p>
+<p>Last watched: pretty much every month</p>
+<p>Rating: probably the live you want to watch is not here 😔</p>
+<p>It&rsquo;s YouTube.
+They probaby have the best infra for running live stream in the world right now.</p>
+<p>But they don&rsquo;t run ticketing for one-time watch.</p>
+<h3 id="z-an">Z-aN</h3>
+<p>Link: <a href="https://www.zan-live.com">https://www.zan-live.com</a></p>
+<p>Last watched: 2023-06-17, Planet Station stage 8</p>
+<p>Rating: my new go to platform 🫶
+(Firefox user: Booo, please fix the video player 🤕)</p>
+<p>First time watched on Z-aN, surprisingly a great platform!
+Good to the point it become a trigger for me to make this notes.
+From registration flow, payment (it uses Stripe at the moment), stream connection,
+archives, even bonus digital goods from buying tickets, this Z-aN tick all the boxes.</p>
+<p>My only gripe is Z-aN is unusable on Firefox.
+Works smoothly on Vivaldi so I have not tried other browsers.</p>
+<figure class="align-center ">
+    <img loading="lazy" src="/img/zan-on-firefox-fail.jpg#center"
+         alt="Z-aN video player fail with `The m3u8 file loaded file` error message"/> <figcaption>
+            <p>On Firefox, after few mins the video player will error out, needing a page refresh</p>
+        </figcaption>
+</figure>
+
+<figure class="align-center ">
+    <img loading="lazy" src="/img/zan-date-byte.png#center"
+         alt="Showing date input with &#39;Please enter your date of birth as a single-byte number.&#39; from Z-aN registration flow"/> <figcaption>
+            <p>Bonus: Z-aN wants me to enter my date of birth as a single-byte number, I have no idea how to convert a date into a single byte.</p>
+        </figcaption>
+</figure>
+
+<h2 id="backstory">Backstory</h2>
+<p>Starting to lose track with the many live streaming platform out there.
+So I created this note to avoid using the bad ones if possible.
+Most of the time there&rsquo;s no choices though.
+Even when there are choices, at most it&rsquo;s 2, it&rsquo;s pick bad or the less bad one 🥲.</p>
+<hr>
+<p>Post 13 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+<p>2023-06-17: Web archive for hololive-fc.com does not load for me right now.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://web.archive.org/web/20230617152311/https://hololive-fc.com/">https://web.archive.org/web/20230617152311/https://hololive-fc.com/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://web.archive.org/web/20230617155122/https://hololive-fc.com/notification/114">https://web.archive.org/web/20230617155122/https://hololive-fc.com/notification/114</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>YouTube Removed Sort Options?</title><link>https://darcien.dev/p/youtube-removed-sort-options/</link><pubDate>Tue, 20 Dec 2022 22:57:21 +0700</pubDate><guid>https://darcien.dev/p/youtube-removed-sort-options/</guid><description>I don&amp;rsquo;t understand why YouTube keep making weird decisions.</description><content:encoded><![CDATA[<p>I know that YouTube is a product owned by a megacorp.
+I&rsquo;m not entitled to any of it&rsquo;s features.
+But it&rsquo;s still frustating when a button or dropdown is not there when I want to click on it.</p>
+<p>Few months ago they removed the ability to sort from the oldest video in a channel.
+Leaving only sort alphabetically and from the most popular video.
+So if I I&rsquo;m interested in a channel and want to see the older videos, I need to scroll all the way to the bottom, loading every videos in-between.</p>
+<p>But now, the dropdown itself is gone!
+No more channel videos sort for me.</p>
+<p>Is it a technical limitation?
+Operating at the scale of YouTube would probably have problems I&rsquo;ll never encounter in my whole life.</p>
+<p>Or is it decided by the higher ups after looking at some numbers?
+An arbitrary decision because only small percentage of the users click on the dropdown.</p>
+<p>I probably will never know why they removed the sort dropdown.</p>
+<p>Or why they keep changing the border radius.</p>
+<p>Or why they reintroduced the dark theme as &ldquo;ambient mode&rdquo;.</p>
+<p>Or why they keep stuffing things in channel name row when watching a video, so I can only see 5 chars of the channel name and 6 buttons in the same row.</p>
+<p>Or why they make only 8 playlists visible at a time when saving a video. At least give me an inline search or show a bigger modal.</p>
+<p>Or why they keep pushing for Shorts to my face.</p>
+<p>My biggest gripe is that they never communicate most of these changes.
+One day you open the website and part of the website just changed.
+It could be a slap-in-the-face or did-this-text-size-increase-by-one-px kind.
+You&rsquo;ll never know until you checked it.</p>
+<hr>
+<p>Bonus: I did not expect to see a private video notice on <a href="https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">an official page</a>.</p>
+<figure>
+    <img loading="lazy" src="/img/youtube-select-private.png"
+         alt="A private video embed in YouTube Select product page."/> <figcaption>
+            <p>A private video embed in YouTube Select product page. Screenshot taken on 2022-12-21 from Indonesia. I can see it was not private on 2022-12-20 from this <a href="https://web.archive.org/web/20221220004520/https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">Wayback Machine snapshot</a>.</p>
+        </figcaption>
+</figure>
+
+<hr>
+<p>Post 7 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item></channel></rss>

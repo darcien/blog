@@ -1,1 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>jakarta on A blog by Yosua Ian Sebastian</title><link>https://darcien.dev/tags/jakarta/</link><description>Recent content in jakarta on A blog by Yosua Ian Sebastian</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 30 Dec 2022 22:33:38 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/jakarta/index.xml" rel="self" type="application/rss+xml"/><item><title>Fiber Internet, Jakarta, and 2022</title><link>https://darcien.dev/p/fiber-internet-jakarta-and-2022/</link><pubDate>Fri, 30 Dec 2022 22:33:38 +0700</pubDate><guid>https://darcien.dev/p/fiber-internet-jakarta-and-2022/</guid><description>My short journey of trying to find a decent ISP in my place.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/jakarta/</link><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 30 Dec 2022 22:33:38 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/jakarta/index.xml" rel="self" type="application/rss+xml"/><item><title>Fiber Internet, Jakarta, and 2022</title><link>https://darcien.dev/p/fiber-internet-jakarta-and-2022/</link><pubDate>Fri, 30 Dec 2022 22:33:38 +0700</pubDate><guid>https://darcien.dev/p/fiber-internet-jakarta-and-2022/</guid><description>My short journey of trying to find a decent ISP in my place.</description><content:encoded><![CDATA[<p>Today is the last day of 2022.
+Internet connection is already close being a public utility.
+And here I am, having a hard time trying to find decent ISP that can provides service to my place.</p>
+<p>I&rsquo;ve been trying to change providers since at least 4 months ago.
+And this effort will probably continue to 2023.</p>
+<h2 id="provider-checklist">Provider Checklist</h2>
+<p>I&rsquo;m looking at these things while looking for ISP:</p>
+<ul>
+<li>Available at my place (duh)</li>
+<li>Sane pricing, I&rsquo;m not going to pay for enterprise pricing</li>
+<li>No scummy practice (ok, maybe at least minimal, none at all is unlikely to exists)</li>
+<li>Use fiber connection or better</li>
+<li>No weird quota or policy on rate limiting</li>
+<li>Good uptime (it&rsquo;s 2022, please don&rsquo;t timeout when it&rsquo;s raining)</li>
+</ul>
+<p>And these are nice to have but not required:</p>
+<ul>
+<li>Internet only (no, I do not want to subscribe to your whatever TV/CCTV/streaming services)</li>
+<li>Bring-my-own-modem or at least don&rsquo;t charge me with overpriced modem rent per month to the point I can buy the modem 4 times a year</li>
+<li>IPv6 support (is this even a thing in Indonesia?)</li>
+</ul>
+<p>Here I go, checking every single ISP that provides fiber connection and operates in Indonesia.
+Like every single one of them, from &ldquo;every person know this name&rdquo; to &ldquo;is that an actual service name?&rdquo;.</p>
+<h2 id="is-it-available-in-my-place">Is it available in my place?</h2>
+<table>
+<thead>
+<tr>
+<th>ISP</th>
+<th>available</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.balifiber.id/home/bf_home">BaliFiber</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://biznethome.net/">Biznet Home</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://cbn.id/personal/fiber/cbn-fiber.html">CBN Fiber</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://www.firstmedia.com/">First Media</a></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><a href="https://groovy.id/">Groovy</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://iconnet.id/">Iconnet (PLN)</a></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><a href="https://indihome.co.id/">IndiHome (Telkom)</a></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><a href="https://indonet.co.id/id/internet-broadband/">indonet</a></td>
+<td>❔*</td>
+</tr>
+<tr>
+<td><a href="https://hifi.ioh.co.id/">Indosat HiFi (Indosat Ooredoo Hutchison)</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://www.megavision.net.id/">Megavision</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://mncplay.id/en/">MNC Play</a></td>
+<td>❔**</td>
+</tr>
+<tr>
+<td><a href="https://myrepublic.co.id/">MyRepublic</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://home.oxygen.id/">Oxygen.id</a></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><a href="https://www.transvision.co.id/hispeed.html">Transvision Hi-Speed</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://www.xlhome.co.id/">XL Home</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://satu.xl.co.id/">XL Satu Fiber</a></td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+<p>*: indonet seems to only offer enterprise plan, I&rsquo;m not going to contact their sales for checking that.</p>
+<p>**: MNC Play requires me to fill a form with personal identification etc. to check for coverage area.
+I already did that with another ISP, got a lot of spam calls and no coverage, no thanks.</p>
+<p>ISP availability last checked at: <code>2022-12-31</code></p>
+<h2 id="2023-04-26---escape-from-jakarta">2023-04-26 - Escape from Jakarta</h2>
+<p>I probably won&rsquo;t be updating this page anymore.
+I&rsquo;m convinced I don&rsquo;t need to live in this city.
+There&rsquo;s not much point in finding the ultimate ISP if every other aspects in life also sucks here for me.
+Might as well try to move to a better place.</p>
+<h2 id="2023-01-09---iconnet">2023-01-09 - Iconnet</h2>
+<p>First time I heard about &ldquo;Iconnet&rdquo; from my coworkers. Apparently it&rsquo;s backed by Indo&rsquo;s PLN.
+I checked their site, apparently my place is covered.
+But, it&rsquo;s not great according to my source 🫠.</p>
+<figure>
+    <img loading="lazy" src="/img/isp-iconnet-testimony.png"
+         alt="Screenshot of Iconnet landing page showing empty testimony section taken on 2023-04-26."/> <figcaption>
+            <p>What makes this ISP even funnier is that their own landing page have an empty testimony section.</p>
+        </figcaption>
+</figure>
+
+<h2 id="2022-12-31---first-media">2022-12-31 - First Media</h2>
+<p>I already used First Media from the time they start showing up in my area (probably around ~2013).
+At that time, they provide real fast connection.
+But over the time, their price keeps climbing while the stability spirals downhill.
+People I know have been saying this is because they keep adding more customers to existing terminals
+regardless of the terminal capacity instead of adding more terminals 😕.</p>
+<p>Fast forward 10 years later, after asking around, they still have the same issues.
+Ignoring the ridiculous amount of spam from their marketing,
+I hate the fact that their prices varies based on how much pressure you put into their customer support
+or sales.
+The more you complaint and want to cut their connection, the more discount you get 🤨.
+Not being transparent with the pricing model is a bad enough sign for me to stay away.</p>
+<h2 id="2022-11-27---oxygenid">2022-11-27 - Oxygen.id</h2>
+<p>A promising ISP, if I could actually use it.</p>
+<p>2022-10-01, late night: I applied via their online registration.</p>
+<p>Same day, 9 p.m.: Contacted by their sales via WhatsApp, asking for location coordinates etc.</p>
+<p>2022-10-03: Registration and payment completed, waiting for their technician now.</p>
+<p>2022-10-04: Their technician came while it&rsquo;s raining heavily. Technician said all nearby terminals are full. Need to request validation team and see whether they can free up some unused terminal slots.</p>
+<p>2022-10-10: Call from their sales, validation in progress.</p>
+<p>2022-10-18: Another call from their sales, validation still in progress and might take even more time. They&rsquo;re asking to refund my money for now.</p>
+<p>2022-11-27: I asked the same sales for updates on the validation. No reply.</p>
+<p>Later on their sales did &ldquo;react&rdquo; to my messages though:
+<figure>
+    <img loading="lazy" src="/img/isp-oxygen-sales-react.jpg"
+         alt="Oxygen.id sales reacted with tears of joy emoji to my inquiries"/> <figcaption>
+            <p>Truly a 😂 moment.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Now, I have no idea whether that person just quit from being a sales or it&rsquo;s their official response.
+There&rsquo;s still some hope from this ISP if I tried to contact them again.
+But not now, right now I don&rsquo;t have the patience to sit out months just for them to check whether they have available slots for me or not.</p>
+<p>Bonus: I can&rsquo;t login to my customer account after changing the default password to a 25-characters password.
+Pressing login does nothing, no message or UI feedback whatsoever.
+I suspect my password is over the length limit they have for password 🙃.</p>
+<hr>
+<p>Post 12 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<hr>
+]]></content:encoded></item></channel></rss>
