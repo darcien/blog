@@ -1,22 +1,8 @@
 ---
-title: "Nixos 2"
+title: "Road to NixOS: How do I install programs?"
 date: 2023-07-08T02:14:14+07:00
 tags: ["nixos", "linux", "100DaysToOffload"]
-draft: true
-# summary: "summary shown in the post list"
-# description: "Desc text shown below title"
-# disableHLJS: false
-# hideSummary: false
-# weight: 1
-# aliases: ["/first"]
-# searchHidden: true
-# showToc: true
-# cover:
-#     image: "<image path/url>" # image path/url
-#     alt: "<alt text>" # alt text
-#     caption: "<text>" # display caption under cover
-#     relative: false # when using page bundles set this to true
-#     hidden: true # only hide on current single page
+summary: "Adding zsh, Home Manager, and VS Code Remote - SSH"
 ---
 
 
@@ -122,12 +108,43 @@ so usually it doesn't matter that much.
 But recently I started using [GitHub Codespaces](https://github.com/features/codespaces)
 at work.
 And since it's a throwaway env, I need to reinstall and reconfigure the packages again.
-It would be nice if I have Home Manager in Codepaces,
+It would be nice if I have Home Manager that would install and configure everything in Codepaces,
 something to look into later.
 Specifying the needed packages in Codepsaces config doesn't work really for
 packages that's not used by the whole team since the preinstalled packages
 are shared.
 
+## Using VS Code with Remote - SSH
+
+[Remote - SSH][https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh]
+extension doesn't work out of the box with NixOS.
+Trying to connect immediately will fail with remote VS Code SSH server failure.
+
+Thankfully someone already identified the cause and shared the fix [here](https://github.com/nix-community/nixos-vscode-server).
+After a rebuild, VS Code Remote - SSH work flawlessly.
+
+## Adding Tailscale
+
+I love [Tailscale](https://tailscale.com/), so I'm going to install it here too.
+Installing was straightforward since Tailscale provide [installation manual](https://tailscale.com/kb/1063/install-nixos/).
+
+Unfortunately I'm getting high CPU usage after enabling Magic DNS in Tailscale.
+After reporting it [here](https://github.com/tailscale/tailscale/issues/8563)
+and tinkering with it, I think it's fixed for now.
+Will write about in a separate post as the fix wasn't a straightforward one.
+
+## Closing Thoughts
+
+I can feel it, I'm back at the Linux world again.
+Where I'm spending hours just to get things working.
+I don't know if it's just because I'm not used to Linux,
+but whenever it's Linux, configuring things and
+rabbit hole of errors easily devours all my free time.
+Some time this is fun, but doing this after working hour is a bit tiring.
+I need to find a good balance between this and other more relaxing hobbies.
+
+Next will be making Tailscale working!
+
 ---
 
-Post x of [#100DaysToOffload](https://100daystooffload.com/).
+Post 18 of [#100DaysToOffload](https://100daystooffload.com/).

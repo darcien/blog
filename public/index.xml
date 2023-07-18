@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Jul 2023 15:46:46 +0000</lastBuildDate><atom:link href="https://darcien.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Road to NixOS: The Infection</title><link>https://darcien.dev/p/road-to-nixos-infection/</link><pubDate>Mon, 03 Jul 2023 15:46:46 +0000</pubDate><guid>https://darcien.dev/p/road-to-nixos-infection/</guid><description>The start of a journey; migrating a hobby server to NixOS.</description><content:encoded><![CDATA[<p>Disclaimer: This series is not a guide nor a walkthrough for NixOS.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 08 Jul 2023 02:14:14 +0700</lastBuildDate><atom:link href="https://darcien.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Road to NixOS: How do I install programs?</title><link>https://darcien.dev/p/road-to-nixos-install-programs/</link><pubDate>Sat, 08 Jul 2023 02:14:14 +0700</pubDate><guid>https://darcien.dev/p/road-to-nixos-install-programs/</guid><description>Adding zsh, Home Manager, and VS Code Remote - SSH</description><content:encoded><![CDATA[<p>Okay, at this point I know that in NixOS
+everything is configured via <code>/etc/nixos/configuration.nix</code>.
+But what do I need to write in the config?
+How do I know what to write?</p>
+<p>From here on, my googlefu is being tested again.</p>
+<h2 id="i-want-zsh">I want zsh</h2>
+<p>Ez search, there&rsquo;s wiki page for it <a href="https://nixos.wiki/wiki/Zsh">here</a>.
+It&rsquo;s kinda crazy now that I think about it.
+I can write <code>programs.zsh.enable = true;</code>, rebuild, blam, I got zsh as my default.</p>
+<p>Next, I want to customize zsh.
+I was ready to copy paste my usual <code>.zshrc</code>,
+but that&rsquo;s not a very Nix way to do it.</p>
+<p>The Nix way would be to change the option in the config file.
+So how do I know what&rsquo;s the avaiable options?
+At the time I had no idea,
+so I used GitHub search and try to find .nix file with zsh config for reference.
+That worked just fine, I succeded in porting my <code>.zshrc</code> to use Nix syntax.</p>
+<p>(Later on I learned the existance of <a href="https://mynixos.com/">MyNixOS</a>
+but that&rsquo;s story for another time.)</p>
+<p>Next, how do I apply the zsh config to my user only?
+Applying it globally is acceptable since I&rsquo;m the only user.
+But it feels dirty since it&rsquo;ll also affect root user.</p>
+<p>Onwards! I found out the existance of Home Manager</p>
+<h2 id="unto-the-home-manager">Unto the Home Manager</h2>
+<p>Initially I ignored Home Manager since it has a bit scary warning:</p>
+<blockquote>
+<h3 id="words-of-warninghttpsgithubcomnix-communityhome-managerwords-of-warning"><a href="https://github.com/nix-community/home-manager#words-of-warning">Words of warning</a></h3>
+<p>Unfortunately, it is quite possible to get difficult to understand errors when working with Home Manager. You should therefore be comfortable using the Nix language and the various tools in the Nix ecosystem.</p>
+<p>If you are not very familiar with Nix but still want to use Home Manager then you are strongly encouraged to start with a small and very simple configuration and gradually make it more elaborate as you learn.</p>
+<p>&hellip;</p>
+</blockquote>
+<p>Well, I&rsquo;m new and not familiar with Nix,
+let&rsquo;s try it anyway,
+what could possibly go wrong?</p>
+<p>Yep, I tried following the <a href="https://nix-community.github.io/home-manager/index.html#sec-install-nixos-module">install Home Manager as NixOS module</a>
+and couldn&rsquo;t figure out why rebuild is failing.</p>
+<p>After a quick googling, I found this <a href="https://tech.aufomm.com/my-nixos-journey-home-manager/">blog post</a>
+that describes exactly what I want.</p>
+<p>This time I followed the steps carefully and&hellip;
+it worked!</p>
+<p>It was the release channel.
+I didn&rsquo;t read the manual close enough and just run this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">sudo nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
+</span></span></code></pre></div><p>It doesn&rsquo;t work because it&rsquo;s the master branch release channel.
+While I&rsquo;m at 22.11.
+So the weird error I&rsquo;m seeing is from the release channel mismatch.
+Rebuild works after I added the correct release channel:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-22.11.tar.gz home-manager
+</span></span></code></pre></div><p>Okay, I got per user config working.
+It&rsquo;s time to add more packages!</p>
+<h2 id="infinite-packages-and-beyond">Infinite Packages and Beyond</h2>
+<p>The fact that I can create separate config file for each package,
+have the options isolated,
+and config files not spread all over the places is SUPER nice.
+I got too used by the usual pattern where I need to read each package
+manual to figure out where the config file is located.</p>
+<p>Also, the fact that I can declare all the global packages in the config
+is nice.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nix" data-lang="nix"><span class="line"><span class="cl"><span class="p">{</span> <span class="n">pkgs</span><span class="o">,</span> <span class="o">...</span> <span class="p">}:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">environment</span><span class="o">.</span><span class="n">systemPackages</span> <span class="o">=</span> <span class="k">with</span> <span class="n">pkgs</span><span class="p">;</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="n">curl</span>
+</span></span><span class="line"><span class="cl">    <span class="n">file</span>
+</span></span><span class="line"><span class="cl">    <span class="n">htop</span>
+</span></span><span class="line"><span class="cl">    <span class="n">lsof</span>
+</span></span><span class="line"><span class="cl">    <span class="n">nixpkgs-fmt</span>
+</span></span><span class="line"><span class="cl">    <span class="n">wget</span>
+</span></span><span class="line"><span class="cl">  <span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>It&rsquo;s not everyday I need to reinstall global packages,
+so usually it doesn&rsquo;t matter that much.
+But recently I started using <a href="https://github.com/features/codespaces">GitHub Codespaces</a>
+at work.
+And since it&rsquo;s a throwaway env, I need to reinstall and reconfigure the packages again.
+It would be nice if I have Home Manager that would install and configure everything in Codepaces,
+something to look into later.
+Specifying the needed packages in Codepsaces config doesn&rsquo;t work really for
+packages that&rsquo;s not used by the whole team since the preinstalled packages
+are shared.</p>
+<h2 id="using-vs-code-with-remote---ssh">Using VS Code with Remote - SSH</h2>
+<p>[Remote - SSH][https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh]
+extension doesn&rsquo;t work out of the box with NixOS.
+Trying to connect immediately will fail with remote VS Code SSH server failure.</p>
+<p>Thankfully someone already identified the cause and shared the fix <a href="https://github.com/nix-community/nixos-vscode-server">here</a>.
+After a rebuild, VS Code Remote - SSH work flawlessly.</p>
+<h2 id="adding-tailscale">Adding Tailscale</h2>
+<p>I love <a href="https://tailscale.com/">Tailscale</a>, so I&rsquo;m going to install it here too.
+Installing was straightforward since Tailscale provide <a href="https://tailscale.com/kb/1063/install-nixos/">installation manual</a>.</p>
+<p>Unfortunately I&rsquo;m getting high CPU usage after enabling Magic DNS in Tailscale.
+After reporting it <a href="https://github.com/tailscale/tailscale/issues/8563">here</a>
+and tinkering with it, I think it&rsquo;s fixed for now.
+Will write about in a separate post as the fix wasn&rsquo;t a straightforward one.</p>
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+<p>I can feel it, I&rsquo;m back at the Linux world again.
+Where I&rsquo;m spending hours just to get things working.
+I don&rsquo;t know if it&rsquo;s just because I&rsquo;m not used to Linux,
+but whenever it&rsquo;s Linux, configuring things and
+rabbit hole of errors easily devours all my free time.
+Some time this is fun, but doing this after working hour is a bit tiring.
+I need to find a good balance between this and other more relaxing hobbies.</p>
+<p>Next will be making Tailscale working!</p>
+<hr>
+<p>Post 18 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>Road to NixOS: The Infection</title><link>https://darcien.dev/p/road-to-nixos-infection/</link><pubDate>Mon, 03 Jul 2023 15:46:46 +0000</pubDate><guid>https://darcien.dev/p/road-to-nixos-infection/</guid><description>The start of a journey; migrating a hobby server to NixOS.</description><content:encoded><![CDATA[<p>Disclaimer: This series is not a guide nor a walkthrough for NixOS.
 This is intended to be a public notes of my journey here.</p>
 <h2 id="why">Why?</h2>
 <p>Indo&rsquo;s goverment announced extended holiday for 28-30 June 2023<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
