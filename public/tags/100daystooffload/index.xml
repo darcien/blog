@@ -77,11 +77,11 @@ Specifying the needed packages in Codepsaces config doesn&rsquo;t work really fo
 packages that&rsquo;s not used by the whole team since the preinstalled packages
 are shared.</p>
 <h2 id="using-vs-code-with-remote---ssh">Using VS Code with Remote - SSH</h2>
-<p>[Remote - SSH][https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh]
+<p><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh">Remote - SSH</a>
 extension doesn&rsquo;t work out of the box with NixOS.
 Trying to connect immediately will fail with remote VS Code SSH server failure.</p>
 <p>Thankfully someone already identified the cause and shared the fix <a href="https://github.com/nix-community/nixos-vscode-server">here</a>.
-After a rebuild, VS Code Remote - SSH work flawlessly.</p>
+After applying the fix and rebuild, VS Code Remote - SSH work flawlessly.</p>
 <h2 id="adding-tailscale">Adding Tailscale</h2>
 <p>I love <a href="https://tailscale.com/">Tailscale</a>, so I&rsquo;m going to install it here too.
 Installing was straightforward since Tailscale provide <a href="https://tailscale.com/kb/1063/install-nixos/">installation manual</a>.</p>

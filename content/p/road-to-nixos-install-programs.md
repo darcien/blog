@@ -116,12 +116,12 @@ are shared.
 
 ## Using VS Code with Remote - SSH
 
-[Remote - SSH][https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh]
+[Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 extension doesn't work out of the box with NixOS.
 Trying to connect immediately will fail with remote VS Code SSH server failure.
 
 Thankfully someone already identified the cause and shared the fix [here](https://github.com/nix-community/nixos-vscode-server).
-After a rebuild, VS Code Remote - SSH work flawlessly.
+After applying the fix and rebuild, VS Code Remote - SSH work flawlessly.
 
 ## Adding Tailscale
 
