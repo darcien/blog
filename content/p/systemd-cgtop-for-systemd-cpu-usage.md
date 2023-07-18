@@ -2,7 +2,6 @@
 title: "Q: How do I get % CPU usage of individual service in systemd?"
 date: 2023-07-19T00:06:50+07:00
 tags: ["til", "linux", "100DaysToOffload"]
-draft: true
 summary: "A: Use `systemd-cgtop`"
 description: "A: Use `systemd-cgtop`"
 ---
@@ -52,6 +51,9 @@ user.slice/user-1000.slice/user@1000.service          2      -     6.7M        -
 ```
 
 Man page: https://www.freedesktop.org/software/systemd/man/systemd-cgtop.html
+
+Using top or htop works but I have no idea how to filter out
+regular processes from the list.
 
 ---
 
