@@ -11,7 +11,8 @@ You need Hugo and [just](https://just.systems/man/en/). Every commands is docume
 To deploy, build, commit and push the changes to remote master branch.
 This will trigger a webhook event.
 A http server that listens to the webhook will pull the latest changes.
-Build result will be served by nginx running in the same machine.
+~~Build result will be served by nginx running in the same machine.~~
+Currently migrating machines, will be hosted by Vercel for now.
 
 ## Known Issues
 

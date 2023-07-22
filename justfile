@@ -49,13 +49,3 @@ pushtheme MESSAGE=DEFAULT_THEME_COMMIT_MESSAGE:
   @cd "{{THEME_DIR}}" && git add --all
   @cd "{{THEME_DIR}}" && git commit -m "{{MESSAGE}}"
   @cd "{{THEME_DIR}}" && git push -u origin master
-
-# This project runs on at least 3 different OSes,
-# and every single one of them have different setup.
-# - macOS -> brew install hugo && brew install just
-# - Linux -> prebuilt binaries, https://gohugo.io/installation/linux/#prebuilt-binaries and https://github.com/casey/just#pre-built-binaries
-# - Windows -> choco install hugo && choco install just
-
-# TODO: Implement install command
-# install:
-# @echo no bootstrap command yet

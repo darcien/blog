@@ -1,4 +1,3 @@
-how annoying it is to do dev in windows
 cant live without program list per os
 efficiency and the cost, like hand
 automating mundane task
@@ -12,8 +11,6 @@ list of essay of writings, pgraham, booker
 - fav quotes
 
 - itunes, license, item not available in country
-
-- add isp from pln to fiber post
 
 - TIL cycling quandrant from zwift
 
