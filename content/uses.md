@@ -44,6 +44,22 @@ Keeping track of things I'm using daily.
   that rarely gets used these days because I sound the same as using a MacBook mic
   on calls.
 
+## Software
+
+### CLI programs
+
+For CLI, non exhaustive list are over [here](https://github.com/darcien/nixos-config/tree/master/nixos/apps)
+written in [Nix](https://nixos.org/manual/nix/stable/language/index.html)
+for my personal NixOS config.
+
+### Browser extensions
+
+- [uBlock Origin](https://github.com/gorhill/uBlock) best content blocker ever
+- [Link Hints](https://lydell.github.io/LinkHints/) because touchpad sucks
+- Bitwarden for password manager
+- Violentmonkey for userscript, or whatever monkey it is that isn't bought by shady company yet
+- [10ten reader](https://github.com/birchill/10ten-ja-reader) for reading Japanese kanji
+
 ## Sport-ware? (mainly cycling)
 
 ### Bike
