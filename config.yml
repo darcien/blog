@@ -74,14 +74,14 @@ params:
     # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "Yosua Ian Sebastian"
     icon: /whale72.png
     iconHeight: 28
 
   # home-info mode - this is what we use
   homeInfoParams:
-    Title: "Halo \U0001F44B"
-    Content: Personal blog by Yosua Ian Sebastian.
+    Title: "👋 Halo"
+    Content: "I write code for living, go cycling on free time, and listen to Japanese songs.\n\nSometimes I write about those here."
 
   # profile-mode - not used
   # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
@@ -139,21 +139,27 @@ menu:
       name: about
       url: /about
       weight: 10
-    - name: search
-      url: /search
-      weight: 15
+    - identifier: uses
+      name: uses
+      url: /uses
+      weight: 30
     - identifier: tags
       name: tags
       url: /tags
-      weight: 20
-    - identifier: rss
-      name: rss
-      url: /index.xml
-      weight: 30
-    - identifier: source
-      name: source
-      url: https://github.com/darcien/blog
-      weight: 40
+      weight: 90
+    - name: search
+      url: /search
+      weight: 100
+    # A proper RSS client should be able to pick up RSS from homepage
+    # - identifier: rss
+    #   name: rss
+    #   url: /index.xml
+    #   weight: 30
+    # Hide source for now, not very useful and takes up spaces
+    # - identifier: source
+    #   name: source
+    #   url: https://github.com/darcien/blog
+    #   weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

@@ -1,9 +1,10 @@
 ---
 title: "Device List"
 date: 2021-03-02T22:38:10+07:00
-tags: ["note"]
+tags: ["note", "archived"]
 draft: false
 summary: "List of devices that I use, mainly to make sure I don't forget that I (used to) own these things."
+description: "✍️ Archived, this page has been migrated to private SilverBullet note, see /uses instead."
 ---
 
 List of devices that I use, mainly to make sure I don't forget that I (used to) own these things.
@@ -36,7 +37,7 @@ They're listed in alphabetical order.
 
 ## Needs Fixing
 
-- OnePlus One 16GB [Handphone (early 2016) -> used to be flagship killer, need new battery.
+- OnePlus One 16GB [Handphone] (early 2016) -> used to be flagship killer, need new battery.
 - Sony PSP-3000 [Game Console] (~2010) -> need to replace the membrane for the buttons, power switch kinda broken, screen also have dead pixel lines.
 
 ## Not Sure
