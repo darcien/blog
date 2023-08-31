@@ -44,6 +44,10 @@ Keeping track of things I'm using daily.
   that rarely gets used these days because I sound the same as using a MacBook mic
   on calls.
 
+### Others
+- [APC BVX1200LI-MS][ups], a 1200VA UPS
+
+[ups]: https://www.apc.com/ph/en/product/BVX1200LI-MS/apc-easy-ups-bvx-1200va-230v-avr-universal-sockets/
 ## Software
 
 ### CLI programs
