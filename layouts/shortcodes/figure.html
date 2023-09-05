@@ -1,51 +1,38 @@
 {{- $src := .Get "src" -}}
 
-{{/* src can be static file path or */}}
-{{- $img := $src -}}
-{{/* page bundle resource or */}}
-{{ with $.Page.Resources.GetMatch $src }}
-{{- $img := . -}}
-{{ end }}
-{{/* a global resources. */}}
-{{ with resources.Get $src }}
-  {{- $img := . -}}
-{{ end }}
+{{- $imgFromPage := $.Page.Resources.GetMatch $src -}}
+{{- $imgFromGlobal := resources.Get $src -}}
 
-{{- if $img -}}
+{{ if $imgFromPage | or $imgFromGlobal }}
+  {{ $img := $imgFromPage | or $imgFromGlobal }}
 
-{{- $srcToUse := $img -}}
-{{/* Use the relative link to the image */}}
-{{/* if the image is not a static file. */}}
-{{/* Static file src is a relative path string from static/ dir. */}}
-{{ if ne (printf "%T" $srcToUse) "string" }}
-  {{ $srcToUse := $img.RelPermalink }}
-{{ end }}
+  {{ $img := cond (isset .Params "resize") ($img.Resize (.Get "resize" | default "1x1")) $img }}
 
-<figure>
-  {{- $caption := trim (.Get "caption") "\n" -}}
-  <img
-    loading="lazy" src="{{ $srcToUse }}"
-    {{/* If alt or caption is specified, use it as alt text. */}}
-    {{- if or (.Get "alt") $caption }}
-    alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ $caption | markdownify | plainify }}{{ end }}"
-    {{- end -}}
-  >
-
-  {{- if $caption -}}
-    <figcaption>
-      {{/* The extra <p> is intentional. */}}
-      {{/* Otherwise different style for figure title is used. */}}
-      {{/* Right now caption won't support title or link here. */}}
-      <p>
-        {{- $caption | markdownify -}}
-      </p>
-    </figcaption>
-  {{- end }}
-
-</figure>
+  <figure>
+    {{- $caption := trim (.Get "caption") "\n" -}}
+    <img
+      loading="lazy" src="{{ $img.RelPermalink }}"
+      {{/* If alt or caption is specified, use it as alt text. */}}
+      {{- if or (.Get "alt") $caption }}
+      alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ $caption | markdownify | plainify }}{{ end }}"
+      {{- end -}}
+    >
+  
+    {{- if $caption -}}
+      <figcaption>
+        {{/* The extra <p> is intentional. */}}
+        {{/* Otherwise different style for figure title is used. */}}
+        {{/* Right now caption won't support title or link here. */}}
+        <p>
+          {{- $caption | markdownify -}}
+        </p>
+      </figcaption>
+    {{- end }}
+  
+  </figure>
 
 {{- else -}}
-{{- errorf "neofigure: image '%s' must be a page resource!" $src -}}
+{{- errorf "figure: image '%s' must be an existing page or global resource!" $src -}}
 {{- end -}}
 
 {{- if not (.Page.Scratch.Get "lightenseLoaded") -}}

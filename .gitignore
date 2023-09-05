@@ -3,3 +3,9 @@
 .hugo_build.lock
 
 .DS_Store
+
+# Cache for resource processing,
+# can be checked in for faster build on other machines.
+# But we build locally and commit in build result anyway,
+# so it's useless.
+resources
