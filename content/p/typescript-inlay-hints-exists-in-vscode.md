@@ -25,8 +25,7 @@ From today, those issues are no longer a thing!
 src="/img/til-inlay-hint.png"
 alt="Comparison of TS inlay hints off vs on."
 caption="Comparison of TS inlay hints turned off vs on. Left is off; right is on."
-position="center"
-style="border-radius: 8px;" >}}
+>}}
 These inlay hints settings are configured under `typescript.inlayHints.*` in the `settings.json`.
 
 ---

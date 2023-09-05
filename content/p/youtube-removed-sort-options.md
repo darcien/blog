@@ -47,8 +47,7 @@ Bonus: I did not expect to see a private video notice on [an official page](http
 src="/img/youtube-select-private.png"
 alt="A private video embed in YouTube Select product page."
 caption="A private video embed in YouTube Select product page. Screenshot taken on 2022-12-21 from Indonesia. I can see it was not private on 2022-12-20 from this [Wayback Machine snapshot](https://web.archive.org/web/20221220004520/https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/)."
-position="center"
-style="border-radius: 8px;" >}}
+>}}
 
 ---
 

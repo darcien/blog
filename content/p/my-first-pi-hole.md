@@ -40,8 +40,7 @@ So far it's working great!
 src="/img/first-pi-hole-admin-console.png"
 alt="Admin console of Pi-hole"
 caption="I'm feeling happy when looking at the queries blocked number going up."
-position="center"
-style="border-radius: 8px;" >}}
+>}}
 
 I still need to figure out some things though:
 

@@ -78,8 +78,7 @@ But, it's not great according to my source 🫠.
 src="/img/isp-iconnet-testimony.png"
 alt="Screenshot of Iconnet landing page showing empty testimony section taken on 2023-04-26."
 caption="What makes this ISP even funnier is that their own landing page have an empty testimony section."
-position="center"
-style="border-radius: 8px;" >}}
+>}}
 
 ## 2022-12-31 - First Media
 
@@ -119,8 +118,7 @@ Later on their sales did "react" to my messages though:
 src="/img/isp-oxygen-sales-react.jpg"
 alt="Oxygen.id sales reacted with tears of joy emoji to my inquiries"
 caption="Truly a 😂 moment."
-position="center"
-style="border-radius: 8px;" >}}
+>}}
 
 Now, I have no idea whether that person just quit from being a sales or it's their official response.
 There's still some hope from this ISP if I tried to contact them again.

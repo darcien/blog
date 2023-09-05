@@ -1,4 +1,22 @@
-/* This css is not loaded right now. Uncomment extend_head.html code to load */
-td.right {
-  text-align: right;
+/* This CSS loaded from extend_head.html */
+
+img:not([aria-label="logo"]) {
+  height: auto;
+}
+
+/* Undo nowrap set by theme. */
+/* This fixes the broken layout on smaller breakpoints
+because of the custom footer partial which has longer sentences. */
+.footer span:last-child {
+  white-space: unset;
+}
+
+/* Make img and caption for figure default to align center. */
+.post-content figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.post-content figure > figcaption {
+  text-align: center;
 }

@@ -30,8 +30,7 @@ I did it!
 src="/img/bernard-roll.gif"
 alt="gif showing the built random number picker in Discord"
 caption="Showcase of Bernard in action"
-position="center"
-style="border-radius: 8px;" >}}
+>}}
 
 It probably took around 5 hours.
 Mostly spent on reading Discord documentation on how to do it.

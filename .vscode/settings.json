@@ -21,5 +21,8 @@
   "peacock.color": "#1E90FF",
   "search.exclude": {
     "public": true
+  },
+  "[html]": {
+    "editor.formatOnSave": false
   }
 }

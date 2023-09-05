@@ -32,8 +32,7 @@ Today, this bad boy arrived. So I'm going to leave it to charge overnight and te
 src="/img/ups-apc.jpg"
 alt="Front side of the UPS."
 caption="Front look of the UPS."
-position="center"
-style="border-radius: 8px;" >}}
+>}}
 
 ---
 

@@ -137,7 +137,7 @@ It's AMAZING and you won't regret it.
 {{< figure
 src="/img/zan-koko-player-ii.png"
 caption="2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure."
-align="center" >}}
+>}}
 
 ### Issues
 
@@ -149,7 +149,7 @@ They fixed it as of 2023-08-27! Hooray 🥳
 src="/img/zan-on-firefox-fail.jpg"
 alt="Z-aN video player fail with `The m3u8 file loaded file` error message"
 caption="On Firefox, after few mins the video player will error out, needing a page refresh"
-align="center" >}}
+>}}
 
 ### Trivia
 
@@ -157,7 +157,7 @@ align="center" >}}
 src="/img/zan-date-byte.png"
 alt="Showing date input with 'Please enter your date of birth as a single-byte number.' from Z-aN registration flow"
 caption="Bonus: Z-aN wants me to enter my date of birth as a single-byte number, I have no idea how to convert a date into a single byte."
-align="center" >}}
+>}}
 
 
 ---

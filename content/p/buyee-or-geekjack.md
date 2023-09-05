@@ -45,8 +45,7 @@ They'll sent something like "The benefits of [Goods Name] will arrive at our war
 src="/img/buyee-status.png"
 alt="Buyee order status"
 caption="Here's how it looks on Buyee's site"
-position="center"
-style="border-radius: 8px;" >}}
+>}}
 
 Overall, there's not much difference for the order status udaptes other than the misleading status in the Geek Jack site.
 
@@ -66,14 +65,11 @@ Both Buyee and Geek Jack doesn't work really well for limited quantity goods. I 
 Buyee support various delivery, but most of them have low upper limit for size or weight[^1].
 So most of the time, the only ones available are EMS(Japan Post International Courier), DHL, and Japan Post Seamail.
 
-<!-- TODO: Expand on DHL here -->
-
 {{< figure
 src="/img/buyee-shipping-method.png"
 alt="Buyee shipping methods"
 caption="These are the available methods at Buyee on March 2021"
-position="center"
-style="border-radius: 8px;" >}}
+>}}
 
 Meanwhile, Geek Jack only ships with EMS, so there's no choice there[^2].
 
@@ -98,8 +94,7 @@ And the protective packaging is another optional service which they add a bunch 
 src="/img/buyee-air-bag.jpg"
 alt="Air bag from buyee"
 caption="These are the air bags from Buyee"
-position="center"
-style="border-radius: 8px;" >}}
+>}}
 
 It costs 1500 JPY, which is pretty expensive in my opinion.
 But I don't want to take any risk when buying fragile goods like acrylic panel, so I opted in anyway.

@@ -1,32 +1,64 @@
-<figure{{ if or (.Get "class") (eq (.Get "align") "center") }} class="
-           {{- if eq (.Get "align") "center" }}align-center {{ end }}
-           {{- with .Get "class" }}{{ . }}{{- end }}"
-{{- end -}}>
-    {{- if .Get "link" -}}
-        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
-    {{- end }}
-    <img loading="lazy" src="{{ .Get "src" }}{{- if eq (.Get "align") "center" }}#center{{- end }}"
-         {{- if or (.Get "alt") (.Get "caption") }}
-         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
-         {{- end -}}
-         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
-         {{- with .Get "height" }} height="{{ . }}"{{ end -}}
-         {{- with .Get "maxHeight" }} style="max-height: {{ . }}px;"{{ end -}}
-    /> <!-- Closing img tag -->
-    {{- if .Get "link" }}</a>{{ end -}}
-    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
-        <figcaption>
-            {{ with (.Get "title") -}}
-                {{ . }}
-            {{- end -}}
-            {{- if or (.Get "caption") (.Get "attr") -}}<p>
-                {{- .Get "caption" | markdownify -}}
-                {{- with .Get "attrlink" }}
-                    <a href="{{ . }}">
-                {{- end -}}
-                {{- .Get "attr" | markdownify -}}
-                {{- if .Get "attrlink" }}</a>{{ end }}</p>
-            {{- end }}
-        </figcaption>
-    {{- end }}
+{{- $src := .Get "src" -}}
+
+{{/* src can be static file path or */}}
+{{- $img := $src -}}
+{{/* page bundle resource or */}}
+{{ with $.Page.Resources.GetMatch $src }}
+{{- $img := . -}}
+{{ end }}
+{{/* a global resources. */}}
+{{ with resources.Get $src }}
+  {{- $img := . -}}
+{{ end }}
+
+{{- if $img -}}
+
+{{- $srcToUse := $img -}}
+{{/* Use the relative link to the image */}}
+{{/* if the image is not a static file. */}}
+{{/* Static file src is a relative path string from static/ dir. */}}
+{{ if ne (printf "%T" $srcToUse) "string" }}
+  {{ $srcToUse := $img.RelPermalink }}
+{{ end }}
+
+<figure>
+  {{- $caption := trim (.Get "caption") "\n" -}}
+  <img
+    loading="lazy" src="{{ $srcToUse }}"
+    {{/* If alt or caption is specified, use it as alt text. */}}
+    {{- if or (.Get "alt") $caption }}
+    alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ $caption | markdownify | plainify }}{{ end }}"
+    {{- end -}}
+  >
+
+  {{- if $caption -}}
+    <figcaption>
+      {{/* The extra <p> is intentional. */}}
+      {{/* Otherwise different style for figure title is used. */}}
+      {{/* Right now caption won't support title or link here. */}}
+      <p>
+        {{- $caption | markdownify -}}
+      </p>
+    </figcaption>
+  {{- end }}
+
 </figure>
+
+{{- else -}}
+{{- errorf "neofigure: image '%s' must be a page resource!" $src -}}
+{{- end -}}
+
+{{- if not (.Page.Scratch.Get "lightenseLoaded") -}}
+  {{- .Page.Scratch.Set "lightenseLoaded" true -}}
+  <script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        // Override the bg color behind the overlayed image when lightbox is opened.
+        // Using secondary value from theme with high opacity to make it work with
+        // both light and dark mode because we don't have access to theme variable here.
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
+{{- end -}}

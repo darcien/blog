@@ -21,8 +21,7 @@ It costs like IDR 50000, I can buy it with few weeks worth of pocket money!
 {{< figure
 src="/img/shiromedia-penguin-front.jpg"
 caption="Front side of 'Penguin Summer'"
-maxHeight="640"
-align="center" >}}
+>}}
 
 I thought this is going to be the great age of LN in Indo.
 Every LN I have read for free will be properly localized then I can pay for it.
@@ -37,16 +36,14 @@ My only salvation is that I've succeeded in buying every single LN published by 
 {{< figure
 src="/img/shiromedia-all-side-left.jpg"
 caption="Every LN published by Shiromedia. Ordered by publish date from left (oldest) to right (newest)."
-maxHeight="640"
-align="center" >}}
+>}}
 
 {{< figure
 src="/img/shiromedia-all-side-right.jpg"
 caption=`On the reverse side, even though they're ordered from left (newest) to right (oldest),
 the yellowing aren't ordered.
 Probably because I brought some of these to my trips.`
-maxHeight="640"
-align="center" >}}
+>}}
 
 With the decline of physical book markets to the point bookstores are closing,
 I doubt LN production will ever make a comeback in Indo.
@@ -61,8 +58,7 @@ is probably my favourite series out of all LNs published by Shiromedia.
 {{< figure
 src="/img/shiromedia-nanana-front.jpg"
 caption=`Front side of "Ryuugajou Nanana's Buried Treasure"`
-maxHeight="640"
-align="center" >}}
+>}}
 
 {{< figure
 src="/img/shiromedia-nanana-back.jpg"
@@ -70,8 +66,7 @@ caption=`Back side of "Ryuugajou Nanana's Buried Treasure".
 Yes, it's still sealed. Even the price tag is still there.
 Yes, I've read it before (English version though).
 `
-maxHeight="640"
-align="center" >}}
+>}}
 
 
 ## Omake 2 - Extra photos
@@ -79,20 +74,17 @@ align="center" >}}
 {{< figure
 src="/img/shiromedia-penguin-no-jacket.jpg"
 caption=`"Penguin Summer" without jacket.`
-maxHeight="640"
-align="center" >}}
+>}}
 
 {{< figure
 src="/img/shiromedia-penguin-jacket-only.jpg"
 caption=`"Penguin Summer" [dust jacket](https://en.wikipedia.org/wiki/Dust_jacket)`
-maxHeight="640"
-align="center" >}}
+>}}
 
 {{< figure
 src="/img/shiromedia-penguin-bookmark.jpg"
 caption="'Penguin Summer' bookmark bonus from first press release."
-maxHeight="640"
-align="center" >}}
+>}}
 
 ---
 
