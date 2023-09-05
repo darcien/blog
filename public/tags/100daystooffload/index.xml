@@ -1,4 +1,193 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/100daystooffload/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 19 Jul 2023 00:06:50 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/100daystooffload/index.xml" rel="self" type="application/rss+xml"/><item><title>Q: How do I get % CPU usage of individual service in systemd?</title><link>https://darcien.dev/p/systemd-cgtop-for-systemd-cpu-usage/</link><pubDate>Wed, 19 Jul 2023 00:06:50 +0700</pubDate><guid>https://darcien.dev/p/systemd-cgtop-for-systemd-cpu-usage/</guid><description>A: Use `systemd-cgtop`</description><content:encoded><![CDATA[<p>TIL about <code>systemd-cgtop</code> from <a href="https://superuser.com/questions/1060670/systemd-cpu-usage-of-services">here</a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/100daystooffload/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 04 Sep 2023 23:32:45 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/100daystooffload/index.xml" rel="self" type="application/rss+xml"/><item><title>Lightense is pretty cool</title><link>https://darcien.dev/p/lightense/</link><pubDate>Mon, 04 Sep 2023 23:32:45 +0700</pubDate><guid>https://darcien.dev/p/lightense/</guid><description>I finally added image zoom functionality here.</description><content:encoded><![CDATA[<hr>
+<p>TL;DR I created yet another <code>figure</code> Hugo shortcode that can be zoomed in by tapping on
+and can be resized at build time with <code>resize</code> parameter.</p>
+<hr>
+<h2 id="where-is-the-code">Where is the code?</h2>
+<p>Here, put it in <code>layouts/shortcodes/figure.html</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">{{- $src := .Get &#34;src&#34; -}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{- $imgFromPage := $.Page.Resources.GetMatch $src -}}
+</span></span><span class="line"><span class="cl">{{- $imgFromGlobal := resources.Get $src -}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{ if $imgFromPage | or $imgFromGlobal }}
+</span></span><span class="line"><span class="cl">  {{ $img := $imgFromPage | or $imgFromGlobal }}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  {{ $img := cond (isset .Params &#34;resize&#34;) ($img.Resize (.Get &#34;resize&#34; | default &#34;1x1&#34;)) $img }}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">figure</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    {{- $caption := trim (.Get &#34;caption&#34;) &#34;\n&#34; -}}
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">img</span>
+</span></span><span class="line"><span class="cl">      <span class="na">loading</span><span class="o">=</span><span class="s">&#34;lazy&#34;</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;{{ $img.RelPermalink }}&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="err">{{/*</span> <span class="na">If</span> <span class="na">alt</span> <span class="na">or</span> <span class="na">caption</span> <span class="na">is</span> <span class="na">specified</span><span class="err">,</span> <span class="na">use</span> <span class="na">it</span> <span class="na">as</span> <span class="na">alt</span> <span class="na">text</span><span class="err">.</span> <span class="err">*/}}</span>
+</span></span><span class="line"><span class="cl">      <span class="err">{{</span><span class="na">-</span> <span class="na">if</span> <span class="na">or</span> <span class="err">(.</span><span class="na">Get</span> <span class="err">&#34;</span><span class="na">alt</span><span class="err">&#34;)</span> <span class="err">$</span><span class="na">caption</span> <span class="err">}}</span>
+</span></span><span class="line"><span class="cl">      <span class="na">alt</span><span class="o">=</span><span class="s">&#34;{{ with .Get &#34;</span><span class="na">alt</span><span class="err">&#34;</span> <span class="err">}}{{</span> <span class="err">.</span> <span class="err">}}{{</span> <span class="na">else</span> <span class="err">}}{{</span> <span class="err">$</span><span class="na">caption</span> <span class="err">|</span> <span class="na">markdownify</span> <span class="err">|</span> <span class="na">plainify</span> <span class="err">}}{{</span> <span class="na">end</span> <span class="err">}}&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="err">{{</span><span class="na">-</span> <span class="na">end</span> <span class="na">-</span><span class="err">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">    {{- if $caption -}}
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">figcaption</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        {{/* The extra <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span> is intentional. */}}
+</span></span><span class="line"><span class="cl">        {{/* Otherwise different style for figure title is used. */}}
+</span></span><span class="line"><span class="cl">        {{/* Right now caption won&#39;t support title or link here. */}}
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">          {{- $caption | markdownify -}}
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">figcaption</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    {{- end }}
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">figure</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{- else -}}
+</span></span><span class="line"><span class="cl">{{- errorf &#34;figure: image &#39;%s&#39; must be an existing page or global resource!&#34; $src -}}
+</span></span><span class="line"><span class="cl">{{- end -}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{- if not (.Page.Scratch.Get &#34;lightenseLoaded&#34;) -}}
+</span></span><span class="line"><span class="cl">  {{- .Page.Scratch.Set &#34;lightenseLoaded&#34; true -}}
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">script</span> <span class="na">defer</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js&#34;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&#34;sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=&#34;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&#34;anonymous&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">script</span> <span class="na">defer</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">&#34;load&#34;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">Lightense</span><span class="p">(</span><span class="s1">&#39;img:not(.no-lightense, [aria-label=&#34;logo&#34;])&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Override the bg color behind the overlayed image when lightbox is opened.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// Using secondary value from theme with high opacity to make it work with
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// both light and dark mode because we don&#39;t have access to theme variable here.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nx">background</span><span class="o">:</span> <span class="s1">&#39;rgb(155, 156, 157 / 60%)&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span> <span class="kc">false</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">{{- end -}}
+</span></span></code></pre></div><h2 id="do-you-have-some-examples-to-play-with">Do you have some examples to play with?</h2>
+<p>Sure, here are some cat photo I took and other random things.</p>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/lightense/cat.jpg"
+      
+      alt="Cute cat sitting on chair."><figcaption>
+        
+        
+        
+        <p>A cat I saw when I went to the company trip.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/lightense/bogor_hu9b1a8372fdbefe87bd83c09aca4abcd4_4681944_0x360_resize_q75_box.jpg"
+      
+      alt="One word, green. Behind the iron fence there is a river not visible in the photo.
+Also resized down to height=360px."><figcaption>
+        
+        
+        
+        <p>One word, green. Behind the iron fence there is a river not visible in the photo.
+Also resized down to height=360px.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/shiromedia-penguin-front_hu16139e444f06f4633196fffaa4c9ff91_726080_0x640_resize_q75_box.jpg"
+      
+      alt="This figure use global resource.
+The shortcode can handle both page and global resource.
+I don&amp;rsquo;t understand why Hugo don&amp;rsquo;t have this out of the box."><figcaption>
+        
+        
+        
+        <p>This figure use global resource.
+The shortcode can handle both page and global resource.
+I don&rsquo;t understand why Hugo don&rsquo;t have this out of the box.</p>
+      </figcaption>
+  
+  </figure>
+<h2 id="but-why">But why?</h2>
+<p>I like looking at a picture on full window size without opening in new tab
+or manually zooming in the website.</p>
+<h2 id="really">Really?</h2>
+<p>Okay, the other part is because I saw the same thing on someone&rsquo;s blog<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>,
+and thought it was pretty cool.
+Seems like that blog is also built with <a href="https://gohugo.io/">Hugo</a> but I couldn&rsquo;t figure out
+what theme is being used.</p>
+<p>After few minutes and one DevTools later, their zoomable image is powered by
+<a href="https://sparanoid.com/work/lightense-images/">Lightense</a>. And after bruteforcing my way through GitHub code search,
+I found out the theme being used.
+It&rsquo;s <a href="https://themeforest.net/item/menca-modern-personal-blogging-theme-for-hugo/34443213#">Menca</a>, a paid theme by AnvodStudio.</p>
+<p>Aww shucks, I did not expect it to be a paid theme.
+But it is a good theme, so I can understand it might worth 49 USD for some people.</p>
+<p>And now, here I am.
+After recreated the zoomable image part of Menca theme.
+Feeling satisfied.</p>
+<h2 id="okay-maybe-a-bit-of-rant">Okay, maybe a bit of rant</h2>
+<p>During the making, I spent more time trying to figure out how to do x with Hugo.
+It was painful.</p>
+<p>Now I know that in Hugo I can&rsquo;t:</p>
+<ul>
+<li>set variable value from condionals to outside context</li>
+<li>set variable value from condionals to outside context</li>
+<li>set variable value from condionals to outside context</li>
+<li>ternary for setting variable value</li>
+<li>short circuit logic</li>
+</ul>
+<p>Yes I mentioned the same thing 3 times.
+It&rsquo;s painful enough that I can&rsquo;t do:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// This is JS syntax for example
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">foo</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// This doesn&#39;t work in Hugo:
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">foo</span> <span class="o">=</span> <span class="nx">doSomething</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// What Hugo does is more like this,
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// it creates a new variable in the current scope.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// And the variable in the parent scope is untouched.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kd">let</span> <span class="nx">foo</span> <span class="o">=</span> <span class="nx">doSomething</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>And having no ternary here is like rubbing salt on the wounds.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// In JS I would write something like this
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">img</span> <span class="o">=</span> <span class="nx">resize</span> <span class="o">?</span> <span class="nx">img</span><span class="p">.</span><span class="nx">resizeTo</span><span class="p">(</span><span class="nx">resize</span><span class="p">)</span> <span class="o">:</span> <span class="nx">img</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// But I had to write it like this
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">truthy</span> <span class="o">=</span> <span class="nx">img</span><span class="p">.</span><span class="nx">resizeTo</span><span class="p">(</span><span class="nx">resize</span> <span class="o">||</span> <span class="s1">&#39;1x1&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">falsy</span> <span class="o">=</span> <span class="nx">img</span>
+</span></span><span class="line"><span class="cl"><span class="nx">img</span> <span class="o">=</span> <span class="nx">cond</span><span class="p">(</span><span class="nx">isSet</span><span class="p">(</span><span class="nx">params</span><span class="p">,</span> <span class="s2">&#34;resize&#34;</span><span class="p">),</span> <span class="nx">truthy</span><span class="p">,</span> <span class="nx">falsy</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Actual Hugo template code:
+</span></span></span><span class="line"><span class="cl"><span class="c1">// {{ $img := cond (isset .Params &#34;resize&#34;) ($img.Resize (.Get &#34;resize&#34; | default &#34;1x1&#34;)) $img }}
+</span></span></span></code></pre></div><p>I know it&rsquo;s probably not Hugo&rsquo;s fault.
+I feel like hitting the limit of templating syntax.
+But I like writing in markdown with a small sprinkles of dynamic code here in there.</p>
+<p>I should explore more in this area, maybe there&rsquo;s already something out there for me.
+Just waiting to be found&hellip;</p>
+<hr>
+<p>Post 20 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Carlos&rsquo; blog, he&rsquo;s a cool person; <a href="https://carlosbecker.com/">https://carlosbecker.com/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>Q: How do I get % CPU usage of individual service in systemd?</title><link>https://darcien.dev/p/systemd-cgtop-for-systemd-cpu-usage/</link><pubDate>Wed, 19 Jul 2023 00:06:50 +0700</pubDate><guid>https://darcien.dev/p/systemd-cgtop-for-systemd-cpu-usage/</guid><description>A: Use `systemd-cgtop`</description><content:encoded><![CDATA[<p>TIL about <code>systemd-cgtop</code> from <a href="https://superuser.com/questions/1060670/systemd-cpu-usage-of-services">here</a>
 when trying to debug tailscaled high CPU usage.</p>
 <p><code>systemd-cgtop</code> is interactive, but using:</p>
 <pre tabindex="0"><code>systemd-cgtop -c
@@ -337,13 +526,32 @@ So I end up reading a lot of &ldquo;free&rdquo; fan translated on online site li
 <p>Then on March 20th 2013, Shining Rose Media(Shiromedia) published their first LN<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
 It&rsquo;s &ldquo;Penguin Summer&rdquo; by Mutsuzuka Akira, translated to Bahasa Indonesia.
 It costs like IDR 50000, I can buy it with few weeks worth of pocket money!</p>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/shiromedia-penguin-front.jpg#center"
-         alt="Front side of &amp;lsquo;Penguin Summer&amp;rsquo;" style="max-height: 640px;"/> <figcaption>
-            <p>Front side of &lsquo;Penguin Summer&rsquo;</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/shiromedia-penguin-front.jpg"
+      
+      alt="Front side of &amp;lsquo;Penguin Summer&amp;rsquo;"><figcaption>
+        
+        
+        
+        <p>Front side of &lsquo;Penguin Summer&rsquo;</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <p>I thought this is going to be the great age of LN in Indo.
 Every LN I have read for free will be properly localized then I can pay for it.
 Turn out I was wrong.</p>
@@ -351,24 +559,42 @@ Turn out I was wrong.</p>
 Ever since then, there has been no updates on their social media.
 That means no new LN from Shiromedia in the last 6 years 🥲.</p>
 <p>My only salvation is that I&rsquo;ve succeeded in buying every single LN published by Shiromedia for collection.</p>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/shiromedia-all-side-left.jpg#center"
-         alt="Every LN published by Shiromedia. Ordered by publish date from left (oldest) to right (newest)." style="max-height: 640px;"/> <figcaption>
-            <p>Every LN published by Shiromedia. Ordered by publish date from left (oldest) to right (newest).</p>
-        </figcaption>
-</figure>
 
-<figure class="align-center ">
-    <img loading="lazy" src="/img/shiromedia-all-side-right.jpg#center"
-         alt="On the reverse side, even though they&amp;rsquo;re ordered from left (newest) to right (oldest),
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/shiromedia-all-side-left.jpg"
+      
+      alt="Every LN published by Shiromedia. Ordered by publish date from left (oldest) to right (newest)."><figcaption>
+        
+        
+        
+        <p>Every LN published by Shiromedia. Ordered by publish date from left (oldest) to right (newest).</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/shiromedia-all-side-right.jpg"
+      
+      alt="On the reverse side, even though they&amp;rsquo;re ordered from left (newest) to right (oldest),
 the yellowing aren&amp;rsquo;t ordered.
-Probably because I brought some of these to my trips." style="max-height: 640px;"/> <figcaption>
-            <p>On the reverse side, even though they&rsquo;re ordered from left (newest) to right (oldest),
+Probably because I brought some of these to my trips."><figcaption>
+        
+        
+        
+        <p>On the reverse side, even though they&rsquo;re ordered from left (newest) to right (oldest),
 the yellowing aren&rsquo;t ordered.
 Probably because I brought some of these to my trips.</p>
-        </figcaption>
-</figure>
-
+      </figcaption>
+  
+  </figure>
 <p>With the decline of physical book markets to the point bookstores are closing,
 I doubt LN production will ever make a comeback in Indo.
 Looking at these books now makes me feel really nostalgic.
@@ -376,46 +602,91 @@ I probably will try to keep these books as long as possible for collection.</p>
 <h2 id="omake-1---nanana">Omake 1 - Nanana</h2>
 <p>Ryuugajou Nanana no Maizoukin a.k.a Ryuugajou Nanana&rsquo;s Buried Treasure by Ootorino Kazuma
 is probably my favourite series out of all LNs published by Shiromedia.</p>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/shiromedia-nanana-front.jpg#center"
-         alt="Front side of &amp;ldquo;Ryuugajou Nanana&amp;rsquo;s Buried Treasure&amp;rdquo;" style="max-height: 640px;"/> <figcaption>
-            <p>Front side of &ldquo;Ryuugajou Nanana&rsquo;s Buried Treasure&rdquo;</p>
-        </figcaption>
-</figure>
 
-<figure class="align-center ">
-    <img loading="lazy" src="/img/shiromedia-nanana-back.jpg#center"
-         alt="Back side of &amp;ldquo;Ryuugajou Nanana&amp;rsquo;s Buried Treasure&amp;rdquo;.
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/shiromedia-nanana-front.jpg"
+      
+      alt="Front side of &amp;ldquo;Ryuugajou Nanana&amp;rsquo;s Buried Treasure&amp;rdquo;"><figcaption>
+        
+        
+        
+        <p>Front side of &ldquo;Ryuugajou Nanana&rsquo;s Buried Treasure&rdquo;</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/shiromedia-nanana-back.jpg"
+      
+      alt="Back side of &amp;ldquo;Ryuugajou Nanana&amp;rsquo;s Buried Treasure&amp;rdquo;.
 Yes, it&amp;rsquo;s still sealed. Even the price tag is still there.
-Yes, I&amp;rsquo;ve read it before (English version though)." style="max-height: 640px;"/> <figcaption>
-            <p>Back side of &ldquo;Ryuugajou Nanana&rsquo;s Buried Treasure&rdquo;.
+Yes, I&amp;rsquo;ve read it before (English version though)."><figcaption>
+        
+        
+        
+        <p>Back side of &ldquo;Ryuugajou Nanana&rsquo;s Buried Treasure&rdquo;.
 Yes, it&rsquo;s still sealed. Even the price tag is still there.
 Yes, I&rsquo;ve read it before (English version though).</p>
-        </figcaption>
-</figure>
-
+      </figcaption>
+  
+  </figure>
 <h2 id="omake-2---extra-photos">Omake 2 - Extra photos</h2>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/shiromedia-penguin-no-jacket.jpg#center"
-         alt="&amp;ldquo;Penguin Summer&amp;rdquo; without jacket." style="max-height: 640px;"/> <figcaption>
-            <p>&ldquo;Penguin Summer&rdquo; without jacket.</p>
-        </figcaption>
-</figure>
 
-<figure class="align-center ">
-    <img loading="lazy" src="/img/shiromedia-penguin-jacket-only.jpg#center"
-         alt="&amp;ldquo;Penguin Summer&amp;rdquo; dust jacket" style="max-height: 640px;"/> <figcaption>
-            <p>&ldquo;Penguin Summer&rdquo; <a href="https://en.wikipedia.org/wiki/Dust_jacket">dust jacket</a></p>
-        </figcaption>
-</figure>
+  
 
-<figure class="align-center ">
-    <img loading="lazy" src="/img/shiromedia-penguin-bookmark.jpg#center"
-         alt="&amp;lsquo;Penguin Summer&amp;rsquo; bookmark bonus from first press release." style="max-height: 640px;"/> <figcaption>
-            <p>&lsquo;Penguin Summer&rsquo; bookmark bonus from first press release.</p>
-        </figcaption>
-</figure>
+  
 
+  <figure><img
+      loading="lazy" src="/img/shiromedia-penguin-no-jacket.jpg"
+      
+      alt="&amp;ldquo;Penguin Summer&amp;rdquo; without jacket."><figcaption>
+        
+        
+        
+        <p>&ldquo;Penguin Summer&rdquo; without jacket.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/shiromedia-penguin-jacket-only.jpg"
+      
+      alt="&amp;ldquo;Penguin Summer&amp;rdquo; dust jacket"><figcaption>
+        
+        
+        
+        <p>&ldquo;Penguin Summer&rdquo; <a href="https://en.wikipedia.org/wiki/Dust_jacket">dust jacket</a></p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/shiromedia-penguin-bookmark.jpg"
+      
+      alt="&amp;lsquo;Penguin Summer&amp;rsquo; bookmark bonus from first press release."><figcaption>
+        
+        
+        
+        <p>&lsquo;Penguin Summer&rsquo; bookmark bonus from first press release.</p>
+      </figcaption>
+  
+  </figure>
 <hr>
 <p>Post 15 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
 <hr>
@@ -437,13 +708,32 @@ instead of the commonly used &ldquo;light novel&rdquo;, not sure why.&#160;<a hr
 ]]></content:encoded></item><item><title>Afterread: The Worst-Case Scenario Survival Handbook</title><link>https://darcien.dev/p/afterread-worst-case-scenario-survival-handbook/</link><pubDate>Sun, 18 Jun 2023 22:58:06 +0700</pubDate><guid>https://darcien.dev/p/afterread-worst-case-scenario-survival-handbook/</guid><description>Highlights and new things I got from the book</description><content:encoded><![CDATA[<p>After sharing <a href="https://www.adfg.alaska.gov/index.cfm%3Fadfg%3Dlivewith.aggressivemoose">an article</a>
 from Alaska Department of Fish and Game about how to deal with aggresive moose,
 I got a recommendation for a survival handbook from my friend.</p>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/book-cover-worst-case-scenario-handbook.jpg#center"
-         alt="Cover of the book &amp;lsquo;The Worst-Case Scenario Survival Handbook&amp;rsquo; by Joshua Piven and David Borgenicht" style="max-height: 320px;"/> <figcaption>
-            <p>Cover of the book &lsquo;The Worst-Case Scenario Survival Handbook&rsquo; by Joshua Piven and David Borgenicht</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/book-cover-worst-case-scenario-handbook_hu14b3b555dab7fb98a39354d57b665227_104747_0x480_resize_q75_box.jpg"
+      
+      alt="Cover of the book &amp;lsquo;The Worst-Case Scenario Survival Handbook&amp;rsquo; by Joshua Piven and David Borgenicht"><figcaption>
+        
+        
+        
+        <p>Cover of the book &lsquo;The Worst-Case Scenario Survival Handbook&rsquo; by Joshua Piven and David Borgenicht</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <p>Finally finished reading it today, my first non-fiction book after a while.
 I don&rsquo;t know how useful it would be, but I love this kind of book.</p>
 <p>Some of my favourite highlights from the book:</p>
@@ -621,32 +911,69 @@ Weird feeling but I feel relaxed after realizing they also use some familiar tec
 if you&rsquo;re even remotely interested with the idea of a virtual singer singing
 cool songs in a future dystopian world, you need to watch <a href="https://www.zan-live.com/en/live/detail/10322">this live</a>.
 It&rsquo;s AMAZING and you won&rsquo;t regret it.</p>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/zan-koko-player-ii.png#center"
-         alt="2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure."/> <figcaption>
-            <p>2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/zan-koko-player-ii.png"
+      
+      alt="2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure."><figcaption>
+        
+        
+        
+        <p>2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <h3 id="issues">Issues</h3>
 <p><del>My only gripe is Z-aN is unusable on Firefox.
 Works smoothly on Vivaldi so I have not tried other browsers.</del>
 They fixed it as of 2023-08-27! Hooray 🥳</p>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/zan-on-firefox-fail.jpg#center"
-         alt="Z-aN video player fail with `The m3u8 file loaded file` error message"/> <figcaption>
-            <p>On Firefox, after few mins the video player will error out, needing a page refresh</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/zan-on-firefox-fail.jpg"
+      
+      alt="Z-aN video player fail with `The m3u8 file loaded file` error message"><figcaption>
+        
+        
+        
+        <p>On Firefox, after few mins the video player will error out, needing a page refresh</p>
+      </figcaption>
+  
+  </figure>
 <h3 id="trivia">Trivia</h3>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/zan-date-byte.png#center"
-         alt="Showing date input with &#39;Please enter your date of birth as a single-byte number.&#39; from Z-aN registration flow"/> <figcaption>
-            <p>Bonus: Z-aN wants me to enter my date of birth as a single-byte number, I have no idea how to convert a date into a single byte.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/zan-date-byte.png"
+      
+      alt="Showing date input with &#39;Please enter your date of birth as a single-byte number.&#39; from Z-aN registration flow"><figcaption>
+        
+        
+        
+        <p>Bonus: Z-aN wants me to enter my date of birth as a single-byte number, I have no idea how to convert a date into a single byte.</p>
+      </figcaption>
+  
+  </figure>
 <hr>
 <h2 id="backstory">Backstory</h2>
 <p>Starting to lose track with the many live streaming platform out there.
@@ -723,13 +1050,32 @@ Definitely buying a line interactive one though<sup id="fnref:1"><a href="#fn:1"
 <p>After I&rsquo;m done measuring all my equipment watt usage, I decided to buy this guy, <a href="https://www.apc.com/ph/en/product/BVX1200LI-MS/apc-easy-ups-bvx-1200va-230v-avr-universal-sockets/">APC BVX1200LI-MS</a>.
 Rated for 1200VA and max 650W.</p>
 <p>Today, this bad boy arrived. So I&rsquo;m going to leave it to charge overnight and test it tomorrow morning.</p>
-<figure>
-    <img loading="lazy" src="/img/ups-apc.jpg"
-         alt="Front side of the UPS."/> <figcaption>
-            <p>Front look of the UPS.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/ups-apc.jpg"
+      
+      alt="Front side of the UPS."><figcaption>
+        
+        
+        
+        <p>Front look of the UPS.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <hr>
 <p>Test run done, work just fine under normal load so far.
 It also free up 2 slot from my usual power strip, which is great!</p>
@@ -755,13 +1101,32 @@ It&rsquo;s like my dream of named args in TS came true<sup id="fnref:5"><a href=
 But there are times where the function is coming from a 3rd party SDK or used in hundred different places.
 And it was really hard to read and understand all those pesky inline booleans.</p>
 <p>From today, those issues are no longer a thing!
-<figure>
-    <img loading="lazy" src="/img/til-inlay-hint.png"
-         alt="Comparison of TS inlay hints off vs on."/> <figcaption>
-            <p>Comparison of TS inlay hints turned off vs on. Left is off; right is on.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/til-inlay-hint.png"
+      
+      alt="Comparison of TS inlay hints off vs on."><figcaption>
+        
+        
+        
+        <p>Comparison of TS inlay hints turned off vs on. Left is off; right is on.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 These inlay hints settings are configured under <code>typescript.inlayHints.*</code> in the <code>settings.json</code>.</p>
 <hr>
 <p>Post 9 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
@@ -900,13 +1265,32 @@ Might as well try to move to a better place.</p>
 <p>First time I heard about &ldquo;Iconnet&rdquo; from my coworkers. Apparently it&rsquo;s backed by Indo&rsquo;s PLN.
 I checked their site, apparently my place is covered.
 But, it&rsquo;s not great according to my source 🫠.</p>
-<figure>
-    <img loading="lazy" src="/img/isp-iconnet-testimony.png"
-         alt="Screenshot of Iconnet landing page showing empty testimony section taken on 2023-04-26."/> <figcaption>
-            <p>What makes this ISP even funnier is that their own landing page have an empty testimony section.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/isp-iconnet-testimony.png"
+      
+      alt="Screenshot of Iconnet landing page showing empty testimony section taken on 2023-04-26."><figcaption>
+        
+        
+        
+        <p>What makes this ISP even funnier is that their own landing page have an empty testimony section.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <h2 id="2022-12-31---first-media">2022-12-31 - First Media</h2>
 <p>I already used First Media from the time they start showing up in my area (probably around ~2013).
 At that time, they provide real fast connection.
@@ -929,13 +1313,22 @@ Not being transparent with the pricing model is a bad enough sign for me to stay
 <p>2022-10-18: Another call from their sales, validation still in progress and might take even more time. They&rsquo;re asking to refund my money for now.</p>
 <p>2022-11-27: I asked the same sales for updates on the validation. No reply.</p>
 <p>Later on their sales did &ldquo;react&rdquo; to my messages though:
-<figure>
-    <img loading="lazy" src="/img/isp-oxygen-sales-react.jpg"
-         alt="Oxygen.id sales reacted with tears of joy emoji to my inquiries"/> <figcaption>
-            <p>Truly a 😂 moment.</p>
-        </figcaption>
-</figure>
-</p>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/isp-oxygen-sales-react.jpg"
+      
+      alt="Oxygen.id sales reacted with tears of joy emoji to my inquiries"><figcaption>
+        
+        
+        
+        <p>Truly a 😂 moment.</p>
+      </figcaption>
+  
+  </figure></p>
 <p>Now, I have no idea whether that person just quit from being a sales or it&rsquo;s their official response.
 There&rsquo;s still some hope from this ISP if I tried to contact them again.
 But not now, right now I don&rsquo;t have the patience to sit out months just for them to check whether they have available slots for me or not.</p>
@@ -1076,13 +1469,32 @@ It could be a slap-in-the-face or did-this-text-size-increase-by-one-px kind.
 You&rsquo;ll never know until you checked it.</p>
 <hr>
 <p>Bonus: I did not expect to see a private video notice on <a href="https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">an official page</a>.</p>
-<figure>
-    <img loading="lazy" src="/img/youtube-select-private.png"
-         alt="A private video embed in YouTube Select product page."/> <figcaption>
-            <p>A private video embed in YouTube Select product page. Screenshot taken on 2022-12-21 from Indonesia. I can see it was not private on 2022-12-20 from this <a href="https://web.archive.org/web/20221220004520/https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">Wayback Machine snapshot</a>.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/youtube-select-private.png"
+      
+      alt="A private video embed in YouTube Select product page."><figcaption>
+        
+        
+        
+        <p>A private video embed in YouTube Select product page. Screenshot taken on 2022-12-21 from Indonesia. I can see it was not private on 2022-12-20 from this <a href="https://web.archive.org/web/20221220004520/https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">Wayback Machine snapshot</a>.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <hr>
 <p>Post 7 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
 ]]></content:encoded></item><item><title>My First Pi-hole</title><link>https://darcien.dev/p/my-first-pi-hole/</link><pubDate>Mon, 12 Dec 2022 16:01:20 +0700</pubDate><guid>https://darcien.dev/p/my-first-pi-hole/</guid><description>Putting a 7 y.o. Raspbian model 2 to work.</description><content:encoded><![CDATA[<p>I bought my first Raspberry Pi at 2015, it was model 2.
@@ -1125,13 +1537,32 @@ Thankfully I found an user I can use real quick, it&rsquo;s <code>telecomadmin</
 <li>Test everything is working (60 mins and counting)</li>
 </ul>
 <p>So far it&rsquo;s working great!</p>
-<figure>
-    <img loading="lazy" src="/img/first-pi-hole-admin-console.png"
-         alt="Admin console of Pi-hole"/> <figcaption>
-            <p>I&rsquo;m feeling happy when looking at the queries blocked number going up.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/first-pi-hole-admin-console.png"
+      
+      alt="Admin console of Pi-hole"><figcaption>
+        
+        
+        
+        <p>I&rsquo;m feeling happy when looking at the queries blocked number going up.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <p>I still need to figure out some things though:</p>
 <ul>
 <li>Why some query didn&rsquo;t go through Pi-hole?</li>
@@ -1287,13 +1718,32 @@ There are probably Discord apps that provide it already.
 There are probably countless of website that could do that for you with extra browser clicks.</p>
 <p>Fast forward few hours later.
 I did it!</p>
-<figure>
-    <img loading="lazy" src="/img/bernard-roll.gif"
-         alt="gif showing the built random number picker in Discord"/> <figcaption>
-            <p>Showcase of Bernard in action</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/bernard-roll.gif"
+      
+      alt="gif showing the built random number picker in Discord"><figcaption>
+        
+        
+        
+        <p>Showcase of Bernard in action</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <p>It probably took around 5 hours.
 Mostly spent on reading Discord documentation on how to do it.</p>
 <p>I put the code over <a href="https://github.com/darcien/bernard-bot">here</a>.

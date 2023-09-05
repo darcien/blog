@@ -9,13 +9,32 @@ It&rsquo;s like my dream of named args in TS came true<sup id="fnref:5"><a href=
 But there are times where the function is coming from a 3rd party SDK or used in hundred different places.
 And it was really hard to read and understand all those pesky inline booleans.</p>
 <p>From today, those issues are no longer a thing!
-<figure>
-    <img loading="lazy" src="/img/til-inlay-hint.png"
-         alt="Comparison of TS inlay hints off vs on."/> <figcaption>
-            <p>Comparison of TS inlay hints turned off vs on. Left is off; right is on.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/til-inlay-hint.png"
+      
+      alt="Comparison of TS inlay hints off vs on."><figcaption>
+        
+        
+        
+        <p>Comparison of TS inlay hints turned off vs on. Left is off; right is on.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 These inlay hints settings are configured under <code>typescript.inlayHints.*</code> in the <code>settings.json</code>.</p>
 <hr>
 <p>Post 9 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>

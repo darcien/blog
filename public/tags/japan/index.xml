@@ -223,13 +223,32 @@ Some goods are pre-ordered, so the total days doesn&rsquo;t count the days where
 <p>Both services provide the order status. Buyee displays the order status on the site and sends notification email.
 Geek Jack only show something like &ldquo;Order Status Succeeded&rdquo; in the site. Everything else goes to the email.
 They&rsquo;ll sent something like &ldquo;The benefits of [Goods Name] will arrive at our warehouse next week. We will start shipping as soon as possible.&rdquo;</p>
-<figure>
-    <img loading="lazy" src="/img/buyee-status.png"
-         alt="Buyee order status"/> <figcaption>
-            <p>Here&rsquo;s how it looks on Buyee&rsquo;s site</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/buyee-status.png"
+      
+      alt="Buyee order status"><figcaption>
+        
+        
+        
+        <p>Here&rsquo;s how it looks on Buyee&rsquo;s site</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <p>Overall, there&rsquo;s not much difference for the order status udaptes other than the misleading status in the Geek Jack site.</p>
 <ul>
 <li>Buying limited quantity goods</li>
@@ -244,14 +263,22 @@ I&rsquo;m not sure if it&rsquo;s an automated service or there&rsquo;s an actual
 </ul>
 <p>Buyee support various delivery, but most of them have low upper limit for size or weight<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
 So most of the time, the only ones available are EMS(Japan Post International Courier), DHL, and Japan Post Seamail.</p>
-<!-- raw HTML omitted -->
-<figure>
-    <img loading="lazy" src="/img/buyee-shipping-method.png"
-         alt="Buyee shipping methods"/> <figcaption>
-            <p>These are the available methods at Buyee on March 2021</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/buyee-shipping-method.png"
+      
+      alt="Buyee shipping methods"><figcaption>
+        
+        
+        
+        <p>These are the available methods at Buyee on March 2021</p>
+      </figcaption>
+  
+  </figure>
 <p>Meanwhile, Geek Jack only ships with EMS, so there&rsquo;s no choice there<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
 <p>Updates: On January 2021, Geek Jack seems to ship my package with <a href="https://www.global.ecmsglobal.com/">ECMS</a> instad of EMS. When the package arrived in Indonesia, I got contacted by their staff, asking confirmation whether I want to pay for the tax or not. Then I got hit by expensive entry tax that basically doubles the price. At this point I don&rsquo;t think I can recommend Geek Jack over Buyee for cheaper total fee.</p>
 <ul>
@@ -265,13 +292,22 @@ So most of the time, the only ones available are EMS(Japan Post International Co
 Package consolidation is just a service to consolidate multiple packages into a single package. It costs 500 JPY to consolidate 2 packages<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
 They might still split it into multiple packages if it&rsquo;s too big though.
 And the protective packaging is another optional service which they add a bunch of air bags and other protective packaging to the goods<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
-<figure>
-    <img loading="lazy" src="/img/buyee-air-bag.jpg"
-         alt="Air bag from buyee"/> <figcaption>
-            <p>These are the air bags from Buyee</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/buyee-air-bag.jpg"
+      
+      alt="Air bag from buyee"><figcaption>
+        
+        
+        
+        <p>These are the air bags from Buyee</p>
+      </figcaption>
+  
+  </figure>
 <p>It costs 1500 JPY, which is pretty expensive in my opinion.
 But I don&rsquo;t want to take any risk when buying fragile goods like acrylic panel, so I opted in anyway.</p>
 <p>Other than that, Buyee also charges for the shipping fee from the seller to Buyee. From my experience, they ranges from 700 to 1000 JPY.</p>

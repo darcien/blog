@@ -80,32 +80,69 @@ Weird feeling but I feel relaxed after realizing they also use some familiar tec
 if you&rsquo;re even remotely interested with the idea of a virtual singer singing
 cool songs in a future dystopian world, you need to watch <a href="https://www.zan-live.com/en/live/detail/10322">this live</a>.
 It&rsquo;s AMAZING and you won&rsquo;t regret it.</p>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/zan-koko-player-ii.png#center"
-         alt="2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure."/> <figcaption>
-            <p>2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/zan-koko-player-ii.png"
+      
+      alt="2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure."><figcaption>
+        
+        
+        
+        <p>2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <h3 id="issues">Issues</h3>
 <p><del>My only gripe is Z-aN is unusable on Firefox.
 Works smoothly on Vivaldi so I have not tried other browsers.</del>
 They fixed it as of 2023-08-27! Hooray 🥳</p>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/zan-on-firefox-fail.jpg#center"
-         alt="Z-aN video player fail with `The m3u8 file loaded file` error message"/> <figcaption>
-            <p>On Firefox, after few mins the video player will error out, needing a page refresh</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/zan-on-firefox-fail.jpg"
+      
+      alt="Z-aN video player fail with `The m3u8 file loaded file` error message"><figcaption>
+        
+        
+        
+        <p>On Firefox, after few mins the video player will error out, needing a page refresh</p>
+      </figcaption>
+  
+  </figure>
 <h3 id="trivia">Trivia</h3>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/zan-date-byte.png#center"
-         alt="Showing date input with &#39;Please enter your date of birth as a single-byte number.&#39; from Z-aN registration flow"/> <figcaption>
-            <p>Bonus: Z-aN wants me to enter my date of birth as a single-byte number, I have no idea how to convert a date into a single byte.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/zan-date-byte.png"
+      
+      alt="Showing date input with &#39;Please enter your date of birth as a single-byte number.&#39; from Z-aN registration flow"><figcaption>
+        
+        
+        
+        <p>Bonus: Z-aN wants me to enter my date of birth as a single-byte number, I have no idea how to convert a date into a single byte.</p>
+      </figcaption>
+  
+  </figure>
 <hr>
 <h2 id="backstory">Backstory</h2>
 <p>Starting to lose track with the many live streaming platform out there.
@@ -240,13 +277,32 @@ Might as well try to move to a better place.</p>
 <p>First time I heard about &ldquo;Iconnet&rdquo; from my coworkers. Apparently it&rsquo;s backed by Indo&rsquo;s PLN.
 I checked their site, apparently my place is covered.
 But, it&rsquo;s not great according to my source 🫠.</p>
-<figure>
-    <img loading="lazy" src="/img/isp-iconnet-testimony.png"
-         alt="Screenshot of Iconnet landing page showing empty testimony section taken on 2023-04-26."/> <figcaption>
-            <p>What makes this ISP even funnier is that their own landing page have an empty testimony section.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/isp-iconnet-testimony.png"
+      
+      alt="Screenshot of Iconnet landing page showing empty testimony section taken on 2023-04-26."><figcaption>
+        
+        
+        
+        <p>What makes this ISP even funnier is that their own landing page have an empty testimony section.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <h2 id="2022-12-31---first-media">2022-12-31 - First Media</h2>
 <p>I already used First Media from the time they start showing up in my area (probably around ~2013).
 At that time, they provide real fast connection.
@@ -269,13 +325,22 @@ Not being transparent with the pricing model is a bad enough sign for me to stay
 <p>2022-10-18: Another call from their sales, validation still in progress and might take even more time. They&rsquo;re asking to refund my money for now.</p>
 <p>2022-11-27: I asked the same sales for updates on the validation. No reply.</p>
 <p>Later on their sales did &ldquo;react&rdquo; to my messages though:
-<figure>
-    <img loading="lazy" src="/img/isp-oxygen-sales-react.jpg"
-         alt="Oxygen.id sales reacted with tears of joy emoji to my inquiries"/> <figcaption>
-            <p>Truly a 😂 moment.</p>
-        </figcaption>
-</figure>
-</p>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/isp-oxygen-sales-react.jpg"
+      
+      alt="Oxygen.id sales reacted with tears of joy emoji to my inquiries"><figcaption>
+        
+        
+        
+        <p>Truly a 😂 moment.</p>
+      </figcaption>
+  
+  </figure></p>
 <p>Now, I have no idea whether that person just quit from being a sales or it&rsquo;s their official response.
 There&rsquo;s still some hope from this ISP if I tried to contact them again.
 But not now, right now I don&rsquo;t have the patience to sit out months just for them to check whether they have available slots for me or not.</p>

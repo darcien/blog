@@ -55,13 +55,32 @@ There are probably Discord apps that provide it already.
 There are probably countless of website that could do that for you with extra browser clicks.</p>
 <p>Fast forward few hours later.
 I did it!</p>
-<figure>
-    <img loading="lazy" src="/img/bernard-roll.gif"
-         alt="gif showing the built random number picker in Discord"/> <figcaption>
-            <p>Showcase of Bernard in action</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/bernard-roll.gif"
+      
+      alt="gif showing the built random number picker in Discord"><figcaption>
+        
+        
+        
+        <p>Showcase of Bernard in action</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <p>It probably took around 5 hours.
 Mostly spent on reading Discord documentation on how to do it.</p>
 <p>I put the code over <a href="https://github.com/darcien/bernard-bot">here</a>.

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/hugo/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 04 Sep 2023 23:32:45 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Lightense is pretty cool</title><link>https://darcien.dev/p/lightense/</link><pubDate>Mon, 04 Sep 2023 23:32:45 +0700</pubDate><guid>https://darcien.dev/p/lightense/</guid><description>I finally added image zoom functionality here.</description><content:encoded><![CDATA[<hr>
+<p>TL;DR I created yet another <code>figure</code> Hugo shortcode that can be zoomed in by tapping on
+and can be resized at build time with <code>resize</code> parameter.</p>
+<hr>
+<h2 id="where-is-the-code">Where is the code?</h2>
+<p>Here, put it in <code>layouts/shortcodes/figure.html</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">{{- $src := .Get &#34;src&#34; -}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{- $imgFromPage := $.Page.Resources.GetMatch $src -}}
+</span></span><span class="line"><span class="cl">{{- $imgFromGlobal := resources.Get $src -}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{ if $imgFromPage | or $imgFromGlobal }}
+</span></span><span class="line"><span class="cl">  {{ $img := $imgFromPage | or $imgFromGlobal }}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  {{ $img := cond (isset .Params &#34;resize&#34;) ($img.Resize (.Get &#34;resize&#34; | default &#34;1x1&#34;)) $img }}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">figure</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    {{- $caption := trim (.Get &#34;caption&#34;) &#34;\n&#34; -}}
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">img</span>
+</span></span><span class="line"><span class="cl">      <span class="na">loading</span><span class="o">=</span><span class="s">&#34;lazy&#34;</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;{{ $img.RelPermalink }}&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="err">{{/*</span> <span class="na">If</span> <span class="na">alt</span> <span class="na">or</span> <span class="na">caption</span> <span class="na">is</span> <span class="na">specified</span><span class="err">,</span> <span class="na">use</span> <span class="na">it</span> <span class="na">as</span> <span class="na">alt</span> <span class="na">text</span><span class="err">.</span> <span class="err">*/}}</span>
+</span></span><span class="line"><span class="cl">      <span class="err">{{</span><span class="na">-</span> <span class="na">if</span> <span class="na">or</span> <span class="err">(.</span><span class="na">Get</span> <span class="err">&#34;</span><span class="na">alt</span><span class="err">&#34;)</span> <span class="err">$</span><span class="na">caption</span> <span class="err">}}</span>
+</span></span><span class="line"><span class="cl">      <span class="na">alt</span><span class="o">=</span><span class="s">&#34;{{ with .Get &#34;</span><span class="na">alt</span><span class="err">&#34;</span> <span class="err">}}{{</span> <span class="err">.</span> <span class="err">}}{{</span> <span class="na">else</span> <span class="err">}}{{</span> <span class="err">$</span><span class="na">caption</span> <span class="err">|</span> <span class="na">markdownify</span> <span class="err">|</span> <span class="na">plainify</span> <span class="err">}}{{</span> <span class="na">end</span> <span class="err">}}&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="err">{{</span><span class="na">-</span> <span class="na">end</span> <span class="na">-</span><span class="err">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">    {{- if $caption -}}
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">figcaption</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        {{/* The extra <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span> is intentional. */}}
+</span></span><span class="line"><span class="cl">        {{/* Otherwise different style for figure title is used. */}}
+</span></span><span class="line"><span class="cl">        {{/* Right now caption won&#39;t support title or link here. */}}
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">          {{- $caption | markdownify -}}
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">figcaption</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    {{- end }}
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">figure</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{- else -}}
+</span></span><span class="line"><span class="cl">{{- errorf &#34;figure: image &#39;%s&#39; must be an existing page or global resource!&#34; $src -}}
+</span></span><span class="line"><span class="cl">{{- end -}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{- if not (.Page.Scratch.Get &#34;lightenseLoaded&#34;) -}}
+</span></span><span class="line"><span class="cl">  {{- .Page.Scratch.Set &#34;lightenseLoaded&#34; true -}}
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">script</span> <span class="na">defer</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js&#34;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&#34;sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=&#34;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&#34;anonymous&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">script</span> <span class="na">defer</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">&#34;load&#34;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">Lightense</span><span class="p">(</span><span class="s1">&#39;img:not(.no-lightense, [aria-label=&#34;logo&#34;])&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Override the bg color behind the overlayed image when lightbox is opened.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// Using secondary value from theme with high opacity to make it work with
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// both light and dark mode because we don&#39;t have access to theme variable here.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nx">background</span><span class="o">:</span> <span class="s1">&#39;rgb(155, 156, 157 / 60%)&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span> <span class="kc">false</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">{{- end -}}
+</span></span></code></pre></div><h2 id="do-you-have-some-examples-to-play-with">Do you have some examples to play with?</h2>
+<p>Sure, here are some cat photo I took and other random things.</p>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/lightense/cat.jpg"
+      
+      alt="Cute cat sitting on chair."><figcaption>
+        
+        
+        
+        <p>A cat I saw when I went to the company trip.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/lightense/bogor_hu9b1a8372fdbefe87bd83c09aca4abcd4_4681944_0x360_resize_q75_box.jpg"
+      
+      alt="One word, green. Behind the iron fence there is a river not visible in the photo.
+Also resized down to height=360px."><figcaption>
+        
+        
+        
+        <p>One word, green. Behind the iron fence there is a river not visible in the photo.
+Also resized down to height=360px.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/shiromedia-penguin-front_hu16139e444f06f4633196fffaa4c9ff91_726080_0x640_resize_q75_box.jpg"
+      
+      alt="This figure use global resource.
+The shortcode can handle both page and global resource.
+I don&amp;rsquo;t understand why Hugo don&amp;rsquo;t have this out of the box."><figcaption>
+        
+        
+        
+        <p>This figure use global resource.
+The shortcode can handle both page and global resource.
+I don&rsquo;t understand why Hugo don&rsquo;t have this out of the box.</p>
+      </figcaption>
+  
+  </figure>
+<h2 id="but-why">But why?</h2>
+<p>I like looking at a picture on full window size without opening in new tab
+or manually zooming in the website.</p>
+<h2 id="really">Really?</h2>
+<p>Okay, the other part is because I saw the same thing on someone&rsquo;s blog<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>,
+and thought it was pretty cool.
+Seems like that blog is also built with <a href="https://gohugo.io/">Hugo</a> but I couldn&rsquo;t figure out
+what theme is being used.</p>
+<p>After few minutes and one DevTools later, their zoomable image is powered by
+<a href="https://sparanoid.com/work/lightense-images/">Lightense</a>. And after bruteforcing my way through GitHub code search,
+I found out the theme being used.
+It&rsquo;s <a href="https://themeforest.net/item/menca-modern-personal-blogging-theme-for-hugo/34443213#">Menca</a>, a paid theme by AnvodStudio.</p>
+<p>Aww shucks, I did not expect it to be a paid theme.
+But it is a good theme, so I can understand it might worth 49 USD for some people.</p>
+<p>And now, here I am.
+After recreated the zoomable image part of Menca theme.
+Feeling satisfied.</p>
+<h2 id="okay-maybe-a-bit-of-rant">Okay, maybe a bit of rant</h2>
+<p>During the making, I spent more time trying to figure out how to do x with Hugo.
+It was painful.</p>
+<p>Now I know that in Hugo I can&rsquo;t:</p>
+<ul>
+<li>set variable value from condionals to outside context</li>
+<li>set variable value from condionals to outside context</li>
+<li>set variable value from condionals to outside context</li>
+<li>ternary for setting variable value</li>
+<li>short circuit logic</li>
+</ul>
+<p>Yes I mentioned the same thing 3 times.
+It&rsquo;s painful enough that I can&rsquo;t do:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// This is JS syntax for example
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">foo</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// This doesn&#39;t work in Hugo:
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">foo</span> <span class="o">=</span> <span class="nx">doSomething</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// What Hugo does is more like this,
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// it creates a new variable in the current scope.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// And the variable in the parent scope is untouched.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kd">let</span> <span class="nx">foo</span> <span class="o">=</span> <span class="nx">doSomething</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>And having no ternary here is like rubbing salt on the wounds.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// In JS I would write something like this
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">img</span> <span class="o">=</span> <span class="nx">resize</span> <span class="o">?</span> <span class="nx">img</span><span class="p">.</span><span class="nx">resizeTo</span><span class="p">(</span><span class="nx">resize</span><span class="p">)</span> <span class="o">:</span> <span class="nx">img</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// But I had to write it like this
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">truthy</span> <span class="o">=</span> <span class="nx">img</span><span class="p">.</span><span class="nx">resizeTo</span><span class="p">(</span><span class="nx">resize</span> <span class="o">||</span> <span class="s1">&#39;1x1&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">falsy</span> <span class="o">=</span> <span class="nx">img</span>
+</span></span><span class="line"><span class="cl"><span class="nx">img</span> <span class="o">=</span> <span class="nx">cond</span><span class="p">(</span><span class="nx">isSet</span><span class="p">(</span><span class="nx">params</span><span class="p">,</span> <span class="s2">&#34;resize&#34;</span><span class="p">),</span> <span class="nx">truthy</span><span class="p">,</span> <span class="nx">falsy</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Actual Hugo template code:
+</span></span></span><span class="line"><span class="cl"><span class="c1">// {{ $img := cond (isset .Params &#34;resize&#34;) ($img.Resize (.Get &#34;resize&#34; | default &#34;1x1&#34;)) $img }}
+</span></span></span></code></pre></div><p>I know it&rsquo;s probably not Hugo&rsquo;s fault.
+I feel like hitting the limit of templating syntax.
+But I like writing in markdown with a small sprinkles of dynamic code here in there.</p>
+<p>I should explore more in this area, maybe there&rsquo;s already something out there for me.
+Just waiting to be found&hellip;</p>
+<hr>
+<p>Post 20 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Carlos&rsquo; blog, he&rsquo;s a cool person; <a href="https://carlosbecker.com/">https://carlosbecker.com/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item></channel></rss>

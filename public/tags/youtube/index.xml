@@ -22,13 +22,32 @@ It could be a slap-in-the-face or did-this-text-size-increase-by-one-px kind.
 You&rsquo;ll never know until you checked it.</p>
 <hr>
 <p>Bonus: I did not expect to see a private video notice on <a href="https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">an official page</a>.</p>
-<figure>
-    <img loading="lazy" src="/img/youtube-select-private.png"
-         alt="A private video embed in YouTube Select product page."/> <figcaption>
-            <p>A private video embed in YouTube Select product page. Screenshot taken on 2022-12-21 from Indonesia. I can see it was not private on 2022-12-20 from this <a href="https://web.archive.org/web/20221220004520/https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">Wayback Machine snapshot</a>.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/youtube-select-private.png"
+      
+      alt="A private video embed in YouTube Select product page."><figcaption>
+        
+        
+        
+        <p>A private video embed in YouTube Select product page. Screenshot taken on 2022-12-21 from Indonesia. I can see it was not private on 2022-12-20 from this <a href="https://web.archive.org/web/20221220004520/https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">Wayback Machine snapshot</a>.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <hr>
 <p>Post 7 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
 ]]></content:encoded></item></channel></rss>

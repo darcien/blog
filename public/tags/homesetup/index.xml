@@ -15,13 +15,32 @@ Definitely buying a line interactive one though<sup id="fnref:1"><a href="#fn:1"
 <p>After I&rsquo;m done measuring all my equipment watt usage, I decided to buy this guy, <a href="https://www.apc.com/ph/en/product/BVX1200LI-MS/apc-easy-ups-bvx-1200va-230v-avr-universal-sockets/">APC BVX1200LI-MS</a>.
 Rated for 1200VA and max 650W.</p>
 <p>Today, this bad boy arrived. So I&rsquo;m going to leave it to charge overnight and test it tomorrow morning.</p>
-<figure>
-    <img loading="lazy" src="/img/ups-apc.jpg"
-         alt="Front side of the UPS."/> <figcaption>
-            <p>Front look of the UPS.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/ups-apc.jpg"
+      
+      alt="Front side of the UPS."><figcaption>
+        
+        
+        
+        <p>Front look of the UPS.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <hr>
 <p>Test run done, work just fine under normal load so far.
 It also free up 2 slot from my usual power strip, which is great!</p>
@@ -76,13 +95,32 @@ Thankfully I found an user I can use real quick, it&rsquo;s <code>telecomadmin</
 <li>Test everything is working (60 mins and counting)</li>
 </ul>
 <p>So far it&rsquo;s working great!</p>
-<figure>
-    <img loading="lazy" src="/img/first-pi-hole-admin-console.png"
-         alt="Admin console of Pi-hole"/> <figcaption>
-            <p>I&rsquo;m feeling happy when looking at the queries blocked number going up.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/first-pi-hole-admin-console.png"
+      
+      alt="Admin console of Pi-hole"><figcaption>
+        
+        
+        
+        <p>I&rsquo;m feeling happy when looking at the queries blocked number going up.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <p>I still need to figure out some things though:</p>
 <ul>
 <li>Why some query didn&rsquo;t go through Pi-hole?</li>

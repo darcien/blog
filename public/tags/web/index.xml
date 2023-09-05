@@ -80,32 +80,69 @@ Weird feeling but I feel relaxed after realizing they also use some familiar tec
 if you&rsquo;re even remotely interested with the idea of a virtual singer singing
 cool songs in a future dystopian world, you need to watch <a href="https://www.zan-live.com/en/live/detail/10322">this live</a>.
 It&rsquo;s AMAZING and you won&rsquo;t regret it.</p>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/zan-koko-player-ii.png#center"
-         alt="2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure."/> <figcaption>
-            <p>2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/zan-koko-player-ii.png"
+      
+      alt="2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure."><figcaption>
+        
+        
+        
+        <p>2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <h3 id="issues">Issues</h3>
 <p><del>My only gripe is Z-aN is unusable on Firefox.
 Works smoothly on Vivaldi so I have not tried other browsers.</del>
 They fixed it as of 2023-08-27! Hooray 🥳</p>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/zan-on-firefox-fail.jpg#center"
-         alt="Z-aN video player fail with `The m3u8 file loaded file` error message"/> <figcaption>
-            <p>On Firefox, after few mins the video player will error out, needing a page refresh</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/zan-on-firefox-fail.jpg"
+      
+      alt="Z-aN video player fail with `The m3u8 file loaded file` error message"><figcaption>
+        
+        
+        
+        <p>On Firefox, after few mins the video player will error out, needing a page refresh</p>
+      </figcaption>
+  
+  </figure>
 <h3 id="trivia">Trivia</h3>
-<figure class="align-center ">
-    <img loading="lazy" src="/img/zan-date-byte.png#center"
-         alt="Showing date input with &#39;Please enter your date of birth as a single-byte number.&#39; from Z-aN registration flow"/> <figcaption>
-            <p>Bonus: Z-aN wants me to enter my date of birth as a single-byte number, I have no idea how to convert a date into a single byte.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/zan-date-byte.png"
+      
+      alt="Showing date input with &#39;Please enter your date of birth as a single-byte number.&#39; from Z-aN registration flow"><figcaption>
+        
+        
+        
+        <p>Bonus: Z-aN wants me to enter my date of birth as a single-byte number, I have no idea how to convert a date into a single byte.</p>
+      </figcaption>
+  
+  </figure>
 <hr>
 <h2 id="backstory">Backstory</h2>
 <p>Starting to lose track with the many live streaming platform out there.
@@ -153,13 +190,32 @@ It could be a slap-in-the-face or did-this-text-size-increase-by-one-px kind.
 You&rsquo;ll never know until you checked it.</p>
 <hr>
 <p>Bonus: I did not expect to see a private video notice on <a href="https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">an official page</a>.</p>
-<figure>
-    <img loading="lazy" src="/img/youtube-select-private.png"
-         alt="A private video embed in YouTube Select product page."/> <figcaption>
-            <p>A private video embed in YouTube Select product page. Screenshot taken on 2022-12-21 from Indonesia. I can see it was not private on 2022-12-20 from this <a href="https://web.archive.org/web/20221220004520/https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">Wayback Machine snapshot</a>.</p>
-        </figcaption>
-</figure>
 
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/img/youtube-select-private.png"
+      
+      alt="A private video embed in YouTube Select product page."><figcaption>
+        
+        
+        
+        <p>A private video embed in YouTube Select product page. Screenshot taken on 2022-12-21 from Indonesia. I can see it was not private on 2022-12-20 from this <a href="https://web.archive.org/web/20221220004520/https://www.youtube.com/ads/how-it-works/set-up-a-campaign/youtube-select/">Wayback Machine snapshot</a>.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
 <hr>
 <p>Post 7 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
 ]]></content:encoded></item></channel></rss>
