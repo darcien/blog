@@ -130,6 +130,8 @@ At least these days they have package notifications via WhatsApp business accoun
       </figcaption>
   
   </figure>
+<hr>
+<p>Post 21 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
 ]]></content:encoded></item><item><title>Lightense is pretty cool</title><link>https://darcien.dev/p/lightense/</link><pubDate>Mon, 04 Sep 2023 23:32:45 +0700</pubDate><guid>https://darcien.dev/p/lightense/</guid><description>I finally added image zoom functionality here.</description><content:encoded><![CDATA[<hr>
 <p>TL;DR I created yet another <code>figure</code> Hugo shortcode that can be zoomed in by tapping on
 and can be resized at build time with <code>resize</code> parameter.</p>
