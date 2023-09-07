@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/100daystooffload/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 04 Sep 2023 23:32:45 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/100daystooffload/index.xml" rel="self" type="application/rss+xml"/><item><title>Lightense is pretty cool</title><link>https://darcien.dev/p/lightense/</link><pubDate>Mon, 04 Sep 2023 23:32:45 +0700</pubDate><guid>https://darcien.dev/p/lightense/</guid><description>I finally added image zoom functionality here.</description><content:encoded><![CDATA[<hr>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/100daystooffload/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 07 Sep 2023 19:30:47 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/100daystooffload/index.xml" rel="self" type="application/rss+xml"/><item><title>Bought goods from BOOTH.pm (again) with EMS</title><link>https://darcien.dev/p/bought-goods-from-booth-again/</link><pubDate>Thu, 07 Sep 2023 19:30:47 +0700</pubDate><guid>https://darcien.dev/p/bought-goods-from-booth-again/</guid><description>Tried changing package type to gift to reduce import tax, it&amp;rsquo;s not very effective.</description><content:encoded><![CDATA[<p>I bought more goods from BOOTH.pm for the who knows how many time.
+But this time felt a bit cheaper, not sure if I got used to it or it&rsquo;s actually cheaper.
+Time to write it for comparison then!</p>
+<p>The main differences with the usual are:</p>
+<ul>
+<li>I changed the package type to &ldquo;gift&rdquo;. The default type is &ldquo;other&rdquo; for mine.</li>
+<li>I picked EMS instead of DHL this time to shave off few hundred yens.</li>
+<li>I did not request package consolidation, so each goods are shipped individually from Japan to me.</li>
+</ul>
+<h2 id="the-numbers">The numbers</h2>
+<table>
+<thead>
+<tr>
+<th>Goods</th>
+<th>Price (JPY)</th>
+<th>Shipping local (JPY)</th>
+<th>Shipping intl (JPY)</th>
+<th>Weight (g)</th>
+<th>Dimensions (cm)</th>
+<th>Import tax (IDR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acrylic figure (~15cm)</td>
+<td>2200</td>
+<td>370</td>
+<td>1900</td>
+<td>120</td>
+<td>32 × 26 × 1</td>
+<td>95950</td>
+</tr>
+<tr>
+<td>B2 Tapestry (double suede)</td>
+<td>7000</td>
+<td>880</td>
+<td>1900</td>
+<td>300</td>
+<td>10 × 10 × 54</td>
+<td>192950</td>
+</tr>
+</tbody>
+</table>
+<h2 id="calculations">Calculations</h2>
+<p>For calculation I will use today&rsquo;s exchange rate for simplication.
+Today (2023-09-07) it is 1 JPY = 104 IDR.</p>
+<h3 id="acrylic-figure">Acrylic figure</h3>
+<p>Total paid = (2200 + 370 + 1900) * 104 + 95950</p>
+<p>Total paid = 464880 + 95950</p>
+<p>Total paid = 560830 IDR</p>
+<h3 id="b2-tapestry">B2 tapestry</h3>
+<p>Total paid = (7000 + 880 + 1900) * 104 + 192950</p>
+<p>Total paid = 1017120 + 192950</p>
+<p>Total paid = 1210070 IDR</p>
+<h2 id="comparison">Comparison</h2>
+<p>I&rsquo;m using the prices from previous BOOTH.pm <a href="../actual-prices-for-goods-from-booth.md">purchase post</a> for comparison.
+That one only have acrylic figure though, I have not bought tapestry recently.</p>
+<p>From that post, the acrylic figure cost 551.441 IDR with tax included,
+sent via DHL, and were consolidated with other goods.</p>
+<p>Compared to this time which costs 560.830 IDR, the difference is just 9.389 IDR.
+Thats peanuts.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The price did not drop that much even though I expect setting &ldquo;gift&rdquo; to package
+type would reduce the tax.
+Which makes sense because majority of the price came from shipping that costs
+more than the goods itself (2200 &lt; 370 + 1900).</p>
+<p>I need to adjust my buying strategy based on the goods vs shipping price.
+I want to pay even less!</p>
+<h2 id="omake---pictures">Omake - pictures</h2>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bought-goods-from-booth-again/package-tapestry.jpg"
+      
+      alt="How BOOTH.pm package their goods, it&amp;rsquo;s a hard 1mm cardbox with no fillings."><figcaption>
+        
+        
+        
+        <p>How BOOTH.pm package their goods, it&rsquo;s a hard 1mm cardbox with no fillings.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bought-goods-from-booth-again/tapestry_hu7dc63fd83a38f855869cee15cb9a0055_2718547_0x1440_resize_q75_box.jpg"
+      
+      alt="The B2 tapestry, unpacked and hanged on the wall. Drawn by Hatsuno-sensei and sold here."><figcaption>
+        
+        
+        
+        <p>The B2 tapestry, unpacked and hanged on the wall.
+Drawn by Hatsuno-sensei and sold <a href="https://booth.pm/en/items/5019934">here</a>.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bought-goods-from-booth-again/tax-receipt_hu488101180ba7b7619dadcd0d22f2e982_2099394_0x720_resize_q75_box.jpg"
+      
+      alt="I still don&amp;rsquo;t understand how to calculate import tax on my own.
+Or how Indonesia&amp;rsquo;s post office does not always give me this tax receipt.
+At least these days they have package notifications via WhatsApp business account."><figcaption>
+        
+        
+        
+        <p>I still don&rsquo;t understand how to calculate import tax on my own.
+Or how Indonesia&rsquo;s post office does not always give me this tax receipt.
+At least these days they have package notifications via WhatsApp business account.</p>
+      </figcaption>
+  
+  </figure>
+]]></content:encoded></item><item><title>Lightense is pretty cool</title><link>https://darcien.dev/p/lightense/</link><pubDate>Mon, 04 Sep 2023 23:32:45 +0700</pubDate><guid>https://darcien.dev/p/lightense/</guid><description>I finally added image zoom functionality here.</description><content:encoded><![CDATA[<hr>
 <p>TL;DR I created yet another <code>figure</code> Hugo shortcode that can be zoomed in by tapping on
 and can be resized at build time with <code>resize</code> parameter.</p>
 <hr>
