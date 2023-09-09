@@ -9,6 +9,7 @@ fi
 
 # https://github.com/fhanau/Efficient-Compression-Tool
 for img in $(find $input_dir -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \)); do
+  echo optimizing sizes $img
   # -9 is the max optimization and is really slow
   # --mt-deflate for compression using multi-threading
   # -strip metadata
