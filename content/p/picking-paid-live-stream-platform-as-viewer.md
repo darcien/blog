@@ -16,7 +16,7 @@ Link: https://ib.eplus.jp
 
 Last watched: 2023-03-18, hololive 4th fes
 
-Rating: avoid if possible 👎
+**Verdict: avoid if possible 👎**
 
 Okay-ish for watching the live stream.
 Unuseable for watching the archives.
@@ -29,7 +29,7 @@ Link: https://hololive-fc.com
 
 Last watched: 2023-06-21, variety show with Asaka as guest
 
-Rating: decent but no choice on exclusive content 😐
+**Verdict: decent but no choice on exclusive content 😐**
 (Firefox user: bad site 👎)
 
 A relatively new hololive exclusive platform, showed up at early 2022.
@@ -54,7 +54,7 @@ Link: https://live.nicovideo.jp
 
 Last watched: 2023-03-15, Nornis 1st live
 
-Rating: paid for video, only got the audio 😭
+**Verdict: video stream quality sucks, archive not included 😭**
 
 Same old nico nico douga but with different name.
 Functionally, it's great.
@@ -72,7 +72,7 @@ Link: https://virtual.spwn.jp
 
 Last watched: 2022-03-20, hololive 3rd fes
 
-Rating: pretty safe choice if available 👍
+**Verdict: pretty safe choice if available 👍**
 
 So far the most platform I've been using and has the least problem with.
 From time to time has bad connection to Indo
@@ -84,7 +84,7 @@ Link: https://youtube.com
 
 Last watched: pretty much every month
 
-Rating: probably the live you want to watch is not here 😔
+**Verdict: probably the live you want to watch is not here 😔**
 
 It's YouTube.
 They probaby have the best infra for running live stream in the world right now.
@@ -99,24 +99,32 @@ Previously watched:
 - 2023-06-17, Planet Station stage 8
 - 2023-08-27, Hololive Splash Party
 - 2023-09-03, KOKO 2nd ONE-MAN LIVE "PLAYER II - Kamitsubaki City AREA 4 -"
+- 2023-09-13, Blue Journey 1st Live "Yoake no Uta"
 
-Rating: my new go to platform 🫶
+**Verdict: great when it's working, but unstable lately 😬**
 
-### First impression (2023-06-17)
+### Latest impression (2023-09-13)
 
-First time watched on Z-aN, surprisingly a great platform!
-Good to the point it become a trigger for me to make this notes.
-From registration flow, payment (it uses Stripe at the moment), stream connection,
-archives, even bonus digital goods from buying tickets, this Z-aN tick all the boxes.
+Watched yet another big event, and there's a blackout mid stream.
+No sound, no video.
+They said the troubles only last 90s, but it felt like forever[^zan-bj-1-trouble].
+With the live comments still running, I saw a lot of frustrated comments.
+That makes me feel sad.
+It was a theatrical type event and setting the mood was pretty important.
+And the blackout ruined the mood buildup for me.
+
+With all the recent troubles, I'm starting to lose faith in Z-aN 🙁
+
+[^zan-bj-1-trouble]: https://web.archive.org/web/20230913181459/https://www.zan-live.com/en/news/333#:~:text=Regarding%20the%20livestream%20of%20Blue%20Journey%201st%20Live%20%22Yoake%20no%20Uta%2C%22%20which%20took%20place%20on%20September%2013%2C%202023%2C%20we%20regret%20to%20inform%20you%20that%20there%20was%20an%20incident%20of%20approximately%201%20minute%20and%2030%20seconds%20of%20disruption%20in%20both%20video%20and%20audio%20due%20to%20equipment%20troubles%2C%20which%20occurred%20at%20around%2019%3A33.%C2%A0
 
 
-### Current impression (2023-09-03)
+### Previous impression (2023-09-03)
 
 Still my favourite platform, everything from my first impression still applies
 (assuming the site isn't down if they're hosting a big event with >100k viewers).
 And they even fixed the errors on Firefox.
 
-On 2023-08-26, their site couldn't handle the load from Hololive Splash Party though.
+On 2023-08-26, their site couldn't handle the load from Hololive Splash Party though[^zan-refund].
 The live postponed live that day never happened.
 It become a recording distributed on YouTube and the live ticket refunded.
 I did not expect them to fail that bad.
@@ -124,6 +132,8 @@ Live viewers count should be under 200k from my estimates.
 
 Also saw nginx error page from their site that day.
 Weird feeling but I feel relaxed after realizing they also use some familiar tech in their stack.
+
+[^zan-refund]: https://web.archive.org/web/20230913181611/https://www.zan-live.com/en/news/328
 
 ---
 
@@ -139,7 +149,14 @@ src="/img/zan-koko-player-ii.png"
 caption="2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure."
 >}}
 
-### Issues
+### First impression (2023-06-17)
+
+First time watched on Z-aN, surprisingly a great platform!
+Good to the point it become a trigger for me to make this notes.
+From registration flow, payment (it uses Stripe at the moment), stream connection,
+archives, even bonus digital goods from buying tickets, this Z-aN tick all the boxes.
+
+### Other issues
 
 ~~My only gripe is Z-aN is unusable on Firefox.
 Works smoothly on Vivaldi so I have not tried other browsers.~~
@@ -171,6 +188,8 @@ Even when there are choices, at most it's 2, it's pick bad or the less bad one �
 
 
 ## Changelog
+
+2023-09-13: updated Z-aN entry, issues keep happening
 
 2023-09-03: updated Z-aN entry, added KOKO one-man live pic
 

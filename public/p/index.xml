@@ -1487,7 +1487,7 @@ Over the time these list might get outdated as the streaming platform keep updat
 <h2 id="eplus">eplus</h2>
 <p>Link: <a href="https://ib.eplus.jp">https://ib.eplus.jp</a></p>
 <p>Last watched: 2023-03-18, hololive 4th fes</p>
-<p>Rating: avoid if possible 👎</p>
+<p><strong>Verdict: avoid if possible 👎</strong></p>
 <p>Okay-ish for watching the live stream.
 Unuseable for watching the archives.
 Getting a bunch of audio issues on the archives like noises and out of sync,
@@ -1495,7 +1495,7 @@ after a while, no audio plays.</p>
 <h2 id="hololive-official-fanclub-subscribe-only-with-no-one-time-ticket-kinda-counts">hololive official fanclub (subscribe only with no one time ticket, kinda counts)</h2>
 <p>Link: <a href="https://hololive-fc.com">https://hololive-fc.com</a></p>
 <p>Last watched: 2023-06-21, variety show with Asaka as guest</p>
-<p>Rating: decent but no choice on exclusive content 😐
+<p><strong>Verdict: decent but no choice on exclusive content 😐</strong>
 (Firefox user: bad site 👎)</p>
 <p>A relatively new hololive exclusive platform, showed up at early 2022.
 Suprisingly decent considering it&rsquo;s their own platform
@@ -1510,7 +1510,7 @@ Which is a sad thing, but not a dealbreaker.</p>
 <h2 id="niconico-dwango">Niconico (Dwango)</h2>
 <p>Link: <a href="https://live.nicovideo.jp">https://live.nicovideo.jp</a></p>
 <p>Last watched: 2023-03-15, Nornis 1st live</p>
-<p>Rating: paid for video, only got the audio 😭</p>
+<p><strong>Verdict: video stream quality sucks, archive not included 😭</strong></p>
 <p>Same old nico nico douga but with different name.
 Functionally, it&rsquo;s great.
 Pratically, I can&rsquo;t like it.</p>
@@ -1522,14 +1522,14 @@ premium service(2023-06-17: cost JPY 550 per month).</p>
 <h2 id="spwn">SPWN</h2>
 <p>Link: <a href="https://virtual.spwn.jp">https://virtual.spwn.jp</a></p>
 <p>Last watched: 2022-03-20, hololive 3rd fes</p>
-<p>Rating: pretty safe choice if available 👍</p>
+<p><strong>Verdict: pretty safe choice if available 👍</strong></p>
 <p>So far the most platform I&rsquo;ve been using and has the least problem with.
 From time to time has bad connection to Indo
 even after turning on low latency mode on their video player.</p>
 <h2 id="youtube-member-only-live-kinda-counts">YouTube (member only live, kinda counts)</h2>
 <p>Link: <a href="https://youtube.com">https://youtube.com</a></p>
 <p>Last watched: pretty much every month</p>
-<p>Rating: probably the live you want to watch is not here 😔</p>
+<p><strong>Verdict: probably the live you want to watch is not here 😔</strong></p>
 <p>It&rsquo;s YouTube.
 They probaby have the best infra for running live stream in the world right now.</p>
 <p>But they don&rsquo;t run ticketing for one-time watch.</p>
@@ -1540,18 +1540,23 @@ They probaby have the best infra for running live stream in the world right now.
 <li>2023-06-17, Planet Station stage 8</li>
 <li>2023-08-27, Hololive Splash Party</li>
 <li>2023-09-03, KOKO 2nd ONE-MAN LIVE &ldquo;PLAYER II - Kamitsubaki City AREA 4 -&rdquo;</li>
+<li>2023-09-13, Blue Journey 1st Live &ldquo;Yoake no Uta&rdquo;</li>
 </ul>
-<p>Rating: my new go to platform 🫶</p>
-<h3 id="first-impression-2023-06-17">First impression (2023-06-17)</h3>
-<p>First time watched on Z-aN, surprisingly a great platform!
-Good to the point it become a trigger for me to make this notes.
-From registration flow, payment (it uses Stripe at the moment), stream connection,
-archives, even bonus digital goods from buying tickets, this Z-aN tick all the boxes.</p>
-<h3 id="current-impression-2023-09-03">Current impression (2023-09-03)</h3>
+<p><strong>Verdict: great when it&rsquo;s working, but unstable lately 😬</strong></p>
+<h3 id="latest-impression-2023-09-13">Latest impression (2023-09-13)</h3>
+<p>Watched yet another big event, and there&rsquo;s a blackout mid stream.
+No sound, no video.
+They said the troubles only last 90s, but it felt like forever<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+With the live comments still running, I saw a lot of frustrated comments.
+That makes me feel sad.
+It was a theatrical type event and setting the mood was pretty important.
+And the blackout ruined the mood buildup for me.</p>
+<p>With all the recent troubles, I&rsquo;m starting to lose faith in Z-aN 🙁</p>
+<h3 id="previous-impression-2023-09-03">Previous impression (2023-09-03)</h3>
 <p>Still my favourite platform, everything from my first impression still applies
 (assuming the site isn&rsquo;t down if they&rsquo;re hosting a big event with &gt;100k viewers).
 And they even fixed the errors on Firefox.</p>
-<p>On 2023-08-26, their site couldn&rsquo;t handle the load from Hololive Splash Party though.
+<p>On 2023-08-26, their site couldn&rsquo;t handle the load from Hololive Splash Party though<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.
 The live postponed live that day never happened.
 It become a recording distributed on YouTube and the live ticket refunded.
 I did not expect them to fail that bad.
@@ -1589,7 +1594,12 @@ It&rsquo;s AMAZING and you won&rsquo;t regret it.</p>
       });
     }, false);
   </script>
-<h3 id="issues">Issues</h3>
+<h3 id="first-impression-2023-06-17">First impression (2023-06-17)</h3>
+<p>First time watched on Z-aN, surprisingly a great platform!
+Good to the point it become a trigger for me to make this notes.
+From registration flow, payment (it uses Stripe at the moment), stream connection,
+archives, even bonus digital goods from buying tickets, this Z-aN tick all the boxes.</p>
+<h3 id="other-issues">Other issues</h3>
 <p><del>My only gripe is Z-aN is unusable on Firefox.
 Works smoothly on Vivaldi so I have not tried other browsers.</del>
 They fixed it as of 2023-08-27! Hooray 🥳</p>
@@ -1634,6 +1644,7 @@ I created this note to avoid using the bad ones if possible.
 Most of the time there&rsquo;s no choices though.
 Even when there are choices, at most it&rsquo;s 2, it&rsquo;s pick bad or the less bad one 🥲.</p>
 <h2 id="changelog">Changelog</h2>
+<p>2023-09-13: updated Z-aN entry, issues keep happening</p>
 <p>2023-09-03: updated Z-aN entry, added KOKO one-man live pic</p>
 <p>2023-06-17: initial page</p>
 <hr>
@@ -1646,6 +1657,12 @@ Even when there are choices, at most it&rsquo;s 2, it&rsquo;s pick bad or the le
 </li>
 <li id="fn:2">
 <p><a href="https://web.archive.org/web/20230617155122/https://hololive-fc.com/notification/114">https://web.archive.org/web/20230617155122/https://hololive-fc.com/notification/114</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://web.archive.org/web/20230913181459/https://www.zan-live.com/en/news/333#:~:text=Regarding%20the%20livestream%20of%20Blue%20Journey%201st%20Live%20%22Yoake%20no%20Uta%2C%22%20which%20took%20place%20on%20September%2013%2C%202023%2C%20we%20regret%20to%20inform%20you%20that%20there%20was%20an%20incident%20of%20approximately%201%20minute%20and%2030%20seconds%20of%20disruption%20in%20both%20video%20and%20audio%20due%20to%20equipment%20troubles%2C%20which%20occurred%20at%20around%2019%3A33.%C2%A0">https://web.archive.org/web/20230913181459/https://www.zan-live.com/en/news/333#:~:text=Regarding%20the%20livestream%20of%20Blue%20Journey%201st%20Live%20%22Yoake%20no%20Uta%2C%22%20which%20took%20place%20on%20September%2013%2C%202023%2C%20we%20regret%20to%20inform%20you%20that%20there%20was%20an%20incident%20of%20approximately%201%20minute%20and%2030%20seconds%20of%20disruption%20in%20both%20video%20and%20audio%20due%20to%20equipment%20troubles%2C%20which%20occurred%20at%20around%2019%3A33.%C2%A0</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://web.archive.org/web/20230913181611/https://www.zan-live.com/en/news/328">https://web.archive.org/web/20230913181611/https://www.zan-live.com/en/news/328</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
