@@ -11,10 +11,12 @@ Keeping track of things I'm using daily.
 
 - Office supplied MacBook Air M1 from 2020
 - iPhone X from 2018
-- Raspberry Pi 2 Model B running Pi-hole, a relic from 2015
-- A custom desktop with Intel i7-7700K, 16 GB of RAM, 512 GB NVMe SSD, 2 TB HDD,
+- ~~Raspberry Pi 2 Model B running Pi-hole, a relic from 2015~~ offline because I ran out of electric sockets
+- MacBook 15" from 2015 for home server (Home Assistant etc.)
+- A custom desktop with Intel i7-7700K, 32 GB of RAM, 512 GB NVMe SSD, 2 TB HDD,
   and GTX 1070. This thing has been reduced into a glorified video player
-  and SSH client these days
+  and SSH client these days. Even the case power button is dead, so I need to
+  use external button.
 
 ### Keyboard / Mouse
 
@@ -36,7 +38,7 @@ Keeping track of things I'm using daily.
 ### Audio
 
 - [Audio Technica ATH-M50x](https://www.audio-technica.com/en-eu/ath-m50x) from 2016
-- AfterShokz Aeropex AS800 bone conducting headset from 2021 for cycling
+- AfterShokz Aeropex AS800 bone conducting headset from 2021
 - [Yamaha AG06](https://ca.yamaha.com/en/products/music_production/interfaces/ag_series/index.html):
   an overkill mixer to consolidate audio sources so I can hear them all at once.
 - Sony SRS-XB10 Bluetooth speaker thats wired to the audio mixer all the time.
@@ -45,9 +47,15 @@ Keeping track of things I'm using daily.
   on calls.
 
 ### Others
+
 - [APC BVX1200LI-MS][ups], a 1200VA UPS
+- [AirGradient DIY Pro][airgradient], an air quality monitor
+- [Smart Air Sqair][smartair], an air purifier
 
 [ups]: https://www.apc.com/ph/en/product/BVX1200LI-MS/apc-easy-ups-bvx-1200va-230v-avr-universal-sockets/
+[airgradient]: https://www.airgradient.com/shop/
+[smartair]: https://smartairfilters.com/en/sqair/
+
 ## Software
 
 ### CLI programs
@@ -77,10 +85,19 @@ for my personal NixOS config.
 - [Wahoo KICKR v5](https://www.dcrainmaker.com/2020/08/wahoo-kickr-v5-2020-smart-trainer-in-depth-review.html) for indoor ride
 - [Polar H10](https://www.polar.com/en/sensors/h10-heart-rate-sensor) heart rate sensor
 - [Shimano RC3](https://bike.shimano.com/en-EU/product/apparel-accessories/shimano-series-lsg-2022/SH-RC300.html)
-  road cyling shoe because the local shop only has this model for my size
 - ZERAY bike pedals
+- Skechers running shoes, the navy hyper burst whatever one
 
 ### Apps
 - Zwift for training plans and cycling with peeps virtually
 - [intervals.icu](https://intervals.icu/) for tracking and planning
 - Strava for outdoor ride
+- Nike Run Club for running (duh)
+- [HealthFit][healthfit] for syncing activities between apps
+
+[healthfit]: https://apps.apple.com/us/app/healthfit/id1202650514
+
+## Changelog
+
+- 2023-08-17 - initial version
+- 2023-10-01 - add RAM, air monitor and running gears
