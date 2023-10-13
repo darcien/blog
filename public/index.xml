@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 08 Sep 2023 20:46:41 +0700</lastBuildDate><atom:link href="https://darcien.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Monitoring air quality with AirGradient and Home Assistant</title><link>https://darcien.dev/p/airgradient/</link><pubDate>Fri, 08 Sep 2023 20:46:41 +0700</pubDate><guid>https://darcien.dev/p/airgradient/</guid><description>My journey for better air quality.</description><content:encoded><![CDATA[<p>Recently I pulled the trigger and bought air quality monitor from <a href="https://www.airgradient.com/">AirGradient</a>.
 Definitely not because my city has plummeted from bad to worst<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>This post will contain everything I did to set up AirGradient, all the way
+to storing and viewing historical data locally.</p>
 <h2 id="what-partscomponentstools-are-used">What parts/components/tools are used?</h2>
 <h3 id="for-air-monitoring">For air monitoring</h3>
 <ul>
@@ -19,7 +21,7 @@ My kit includes:
 </li>
 <li>Power supply, 5V 3A. This <a href="https://web.archive.org/web/20230908145102/https://forum.airgradient.com/t/pro-kit-power-supply-requirements/374/3#:~:text=For%20the%20D1%20v4%20we%20recommend%205v%20and%20at%20least%202.4A.">forum post</a> mention they recommend 5V and at least 2.4A for WeMos D1 used in the pro kit. I could only find made-in-China power supplies here, it&rsquo;s better than nothing.</li>
 <li>USB cable, 3m, USB-A to USB-C with right angle so it can fit behind the air monitor. The supplied 2m cable is not enough for me.</li>
-<li><a href="https://www.3m.com/3M/en_US/p/c/home/storage-organization/clips-hooks-adhesive-strips/">3M adhesive hooks</a> and random knitting threads. Using plasic hooks + threads so I don&rsquo;t have to put a hole in the wall to hang the air monitor.</li>
+<li><a href="https://www.3m.com/3M/en_US/p/c/home/storage-organization/clips-hooks-adhesive-strips/">3M adhesive hooks</a> and random knitting threads. Using plastic hooks + threads so I don&rsquo;t have to put a hole in the wall to hang the air monitor.</li>
 </ul>
 <h3 id="for-storing-and-viewing-sensor-data">For storing and viewing sensor data</h3>
 <blockquote>
@@ -86,7 +88,7 @@ So I will need to use <a href="https://web.esphome.io/">ESPHome&rsquo;s web flas
 <h2 id="what-work-are-done-to-start-seeing-numbers-in-dashboard">What work are done to start seeing numbers in dashboard?</h2>
 <h3 id="assembling-the-airgradient-kit">Assembling the AirGradient kit</h3>
 <p>AirGradient has the full assembly instruction in <a href="https://www.airgradient.com/open-airgradient/instructions/">their website</a>.
-Mine is pretty straighforward since I bought the pre-soldered kit which involves
+Mine is pretty straightforward since I bought the pre-soldered kit which involves
 sticking sensor to the correct places.</p>
 
   
@@ -160,7 +162,7 @@ Specifically <a href="https://github.com/ajfriesen/ESPHome-AirGradient/blob/e216
 <p>Steps I did for compiling the firmware:</p>
 <ol>
 <li>Copy the AirGradient config YAML and <code>secrets.yaml</code>,
-save them in a new directory somehere in the computer.</li>
+save them in a new directory somewhere in the computer.</li>
 <li>Modify the config as needed, the instruction comments in there is pretty self explanatory.
 While editing the YAML, the editor IDE might complain about &ldquo;Unresolved tag: !secret&rdquo;.
 It&rsquo;s fine to ignore those warnings.
@@ -226,7 +228,7 @@ I haven&rsquo;t debugged this, but after leaving it powered on for few mins,
 <code>N/A</code> got replaced with numbers.
 So the sensors might be just starting and simply haven&rsquo;t picked up and sent any data yet.</p>
 <p>Now we have the sensors ready to send data,
-it&rsquo;s time to setup the recieving part!</p>
+it&rsquo;s time to setup the receiving part!</p>
 <h3 id="setting-up-home-assistant-container">Setting up Home Assistant container</h3>
 <p><a href="https://www.home-assistant.io/installation/macos">MacOS HA installation docs</a> actually does not have container installation.
 Luckily prior to this, I already found <a href="https://blog.illixion.com/2023/04/colima-home-assistant/">this post from Ixion</a> about setting up Home Assistant on macOS.
@@ -263,7 +265,7 @@ discover a running ESPHome device in the same network.
 I have not tried it.
 Instead I tried manually adding the ESPHome device or in this case the AirGradient
 to HA.</p>
-<p>From the HA dasbhoard, do:</p>
+<p>From the HA dashboard, do:</p>
 <ol>
 <li>Open &ldquo;Settings &gt; Devices &amp; Services&rdquo;,</li>
 <li>In &ldquo;Integrations&rdquo; tab, press &ldquo;ADD INTEGRATION&rdquo; in bottom right,</li>
@@ -368,9 +370,29 @@ The AirTest only have PM2.5 sensor, no idea what specific sensor is installed in
 It is sold at 1.990.000 IDR and have 30 days pre-order<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>,
 now that&rsquo;s expensive for a single sensor with closed design.</p>
 <h2 id="how-much-electricity-does-this-setup-use">How much electricity does this setup use?</h2>
-<blockquote>
-<p>🚧 I&rsquo;m still monitoring the electricity usage, not yet done.</p>
-</blockquote>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/airgradient/macbook-power-usage_hucfc2f1f99591c02f5e60e2f7b940594e_111543_0x640_resize_q75_box.jpg"
+      
+      alt="A power meter showing 0.945 KWh after 6 days 15 hours 10 minutes for the server (from empty battery)."><figcaption>
+        
+        
+        
+        <p>A power meter showing 0.945 KWh after 6 days 15 hours 10 minutes for the server (from empty battery).</p>
+      </figcaption>
+  
+  </figure>
+<p>0.945 KWh = 6 days 15 hours 10 minutes
+0.945 KWh = 9550 minutes
+0.006 KWh = 60 minutes</p>
+<p>That&rsquo;s 0.006 KWh per hour, or 4.32 KWh per month.
+So I&rsquo;m paying around 6.241 IDR per month using 1.444,7 IDR per KWh rate.</p>
+<p>I&rsquo;m excluding the electricity usage from the sensors because they&rsquo;re too low.
+Leaving the metered sensors a week gave me 0 KWh on the power meter.</p>
 <h2 id="what-is-the-gfonts-in-the-esphome-config">What is the <code>gfonts://</code> in the ESPHome config?</h2>
 <p>It&rsquo;s <a href="https://esphome.io/components/display/index.html#:~:text=You%20can%20use%20the%20gfonts%3A//%20short%20form%20to%20use%20Google%20Fonts">a special ESPHome syntax</a> for using Google Fonts in the display.</p>
 <h2 id="how-long-until-the-sensors-needs-to-be-replaced">How long until the sensors needs to be replaced?</h2>
@@ -379,7 +401,7 @@ I&rsquo;m seeing some discussion about this in AirGradient forum,
 and AirGradient said they still have PMS5003 sensor working even after 4 years<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
 I sure hope Jakarta&rsquo;s air is not polluted enough to the point I need to
 replace PM sensors often.
-At that point, sensor life expentancy is the least of my worries.</p>
+At that point, sensor life expectancy is the least of my worries.</p>
 <h2 id="back-up-plans-for-ha-container">Back up plans for HA container?</h2>
 <p>As I just finished with setting up, I have no concrete plans yet.
 I looked a bit into the forum and found <a href="https://community.home-assistant.io/t/what-backup-strategy-when-running-home-assistant-in-docker/262539/7">this thread</a>
@@ -499,7 +521,8 @@ I need to fix it eventually.</p>
   
   </figure>
 <h2 id="changelog">Changelog</h2>
-<p>2023-09-08 - initial version</p>
+<p>2023-09-08 - initial version
+2023-10-13 - add electricity usage</p>
 <hr>
 <p>Post 22 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
 <div class="footnotes" role="doc-endnotes">

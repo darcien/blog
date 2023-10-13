@@ -13,6 +13,9 @@ Definitely not because my city has plummeted from bad to worst[^jakarta-polluted
 [airgradient]: https://www.airgradient.com/
 [^jakarta-polluted]: https://edition.cnn.com/2023/08/16/asia/indonesia-pollution-jokowi-cough-intl-hnk/index.html
 
+This post will contain everything I did to set up AirGradient, all the way
+to storing and viewing historical data locally.
+
 ## What parts/components/tools are used?
 
 ### For air monitoring
@@ -30,7 +33,7 @@ Definitely not because my city has plummeted from bad to worst[^jakarta-polluted
   - plastic enclosure, screws, and (small) screwdriver
 - Power supply, 5V 3A. This [forum post][recommended-power] mention they recommend 5V and at least 2.4A for WeMos D1 used in the pro kit. I could only find made-in-China power supplies here, it's better than nothing.
 - USB cable, 3m, USB-A to USB-C with right angle so it can fit behind the air monitor. The supplied 2m cable is not enough for me.
-- [3M adhesive hooks][3m-hooks] and random knitting threads. Using plasic hooks + threads so I don't have to put a hole in the wall to hang the air monitor.
+- [3M adhesive hooks][3m-hooks] and random knitting threads. Using plastic hooks + threads so I don't have to put a hole in the wall to hang the air monitor.
 
 [airgradient-diy-pro]: https://www.airgradient.com/indoor/
 [wemos-d1-mini]: https://www.wemos.cc/en/latest/d1/d1_mini.html
@@ -132,7 +135,7 @@ So I will need to use [ESPHome's web flasher][esp-web-flash].
 ### Assembling the AirGradient kit
 
 AirGradient has the full assembly instruction in [their website][airgradient-instructions].
-Mine is pretty straighforward since I bought the pre-soldered kit which involves
+Mine is pretty straightforward since I bought the pre-soldered kit which involves
 sticking sensor to the correct places.
 
 [airgradient-instructions]: https://www.airgradient.com/open-airgradient/instructions/
@@ -186,7 +189,7 @@ Specifically [this file][config-file] that's intended for AirGradient Pro versio
 
 Steps I did for compiling the firmware:
 1. Copy the AirGradient config YAML and `secrets.yaml`,
-   save them in a new directory somehere in the computer.
+   save them in a new directory somewhere in the computer.
 2. Modify the config as needed, the instruction comments in there is pretty self explanatory.
    While editing the YAML, the editor IDE might complain about "Unresolved tag: !secret".
    It's fine to ignore those warnings.
@@ -264,7 +267,7 @@ I haven't debugged this, but after leaving it powered on for few mins,
 So the sensors might be just starting and simply haven't picked up and sent any data yet.
 
 Now we have the sensors ready to send data,
-it's time to setup the recieving part!
+it's time to setup the receiving part!
 
 ### Setting up Home Assistant container
 
@@ -310,7 +313,7 @@ to HA.
 
 [ha-esp-integration]: https://www.home-assistant.io/integrations/esphome/
 
-From the HA dasbhoard, do:
+From the HA dashboard, do:
 1. Open "Settings > Devices & Services",
 2. In "Integrations" tab, press "ADD INTEGRATION" in bottom right,
 3. Search and click "ESPHome" integration,
@@ -399,7 +402,21 @@ now that's expensive for a single sensor with closed design.
 
 ## How much electricity does this setup use?
 
-> 🚧 I'm still monitoring the electricity usage, not yet done.
+{{< figure
+ src="macbook-power-usage.jpg"
+ caption="A power meter showing 0.945 KWh after 6 days 15 hours 10 minutes for the server (from empty battery)."
+ resize="x640"
+>}}
+
+0.945 KWh = 6 days 15 hours 10 minutes
+0.945 KWh = 9550 minutes
+0.006 KWh = 60 minutes
+
+That's 0.006 KWh per hour, or 4.32 KWh per month.
+So I'm paying around 6.241 IDR per month using 1.444,7 IDR per KWh rate.
+
+I'm excluding the electricity usage from the sensors because they're too low.
+Leaving the metered sensors a week gave me 0 KWh on the power meter.
 
 ## What is the `gfonts://` in the ESPHome config?
 
@@ -414,7 +431,7 @@ I'm seeing some discussion about this in AirGradient forum,
 and AirGradient said they still have PMS5003 sensor working even after 4 years[^airgradient-4-years].
 I sure hope Jakarta's air is not polluted enough to the point I need to
 replace PM sensors often.
-At that point, sensor life expentancy is the least of my worries.
+At that point, sensor life expectancy is the least of my worries.
 
 [^airgradient-4-years]: https://forum.airgradient.com/t/extending-the-life-span-of-the-pms5003-sensor/114/23#:~:text=We%20have%20many%20PMS5003%20still%20working%20after%20four%20years%20without%20issues.%20If%20you%20are%20not%20living%20in%20a%20very%20polluted%20environment%20they%20will%20probably%20last%20longer%20than%203%20years.
 
@@ -493,6 +510,7 @@ I need to fix it eventually.
 ## Changelog
 
 2023-09-08 - initial version
+2023-10-13 - add electricity usage
 
 ---
 
