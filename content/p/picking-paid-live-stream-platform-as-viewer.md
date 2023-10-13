@@ -189,11 +189,9 @@ Even when there are choices, at most it's 2, it's pick bad or the less bad one ð
 
 ## Changelog
 
-2023-09-13: updated Z-aN entry, issues keep happening
-
-2023-09-03: updated Z-aN entry, added KOKO one-man live pic
-
-2023-06-17: initial page
+- 2023-09-13: updated Z-aN entry, issues keep happening
+- 2023-09-03: updated Z-aN entry, added KOKO one-man live pic
+- 2023-06-17: initial page
 
 ---
 

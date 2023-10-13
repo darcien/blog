@@ -99,5 +99,5 @@ for my personal NixOS config.
 
 ## Changelog
 
-- 2023-08-17 - initial version
-- 2023-10-01 - add RAM, air monitor and running gears
+- 2023-10-01: add RAM, air monitor and running gears
+- 2023-08-17: initial version

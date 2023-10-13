@@ -409,7 +409,9 @@ now that's expensive for a single sensor with closed design.
 >}}
 
 0.945 KWh = 6 days 15 hours 10 minutes
+
 0.945 KWh = 9550 minutes
+
 0.006 KWh = 60 minutes
 
 That's 0.006 KWh per hour, or 4.32 KWh per month.
@@ -509,8 +511,8 @@ I need to fix it eventually.
 
 ## Changelog
 
-2023-09-08 - initial version
-2023-10-13 - add electricity usage
+- 2023-10-13: add electricity usage
+- 2023-09-08: initial version
 
 ---
 

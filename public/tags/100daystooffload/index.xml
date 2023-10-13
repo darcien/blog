@@ -386,9 +386,9 @@ now that&rsquo;s expensive for a single sensor with closed design.</p>
       </figcaption>
   
   </figure>
-<p>0.945 KWh = 6 days 15 hours 10 minutes
-0.945 KWh = 9550 minutes
-0.006 KWh = 60 minutes</p>
+<p>0.945 KWh = 6 days 15 hours 10 minutes</p>
+<p>0.945 KWh = 9550 minutes</p>
+<p>0.006 KWh = 60 minutes</p>
 <p>That&rsquo;s 0.006 KWh per hour, or 4.32 KWh per month.
 So I&rsquo;m paying around 6.241 IDR per month using 1.444,7 IDR per KWh rate.</p>
 <p>I&rsquo;m excluding the electricity usage from the sensors because they&rsquo;re too low.
@@ -521,8 +521,10 @@ I need to fix it eventually.</p>
   
   </figure>
 <h2 id="changelog">Changelog</h2>
-<p>2023-09-08 - initial version
-2023-10-13 - add electricity usage</p>
+<ul>
+<li>2023-10-13: add electricity usage</li>
+<li>2023-09-08: initial version</li>
+</ul>
 <hr>
 <p>Post 22 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
 <div class="footnotes" role="doc-endnotes">
@@ -1667,9 +1669,11 @@ I created this note to avoid using the bad ones if possible.
 Most of the time there&rsquo;s no choices though.
 Even when there are choices, at most it&rsquo;s 2, it&rsquo;s pick bad or the less bad one 🥲.</p>
 <h2 id="changelog">Changelog</h2>
-<p>2023-09-13: updated Z-aN entry, issues keep happening</p>
-<p>2023-09-03: updated Z-aN entry, added KOKO one-man live pic</p>
-<p>2023-06-17: initial page</p>
+<ul>
+<li>2023-09-13: updated Z-aN entry, issues keep happening</li>
+<li>2023-09-03: updated Z-aN entry, added KOKO one-man live pic</li>
+<li>2023-06-17: initial page</li>
+</ul>
 <hr>
 <p>Post 13 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
 <div class="footnotes" role="doc-endnotes">
