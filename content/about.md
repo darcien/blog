@@ -15,6 +15,18 @@ where I don't have to worry about writing useless sentences.
 - I'm one of those people that is really quiet at first then become noisy after getting familiar (sometimes).
 
 
+## Drinks?
+
+Water, water, and water. Plain water is good for you.
+When it's not water, I drink:
+- [a hot cup of coffee with milk][coffee] almost daily.
+  Might be up to 3 cups on stressful days.
+- black tea occasionally when I need to warm up my soul.
+- cola, when I need that extra oomph in a day.
+  Oooh all the sugars and soda rushing in 🫨
+
+[coffee]: ../coffee
+
 ## Life philosophy?
 
 > 🚧 Warning: I'm still in a neverending existential crisis,
@@ -27,14 +39,14 @@ Knowing the principles and applying it are two different matters though.
 [Rationalism](https://en.wikipedia.org/wiki/Rationalism) is also a thing that
 I learnt from [this article](https://www.newyorker.com/magazine/2021/08/23/why-is-it-so-hard-to-be-rational).
 
-For now I'm trying to align myself with stoism and rationalism.
+For now I'm trying to align myself with stoicism and rationalism.
 
 ## Life goals?
 
 Oof, thats a hard question.
 For now, I just want to be in a state where being alive doesn't feel like
 living hell.
-To achive that, my strategies are:
+To achieve that, my strategies are:
 - I need to accept what I have right now
 - I should not be sad for things I don't have
 - I should improve something day-by-day, whether it's living condition, knowledge, or fitness
