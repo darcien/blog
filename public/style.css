@@ -4,13 +4,6 @@ img:not([aria-label="logo"]) {
   height: auto;
 }
 
-/* Undo nowrap set by theme. */
-/* This fixes the broken layout on smaller breakpoints
-because of the custom footer partial which has longer sentences. */
-.footer span:last-child {
-  white-space: unset;
-}
-
 /* Make img and caption for figure default to align center. */
 .post-content figure {
   display: flex;
@@ -19,4 +12,18 @@ because of the custom footer partial which has longer sentences. */
 }
 .post-content figure > figcaption {
   text-align: center;
+}
+
+/* Undo nowrap set by theme. */
+/* This fixes the broken layout on smaller breakpoints
+because of the custom footer partial which has longer sentences. */
+.footer span:last-child {
+  white-space: unset;
+}
+
+footer .footer-blank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
 }
