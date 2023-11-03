@@ -67,15 +67,17 @@ params:
     disableHLJS: true # to disable highlight.js
     # https://gohugo.io/hugo-pipes/fingerprint/
     # disableFingerprinting: true
-    favicon: "whale72.png"
-    favicon16x16: "whale16.png"
-    favicon32x32: "whale32.png"
-    apple_touch_icon: "whale57.png"
+    # Favicon no longer configured here,
+    # see favicons.html instead.
+    # favicon: "whale72.png"
+    # favicon16x16: "whale16.png"
+    # favicon32x32: "whale32.png"
+    # apple_touch_icon: "whale57.png"
     # safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Yosua Ian Sebastian"
-    icon: /whale72.png
+    icon: /whale_goth.svg
     iconHeight: 28
 
   # home-info mode - this is what we use
