@@ -1,7 +1,5 @@
 THEME_DIR := join(justfile_directory(), "themes", "PaperMod")
 DEFAULT_THEME_COMMIT_MESSAGE := 'update theme'
-# TODO: date is not cross platform, maybe use npx date-now-cli ir non date default
-DEFAULT_COMMIT_MESSAGE := `date "+%Y-%m-%dT%H:%M:%S"`
 
 # List all available targets if just is executed with no arguments
 default:
@@ -27,7 +25,6 @@ deploy:
 # Commit all changes and deploy it
 doit: build
   git add --all
-  # windows dont like heart hands https://emojipedia.org/heart-hands/
   git commit -m "just do it 🫶"
   just deploy
 
