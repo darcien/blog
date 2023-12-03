@@ -1891,7 +1891,15 @@ Like every single one of them, from &ldquo;every person know this name&rdquo; to
 <td>❌</td>
 </tr>
 <tr>
+<td><a href="https://bnetfit.id/">Bnetfit</a></td>
+<td>❌</td>
+</tr>
+<tr>
 <td><a href="https://cbn.id/personal/fiber/cbn-fiber.html">CBN Fiber</a></td>
+<td>❌</td>
+</tr>
+<tr>
+<td><a href="https://fiberstream.id/en">Fiberstream</a></td>
 <td>❌</td>
 </tr>
 <tr>
@@ -1948,7 +1956,7 @@ Like every single one of them, from &ldquo;every person know this name&rdquo; to
 </tr>
 </tbody>
 </table>
-<p>*: indonet seems to only offer enterprise plan, I&rsquo;m not going to contact their sales for checking that.</p>
+<p>*: Not going to bother with ISP targeting enterprise user.</p>
 <p>**: MNC Play requires me to fill a form with personal identification etc. to check for coverage area.
 I already did that with another ISP, got a lot of spam calls and no coverage, no thanks.</p>
 <p>ISP availability last checked at: <code>2022-12-31</code></p>
@@ -2031,6 +2039,10 @@ But not now, right now I don&rsquo;t have the patience to sit out months just fo
 <p>Bonus: I can&rsquo;t login to my customer account after changing the default password to a 25-characters password.
 Pressing login does nothing, no message or UI feedback whatsoever.
 I suspect my password is over the length limit they have for password 🙃.</p>
+<h2 id="changelog">Changelog</h2>
+<ul>
+<li>2023-12-03: Found Bnetfit and Fiberstream in some random FB group when trying to troubleshoot dumb NAT issues with Nintendo Switch</li>
+</ul>
 <hr>
 <p>Post 12 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
 <hr>

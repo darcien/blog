@@ -38,6 +38,7 @@ Excelso | Kalosi Toraja | 😐 | -
 Excelso | Robusta Gold | 😐 | -
 Kopi Boutique | Arabica Toraja Sulotco Sulawesi | 😐 | -
 Kopi Boutique | Robusta Java Dampit | 😐 | -
+Macehat | Arabica Sumatra Mandheling | 🤔 | Not a good latte material for me
 Northsider | Aceh Gayo Wine | 🤢 | Well it kinda look like wine, but the taste, ugh I can't bear it, sorry
 Northsider | Arabica Flores Bajawa Fully-washed | 😐 | -
 Northsider | Arabica Gunung Halu Banana Honey | 😐 | -
@@ -45,6 +46,7 @@ Northsider | Arabica Ijen Blue Mountain Honey | 😐 | -
 Northsider | Arabica Java Malabar Red Honey | 😐 | -
 Northsider | Arabica Toraja Bittuang Natural | 😐 | -
 Northsider | Black Onyx blend (Robusta Java, Arabica West Java & Aceh) | 😐 | -
+Northsider | Classic blend (Robusta Dampit, Arabica Flores) | 😀 | Starting tad bland, but feels strong later on, not bad!
 Northsider | Cold White blend (Robusta Temanggung, Arabica West Java & Gayo) | 😐 | -
 Northsider | North blend (All Arabica: Columbia, Brazil, Ethiopia) | 😐 | Feels weird at first, but it tastes just okay after a while.
 Northsider | Razeta'55 blend (Arabica Brazil, Arabica Java, Robusta Java) | ❤️ | I've been buying this blend for more than a year straight, probably my favorite blend so far
@@ -104,6 +106,16 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
 
 
 ## Other Photos?
+
+{{< figure
+ src="macehat-front.jpg"
+ caption="Got some freshly roasted beans from Sumatra, taken at 2023-11-19."
+>}}
+
+{{< figure
+ src="macehat-back.jpg"
+ caption="Back side showing it was roasted 11 days prior to the photo. My sister literally told me to drink it before 14 days pass from roasted date. Taken at 2023-11-19."
+>}}
 
 {{< figure
  src="cold-white-blend.jpg"

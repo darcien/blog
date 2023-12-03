@@ -39,7 +39,9 @@ Like every single one of them, from "every person know this name" to "is that an
 | ------------------------------------------------------------------- | --------- |
 | [BaliFiber](https://www.balifiber.id/home/bf_home)                  | ❌        |
 | [Biznet Home](https://biznethome.net/)                              | ❌        |
+| [Bnetfit](https://bnetfit.id/)                                      | ❌        |
 | [CBN Fiber](https://cbn.id/personal/fiber/cbn-fiber.html)           | ❌        |
+| [Fiberstream](https://fiberstream.id/en)                            | ❌        |
 | [First Media](https://www.firstmedia.com/)                          | ✅        |
 | [Groovy](https://groovy.id/)                                        | ❌        |
 | [Iconnet (PLN)](https://iconnet.id/)                                | ✅        |
@@ -54,7 +56,7 @@ Like every single one of them, from "every person know this name" to "is that an
 | [XL Home](https://www.xlhome.co.id/)                                | ❌        |
 | [XL Satu Fiber](https://satu.xl.co.id/)                             | ❌        |
 
-\*: indonet seems to only offer enterprise plan, I'm not going to contact their sales for checking that.
+\*: Not going to bother with ISP targeting enterprise user.
 
 \*\*: MNC Play requires me to fill a form with personal identification etc. to check for coverage area.
 I already did that with another ISP, got a lot of spam calls and no coverage, no thanks.
@@ -127,6 +129,10 @@ But not now, right now I don't have the patience to sit out months just for them
 Bonus: I can't login to my customer account after changing the default password to a 25-characters password.
 Pressing login does nothing, no message or UI feedback whatsoever.
 I suspect my password is over the length limit they have for password 🙃.
+
+## Changelog
+
+- 2023-12-03: Found Bnetfit and Fiberstream in some random FB group when trying to troubleshoot dumb NAT issues with Nintendo Switch
 
 ---
 
