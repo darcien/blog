@@ -87,6 +87,7 @@ for my personal NixOS config.
 - [Shimano RC3](https://bike.shimano.com/en-EU/product/apparel-accessories/shimano-series-lsg-2022/SH-RC300.html)
 - ZERAY bike pedals
 - Skechers running shoes, the navy hyper burst whatever one
+- [Garmin Forerunner 955 Solar](https://www.garmin.com/en-US/p/777730)
 
 ### Apps
 - Zwift for training plans and cycling with peeps virtually
@@ -99,5 +100,6 @@ for my personal NixOS config.
 
 ## Changelog
 
+- 2024-01-04: add new watch
 - 2023-10-01: add RAM, air monitor and running gears
 - 2023-08-17: initial version

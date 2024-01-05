@@ -1,6 +1,6 @@
 baseURL: "https://darcien.dev/"
 title: "A blog by Yosua Ian Sebastian"
-paginate: 20
+paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -104,6 +104,10 @@ params:
   socialIcons:
     - name: twitter
       url: "https://twitter.com/darcien_"
+    - name: github
+      url: "https://github.com/darcien"
+    - name: strava
+      url: "https://www.strava.com/athletes/39346424"
     - name: email
       url: "mailto:hello@darcien.me"
 
@@ -145,6 +149,10 @@ menu:
       name: uses
       url: /uses
       weight: 30
+    - identifier: archive
+      name: archive
+      url: /archive
+      weight: 80
     - identifier: tags
       name: tags
       url: /tags
