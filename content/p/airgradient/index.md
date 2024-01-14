@@ -6,6 +6,8 @@ summary: "My journey for better air quality."
 showToc: true
 ---
 
+> 🔖 Assumed post audience: someone who wants to know what it takes to setup
+> self hosted air quality monitor.
 
 Recently I pulled the trigger and bought air quality monitor from [AirGradient][airgradient].
 Definitely not because my city has plummeted from bad to worst[^jakarta-polluted].

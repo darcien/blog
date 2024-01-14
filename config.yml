@@ -141,6 +141,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: now
+      name: now
+      url: /now
+      weight: 1
     - identifier: about
       name: about
       url: /about
