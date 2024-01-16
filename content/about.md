@@ -52,7 +52,7 @@ To achieve that, my strategies are:
 - I should improve something day-by-day, whether it's living condition, knowledge, or fitness
 
 
-## Music
+## Music?
 
 I listen to Japanese songs almost all the time.
 
@@ -80,7 +80,41 @@ Some example songs are:
   - "刹那ティックコード" by ときのそら & AZKi
   - "餞の鳥" by D/Zeal
 
-## Random facts
+## Games?
+
+- My favorite franchise is [Splatoon][splatoon] (probably).
+  After that, there's [Pokemon][pokemon] and [Ys][ys].
+
+- My nostalgia game is Pokemon Sapphire.
+
+- I like roguelike game. e.g. [Risk of Rain][ror], [Risk of Rain 2][ror2],
+  and [Dead Cells][deadcells].
+
+- I like watching interactive drama game playthrough.
+  Usually created by [Supermassive Games][supermassive] like Until Dawn and
+  The Quarry.
+  Watching, not playing, because I don't have a PS4.
+
+- I used to collect games on Steam. At the time of writing, I have 1077 games.
+
+- I used to spent a lot of hours in online games like [Grand Chase][grandchase],
+  [Elsword][elsword], and [Warframe][warframe].
+
+[splatoon]: https://en.wikipedia.org/wiki/Splatoon
+[pokemon]: https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series)
+[ys]: https://en.wikipedia.org/wiki/Ys_(series)
+
+[ror]: https://en.wikipedia.org/wiki/Risk_of_Rain
+[ror2]: https://en.wikipedia.org/wiki/Risk_of_Rain_2
+[deadcells]: https://en.wikipedia.org/wiki/Dead_Cells
+
+[grandchase]: https://en.wikipedia.org/wiki/Grand_Chase
+[elsword]: https://en.wikipedia.org/wiki/Elsword
+[warframe]: https://en.wikipedia.org/wiki/Warframe
+
+[supermassive]: https://en.wikipedia.org/wiki/Supermassive_Games
+
+## Random facts?
 
 - I am born in Jakarta, Indonesia in 1997 during the [financial crisis](https://en.wikipedia.org/wiki/1997_Asian_financial_crisis).
 - I have never met nor seen both of my grandfathers ever, even as a baby.
@@ -89,4 +123,3 @@ Some example songs are:
 - I've been working as software engineer since 2018.
 - I've been working from home since 2019.
 - I hiked [Mt. Semeru (3676m)](https://en.wikipedia.org/wiki/Semeru) as my first mountain, reached the top and survived! (Thanks KF mountaineers)
-- I used to collect games on Steam. At the time of writing, I have 1077 games.

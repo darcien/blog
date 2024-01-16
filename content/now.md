@@ -22,7 +22,7 @@ Which has been sitting in my library since last year, untouched.
 The game is now actually playable!
 Still has weird lag and freezes every now and then.
 But otherwise much smoother compared to right after release.
-End up clearing the game in 1-2 sittings in the weekend.
+End up clearing the game in the weekend.
 Also cleared the 7-star Blaziken raid.
 Thanks random players who joined and helped clearing it!
 

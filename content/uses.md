@@ -92,14 +92,14 @@ for my personal NixOS config.
 ### Apps
 - Zwift for training plans and cycling with peeps virtually
 - [intervals.icu](https://intervals.icu/) for tracking and planning
-- Strava for outdoor ride
-- Nike Run Club for running (duh)
+- Strava for sharing activities
 - [HealthFit][healthfit] for syncing activities between apps
 
 [healthfit]: https://apps.apple.com/us/app/healthfit/id1202650514
 
 ## Changelog
 
-- 2024-01-04: add new watch
+- 2024-01-16: removed Nike Run Club, replaced with Garmin built in planner
+- 2024-01-04: add new Garmin watch
 - 2023-10-01: add RAM, air monitor and running gears
 - 2023-08-17: initial version
