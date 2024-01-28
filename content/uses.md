@@ -84,10 +84,14 @@ for my personal NixOS config.
 ### Gears
 - [Wahoo KICKR v5](https://www.dcrainmaker.com/2020/08/wahoo-kickr-v5-2020-smart-trainer-in-depth-review.html) for indoor ride
 - [Polar H10](https://www.polar.com/en/sensors/h10-heart-rate-sensor) heart rate sensor
-- [Shimano RC3](https://bike.shimano.com/en-EU/product/apparel-accessories/shimano-series-lsg-2022/SH-RC300.html)
-- ZERAY bike pedals
+- [Shimano RC3][rc3] cycling shoes
+- [Shimano RC7][rc7] cycling shoes
+- ZERAY ZP-115 bike pedals (Look Keo compatible)
 - Skechers running shoes, the navy hyper burst whatever one
 - [Garmin Forerunner 955 Solar](https://www.garmin.com/en-US/p/777730)
+
+[rc3]: https://bike.shimano.com/en-EU/product/apparel-accessories/shimano-series-lsg-2022/SH-RC300.html
+[rc7]: https://bike.shimano.com/en-EU/product/apparel-accessories/shimano-series-lsg-2022/SH-RC702.html
 
 ### Apps
 - Zwift for training plans and cycling with peeps virtually
@@ -99,6 +103,7 @@ for my personal NixOS config.
 
 ## Changelog
 
+- 2024-01-28: add RC7 shoes
 - 2024-01-16: removed Nike Run Club, replaced with Garmin built in planner
 - 2024-01-04: add new Garmin watch
 - 2023-10-01: add RAM, air monitor and running gears
