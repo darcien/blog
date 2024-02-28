@@ -10,10 +10,26 @@ where I don't have to worry about writing useless sentences.
 
 - I used to think I'm a bit weird, turns out [everyone are](https://viruscomix.com/page500.html)!
 - I consider myself really bad at communicating things, especially feelings.
-- I feel like I'm lacking attachment to life.
+- I feel like I'm lackfing attachment to life.
 - I feel like I'm too harsh on others or myself (sometimes).
 - I'm one of those people that is really quiet at first then become noisy after getting familiar (sometimes).
 
+
+## Food?
+
+- I like potato and any potato derivatives 🥔.
+- I like pasta.
+- Fish? I like [bandeng][bandeng], salmon, and tuna.
+- Fruits? I like pineapple, lemon, and banana. Apple is also kinda nice.
+- I like stir fried beef with black pepper.
+- I like salty snacks.
+- Kue kering (cookies)? I like [nastar][nastar] and [kastengel][kastengel].
+- Not a fan of spicy food.
+- Prefer to avoid shady seafoods and mushrooms.
+
+[bandeng]: https://en.wikipedia.org/wiki/Milkfish
+[nastar]: https://en.wikipedia.org/wiki/Pineapple_tart
+[kastengel]: https://en.wikipedia.org/wiki/Kaasstengels
 
 ## Drinks?
 
@@ -21,6 +37,7 @@ Water, water, and water. Plain water is good for you.
 When it's not water, I drink:
 - [a hot cup of coffee with milk][coffee] almost daily.
   Might be up to 3 cups on stressful days.
+- flavoured milk, like mochacinno or strawberry.
 - black tea occasionally when I need to warm up my soul.
 - cola, when I need that extra oomph in a day.
   Oooh all the sugars and soda rushing in 🫨

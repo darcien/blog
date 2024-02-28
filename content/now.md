@@ -5,44 +5,29 @@ draft: false
 
 > 🔖 This is [a now page](https://nownownow.com/about).
 
-Updated on 28th January, 2024, from Jakarta, Indonesia.
+Updated on 28th February, 2024, from Jakarta, Indonesia.
 
-## I'm fully recovered (maybe)
+## Back to (indoor) cycling
 
-Finally! No more sore throat.
-Nose some times still feel stuffed.
-But that's not enough to stop me from cycling.
+Spent part of 2023 running for exercises.
+Turns out it's pretty fun!
+But not when the air quality outside is bad.
+Back to indoor cycling it is for 2024.
+I need to prepare and train for Bromo KOM anyway
+(assuming I got the ticket).
 
-## New bike shoes
+## Elixir is cool
 
-Maybe sickness is not going to stop me from cycling, but feet pain is.
-I just realized the pain in my left feet is from the shoe being too small.
-Took me almost 3 years to realize that.
-So I bought a wide size 47 Shimano.
-One size bigger than my usual.
-My friend also told me normally you would pick 1 size up for bike shoes anyway
-compared to regular shoes.
-
-## Missing screws
-
-After getting the new cycling shoes, I realized 1 more thing with my old shoes.
-The grip under the shoes often slant even though it's already bolted pretty tight.
-Turns out there's only 2 screws per shoe.
-It should be 3 🤦.
-What was I thinking when I put these grip on.
-And finding replacement plate and screws is harder than buying new grips.
-Screw it, I'm buying a new cleat grips.
-
-
-## Side Order is coming!
-
-I thought the Splatoon 3 DLC is going to be released at the end of 2024.
-Turns out no, I misremembered.
-It's the end of February instead.
-Next month!
-How could they add my favorite genre to my already favorite game.
-I'm too exicted now. 🦑🐙💨
-
+I'm so tired dealing with JS ecosystem.
+Every time I tried to use another language for hobby project,
+it didn't stick around.
+Deno did, but it's still JS, kinda.
+Until I found Elixir.
+I don't exactly know why, but I kinda liked it.
+There's Erlang/OTP, BEAM, Phoenix LiveView, `mix`, and Ecto there.
+Feels like adventuring a whole new world ✨.
+Currently going through "Programming Phoenix LiveView" by Bruce A. Tate.
+Probably will take a year to finish it at my current pace though 😂.
 
 ## Tasty soap
 
