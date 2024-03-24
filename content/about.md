@@ -19,6 +19,7 @@ where I don't have to worry about writing useless sentences.
 
 - I like potato and any potato derivatives 🥔.
 - I like pasta.
+- I love cheese roll.
 - Fish? I like [bandeng][bandeng], salmon, and tuna.
 - Fruits? I like pineapple, lemon, and banana. Apple is also kinda nice.
 - I like stir fried beef with black pepper.

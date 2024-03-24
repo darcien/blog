@@ -5,7 +5,7 @@ draft: false
 
 > 🔖 This is [a now page](https://nownownow.com/about).
 
-Updated on 28th February, 2024, from Jakarta, Indonesia.
+Updated on 24th March, 2024, from Jakarta, Indonesia.
 
 ## Back to (indoor) cycling
 
@@ -15,6 +15,9 @@ But not when the air quality outside is bad.
 Back to indoor cycling it is for 2024.
 I need to prepare and train for Bromo KOM anyway
 (assuming I got the ticket).
+
+Update: I got the ticket!
+Stayed awake at 3 a.m. to buy the ticket, totally worth it.
 
 ## Elixir is cool
 

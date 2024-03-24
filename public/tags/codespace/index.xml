@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/codespace/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 24 Mar 2024 19:04:24 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/codespace/index.xml" rel="self" type="application/rss+xml"/><item><title>Who used my codespace?</title><link>https://darcien.dev/p/codespace/</link><pubDate>Sun, 24 Mar 2024 19:04:24 +0700</pubDate><guid>https://darcien.dev/p/codespace/</guid><description>A wild diff appeared!</description><content:encoded><![CDATA[<p>It was another normal day at work.
+I finished up my lunch and returning to work.
+I booted up my <a href="https://docs.github.com/en/codespaces/overview">GitHub codespace</a> as usual.</p>
+<p>I have a habit of running <code>git status</code> before doing anything.
+Even though I know I have not done any changes yet.</p>
+<p>This time it&rsquo;s different though.
+Hmm, why there are diff?
+And these are unfamiliar files.
+There&rsquo;s also commented out code in the diffs.
+Seems like a WIP code?</p>
+<p>I&rsquo;m pretty sure codespace is a per user thing.
+There&rsquo;s no built in feature to use other users codespace.</p>
+<p>Anyway, I asked in the big engineering group:</p>
+<blockquote>
+<p>me: Did someone use my codespace during lunch?</p>
+<p>engineer 1: How did that happen!?</p>
+<p>engineer 2: Hey, that&rsquo;s my code!</p>
+<p>engineer 3: Ooh, somehow I got the same diff in mine.</p>
+<p>(Wait what? There are others?)</p>
+</blockquote>
+<p>No one has ideas on the cause.
+We end up opening a support ticket to GitHub.</p>
+<p>I didn&rsquo;t hear any replies yet from support.
+So this mystery will stay unsolved for a while.</p>
+<p>I couldn&rsquo;t find similar issue being reported in the internet.
+Maybe this is just a rare happening when different codespaces
+mistakenly got allocated the same working directory? 🤔</p>
+<hr>
+<p>Post 23 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item></channel></rss>
