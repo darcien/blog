@@ -1,21 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/web/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 17 Jun 2023 21:28:02 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Picking Paid Live Stream Platform as Viewer</title><link>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</link><pubDate>Sat, 17 Jun 2023 21:28:02 +0700</pubDate><guid>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</guid><description>Short note comparing between available live stream platform</description><content:encoded><![CDATA[<p>These are non-exhaustive list of platforms that I&rsquo;ve watched on before.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/web/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 17 Jun 2023 21:28:02 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Picking Paid Live Stream Platform as Viewer</title><link>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</link><pubDate>Sat, 17 Jun 2023 21:28:02 +0700</pubDate><guid>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</guid><description>Short note comparing between available live stream platform</description><content:encoded><![CDATA[<blockquote>
+<p>🔖 Assumed post audience: someone who wants to watch concert/3D live online
+but not sure which host to pick (if choices exists).</p>
+</blockquote>
+<p>These are non-exhaustive list of platforms that I&rsquo;ve watched on before.
 I&rsquo;ve included my rough take on each platform and the dates.
 Over the time these list might get outdated as the streaming platform keep updating their site.</p>
 <h2 id="eplus">eplus</h2>
 <p>Link: <a href="https://ib.eplus.jp">https://ib.eplus.jp</a></p>
-<p>Last watched: 2023-03-18, hololive 4th fes</p>
+<p>Last watched: 2023-03-18, hololive 4th fes.</p>
 <p><strong>Verdict: avoid if possible 👎</strong></p>
 <p>Okay-ish for watching the live stream.
-Unuseable for watching the archives.
+Unusable for watching the archives.
 Getting a bunch of audio issues on the archives like noises and out of sync,
 after a while, no audio plays.</p>
-<h2 id="hololive-official-fanclub-subscribe-only-with-no-one-time-ticket-kinda-counts">hololive official fanclub (subscribe only with no one time ticket, kinda counts)</h2>
+<h2 id="hololive-official-fanclub-subscribe-only-with-no-one-time-ticket-kinda-counts-service-ended-as-of-january-2024"><del>hololive official fanclub (subscribe only with no one time ticket, kinda counts)</del> (service ended as of January 2024)</h2>
 <p>Link: <a href="https://hololive-fc.com">https://hololive-fc.com</a></p>
-<p>Last watched: 2023-06-21, variety show with Asaka as guest</p>
-<p><strong>Verdict: decent but no choice on exclusive content 😐</strong>
-(Firefox user: bad site 👎)</p>
+<p>Last watched: 2023-11-22, variety show with Matsumoto Rika as guest.</p>
+<p><strong>Verdict: service has been discontinued, nothing new here 🤷</strong></p>
+<h3 id="latest-impression">Latest impression</h3>
+<p>No issue from the streaming side.
+But the way they handle the end of service wasn&rsquo;t great.
+There&rsquo;s only 2-3 months gap between <a href="https://hololive-fc.com/articles/news/arxj4MUHg3YRL5gyBny6NPWU">the announcement</a> (2023-11-30) and the closure (2024-01).
+And no partial refunds for those paying annual subscriptions.
+Sure now they&rsquo;re hosting all the contents for free now,
+but there&rsquo;s no way these archives will be hosted online forever.</p>
+<p>Now hololive is hosting their exclusive content on YouTube membership instead.</p>
+<p>(Also their announcement page doesn&rsquo;t load when opened from Internet Archive.
+Which means their website kinda sucks according to my personal standards.)</p>
+<h3 id="previous-impression-2023-06-18">Previous impression (2023-06-18)</h3>
 <p>A relatively new hololive exclusive platform, showed up at early 2022.
-Suprisingly decent considering it&rsquo;s their own platform
+Surprisingly decent considering it&rsquo;s their own platform
 and doesn&rsquo;t have the same problem with Niconico even though they list Dwango
 in the footer<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>Their website feels weird though with all commenters&rsquo; name feels
@@ -23,23 +37,30 @@ generated
 (2023-06-17: Seems like this is no longer the case, names are no longer bot-like).
 And most of the videos views and comments are weirdly exact multiples of thousand.</p>
 <p>Also, they stopped supporting Firefox on 2023-05-30<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
-Which is a sad thing, but not a dealbreaker.</p>
+Which is a sad thing, but not a deal breaker.</p>
 <h2 id="niconico-dwango">Niconico (Dwango)</h2>
 <p>Link: <a href="https://live.nicovideo.jp">https://live.nicovideo.jp</a></p>
 <p>Last watched: 2023-03-15, Nornis 1st live</p>
 <p><strong>Verdict: video stream quality sucks, archive not included 😭</strong></p>
 <p>Same old nico nico douga but with different name.
 Functionally, it&rsquo;s great.
-Pratically, I can&rsquo;t like it.</p>
+Practically, I can&rsquo;t like it.</p>
 <p>Last time I watched Nornis&rsquo; live, it&rsquo;s still stutter on lowest stream quality.
 I don&rsquo;t know if what&rsquo;s causing it, but Niconico connection to Indo has never
 been good regardless of ISP.
-Plus, to watch archive (Timeshift in Niconico) you need to subsribe to their
+Plus, to watch archive (Timeshift in Niconico) you need to subscribe to their
 premium service(2023-06-17: cost JPY 550 per month).</p>
 <h2 id="spwn">SPWN</h2>
 <p>Link: <a href="https://virtual.spwn.jp">https://virtual.spwn.jp</a></p>
-<p>Last watched: 2022-03-20, hololive 3rd fes</p>
+<p>Previously watched:</p>
+<ul>
+<li>2020-12-21, hololive 2nd fes &ldquo;Beyond the Stage&rdquo;</li>
+<li>2021-02-17, hololive 1st live &ldquo;Bloom&rdquo;</li>
+<li>2021-10-21, Hoshimachi Suisei 1st solo live &ldquo;STELLAR into the GALAXY&rdquo;</li>
+<li>2022-03-20, hololive 3rd fes &ldquo;Link Your Wish&rdquo;</li>
+</ul>
 <p><strong>Verdict: pretty safe choice if available 👍</strong></p>
+<h3 id="latest-impression-2022-ish">Latest impression (2022-ish)</h3>
 <p>So far the most platform I&rsquo;ve been using and has the least problem with.
 From time to time has bad connection to Indo
 even after turning on low latency mode on their video player.</p>
@@ -48,19 +69,59 @@ even after turning on low latency mode on their video player.</p>
 <p>Last watched: pretty much every month</p>
 <p><strong>Verdict: probably the live you want to watch is not here 😔</strong></p>
 <p>It&rsquo;s YouTube.
-They probaby have the best infra for running live stream in the world right now.</p>
+They probably have the best infra for running live stream in the world right now.</p>
 <p>But they don&rsquo;t run ticketing for one-time watch.</p>
+<h2 id="zaiko">Zaiko</h2>
+<p>Link: <a href="https://zaiko.io">https://zaiko.io</a></p>
+<p>Previously watched:</p>
+<ul>
+<li>2023-01-28, Hoshimachi Suisei 2nd solo live &ldquo;Shout in Crisis&rdquo;</li>
+<li>2024-05-04, Hanabasami Kyo 4th one-man live &ldquo;FLORIST&rdquo;</li>
+</ul>
+<p><strong>Verdict: works great except for the occasional stutters</strong></p>
+<h3 id="latest-impression-2024-05-05">Latest impression (2024-05-05)</h3>
+<p>Honestly I forgot about this site until I tried to buy a new ticket this year.
+Then I realized I have an account already in my password manager.</p>
+<p>I don&rsquo;t remember anything noteworthy from the first impression.
+Which is a good sign, no major issue back then.</p>
+<p>But during the FLORIST live, there are stutters.
+And it&rsquo;s the type where the stream repeats the stuttered part.
+e.g. lyrics: one two three, stream: one two two three.
+&ldquo;Hmm, is it a remix? I don&rsquo;t remember this part&rdquo; is what I initially thought.
+Turns out no, it was stream issues.</p>
+<p>I don&rsquo;t see change in graphic quality during stutters.
+So I doubt it&rsquo;s caused by the &ldquo;auto&rdquo; quality in the video player settings.
+Which should result in video downgrade if the player decides to lower the quality
+during the stutter.
+I also don&rsquo;t see the stutters during archive playback.</p>
+<p>Other than that stutters, Zaiko works great.</p>
+<p>Some neutral stuffs:</p>
+<ul>
+<li>Hovering cursor on seek bar in archive give visual preview, which is great.
+Not every platform has this basic stuff.</li>
+<li>There&rsquo;s no live chat replay in archive?
+I don&rsquo;t really read the chat, but it sure feels weird looking at empty chats
+during archive.</li>
+</ul>
 <h2 id="z-an">Z-aN</h2>
 <p>Link: <a href="https://www.zan-live.com">https://www.zan-live.com</a></p>
 <p>Previously watched:</p>
 <ul>
 <li>2023-06-17, Planet Station stage 8</li>
 <li>2023-08-27, Hololive Splash Party</li>
-<li>2023-09-03, KOKO 2nd ONE-MAN LIVE &ldquo;PLAYER II - Kamitsubaki City AREA 4 -&rdquo;</li>
-<li>2023-09-13, Blue Journey 1st Live &ldquo;Yoake no Uta&rdquo;</li>
+<li>2023-09-03, KOKO 2nd one-man live &ldquo;PLAYER II -Kamitsubaki City AREA 4-&rdquo;</li>
+<li>2023-09-13, Blue Journey 1st live &ldquo;Yoake no Uta&rdquo;</li>
+<li>2024-01-13, V.W.P 2nd one-man live &ldquo;GENSHO II -MAJYOKAKUSEI-&rdquo;</li>
+<li>2024-01-14, KAF 4th solo live concert &ldquo;KAIKA&rdquo;</li>
+<li>2024-04-09, Albemuth 1st one-man live &ldquo;Guilty and Eden&rdquo;</li>
+<li>2024-04-10, Harusaruhi 3rd one-man live &ldquo;Shamanism III&rdquo;</li>
 </ul>
-<p><strong>Verdict: great when it&rsquo;s working, but unstable lately 😬</strong></p>
-<h3 id="latest-impression-2023-09-13">Latest impression (2023-09-13)</h3>
+<p><strong>Verdict: superb, my first choice these days 🌟 (assuming it&rsquo;s not hololive event)</strong></p>
+<h3 id="latest-impression-2024-05-04">Latest impression (2024-05-04)</h3>
+<p>At this point, I believe troubles doesn&rsquo;t exist for Kamitsubaki x Z-an combination.
+Smooth live, good video and audio quality, works on Firefox, and watch archive works!</p>
+<p>Whether they can handle the load for hololive event is yet to be proven though.</p>
+<h3 id="previous-impression-2023-09-13">Previous impression (2023-09-13)</h3>
 <p>Watched yet another big event, and there&rsquo;s a blackout mid stream.
 No sound, no video.
 They said the troubles only last 90s, but it felt like forever<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
@@ -70,7 +131,7 @@ It was a theatrical type event and setting the mood was pretty important.
 And the blackout ruined the mood buildup for me.</p>
 <p>With all the recent troubles, I&rsquo;m starting to lose faith in Z-aN 🙁</p>
 <h3 id="previous-impression-2023-09-03">Previous impression (2023-09-03)</h3>
-<p>Still my favourite platform, everything from my first impression still applies
+<p>Still my favorite platform, everything from my first impression still applies
 (assuming the site isn&rsquo;t down if they&rsquo;re hosting a big event with &gt;100k viewers).
 And they even fixed the errors on Firefox.</p>
 <p>On 2023-08-26, their site couldn&rsquo;t handle the load from Hololive Splash Party though<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.
@@ -93,11 +154,11 @@ It&rsquo;s AMAZING and you won&rsquo;t regret it.</p>
   <figure><img
       loading="lazy" src="/img/zan-koko-player-ii.png"
       
-      alt="2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure."><figcaption>
+      alt="2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous issues."><figcaption>
         
         
         
-        <p>2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous failure.</p>
+        <p>2023-09-03: KOKO one-man live is just to good I had to forgive Z-aN for their previous issues.</p>
       </figcaption>
   
   </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
@@ -154,7 +215,7 @@ They fixed it as of 2023-08-27! Hooray 🥳</p>
   
   </figure>
 <hr>
-<h2 id="backstory">Backstory</h2>
+<h2 id="why-did-you-write-this">Why did you write this?</h2>
 <p>Starting to lose track with the many live streaming platform out there.
 As these live streams ticket aren&rsquo;t exactly cheap,
 I created this note to avoid using the bad ones if possible.
@@ -162,6 +223,7 @@ Most of the time there&rsquo;s no choices though.
 Even when there are choices, at most it&rsquo;s 2, it&rsquo;s pick bad or the less bad one 🥲.</p>
 <h2 id="changelog">Changelog</h2>
 <ul>
+<li>2024-05-05: more Z-aN updates, added Zaiko</li>
 <li>2023-09-13: updated Z-aN entry, issues keep happening</li>
 <li>2023-09-03: updated Z-aN entry, added KOKO one-man live pic</li>
 <li>2023-06-17: initial page</li>
