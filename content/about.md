@@ -137,7 +137,4 @@ Some example songs are:
 - I am born in Jakarta, Indonesia in 1997 during the [financial crisis](https://en.wikipedia.org/wiki/1997_Asian_financial_crisis).
 - I have never met nor seen both of my grandfathers ever, even as a baby.
 - My first name, [Yosua](https://www.behindthename.com/name/yosua/submitted), is not given by my parents.
-- I dropped out of college to focus on working as my parents are retired or don't work for health reasons.
-- I've been working as software engineer since 2018.
-- I've been working from home since 2019.
 - I hiked [Mt. Semeru (3676m)](https://en.wikipedia.org/wiki/Semeru) as my first mountain, reached the top and survived! (Thanks KF mountaineers)

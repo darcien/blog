@@ -88,23 +88,31 @@ for my personal NixOS config.
 - [Shimano RC7][rc7] cycling shoes
 - ZERAY ZP-115 bike pedals (Look Keo compatible)
 - Skechers running shoes, the navy hyper burst whatever one
-- [Garmin Forerunner 955 Solar](https://www.garmin.com/en-US/p/777730)
+- [Garmin Forerunner 955 Solar](https://www.garmin.com/en-US/p/777730) (smart)watch
 
 [rc3]: https://bike.shimano.com/en-EU/product/apparel-accessories/shimano-series-lsg-2022/SH-RC300.html
 [rc7]: https://bike.shimano.com/en-EU/product/apparel-accessories/shimano-series-lsg-2022/SH-RC702.html
 
 ### Apps
-- Zwift for training plans and cycling with peeps virtually
-- [intervals.icu](https://intervals.icu/) for tracking and planning
-- Strava for sharing activities
-- [HealthFit][healthfit] for syncing activities between apps
+- [Zwift][zwift] for indoor cycling & training
+- [intervals.icu][intervals] for tracking and planning
+- [Strava][strava] for sharing activities
+- ~~[HealthFit][healthfit] for syncing activities between apps.~~
+  Using built-in integrations these days.
+- [JOIN][join] for cycling training planner
 
 [healthfit]: https://apps.apple.com/us/app/healthfit/id1202650514
+[join]: https://join.cc/
+[strava]: https://www.strava.com/
+[intervals]: https://intervals.icu/
+[zwift]: https://www.zwift.com/
+
 
 ## Changelog
 
+- 2024-05-05: add JOIN cycling training planner
 - 2024-01-28: add RC7 shoes
-- 2024-01-16: removed Nike Run Club, replaced with Garmin built in planner
+- 2024-01-16: removed Nike Run Club, replaced with Garmin built-in planner
 - 2024-01-04: add new Garmin watch
 - 2023-10-01: add RAM, air monitor and running gears
 - 2023-08-17: initial version
