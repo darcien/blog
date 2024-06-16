@@ -1,4 +1,132 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/codespace/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 24 Mar 2024 19:04:24 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/codespace/index.xml" rel="self" type="application/rss+xml"/><item><title>Who used my codespace?</title><link>https://darcien.dev/p/codespace/</link><pubDate>Sun, 24 Mar 2024 19:04:24 +0700</pubDate><guid>https://darcien.dev/p/codespace/</guid><description>A wild diff appeared!</description><content:encoded><![CDATA[<p>It was another normal day at work.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/codespace/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 15 Jun 2024 22:49:03 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/codespace/index.xml" rel="self" type="application/rss+xml"/><item><title>Error, Loneliness and Codespace</title><link>https://darcien.dev/p/codespace-error/</link><pubDate>Sat, 15 Jun 2024 22:49:03 +0700</pubDate><guid>https://darcien.dev/p/codespace-error/</guid><description>Collection of codespace errors.</description><content:encoded><![CDATA[<p>I&rsquo;ve been working using <a href="https://github.com/features/codespaces">Codespaces</a> long enough
+that I start seeing various undocumented and bizarre errors.</p>
+<p>At some point, I started collecting these errors as war trophies.
+(Albeit most of the time, I lost the battle and just created new codespace
+instead of fixing it.)</p>
+<h2 id="trophies">Trophies</h2>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/already-running.png"
+      
+      alt="I have no idea what&amp;rsquo;s happening with the connectivity. Using a different codespace connects just fine. Rarity: SSR. Solution: New codespace."><figcaption>
+        
+        
+        
+        <p>I have no idea what&rsquo;s happening with the connectivity. Using a different codespace connects just fine. Rarity: SSR. Solution: New codespace.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/deadline-exceeded.png"
+      
+      alt="Great, now my codespace also reminds me that I exceeded the card deadline, thanks. Rarity: SSR. Solution: New codespace."><figcaption>
+        
+        
+        
+        <p>Great, now my codespace also reminds me that I exceeded the card deadline, thanks. Rarity: SSR. Solution: New codespace.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/read-only-fs.png"
+      
+      alt="Somehow this codespace disk is mounted as read-only. Rarity: SSR. Solution: New codespace."><figcaption>
+        
+        
+        
+        <p>Somehow this codespace disk is mounted as read-only. Rarity: SSR. Solution: New codespace.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/rebuilding-stuck.png"
+      
+      alt="Sometimes full rebuild is the solution. Sometimes rebuild is also the issue. This one stuck on rebuilding for at least 30 mins&amp;hellip; Rarity: SR. Solution: New codespace."><figcaption>
+        
+        
+        
+        <p>Sometimes full rebuild is the solution. Sometimes rebuild is also the issue. This one stuck on rebuilding for at least 30 mins&hellip; Rarity: SR. Solution: New codespace.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/recovery-mode.png"
+      
+      alt="Recovery mode is part of my daily routine at this point. Rarity: N. Solution: Rebuild or new codespace."><figcaption>
+        
+        
+        
+        <p>Recovery mode is part of my daily routine at this point. Rarity: N. Solution: Rebuild or new codespace.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/terminated.png"
+      
+      alt="Something failed and I have no idea what is it. Rarity: SSR. Solution: Reload or reconnect."><figcaption>
+        
+        
+        
+        <p>Something failed and I have no idea what is it. Rarity: SSR. Solution: Reload or reconnect.</p>
+      </figcaption>
+  
+  </figure>
+<h2 id="whats-with-the-rarity">What&rsquo;s with the rarity?</h2>
+<p>I&rsquo;m trying to categorize the error by rarity.
+Some of them are so rare and fleeting that I&rsquo;ve only saw them once in my life.</p>
+<p>Rarities from the most common to the rarest:</p>
+<ul>
+<li>N - normal, encountered daily, nothing special.</li>
+<li>R - rare, maybe once a week.</li>
+<li>SR - super rare, ohh I&rsquo;ve seen this before months ago.</li>
+<li>SSR - super super rare, hey have you seen this before - no what the heck is that!?</li>
+</ul>
+<h2 id="changelog">Changelog</h2>
+<ul>
+<li>2024-06-15: initial version</li>
+</ul>
+<hr>
+<p>Post 24 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>Who used my codespace?</title><link>https://darcien.dev/p/codespace/</link><pubDate>Sun, 24 Mar 2024 19:04:24 +0700</pubDate><guid>https://darcien.dev/p/codespace/</guid><description>A wild diff appeared!</description><content:encoded><![CDATA[<p>It was another normal day at work.
 I finished up my lunch and returning to work.
 I booted up my <a href="https://docs.github.com/en/codespaces/overview">GitHub codespace</a> as usual.</p>
 <p>I have a habit of running <code>git status</code> before doing anything.

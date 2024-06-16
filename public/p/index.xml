@@ -1,4 +1,626 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/p/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 24 Mar 2024 19:04:24 +0700</lastBuildDate><atom:link href="https://darcien.dev/p/index.xml" rel="self" type="application/rss+xml"/><item><title>Who used my codespace?</title><link>https://darcien.dev/p/codespace/</link><pubDate>Sun, 24 Mar 2024 19:04:24 +0700</pubDate><guid>https://darcien.dev/p/codespace/</guid><description>A wild diff appeared!</description><content:encoded><![CDATA[<p>It was another normal day at work.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/p/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 15 Jun 2024 22:49:03 +0700</lastBuildDate><atom:link href="https://darcien.dev/p/index.xml" rel="self" type="application/rss+xml"/><item><title>Error, Loneliness and Codespace</title><link>https://darcien.dev/p/codespace-error/</link><pubDate>Sat, 15 Jun 2024 22:49:03 +0700</pubDate><guid>https://darcien.dev/p/codespace-error/</guid><description>Collection of codespace errors.</description><content:encoded><![CDATA[<p>I&rsquo;ve been working using <a href="https://github.com/features/codespaces">Codespaces</a> long enough
+that I start seeing various undocumented and bizarre errors.</p>
+<p>At some point, I started collecting these errors as war trophies.
+(Albeit most of the time, I lost the battle and just created new codespace
+instead of fixing it.)</p>
+<h2 id="trophies">Trophies</h2>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/already-running.png"
+      
+      alt="I have no idea what&amp;rsquo;s happening with the connectivity. Using a different codespace connects just fine. Rarity: SSR. Solution: New codespace."><figcaption>
+        
+        
+        
+        <p>I have no idea what&rsquo;s happening with the connectivity. Using a different codespace connects just fine. Rarity: SSR. Solution: New codespace.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/deadline-exceeded.png"
+      
+      alt="Great, now my codespace also reminds me that I exceeded the card deadline, thanks. Rarity: SSR. Solution: New codespace."><figcaption>
+        
+        
+        
+        <p>Great, now my codespace also reminds me that I exceeded the card deadline, thanks. Rarity: SSR. Solution: New codespace.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/read-only-fs.png"
+      
+      alt="Somehow this codespace disk is mounted as read-only. Rarity: SSR. Solution: New codespace."><figcaption>
+        
+        
+        
+        <p>Somehow this codespace disk is mounted as read-only. Rarity: SSR. Solution: New codespace.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/rebuilding-stuck.png"
+      
+      alt="Sometimes full rebuild is the solution. Sometimes rebuild is also the issue. This one stuck on rebuilding for at least 30 mins&amp;hellip; Rarity: SR. Solution: New codespace."><figcaption>
+        
+        
+        
+        <p>Sometimes full rebuild is the solution. Sometimes rebuild is also the issue. This one stuck on rebuilding for at least 30 mins&hellip; Rarity: SR. Solution: New codespace.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/recovery-mode.png"
+      
+      alt="Recovery mode is part of my daily routine at this point. Rarity: N. Solution: Rebuild or new codespace."><figcaption>
+        
+        
+        
+        <p>Recovery mode is part of my daily routine at this point. Rarity: N. Solution: Rebuild or new codespace.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/terminated.png"
+      
+      alt="Something failed and I have no idea what is it. Rarity: SSR. Solution: Reload or reconnect."><figcaption>
+        
+        
+        
+        <p>Something failed and I have no idea what is it. Rarity: SSR. Solution: Reload or reconnect.</p>
+      </figcaption>
+  
+  </figure>
+<h2 id="whats-with-the-rarity">What&rsquo;s with the rarity?</h2>
+<p>I&rsquo;m trying to categorize the error by rarity.
+Some of them are so rare and fleeting that I&rsquo;ve only saw them once in my life.</p>
+<p>Rarities from the most common to the rarest:</p>
+<ul>
+<li>N - normal, encountered daily, nothing special.</li>
+<li>R - rare, maybe once a week.</li>
+<li>SR - super rare, ohh I&rsquo;ve seen this before months ago.</li>
+<li>SSR - super super rare, hey have you seen this before - no what the heck is that!?</li>
+</ul>
+<h2 id="changelog">Changelog</h2>
+<ul>
+<li>2024-06-15: initial version</li>
+</ul>
+<hr>
+<p>Post 24 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>Bromo KOM X</title><link>https://darcien.dev/p/bromo-kom-x/</link><pubDate>Sat, 01 Jun 2024 16:46:03 +0700</pubDate><guid>https://darcien.dev/p/bromo-kom-x/</guid><description>A story about my first big cycling event.</description><content:encoded><![CDATA[<p>I finally went to my first big cycling event.
+It was Bromo KOM X.</p>
+<h2 id="prep-period">Prep period</h2>
+<p>Bromo KOM is a yearly event.
+In early January, my friend invited me to join Bromo KOM this year.
+Well, I said invited, but we still need to buy a ticket to participate.
+And there&rsquo;s no sign of the ticket sale happening soon.
+That&rsquo;s weird, usually they are on sale around this time of the year.</p>
+<p>Anyway, Bromo KOM isn&rsquo;t exactly a newbie friendly event.
+Previous year route was a ~95km ride with ~1900m elevation gain.
+I mean, we&rsquo;re riding from the big city,
+all the way up to a mountain&rsquo;s last checkpoint.</p>
+<p>So I really need to all the training I can get.
+This is also my first time following a planned workout properly.
+I used JOIN Cycling planner, set up training plan for single event,
+and got a workout plan for the next few months.</p>
+<p>This workout plan basically doubled the amount of time I spent on a bike.
+From 2-3h per week to 5-6h per week.
+It was pretty brutal in the early weeks.
+Then I got used to being tired everyday midway.</p>
+<p>The ticket sale is finally announced in March.
+I stayed up at 3 a.m. to buy the ticket the moment it&rsquo;s open.
+And I got it 🎉.
+Totally worth it, ticket was sold out in the noon.
+1500 slot is a lot, I didn&rsquo;t expect the event was that popular.</p>
+<p>Fast forward to a week before the event.
+Bromo KOM starting point is in Surabaya.
+That&rsquo;s around 1.5h flight from my place.
+And this is going to be my first flight with my bike.</p>
+<p>I need a bike box to pack my bike and check it in for the flight.
+I don&rsquo;t have any and have no plan to buy one anytime soon.
+Thankfully bike box rental is a thing.
+So I rented one for a week.</p>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bromo-kom-x/bike-box-open.jpg"
+      
+      alt="My bike packed in the Bonza hardcase bike box. My frame is 56 cm, the horizontal axis barely fits."><figcaption>
+        
+        
+        
+        <p>My bike packed in the Bonza hardcase bike box. My frame is 56 cm, the horizontal axis barely fits.</p>
+      </figcaption>
+  
+  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
+  <script defer type="text/javascript">
+    window.addEventListener("load", function() {
+      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
+        
+        
+        
+        background: 'rgb(155, 156, 157 / 60%)',
+      });
+    }, false);
+  </script>
+<p>The bike box filled with my bike etc. weights around 24kg.
+It has wheels at the bottom, so moving it around wasn&rsquo;t that hard.</p>
+<h2 id="day-one-departure">Day one, departure</h2>
+<p>At the airport, I saw a lot of people lugging around their bike box.
+Hmm, these people are also Bromo KOM participants.</p>
+<p>In the take off area, I can see even more bike box being loaded
+to a smaller plane.
+This is my first time seeing luggages being carried by a separate aircraft!
+I&rsquo;m taking Garuda Airline which provides free sports equipment luggage
+up to 30kg.
+Which I guess can easily make a single plane overload if many people
+bring their bike.</p>
+<p>I went straight to the hotel after arriving in Surabaya.
+Surprise, the hotel is also full of cyclist.
+I can see a bunch of bike boxes stored in the receptionist area.
+There&rsquo;s a man casually assembling their bike in the hotel lobby.
+People going up and down the lift with their bikes.
+It&rsquo;s totally different than the hotel experience that I know of!</p>
+<p>After eating lunch, twice, we went to retrieve the race pack first.
+The race pack area is surprisingly organized.
+We got ours relatively quick.
+Then we registered for the optional return minivan.
+That&rsquo;s because I&rsquo;m confident I won&rsquo;t be able to pedal back from the finish line.</p>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bromo-kom-x/race-pack.jpg"
+      
+      alt="Commemorative photo with the race pack. Later on we jokingly said the only thing special about Bromo KOM X is the race pack. Usually it&amp;rsquo;s just a pouch, but this year it&amp;rsquo;s an actual backpack."><figcaption>
+        
+        
+        
+        <p>Commemorative photo with the race pack. Later on we jokingly said the only thing special about Bromo KOM X is the race pack. Usually it&rsquo;s just a pouch, but this year it&rsquo;s an actual backpack.</p>
+      </figcaption>
+  
+  </figure>
+<p>Once that&rsquo;s done we went to Decathlon.
+My friend forgot his rain coat and is worried about rain during the climb.
+Make sense, let&rsquo;s buy a new one then.
+And then there&rsquo;s me being a dumb ass.
+In the way, I realized I didn&rsquo;t bring my water bottles&hellip;
+So yes, I also had to buy new water bottles.</p>
+<p>Traffic wasn&rsquo;t exactly nice, so by the time we&rsquo;re done shopping,
+it&rsquo;s already dark.
+We&rsquo;re back at the hotel at 7 p.m.-ish and we still need to assemble our bikes.</p>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bromo-kom-x/bike-box-both.jpg"
+      
+      alt="Mine and my friend&amp;rsquo;s bike box. It&amp;rsquo;s not very visible from the image, but my friend&amp;rsquo;s one is longer and is an easy-fit one, so no need to release the bike handlebar."><figcaption>
+        
+        
+        
+        <p>Mine and my friend&rsquo;s bike box. It&rsquo;s not very visible from the image, but my friend&rsquo;s one is longer and is an easy-fit one, so no need to release the bike handlebar.</p>
+      </figcaption>
+  
+  </figure>
+<p>Once we&rsquo;re done assembling, we&rsquo;re super hungry.
+It&rsquo;s time for dinner!
+I got <a href="https://en.wikipedia.org/wiki/Katsudon">katsudon</a> for dinner to increase my chance of finishing tomorrow.</p>
+<p>After dinner, a nice bath, and a warm coffe, I slept like a baby.</p>
+<p>Not really, I need to wake up at 4 a.m..
+And I&rsquo;m too excited to sleep.
+That&rsquo;s the end of the day one.</p>
+<h2 id="day-two-the-big-day">Day two, the big day!</h2>
+<p>At the end I got like 2.5h sleep.
+But I didn&rsquo;t feel sleepy, I&rsquo;m still excited!
+Not sure if it&rsquo;s because of the event or
+because of my room neighbour alarm&rsquo;s that has been
+ringing nonstop for 20 mins.</p>
+<p>It&rsquo;s time for breakfast.
+The hotel was nice enough to shift the morning breakfast to be before the
+event start.
+I guess that&rsquo;s their way of saying thanks because most of their
+guests are cyclist at that day.</p>
+<p>And as expected, everyone is already wearing their gear for breakfast.
+Tight jersey, cycling shoes click-clacking on every steps, helmet that&rsquo;s so
+out of place in a hotel breakfast area.
+Meanwhile I&rsquo;m still in my pajama.</p>
+<p>After breakfast, I rushed to my room, change to my cycling gear,
+and then starts pedaling to the starting point.
+It&rsquo;s around 3km from the hotel.</p>
+<p>In the starting point, we had to scan the QR code there.
+I&rsquo;m not sure for what, as the bib numbers attached to my back
+and the bike also had timing chip.</p>
+<p>It was 5.30 a.m., I can hear the starting signal being sounded.
+Nice, this means the event started on time.</p>
+<p>From here, it&rsquo;s 55 km to the pit stop in GOR Untung Suropati, Kota Pasuruan.
+This part is a relaxed group ride. No race until the KOM start.
+It took me 2 hours and 3 minutes to get there.</p>
+<p>By the time I arrived, my saddle post is in the lowest position.
+I didn&rsquo;t tighten the saddle post enough, so it&rsquo;s slowly sinking during
+the ride. I didn&rsquo;t notice it until my friend pointed it out.
+Thankfully this is a big event, so we had bike mechanics on standby in the pit stop.</p>
+<p>We got around 30 mins rest time in the pit stop.</p>
+<p>From pit stop to the KOM start, it&rsquo;s around 15 km.
+We will depart according to our group, led by a road captain.
+Elite and 60+ group will depart first.
+Next is mine, under 29.</p>
+<p>In this part, I tried to keep up with the leading pace.
+If I&rsquo;m left behind, it will be hard to catch up with the peloton.
+This is a mistake, I should&rsquo;ve kept my pace in Z2 or Z3.
+I don&rsquo;t have a cyclocomp nor power meter for outdoor ride.
+So I pretty much burnt myself out right before the KOM start.</p>
+<p>KOM start at KM 70,
+and it&rsquo;s a nonstop climb for 23.9 km, with average gradient of 6.9%.
+Thanks to my bad pacing, I&rsquo;m already in recovery pace in the first climb.</p>
+<p>During recovery, I did my next mistake.
+One of my bottles is not closed properly.
+I tried to correct the bottle lid, but I dropped it.
+Then I spent the next few minutes trying to find it.
+I think it fell into the sewer, I couldn&rsquo;t find it.
+Some worried cyclists saw me and asked if I&rsquo;m okay.
+No worries, I&rsquo;m good, just a little bit low on motivation.
+I gave up and starts pedaling again.</p>
+<p>After 1 hours of recovery pace, my heart rates has calmed down.
+And I&rsquo;ve only covered 6 km.</p>
+<p>From this point on, it&rsquo;s a loop of:</p>
+<ol>
+<li>hit the pedal until my HR enters Z4,</li>
+<li>rest at the side of the road until my HR is back to Z2,</li>
+<li>repeat.</li>
+</ol>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bromo-kom-x/road-side.jpg"
+      
+      alt="A photo I took during my rest. Yes it&amp;rsquo;s foggy, we&amp;rsquo;re up high in the mountain."><figcaption>
+        
+        
+        
+        <p>A photo I took during my rest. Yes it&rsquo;s foggy, we&rsquo;re up high in the mountain.</p>
+      </figcaption>
+  
+  </figure>
+<p>It was frustrating.
+Even if I pedal as slow as I can, my HR will still enter Z4.
+To think I was this weak.</p>
+<p>Midway, I started thinking about giving up.
+But I changed my mind.
+Remember the all the training you did.
+Remember the flight and hotel booking you paid.
+I already invested a lot of time and money here.
+Ain&rsquo;t no way I&rsquo;m giving up now.</p>
+<p>I kept pedaling.
+From this point, I can&rsquo;t remember much details.
+I tried to stop thinking and just pedal.
+Embrace the pain.</p>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bromo-kom-x/climb-middle.jpg"
+      
+      alt="A photo taken by the event photographer. At this point, probably I&amp;rsquo;m in autopilot mode. No thoughts, just pedal."><figcaption>
+        
+        
+        
+        <p>A photo taken by the event photographer. At this point, probably I&rsquo;m in autopilot mode. No thoughts, just pedal.</p>
+      </figcaption>
+  
+  </figure>
+<p>Around this part, I had to stop for medic twice.
+Both are for cramps on my left leg.
+That&rsquo;s okay, I can still recover from this.
+Also around this time, I start seeing people
+going down with medals in their neck.
+That means I&rsquo;m close to the finish line.
+I can do this.</p>
+<p>Well, not really. I still have 5 km to go.
+5 km is nothing in a flat road.
+But here, that&rsquo;s at least 1 hour of pedaling.
+And it&rsquo;s already around 12 p.m..
+I wonder if can still make it before the cut off time.
+Who is the idiot that said cut off time at 1 p.m. is easy?
+I regret saying that.</p>
+<p>At 1 p.m., I finally reached the village area near the finish line.
+I can see the last climb.
+~15% gradient, haha, it literally looks like a wall.</p>
+<p>For the first few seconds, I can still pedal.
+I even said something like &ldquo;You can do this, just a little bit more&rdquo;,
+to the cyclist next to me.
+Then I started sprinting.</p>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bromo-kom-x/climb-final-1.jpg"
+      
+      alt="I like the expression of the cyclist next to me in this photo."><figcaption>
+        
+        
+        
+        <p>I like the expression of the cyclist next to me in this photo.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bromo-kom-x/climb-final-2.jpg"
+      
+      alt="A photo depicting the face of suffering during the final climb."><figcaption>
+        
+        
+        
+        <p>A photo depicting the face of suffering during the final climb.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bromo-kom-x/climb-final-3.jpg"
+      
+      alt="You can see the fog is denser here, and the side view gives better perspective of the gradient."><figcaption>
+        
+        
+        
+        <p>You can see the fog is denser here, and the side view gives better perspective of the gradient.</p>
+      </figcaption>
+  
+  </figure>
+<p>Well that sprint didn&rsquo;t last long.
+That climb feels like a joke.
+Even walking and pushing my bike is hard.</p>
+<p>I took my last rest in the corner right before the finish line.
+Then I start sprinting again into the finish line.
+Welp, it&rsquo;s past 1 p.m. already.
+I&rsquo;ll content with just finishing.</p>
+<p>Surprise! I still got a medal.
+I thought maybe they are giving it to everyone.
+After I regrouped with my friend,
+he told me the cut off time is actually 1.30 p.m..</p>
+<p>WOW, okay then I finished before the cut off time?
+I&rsquo;m so happy, I didn&rsquo;t expect that.</p>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bromo-kom-x/medal.jpg"
+      
+      alt="Commemorative photo with the medal. Same bike since 6 years ago, but different person 🦵. (Also, my bottle with the missing lid is in clear view here&amp;hellip;)"><figcaption>
+        
+        
+        
+        <p>Commemorative photo with the medal. Same bike since 6 years ago, but different person 🦵. (Also, my bottle with the missing lid is in clear view here&hellip;)</p>
+      </figcaption>
+  
+  </figure>
+<p>(Later on, based on the official result, I finished at 1:11:38 p.m..
+It took me 4 hours 21 minutes and 50 seconds to finish the KOM climb.
+I was 3rd from the last in my age category 😂)</p>
+<p>Now that I&rsquo;m done, I can finally relax.
+There&rsquo;s a lot of free food and drinks in the area.</p>
+<p>After that, me and my friend go downhill for 2 km to the pick up area.
+We&rsquo;re going back to the city by minivan.
+There&rsquo;s no way I&rsquo;m going back by bike.
+I&rsquo;m not strong enough for that right now.
+And I can see some super cyclist are going back by bike&hellip;</p>
+<p>There&rsquo;s 5 of us in the minivan.
+The driver, me and my friend, and two other cyclists.
+One of them is a surgeon, and the other one is a retired person from Jayapura.
+We exchanged contacts, maybe we will do a Bromo KOM reunion in the future.</p>
+<p>This event is an eye opener for me,
+there&rsquo;s a lot of people from different background here.
+And all of them are coming here to suffer from the same climb.</p>
+<p>After 3 hours ride with the minivan, we&rsquo;ve arrived at the city center.
+Hmm, the hotel is just 5 km away.
+Let&rsquo;s go back by bike, my friend said.
+Yeah let&rsquo;s do it, I replied.</p>
+<p>And so we did.
+It was the most annoying part of the day.
+The traffic, the pollution, the motorbikes, arghhhh.
+This is exactly why I hate outdoor ride in the city.</p>
+<p>The rest of the day is pretty uneventful.
+We had dinner, took a shower, and sleep like a log.</p>
+<h2 id="day-three-return-trip">Day three, return trip</h2>
+<p>Our last day in Surabaya.
+It&rsquo;s a slow day, no recovery ride.</p>
+<p>We had breakfast in the hotel.
+Disassembled our bikes, and pack it up.
+Then we go to the airport.</p>
+<p>It&rsquo;s another 1 hour flight.</p>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bromo-kom-x/return-flight.jpg"
+      
+      alt="I can see Madura island and Suramadu bridge from the plane. (Yes the window is dirty, I can&amp;rsquo;t wipe it from my side.)"><figcaption>
+        
+        
+        
+        <p>I can see Madura island and Suramadu bridge from the plane. (Yes the window is dirty, I can&rsquo;t wipe it from my side.)</p>
+      </figcaption>
+  
+  </figure>
+<p>After arriving in Soekarno-Hatta, we go straight to the oversize luggage area.
+And we waited for at least 30 minutes.
+At some point, the airport staff there asked, &ldquo;Who else is waiting for the bike box? Raise your hands.&rdquo;.
+Then almost everyone in the waiting area raised their hands.
+The staff stopped counting and just talked to walkie talkie, &ldquo;There&rsquo;s at least
+10 boxes, just get all of them out.&rdquo;.</p>
+<p>Not long after that, I got my bike box.
+Then I took the taxi to my home.
+I arrived safely around 5 p.m., and that concludes my trip.</p>
+<h2 id="how-much-i-spent-on-the-trip">How much I spent on the trip?</h2>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th style="text-align:right">Amount (IDR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Registration fee</td>
+<td style="text-align:right">2,044,000</td>
+</tr>
+<tr>
+<td>Flight (2-way)</td>
+<td style="text-align:right">3,290,000</td>
+</tr>
+<tr>
+<td>Hotel (2 nights)</td>
+<td style="text-align:right">667,000</td>
+</tr>
+<tr>
+<td>Bike box rental</td>
+<td style="text-align:right">500,000</td>
+</tr>
+<tr>
+<td>Transport (w/o bike)</td>
+<td style="text-align:right">15,000</td>
+</tr>
+<tr>
+<td>Transport (with bike)</td>
+<td style="text-align:right">596,000</td>
+</tr>
+<tr>
+<td>Transport (minivan)</td>
+<td style="text-align:right">750,000</td>
+</tr>
+<tr>
+<td>Water bottles (@2)</td>
+<td style="text-align:right">198,000</td>
+</tr>
+<tr>
+<td>Food and drinks</td>
+<td style="text-align:right">350,000</td>
+</tr>
+<tr>
+<td>Energy gel etc.</td>
+<td style="text-align:right">25,000</td>
+</tr>
+<tr>
+<td>Souvenirs (it&rsquo;s cake)</td>
+<td style="text-align:right">180,000</td>
+</tr>
+<tr>
+<td>Photos (not free 🥲)</td>
+<td style="text-align:right">100,000</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td style="text-align:right"><strong>8,715,000</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="other-tidbits-im-not-sure-where-to-put">Other tidbits I&rsquo;m not sure where to put</h2>
+<ul>
+<li>The elevation graph looks familiar.</li>
+</ul>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/bromo-kom-x/elevation-graph.jpg"
+      
+      alt="You can see the shape of the mountain from the graph."><figcaption>
+        
+        
+        
+        <p>You can see the shape of the mountain from the graph.</p>
+      </figcaption>
+  
+  </figure>
+<h2 id="closing-thoughts">Closing thoughts</h2>
+<p>It was not a cheap trip, but I&rsquo;m glad I did it.
+One item crossed off my bucket list.</p>
+<p>Learning points for me:</p>
+<ul>
+<li>Pacing need improvements.</li>
+<li>Don&rsquo;t try to open bottle lid during the ride, especially a climb.
+You will lose it.</li>
+<li>Remembering why you started doing something is a good way to
+stop yourself from giving up.</li>
+<li>For long ride like this,
+you <em>need</em> energy gels, anti-chafe, and sunscreen.</li>
+<li>Athlete is called super human for a reason.</li>
+<li>I should&rsquo;ve taken more photos.</li>
+</ul>
+<p>Also, special thanks for my friend, Yoan, for inviting me.
+As a casual cyclist, I probably won&rsquo;t join this kind of event
+without being invited.</p>
+<hr>
+<p>Post 25 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
+]]></content:encoded></item><item><title>Who used my codespace?</title><link>https://darcien.dev/p/codespace/</link><pubDate>Sun, 24 Mar 2024 19:04:24 +0700</pubDate><guid>https://darcien.dev/p/codespace/</guid><description>A wild diff appeared!</description><content:encoded><![CDATA[<p>It was another normal day at work.
 I finished up my lunch and returning to work.
 I booted up my <a href="https://docs.github.com/en/codespaces/overview">GitHub codespace</a> as usual.</p>
 <p>I have a habit of running <code>git status</code> before doing anything.
@@ -1764,10 +2386,10 @@ Most of the time there&rsquo;s no choices though.
 Even when there are choices, at most it&rsquo;s 2, it&rsquo;s pick bad or the less bad one 🥲.</p>
 <h2 id="changelog">Changelog</h2>
 <ul>
-<li>2024-05-05: more Z-aN updates, added Zaiko</li>
-<li>2023-09-13: updated Z-aN entry, issues keep happening</li>
-<li>2023-09-03: updated Z-aN entry, added KOKO one-man live pic</li>
-<li>2023-06-17: initial page</li>
+<li>2024-05-05: more Z-aN updates, add Zaiko</li>
+<li>2023-09-13: update Z-aN entry, issues keep happening</li>
+<li>2023-09-03: update Z-aN entry, add KOKO one-man live pic</li>
+<li>2023-06-17: initial version</li>
 </ul>
 <hr>
 <p>Post 13 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>

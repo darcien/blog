@@ -49,7 +49,8 @@ Northsider | Black Onyx blend (Robusta Java, Arabica West Java & Aceh) | 😐 | 
 Northsider | Classic blend (Robusta Dampit, Arabica Flores) | 😀 | Starting tad bland, but feels strong later on, not bad!
 Northsider | Cold White blend (Robusta Temanggung, Arabica West Java & Gayo) | 😐 | -
 Northsider | North blend (All Arabica: Columbia, Brazil, Ethiopia) | 😐 | Feels weird at first, but it tastes just okay after a while.
-Northsider | Razeta'55 blend (Arabica Brazil, Arabica Java, Robusta Java) | ❤️ | I've been buying this blend for more than a year straight, probably my favorite blend so far
+Northsider | Razeta'55 blend (Arabica Brazil, Arabica Gayo, Robusta Temanggung) | ❤️ | I've been buying this blend for more than a year straight, probably my favorite blend so far.
+Northsider | Sweet Gayo blend (Arabica Gayo, Robusta Temanggung) | 😊 | Just like the name suggests, it smells sweet. With milk, not so much, but I still like it.
 
 I can barely remember the taste for some of the coffee in the list,
 some are too acidic, some has that floral smell,
@@ -142,3 +143,9 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
  caption="I mistakenly bought roasted coffee beans. Having no coffee grinders, I had to resort to drastic measures. Taken at 2019-03-30."
 >}}
 
+## Changelog
+
+- 2024-06-16: add sweet gayo blend
+- 2023-12-03: add macehat and classic blend
+- 2023-10-28: add various pics
+- 2023-10-12: initial version

@@ -122,7 +122,7 @@ But they don't run ticketing for one-time watch.
 
 Link: https://zaiko.io
 
-Previously watched: 
+Previously watched:
 - 2023-01-28, Hoshimachi Suisei 2nd solo live "Shout in Crisis"
 - 2024-05-04, Hanabasami Kyo 4th one-man live "FLORIST"
 
@@ -162,7 +162,7 @@ Some neutral stuffs:
 
 Link: https://www.zan-live.com
 
-Previously watched: 
+Previously watched:
 - 2023-06-17, Planet Station stage 8
 - 2023-08-27, Hololive Splash Party
 - 2023-09-03, KOKO 2nd one-man live "PLAYER II -Kamitsubaki City AREA 4-"
@@ -268,10 +268,10 @@ Even when there are choices, at most it's 2, it's pick bad or the less bad one ð
 
 ## Changelog
 
-- 2024-05-05: more Z-aN updates, added Zaiko
-- 2023-09-13: updated Z-aN entry, issues keep happening
-- 2023-09-03: updated Z-aN entry, added KOKO one-man live pic
-- 2023-06-17: initial page
+- 2024-05-05: more Z-aN updates, add Zaiko
+- 2023-09-13: update Z-aN entry, issues keep happening
+- 2023-09-03: update Z-aN entry, add KOKO one-man live pic
+- 2023-06-17: initial version
 
 ---
 
