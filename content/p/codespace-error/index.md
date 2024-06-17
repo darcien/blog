@@ -60,6 +60,14 @@ Rarities from the most common to the rarest:
 - SSR - super super rare, hey have you seen this before - no what the heck is that!?
 
 
+## What's with the title?
+
+It's a parody on a song called [Guitar, Loneliness and Blue Planet][song] by kessoku band.
+(It's good btw, you should check it out.)
+
+[song]: https://www.youtube.com/watch?v=fYBQJfPBmRg
+
+
 ## Changelog
 
 - 2024-06-15: initial version
