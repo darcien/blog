@@ -110,6 +110,38 @@ instead of fixing it.)</p>
       </figcaption>
   
   </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/rpc-no-client.png"
+      
+      alt="I was praising Codespace for the day, then it fails me. And my team, at the same time. Rarity: SSR. Solution: Reload or reconnect."><figcaption>
+        
+        
+        
+        <p>I was praising Codespace for the day, then it fails me. And my team, at the same time. Rarity: SSR. Solution: Reload or reconnect.</p>
+      </figcaption>
+  
+  </figure>
+
+  
+
+  
+
+  <figure><img
+      loading="lazy" src="/p/codespace-error/econnrefused.png"
+      
+      alt="Reconnecting after the RPC no client error gives this ECONNREFUSED. Rarity: SSR. Solution: Rebuild."><figcaption>
+        
+        
+        
+        <p>Reconnecting after the RPC no client error gives this ECONNREFUSED. Rarity: SSR. Solution: Rebuild.</p>
+      </figcaption>
+  
+  </figure>
 <h2 id="whats-with-the-rarity">What&rsquo;s with the rarity?</h2>
 <p>I&rsquo;m trying to categorize the error by rarity.
 Some of them are so rare and fleeting that I&rsquo;ve only saw them once in my life.</p>
@@ -125,6 +157,7 @@ Some of them are so rare and fleeting that I&rsquo;ve only saw them once in my l
 (It&rsquo;s good btw, you should check it out.)</p>
 <h2 id="changelog">Changelog</h2>
 <ul>
+<li>2024-06-25: add RPC and ECONNREFUSED error</li>
 <li>2024-06-15: initial version</li>
 </ul>
 <hr>

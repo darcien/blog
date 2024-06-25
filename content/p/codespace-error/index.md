@@ -46,6 +46,16 @@ instead of fixing it.)
  caption="Something failed and I have no idea what is it. Rarity: SSR. Solution: Reload or reconnect."
 >}}
 
+{{< figure
+ src="rpc-no-client.png"
+ caption="I was praising Codespace for the day, then it fails me. And my team, at the same time. Rarity: SSR. Solution: Reload or reconnect."
+>}}
+
+{{< figure
+ src="econnrefused.png"
+ caption="Reconnecting after the RPC no client error gives this ECONNREFUSED. Rarity: SSR. Solution: Rebuild."
+>}}
+
 
 ## What's with the rarity?
 
@@ -70,6 +80,7 @@ It's a parody on a song called [Guitar, Loneliness and Blue Planet][song] by kes
 
 ## Changelog
 
+- 2024-06-25: add RPC and ECONNREFUSED error
 - 2024-06-15: initial version
 
 ---
