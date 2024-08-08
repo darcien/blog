@@ -171,13 +171,16 @@ Previously watched:
 - 2024-01-14, KAF 4th solo live concert "KAIKA"
 - 2024-04-09, Albemuth 1st one-man live "Guilty and Eden"
 - 2024-04-10, Harusaruhi 3rd one-man live "Shamanism III"
+- 2024-08-07, Isekaijoucho 3rd one-man live "Anima III"
+- 2024-08-08, KAMITSUBAKI FES '24 THE DAY THE EARTH STOOD STILL
 
 **Verdict: superb, my first choice these days 🌟 (assuming it's not hololive event)**
 
-### Latest impression (2024-05-04)
+### Latest impression (written on 2024-05-04, still holds true as of 2024-08-08)
 
 At this point, I believe troubles doesn't exist for Kamitsubaki x Z-an combination.
 Smooth live, good video and audio quality, works on Firefox, and watch archive works!
+(Even during ~8 hours long stream, it's relatively smooth)
 
 Whether they can handle the load for hololive event is yet to be proven though.
 
