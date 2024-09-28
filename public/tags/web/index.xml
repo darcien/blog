@@ -5,6 +5,31 @@ but not sure which host to pick (if choices exists).</p>
 <p>These are non-exhaustive list of platforms that I&rsquo;ve watched on before.
 I&rsquo;ve included my rough take on each platform and the dates.
 Over the time these list might get outdated as the streaming platform keep updating their site.</p>
+<h2 id="asobi-stage">ASOBI STAGE</h2>
+<p>Note: ASOBI STAGE is different with ASOBI CHANNEL.
+ASOBI CHANNEL is more like YouTube, free to watch platform,
+and has different set of issues with ASOBI STAGE.</p>
+<p>Link: <a href="https://asobistage.asobistore.jp">https://asobistage.asobistore.jp</a></p>
+<p>Previously watched:</p>
+<ul>
+<li>2024-08-09, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- 名古屋クラブクアトロ公演 (Nagoya, special)</li>
+<li>2024-08-17, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- 梅田クラブクアトロ公演 (Umeda, day-night)</li>
+<li>2024-08-25, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- 渋谷クラブクアトロ公演 (Shibuya, day-night)</li>
+<li>2024-09-07, 学園アイドルマスター DEBUT LIVE 初 TOUR -初心公演- 名古屋クラブクアトロ公演 (Nagoya, special, day)</li>
+</ul>
+<p><strong>Verdict: totally worth it to watch Idolm@ster live in real time!</strong></p>
+<p>The platform is pretty good, there are no major problems.
+There are hiccups where video does not play but comments keep flowing,
+but a refresh or two fixed it.
+Also the light stick below the video player is a really nice touch.
+And the fact you can control it with your phone is a proof they&rsquo;re putting
+a lot of effort into this.</p>
+<p>Archive also works great, their viewing period is a bit short though,
+around 2 weeks or so.</p>
+<p>A slight annoyance: the comments section often stop scrolling midway during live,
+scrolling manually to the bottom can fix it.
+But often it also scrolls the main view instead of just the comment section.
+Not sure if this is specific to my environment or not.</p>
 <h2 id="eplus">eplus</h2>
 <p>Link: <a href="https://ib.eplus.jp">https://ib.eplus.jp</a></p>
 <p>Last watched: 2023-03-18, hololive 4th fes.</p>
@@ -117,13 +142,15 @@ during archive.</li>
 <li>2024-04-10, Harusaruhi 3rd one-man live &ldquo;Shamanism III&rdquo;</li>
 <li>2024-08-07, Isekaijoucho 3rd one-man live &ldquo;Anima III&rdquo;</li>
 <li>2024-08-08, KAMITSUBAKI FES &lsquo;24 THE DAY THE EARTH STOOD STILL</li>
+<li>2024-09-15, RIM 3rd one-man live &ldquo;NEUROMANCE III&rdquo;</li>
 </ul>
 <p><strong>Verdict: superb, my first choice these days 🌟 (assuming it&rsquo;s not hololive event)</strong></p>
-<h3 id="latest-impression-written-on-2024-05-04-still-holds-true-as-of-2024-08-08">Latest impression (written on 2024-05-04, still holds true as of 2024-08-08)</h3>
+<h3 id="latest-impression-2024-09-15">Latest impression (2024-09-15)</h3>
 <p>At this point, I believe troubles doesn&rsquo;t exist for Kamitsubaki x Z-an combination.
 Smooth live, good video and audio quality, works on Firefox, and watch archive works!
 (Even during ~8 hours long stream, it&rsquo;s relatively smooth)</p>
-<p>Whether they can handle the load for hololive event is yet to be proven though.</p>
+<p>I also tried from Firefox + Linux and Safari + iPadOS combination,
+they&rsquo;re superb!</p>
 <h3 id="previous-impression-2023-09-13">Previous impression (2023-09-13)</h3>
 <p>Watched yet another big event, and there&rsquo;s a blackout mid stream.
 No sound, no video.
@@ -226,6 +253,7 @@ Most of the time there&rsquo;s no choices though.
 Even when there are choices, at most it&rsquo;s 2, it&rsquo;s pick bad or the less bad one 🥲.</p>
 <h2 id="changelog">Changelog</h2>
 <ul>
+<li>2024-09-28: add ASOBI STAGE</li>
 <li>2024-05-05: more Z-aN updates, add Zaiko</li>
 <li>2023-09-13: update Z-aN entry, issues keep happening</li>
 <li>2023-09-03: update Z-aN entry, add KOKO one-man live pic</li>

@@ -89,7 +89,7 @@ and can be resized at build time with <code>resize</code> parameter.</p>
   
 
   <figure><img
-      loading="lazy" src="/p/lightense/bogor_hu9b1a8372fdbefe87bd83c09aca4abcd4_4681944_0x360_resize_q75_box.jpg"
+      loading="lazy" src="/p/lightense/bogor_hu1044715903310501293.jpg"
       
       alt="One word, green. Behind the iron fence there is a river not visible in the photo.
 Also resized down to height=360px."><figcaption>
@@ -107,11 +107,11 @@ Also resized down to height=360px.</p>
   
 
   <figure><img
-      loading="lazy" src="/img/shiromedia-penguin-front_hu16139e444f06f4633196fffaa4c9ff91_726080_0x640_resize_q75_box.jpg"
+      loading="lazy" src="/img/shiromedia-penguin-front_hu1040647663398816827.jpg"
       
       alt="This figure use global resource.
 The shortcode can handle both page and global resource.
-I don&amp;rsquo;t understand why Hugo don&amp;rsquo;t have this out of the box."><figcaption>
+I don&rsquo;t understand why Hugo don&rsquo;t have this out of the box."><figcaption>
         
         
         

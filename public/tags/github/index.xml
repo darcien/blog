@@ -12,7 +12,7 @@ instead of fixing it.)</p>
   <figure><img
       loading="lazy" src="/p/codespace-error/already-running.png"
       
-      alt="I have no idea what&amp;rsquo;s happening with the connectivity. Using a different codespace connects just fine. Rarity: SSR. Solution: New codespace."><figcaption>
+      alt="I have no idea what&rsquo;s happening with the connectivity. Using a different codespace connects just fine. Rarity: SSR. Solution: New codespace."><figcaption>
         
         
         
@@ -70,7 +70,7 @@ instead of fixing it.)</p>
   <figure><img
       loading="lazy" src="/p/codespace-error/rebuilding-stuck.png"
       
-      alt="Sometimes full rebuild is the solution. Sometimes rebuild is also the issue. This one stuck on rebuilding for at least 30 mins&amp;hellip; Rarity: SR. Solution: New codespace."><figcaption>
+      alt="Sometimes full rebuild is the solution. Sometimes rebuild is also the issue. This one stuck on rebuilding for at least 30 mins&hellip; Rarity: SR. Solution: New codespace."><figcaption>
         
         
         

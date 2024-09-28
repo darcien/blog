@@ -13,6 +13,37 @@ These are non-exhaustive list of platforms that I've watched on before.
 I've included my rough take on each platform and the dates.
 Over the time these list might get outdated as the streaming platform keep updating their site.
 
+## ASOBI STAGE
+
+Note: ASOBI STAGE is different with ASOBI CHANNEL.
+ASOBI CHANNEL is more like YouTube, free to watch platform,
+and has different set of issues with ASOBI STAGE.
+
+Link: https://asobistage.asobistore.jp
+
+Previously watched:
+- 2024-08-09, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- 名古屋クラブクアトロ公演 (Nagoya, special)
+- 2024-08-17, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- 梅田クラブクアトロ公演 (Umeda, day-night)
+- 2024-08-25, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- 渋谷クラブクアトロ公演 (Shibuya, day-night)
+- 2024-09-07, 学園アイドルマスター DEBUT LIVE 初 TOUR -初心公演- 名古屋クラブクアトロ公演 (Nagoya, special, day)
+
+**Verdict: totally worth it to watch Idolm@ster live in real time!**
+
+The platform is pretty good, there are no major problems.
+There are hiccups where video does not play but comments keep flowing,
+but a refresh or two fixed it.
+Also the light stick below the video player is a really nice touch.
+And the fact you can control it with your phone is a proof they're putting
+a lot of effort into this.
+
+Archive also works great, their viewing period is a bit short though,
+around 2 weeks or so.
+
+A slight annoyance: the comments section often stop scrolling midway during live,
+scrolling manually to the bottom can fix it.
+But often it also scrolls the main view instead of just the comment section.
+Not sure if this is specific to my environment or not.
+
 ## eplus
 
 Link: https://ib.eplus.jp
@@ -173,16 +204,18 @@ Previously watched:
 - 2024-04-10, Harusaruhi 3rd one-man live "Shamanism III"
 - 2024-08-07, Isekaijoucho 3rd one-man live "Anima III"
 - 2024-08-08, KAMITSUBAKI FES '24 THE DAY THE EARTH STOOD STILL
+- 2024-09-15, RIM 3rd one-man live "NEUROMANCE III"
 
 **Verdict: superb, my first choice these days 🌟 (assuming it's not hololive event)**
 
-### Latest impression (written on 2024-05-04, still holds true as of 2024-08-08)
+### Latest impression (2024-09-15)
 
 At this point, I believe troubles doesn't exist for Kamitsubaki x Z-an combination.
 Smooth live, good video and audio quality, works on Firefox, and watch archive works!
 (Even during ~8 hours long stream, it's relatively smooth)
 
-Whether they can handle the load for hololive event is yet to be proven though.
+I also tried from Firefox + Linux and Safari + iPadOS combination,
+they're superb!
 
 ### Previous impression (2023-09-13)
 
@@ -271,6 +304,7 @@ Even when there are choices, at most it's 2, it's pick bad or the less bad one �
 
 ## Changelog
 
+- 2024-09-28: add ASOBI STAGE
 - 2024-05-05: more Z-aN updates, add Zaiko
 - 2023-09-13: update Z-aN entry, issues keep happening
 - 2023-09-03: update Z-aN entry, add KOKO one-man live pic
