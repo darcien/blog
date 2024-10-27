@@ -326,46 +326,46 @@ FATA[0003] error starting vm: error at &#39;starting&#39;: exit status 1
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">limactl sudoers &gt;etc_sudoers.d_lima <span class="o">&amp;&amp;</span> sudo install -o root etc_sudoers.d_lima <span class="s2">&#34;/private/etc/sudoers.d/lima&#34;</span>
 </span></span></code></pre></div><h2 id="how-much-does-it-cost-total">How much does it cost total?</h2>
 <table>
-<thead>
-<tr>
-<th>Parts</th>
-<th style="text-align:right">Price (IDR)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>AirGradient Pro DIY (pre-soldered) x 2</td>
-<td style="text-align:right">4.544.100</td>
-</tr>
-<tr>
-<td>AirGradient import tax</td>
-<td style="text-align:right">294.400</td>
-</tr>
-<tr>
-<td>Power supply 5V 3A x 2</td>
-<td style="text-align:right">271.700</td>
-</tr>
-<tr>
-<td>USB-C 3m cable</td>
-<td style="text-align:right">93.500</td>
-</tr>
-<tr>
-<td>3M plastic hook x2</td>
-<td style="text-align:right">29.640</td>
-</tr>
-<tr>
-<td>Old MacBook</td>
-<td style="text-align:right">0</td>
-</tr>
-<tr>
-<td>&mdash;</td>
-<td style="text-align:right">&mdash;</td>
-</tr>
-<tr>
-<td>Total</td>
-<td style="text-align:right">5.233.340</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Parts</th>
+          <th style="text-align: right">Price (IDR)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">AirGradient Pro DIY (pre-soldered) x 2</td>
+          <td style="text-align: right">4.544.100</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AirGradient import tax</td>
+          <td style="text-align: right">294.400</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Power supply 5V 3A x 2</td>
+          <td style="text-align: right">271.700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">USB-C 3m cable</td>
+          <td style="text-align: right">93.500</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3M plastic hook x2</td>
+          <td style="text-align: right">29.640</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Old MacBook</td>
+          <td style="text-align: right">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">&mdash;</td>
+          <td style="text-align: right">&mdash;</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Total</td>
+          <td style="text-align: right">5.233.340</td>
+      </tr>
+  </tbody>
 </table>
 <p>Using 1 USD = 14850 IDR conversion for AirGradient price calculation.</p>
 <p>It&rsquo;s a bit expensive for your average Indonesian, but still pretty good price

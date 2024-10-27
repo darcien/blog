@@ -22,10 +22,13 @@ and has different set of issues with ASOBI STAGE.
 Link: https://asobistage.asobistore.jp
 
 Previously watched:
-- 2024-08-09, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- 名古屋クラブクアトロ公演 (Nagoya, special)
-- 2024-08-17, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- 梅田クラブクアトロ公演 (Umeda, day-night)
-- 2024-08-25, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- 渋谷クラブクアトロ公演 (Shibuya, day-night)
-- 2024-09-07, 学園アイドルマスター DEBUT LIVE 初 TOUR -初心公演- 名古屋クラブクアトロ公演 (Nagoya, special, day)
+- 2024-08-09, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- (Nagoya, special)
+- 2024-08-17, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- (Umeda, day-night)
+- 2024-08-25, 学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- (Shibuya, day-night)
+- 2024-09-07, 学園アイドルマスター DEBUT LIVE 初 TOUR -初心公演- (Nagoya, special, day)
+- 2024-10-14, 学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Umeda, special, day-night)
+- 2024-10-19, 学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Hiroshima, day-night)
+- 2024-10-27, 学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Shibuya, day-night)
 
 **Verdict: totally worth it to watch Idolm@ster live in real time!**
 
@@ -304,6 +307,7 @@ Even when there are choices, at most it's 2, it's pick bad or the less bad one �
 
 ## Changelog
 
+- 2024-10-27: more Gakumas live via ASOBI STAGE
 - 2024-09-28: add ASOBI STAGE
 - 2024-05-05: more Z-aN updates, add Zaiko
 - 2023-09-13: update Z-aN entry, issues keep happening

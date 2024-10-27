@@ -23,86 +23,86 @@ And this effort will probably continue to 2023.</p>
 Like every single one of them, from &ldquo;every person know this name&rdquo; to &ldquo;is that an actual service name?&rdquo;.</p>
 <h2 id="is-it-available-in-my-place">Is it available in my place?</h2>
 <table>
-<thead>
-<tr>
-<th>ISP</th>
-<th>available</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://www.balifiber.id/home/bf_home">BaliFiber</a></td>
-<td>❌</td>
-</tr>
-<tr>
-<td><a href="https://biznethome.net/">Biznet Home</a></td>
-<td>❌</td>
-</tr>
-<tr>
-<td><a href="https://bnetfit.id/">Bnetfit</a></td>
-<td>❌</td>
-</tr>
-<tr>
-<td><a href="https://cbn.id/personal/fiber/cbn-fiber.html">CBN Fiber</a></td>
-<td>❌</td>
-</tr>
-<tr>
-<td><a href="https://fiberstream.id/en">Fiberstream</a></td>
-<td>❌</td>
-</tr>
-<tr>
-<td><a href="https://www.firstmedia.com/">First Media</a></td>
-<td>✅</td>
-</tr>
-<tr>
-<td><a href="https://groovy.id/">Groovy</a></td>
-<td>❌</td>
-</tr>
-<tr>
-<td><a href="https://iconnet.id/">Iconnet (PLN)</a></td>
-<td>✅</td>
-</tr>
-<tr>
-<td><a href="https://indihome.co.id/">IndiHome (Telkom)</a></td>
-<td>✅</td>
-</tr>
-<tr>
-<td><a href="https://indonet.co.id/id/internet-broadband/">indonet</a></td>
-<td>❔*</td>
-</tr>
-<tr>
-<td><a href="https://hifi.ioh.co.id/">Indosat HiFi (Indosat Ooredoo Hutchison)</a></td>
-<td>❌</td>
-</tr>
-<tr>
-<td><a href="https://www.megavision.net.id/">Megavision</a></td>
-<td>❌</td>
-</tr>
-<tr>
-<td><a href="https://mncplay.id/en/">MNC Play</a></td>
-<td>❔**</td>
-</tr>
-<tr>
-<td><a href="https://myrepublic.co.id/">MyRepublic</a></td>
-<td>❌</td>
-</tr>
-<tr>
-<td><a href="https://home.oxygen.id/">Oxygen.id</a></td>
-<td>✅</td>
-</tr>
-<tr>
-<td><a href="https://www.transvision.co.id/hispeed.html">Transvision Hi-Speed</a></td>
-<td>❌</td>
-</tr>
-<tr>
-<td><a href="https://www.xlhome.co.id/">XL Home</a></td>
-<td>❌</td>
-</tr>
-<tr>
-<td><a href="https://satu.xl.co.id/">XL Satu Fiber</a></td>
-<td>❌</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">ISP</th>
+          <th style="text-align: left">available</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><a href="https://www.balifiber.id/home/bf_home">BaliFiber</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://biznethome.net/">Biznet Home</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://bnetfit.id/">Bnetfit</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://cbn.id/personal/fiber/cbn-fiber.html">CBN Fiber</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://fiberstream.id/en">Fiberstream</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://www.firstmedia.com/">First Media</a></td>
+          <td style="text-align: left">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://groovy.id/">Groovy</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://iconnet.id/">Iconnet (PLN)</a></td>
+          <td style="text-align: left">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://indihome.co.id/">IndiHome (Telkom)</a></td>
+          <td style="text-align: left">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://indonet.co.id/id/internet-broadband/">indonet</a></td>
+          <td style="text-align: left">❔*</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://hifi.ioh.co.id/">Indosat HiFi (Indosat Ooredoo Hutchison)</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://www.megavision.net.id/">Megavision</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://mncplay.id/en/">MNC Play</a></td>
+          <td style="text-align: left">❔**</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://myrepublic.co.id/">MyRepublic</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://home.oxygen.id/">Oxygen.id</a></td>
+          <td style="text-align: left">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://www.transvision.co.id/hispeed.html">Transvision Hi-Speed</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://www.xlhome.co.id/">XL Home</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://satu.xl.co.id/">XL Satu Fiber</a></td>
+          <td style="text-align: left">❌</td>
+      </tr>
+  </tbody>
 </table>
 <p>*: Not going to bother with ISP targeting enterprise user.</p>
 <p>**: MNC Play requires me to fill a form with personal identification etc. to check for coverage area.
