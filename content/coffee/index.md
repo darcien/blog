@@ -51,6 +51,7 @@ Northsider | Cold White blend (Robusta Temanggung, Arabica West Java & Gayo) | �
 Northsider | North blend (All Arabica: Columbia, Brazil, Ethiopia) | 😐 | Feels weird at first, but it tastes just okay after a while.
 Northsider | Razeta'55 blend (Arabica Brazil, Arabica Gayo, Robusta Temanggung) | ❤️ | I've been buying this blend for more than a year straight, probably my favorite blend so far.
 Northsider | Sweet Gayo blend (Arabica Gayo, Robusta Temanggung) | 😊 | Just like the name suggests, it smells sweet. With milk, not so much, but I still like it.
+Sido Mulia | Sido Mulia Premium (Robusta Dampit is my assumption) | 😐 | Meh, tastes like your usual bitter bland coffee. Not worth the premium price from this brand.
 
 I can barely remember the taste for some of the coffee in the list,
 some are too acidic, some has that floral smell,
@@ -109,6 +110,11 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
 ## Other Photos?
 
 {{< figure
+ src="sido-mulia.jpg"
+ caption="Trying some brand mentioned by friend, it's pricey and not that good 😂, taken at 2024-12-08."
+>}}
+
+{{< figure
  src="macehat-front.jpg"
  caption="Got some freshly roasted beans from Sumatra, taken at 2023-11-19."
 >}}
@@ -145,6 +151,7 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
 
 ## Changelog
 
+- 2024-12-08: add Sido Mulia brand
 - 2024-06-16: add sweet gayo blend
 - 2023-12-03: add macehat and classic blend
 - 2023-10-28: add various pics
