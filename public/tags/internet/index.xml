@@ -19,6 +19,7 @@ and has different set of issues with ASOBI STAGE.</p>
 <li>2024-10-14, 学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Umeda, special, day-night)</li>
 <li>2024-10-19, 学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Hiroshima, day-night)</li>
 <li>2024-10-27, 学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Shibuya, day-night)</li>
+<li>2024-12-14, THE IDOLM@STER M@STER EXPO エキスポステージDAY1</li>
 </ul>
 <p><strong>Verdict: totally worth it to watch Idolm@ster live in real time!</strong></p>
 <p>The platform is pretty good, there are no major problems.
@@ -146,9 +147,11 @@ during archive.</li>
 <li>2024-08-07, Isekaijoucho 3rd one-man live &ldquo;Anima III&rdquo;</li>
 <li>2024-08-08, KAMITSUBAKI FES &lsquo;24 THE DAY THE EARTH STOOD STILL</li>
 <li>2024-09-15, RIM 3rd one-man live &ldquo;NEUROMANCE III&rdquo;</li>
+<li>2024-11-02, KAMITSUBAKI WARS 2024 DAY-1 &ldquo;Re:The PhenomenonⅡ&rdquo;</li>
+<li>2024-12-28, ASU 1st ONE-MAN LIVE &ldquo;RAY&rdquo;</li>
 </ul>
 <p><strong>Verdict: superb, my first choice these days 🌟 (assuming it&rsquo;s not hololive event)</strong></p>
-<h3 id="latest-impression-2024-09-15">Latest impression (2024-09-15)</h3>
+<h3 id="latest-impression-2024-12-28">Latest impression (2024-12-28)</h3>
 <p>At this point, I believe troubles doesn&rsquo;t exist for Kamitsubaki x Z-an combination.
 Smooth live, good video and audio quality, works on Firefox, and watch archive works!
 (Even during ~8 hours long stream, it&rsquo;s relatively smooth)</p>
@@ -256,6 +259,7 @@ Most of the time there&rsquo;s no choices though.
 Even when there are choices, at most it&rsquo;s 2, it&rsquo;s pick bad or the less bad one 🥲.</p>
 <h2 id="changelog">Changelog</h2>
 <ul>
+<li>2025-01-14: more Kamitsubaki and Im@s live</li>
 <li>2024-10-27: more Gakumas live via ASOBI STAGE</li>
 <li>2024-09-28: add ASOBI STAGE</li>
 <li>2024-05-05: more Z-aN updates, add Zaiko</li>
@@ -309,82 +313,82 @@ Like every single one of them, from &ldquo;every person know this name&rdquo; to
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">ISP</th>
-          <th style="text-align: left">available</th>
+          <th>ISP</th>
+          <th>available</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left"><a href="https://www.balifiber.id/home/bf_home">BaliFiber</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://www.balifiber.id/home/bf_home">BaliFiber</a></td>
+          <td>❌</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://biznethome.net/">Biznet Home</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://biznethome.net/">Biznet Home</a></td>
+          <td>❌</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://bnetfit.id/">Bnetfit</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://bnetfit.id/">Bnetfit</a></td>
+          <td>❌</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://cbn.id/personal/fiber/cbn-fiber.html">CBN Fiber</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://cbn.id/personal/fiber/cbn-fiber.html">CBN Fiber</a></td>
+          <td>❌</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://fiberstream.id/en">Fiberstream</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://fiberstream.id/en">Fiberstream</a></td>
+          <td>❌</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://www.firstmedia.com/">First Media</a></td>
-          <td style="text-align: left">✅</td>
+          <td><a href="https://www.firstmedia.com/">First Media</a></td>
+          <td>✅</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://groovy.id/">Groovy</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://groovy.id/">Groovy</a></td>
+          <td>❌</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://iconnet.id/">Iconnet (PLN)</a></td>
-          <td style="text-align: left">✅</td>
+          <td><a href="https://iconnet.id/">Iconnet (PLN)</a></td>
+          <td>✅</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://indihome.co.id/">IndiHome (Telkom)</a></td>
-          <td style="text-align: left">✅</td>
+          <td><a href="https://indihome.co.id/">IndiHome (Telkom)</a></td>
+          <td>✅</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://indonet.co.id/id/internet-broadband/">indonet</a></td>
-          <td style="text-align: left">❔*</td>
+          <td><a href="https://indonet.co.id/id/internet-broadband/">indonet</a></td>
+          <td>❔*</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://hifi.ioh.co.id/">Indosat HiFi (Indosat Ooredoo Hutchison)</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://hifi.ioh.co.id/">Indosat HiFi (Indosat Ooredoo Hutchison)</a></td>
+          <td>❌</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://www.megavision.net.id/">Megavision</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://www.megavision.net.id/">Megavision</a></td>
+          <td>❌</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://mncplay.id/en/">MNC Play</a></td>
-          <td style="text-align: left">❔**</td>
+          <td><a href="https://mncplay.id/en/">MNC Play</a></td>
+          <td>❔**</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://myrepublic.co.id/">MyRepublic</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://myrepublic.co.id/">MyRepublic</a></td>
+          <td>❌</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://home.oxygen.id/">Oxygen.id</a></td>
-          <td style="text-align: left">✅</td>
+          <td><a href="https://home.oxygen.id/">Oxygen.id</a></td>
+          <td>✅</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://www.transvision.co.id/hispeed.html">Transvision Hi-Speed</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://www.transvision.co.id/hispeed.html">Transvision Hi-Speed</a></td>
+          <td>❌</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://www.xlhome.co.id/">XL Home</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://www.xlhome.co.id/">XL Home</a></td>
+          <td>❌</td>
       </tr>
       <tr>
-          <td style="text-align: left"><a href="https://satu.xl.co.id/">XL Satu Fiber</a></td>
-          <td style="text-align: left">❌</td>
+          <td><a href="https://satu.xl.co.id/">XL Satu Fiber</a></td>
+          <td>❌</td>
       </tr>
   </tbody>
 </table>

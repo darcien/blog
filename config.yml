@@ -1,6 +1,5 @@
 baseURL: "https://darcien.dev/"
 title: "A blog by Yosua Ian Sebastian"
-paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -13,6 +12,9 @@ buildExpired: false
 # minify:
 #   disableXML: true
 #   minifyOutput: true
+
+pagination:
+  pagerSize: 5
 
 outputs:
   home:
@@ -164,9 +166,10 @@ menu:
     - name: search
       url: /search
       weight: 100
-    - name: status
-      url: https://status.darcien.dev/
-      weight: 200
+    # VPS is disabled, no status page for now.
+    # - name: status
+    #   url: https://status.darcien.dev/
+    #   weight: 200
     # A proper RSS client should be able to pick up RSS from homepage
     # - identifier: rss
     #   name: rss

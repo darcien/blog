@@ -328,41 +328,41 @@ FATA[0003] error starting vm: error at &#39;starting&#39;: exit status 1
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">Parts</th>
+          <th>Parts</th>
           <th style="text-align: right">Price (IDR)</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">AirGradient Pro DIY (pre-soldered) x 2</td>
+          <td>AirGradient Pro DIY (pre-soldered) x 2</td>
           <td style="text-align: right">4.544.100</td>
       </tr>
       <tr>
-          <td style="text-align: left">AirGradient import tax</td>
+          <td>AirGradient import tax</td>
           <td style="text-align: right">294.400</td>
       </tr>
       <tr>
-          <td style="text-align: left">Power supply 5V 3A x 2</td>
+          <td>Power supply 5V 3A x 2</td>
           <td style="text-align: right">271.700</td>
       </tr>
       <tr>
-          <td style="text-align: left">USB-C 3m cable</td>
+          <td>USB-C 3m cable</td>
           <td style="text-align: right">93.500</td>
       </tr>
       <tr>
-          <td style="text-align: left">3M plastic hook x2</td>
+          <td>3M plastic hook x2</td>
           <td style="text-align: right">29.640</td>
       </tr>
       <tr>
-          <td style="text-align: left">Old MacBook</td>
+          <td>Old MacBook</td>
           <td style="text-align: right">0</td>
       </tr>
       <tr>
-          <td style="text-align: left">&mdash;</td>
+          <td>&mdash;</td>
           <td style="text-align: right">&mdash;</td>
       </tr>
       <tr>
-          <td style="text-align: left">Total</td>
+          <td>Total</td>
           <td style="text-align: right">5.233.340</td>
       </tr>
   </tbody>

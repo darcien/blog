@@ -5,26 +5,18 @@ draft: false
 
 > 🔖 This is [a now page](https://nownownow.com/about).
 
-Updated on 5th May, 2024, from Jakarta, Indonesia.
+Updated on 14th Jan, 2025, from Jakarta, Indonesia.
 
-## Back to (indoor) cycling
+## Crawling in front of big crossroad of life
 
-Spent part of 2023 running for exercises.
-Turns out it's pretty fun!
-But not when the air quality outside is bad.
-Back to indoor cycling it is for 2024.
-I need to prepare and train for Bromo KOM anyway
-(assuming I got the ticket).
+Yes, I still work on that same place.
+Yes, it has been 7 years.
 
-Update: I got the ticket!
-Stayed awake at 3 a.m. to buy the ticket, totally worth it.
+Right now I'm waiting for visa and a bunch of other things.
+All this waiting is making me anxious.
 
-Update update: These days I spent my free time for cycling training.
-I still am not confident in completing the Bromo KOM.
-And the event is happening in 2 week (18 May 2024) 😬.
+I kept suggesting myself everything will be alright.
+I'll get that visa.
+Once I got it, I can escape this hell on earth.
 
-Oh well, whatever happens, I'll take care of it at that day.
-For now, I just need to train, rest, repeat until the big day.
-
-Once I'm done with it, it's time to take care of other live stuffs
-that I have been pushing to the side for training.
+One could only hope.

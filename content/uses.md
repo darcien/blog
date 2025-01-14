@@ -37,14 +37,16 @@ Keeping track of things I'm using daily.
 
 ### Audio
 
-- [Audio Technica ATH-M50x](https://www.audio-technica.com/en-eu/ath-m50x) from 2016
-- AfterShokz Aeropex AS800 bone conducting headset from 2021
+- [Audio Technica ATH-M50x](https://www.audio-technica.com/en-eu/ath-m50x) from 2016.
+- AfterShokz Aeropex AS800 bone conducting headset from 2021.
 - [Yamaha AG06](https://ca.yamaha.com/en/products/music_production/interfaces/ag_series/index.html):
   an overkill mixer to consolidate audio sources so I can hear them all at once.
 - Sony SRS-XB10 Bluetooth speaker thats wired to the audio mixer all the time.
 - [Samson Meteor Microphone](https://samsontech.com/products/microphones/usb-microphones/meteormic/)
   that rarely gets used these days because I sound the same as using a MacBook mic
   on calls.
+- Pioneer XDP-30R, a DAP bought on early 2019.
+- Tanchjim One (3.5mm jack one, with mic), a cheap but decent IEM bought on Jan 2025.
 
 ### Others
 
@@ -110,6 +112,7 @@ for my personal NixOS config.
 
 ## Changelog
 
+- 2025-01-14: add Tanchjim IEM
 - 2024-05-05: add JOIN cycling training planner
 - 2024-01-28: add RC7 shoes
 - 2024-01-16: removed Nike Run Club, replaced with Garmin built-in planner

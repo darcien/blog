@@ -393,61 +393,61 @@ I arrived safely around 5 p.m., and that concludes my trip.</p>
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">Description</th>
+          <th>Description</th>
           <th style="text-align: right">Amount (IDR)</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Registration fee</td>
+          <td>Registration fee</td>
           <td style="text-align: right">2,044,000</td>
       </tr>
       <tr>
-          <td style="text-align: left">Flight (2-way)</td>
+          <td>Flight (2-way)</td>
           <td style="text-align: right">3,290,000</td>
       </tr>
       <tr>
-          <td style="text-align: left">Hotel (2 nights)</td>
+          <td>Hotel (2 nights)</td>
           <td style="text-align: right">667,000</td>
       </tr>
       <tr>
-          <td style="text-align: left">Bike box rental</td>
+          <td>Bike box rental</td>
           <td style="text-align: right">500,000</td>
       </tr>
       <tr>
-          <td style="text-align: left">Transport (w/o bike)</td>
+          <td>Transport (w/o bike)</td>
           <td style="text-align: right">15,000</td>
       </tr>
       <tr>
-          <td style="text-align: left">Transport (with bike)</td>
+          <td>Transport (with bike)</td>
           <td style="text-align: right">596,000</td>
       </tr>
       <tr>
-          <td style="text-align: left">Transport (minivan)</td>
+          <td>Transport (minivan)</td>
           <td style="text-align: right">750,000</td>
       </tr>
       <tr>
-          <td style="text-align: left">Water bottles (@2)</td>
+          <td>Water bottles (@2)</td>
           <td style="text-align: right">198,000</td>
       </tr>
       <tr>
-          <td style="text-align: left">Food and drinks</td>
+          <td>Food and drinks</td>
           <td style="text-align: right">350,000</td>
       </tr>
       <tr>
-          <td style="text-align: left">Energy gel etc.</td>
+          <td>Energy gel etc.</td>
           <td style="text-align: right">25,000</td>
       </tr>
       <tr>
-          <td style="text-align: left">Souvenirs (it&rsquo;s cake)</td>
+          <td>Souvenirs (it&rsquo;s cake)</td>
           <td style="text-align: right">180,000</td>
       </tr>
       <tr>
-          <td style="text-align: left">Photos (not free 🥲)</td>
+          <td>Photos (not free 🥲)</td>
           <td style="text-align: right">100,000</td>
       </tr>
       <tr>
-          <td style="text-align: left"><strong>Total</strong></td>
+          <td><strong>Total</strong></td>
           <td style="text-align: right"><strong>8,715,000</strong></td>
       </tr>
   </tbody>
