@@ -32,7 +32,7 @@ Keeping track of things I'm using daily.
 
 ### Display
 
-- ViewSonic XG2431, 24", IPS, a 240Hz-capable monitor that run on 50Hz for coding
+- ViewSonic XG2431, 24", IPS, has horizontal banding all over the screen after 3 years of usage :(
 - Dell U2417H, 24", IPS
 
 ### Audio
@@ -45,7 +45,6 @@ Keeping track of things I'm using daily.
 - [Samson Meteor Microphone](https://samsontech.com/products/microphones/usb-microphones/meteormic/)
   that rarely gets used these days because I sound the same as using a MacBook mic
   on calls.
-- Pioneer XDP-30R, a DAP bought on early 2019.
 - Tanchjim One (3.5mm jack one, with mic), a cheap but decent IEM bought on Jan 2025.
 
 ### Others
@@ -84,7 +83,6 @@ for my personal NixOS config.
   - Continental Ultra Sport III tire because they have black-yellow tire matching with my bike color scheme
 
 ### Gears
-- [Wahoo KICKR v5](https://www.dcrainmaker.com/2020/08/wahoo-kickr-v5-2020-smart-trainer-in-depth-review.html) for indoor ride
 - [Polar H10](https://www.polar.com/en/sensors/h10-heart-rate-sensor) heart rate sensor
 - [Shimano RC3][rc3] cycling shoes
 - [Shimano RC7][rc7] cycling shoes

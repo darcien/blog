@@ -30,6 +30,9 @@ Previously watched:
 - 2024-10-19, 学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Hiroshima, day-night)
 - 2024-10-27, 学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Shibuya, day-night)
 - 2024-12-14, THE IDOLM@STER M@STER EXPO エキスポステージDAY1
+- 2025-02-08, 学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Nagoya, special, day-night)
+- 2025-02-11, 学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Umeda, day-night)
+- 2025-02-16, 学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Shibuya, day-night)
 
 **Verdict: totally worth it to watch Idolm@ster live in real time!**
 
@@ -310,6 +313,7 @@ Even when there are choices, at most it's 2, it's pick bad or the less bad one �
 
 ## Changelog
 
+- 2025-02-18: ASOBI STAGE still going strong
 - 2025-01-14: more Kamitsubaki and Im@s live
 - 2024-10-27: more Gakumas live via ASOBI STAGE
 - 2024-09-28: add ASOBI STAGE
