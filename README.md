@@ -9,7 +9,7 @@ You need Hugo and [just](https://just.systems/man/en/). Every commands is docume
 Last known working `hugo version`:
 
 ```
-hugo v0.139.3+extended+withdeploy darwin/arm64 BuildDate=2024-11-29T15:36:56Z VendorInfo=brew
+hugo v0.142.0+extended+withdeploy darwin/arm64 BuildDate=2025-01-22T12:20:52Z VendorInfo=brew
 ```
 
 ## Deployment
