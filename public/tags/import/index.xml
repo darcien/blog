@@ -372,17 +372,7 @@ They&rsquo;ll sent something like &ldquo;The benefits of [Goods Name] will arriv
         <p>Here&rsquo;s how it looks on Buyee&rsquo;s site</p>
       </figcaption>
   
-  </figure><script defer src="https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js" integrity="sha256-0L7PA+rlAMaq+Gkzls+i1cUvY9i7D+XF/Yl3BhYKABo=" crossorigin="anonymous"></script>
-  <script defer type="text/javascript">
-    window.addEventListener("load", function() {
-      Lightense('img:not(.no-lightense, [aria-label="logo"])', {
-        
-        
-        
-        background: 'rgb(155, 156, 157 / 60%)',
-      });
-    }, false);
-  </script>
+  </figure>
 <p>Overall, there&rsquo;s not much difference for the order status udaptes other than the misleading status in the Geek Jack site.</p>
 <ul>
 <li>Buying limited quantity goods</li>

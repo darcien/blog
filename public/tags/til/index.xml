@@ -60,15 +60,13 @@ End up sending an email to HealthFit support about this.</p>
 <blockquote>
 <p>From S. Lizeray</p>
 <p>&hellip;</p>
-<p>Apple Health does not support cycling power, only running power. Hence it can’t be uploaded to the fitness platforms.</p>
-</blockquote>
+<p>Apple Health does not support cycling power, only running power. Hence it can’t be uploaded to the fitness platforms.</p></blockquote>
 <p>Okay, so it&rsquo;s not a HealthFit issue, apparently it is an Apple Health limitation?</p>
 <p>I did another search and found some lead:</p>
 <blockquote>
 <p><a href="https://forum.intervals.icu/t/healthfit-sync-for-activities-and-health-metrics/2718/35">From slizeray</a></p>
 <p>HealthFit mirrors Apple Health and Apple Health is the only source of truth for HealthFit.</p>
-<p>In addition, power data is not supported in Apple Health, so there is no power data in it.</p>
-</blockquote>
+<p>In addition, power data is not supported in Apple Health, so there is no power data in it.</p></blockquote>
 <p>Hey, this confirms it!</p>
 <p>I guess this means I would just stop using HealthFit and upload FIT files directly to intervals.icu if I want to see the power data 🥺.</p>
 <p>P.S. Shoutout to Stéphane Lizeray, I&rsquo;m not sure if this person is a one person army building HealthFit,
@@ -143,8 +141,7 @@ These inlay hints settings are configured under <code>typescript.inlayHints.*</c
 ]]></content:encoded></item><item><title>SQLFluff Is a Thing</title><link>https://darcien.dev/p/sqlfluff-is-a-thing/</link><pubDate>Thu, 08 Dec 2022 22:09:26 +0700</pubDate><guid>https://darcien.dev/p/sqlfluff-is-a-thing/</guid><description>A fluff that I wish I had known earlier.</description><content:encoded><![CDATA[<blockquote>
 <p>The SQL Linter for Humans</p>
 <p>Bored of not having a good SQL linter that works with whichever dialect you’re working with? Fluff is an extensible and modular linter designed to help you write good SQL and catch errors and bad SQL before it hits your database.</p>
-<p>From <a href="https://www.sqlfluff.com">https://www.sqlfluff.com</a></p>
-</blockquote>
+<p>From <a href="https://www.sqlfluff.com">https://www.sqlfluff.com</a></p></blockquote>
 <p>Earlier today at work, I was helping my coworker debugging his SQL.
 The SQL was fairly simple.
 It creates a few tables, create some foreign keys, and insert some data.</p>
@@ -237,8 +234,7 @@ The theme? I highly doubt it, but let&rsquo;s check it anyway.</p>
 What happened here, I&rsquo;m pretty sure I commited the entire theme to the repo.</p>
 <p>Is it because I used <code>git submodule</code> to add the theme? A quick googling tells me that this is case.</p>
 <blockquote>
-<p>When you clone a project with submodule in it, by default you get the directories that contain submodules, but none of the files within them yet.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-</blockquote>
+<p>When you clone a project with submodule in it, by default you get the directories that contain submodules, but none of the files within them yet.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p></blockquote>
 <p>OMG, all the time I spent debugging this.
 I probably could save them if I actually read how to use submodules first.</p>
 <p>Since I already cloned the repo, all I need is to fetch the missing submodules.

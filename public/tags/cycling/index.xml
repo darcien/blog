@@ -512,15 +512,13 @@ End up sending an email to HealthFit support about this.</p>
 <blockquote>
 <p>From S. Lizeray</p>
 <p>&hellip;</p>
-<p>Apple Health does not support cycling power, only running power. Hence it can’t be uploaded to the fitness platforms.</p>
-</blockquote>
+<p>Apple Health does not support cycling power, only running power. Hence it can’t be uploaded to the fitness platforms.</p></blockquote>
 <p>Okay, so it&rsquo;s not a HealthFit issue, apparently it is an Apple Health limitation?</p>
 <p>I did another search and found some lead:</p>
 <blockquote>
 <p><a href="https://forum.intervals.icu/t/healthfit-sync-for-activities-and-health-metrics/2718/35">From slizeray</a></p>
 <p>HealthFit mirrors Apple Health and Apple Health is the only source of truth for HealthFit.</p>
-<p>In addition, power data is not supported in Apple Health, so there is no power data in it.</p>
-</blockquote>
+<p>In addition, power data is not supported in Apple Health, so there is no power data in it.</p></blockquote>
 <p>Hey, this confirms it!</p>
 <p>I guess this means I would just stop using HealthFit and upload FIT files directly to intervals.icu if I want to see the power data 🥺.</p>
 <p>P.S. Shoutout to Stéphane Lizeray, I&rsquo;m not sure if this person is a one person army building HealthFit,
@@ -556,8 +554,7 @@ people trying to figure out some magic algorithm to pair it:</p>
 <ul>
 <li>New users will not be able to install the Zwift Game or Companion apps</li>
 <li>Legacy users will be able to use the watch apps, but will receive no updates to either app</li>
-</ul>
-</blockquote>
+</ul></blockquote>
 <p>Okay, cool. At least at this point I know I can give up peacefully.
 Apple Watch has never been the perfect device for workout partner.
 The GPS acquisition time could take over 30 minutes.
