@@ -36,6 +36,9 @@ Excelso | Arabica Gold | 😐 | -
 Excelso | Brazilian Santos | 😏 | It has that unique burnt coffee taste
 Excelso | Kalosi Toraja | 😐 | -
 Excelso | Robusta Gold | 😐 | -
+Inglewood | Bloom Seasonal Espresso blend (All Ethiopia: Hambela, Dikitu, Tulise) | ? | -
+Inglewood | Roosevelt blend (Brazil, Tanzania) | 🙂 | Okayish good, nothing remarkable
+Inglewood | Sunset BLVD blend (Papua New Guinea, Peru, Chinese catimore) | ? | -
 Kopi Boutique | Arabica Toraja Sulotco Sulawesi | 😐 | -
 Kopi Boutique | Robusta Java Dampit | 😐 | -
 Macehat | Arabica Sumatra Mandheling | 🤔 | Not a good latte material for me
@@ -151,6 +154,7 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
 
 ## Changelog
 
+- 2025-05-24: add Inglewood brand
 - 2024-12-08: add Sido Mulia brand
 - 2024-06-16: add sweet gayo blend
 - 2023-12-03: add macehat and classic blend
