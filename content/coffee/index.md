@@ -38,7 +38,7 @@ Excelso | Kalosi Toraja | 😐 | -
 Excelso | Robusta Gold | 😐 | -
 Inglewood | Bloom Seasonal Espresso blend (All Ethiopia: Hambela, Dikitu, Tulise) | ? | -
 Inglewood | Roosevelt blend (Brazil, Tanzania) | 🙂 | Okayish good, nothing remarkable
-Inglewood | Sunset BLVD blend (Papua New Guinea, Peru, Chinese catimore) | ? | -
+Inglewood | Sunset BLVD blend (Papua New Guinea, Peru, Chinese catimore) | 😐 | Meh, too bland for my taste
 Kopi Boutique | Arabica Toraja Sulotco Sulawesi | 😐 | -
 Kopi Boutique | Robusta Java Dampit | 😐 | -
 Macehat | Arabica Sumatra Mandheling | 🤔 | Not a good latte material for me
