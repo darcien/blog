@@ -14,6 +14,18 @@ where I don't have to worry about writing useless sentences.
 - I feel like I'm too harsh on others or myself (sometimes).
 - I'm one of those people that is really quiet at first then become noisy after getting familiar (sometimes).
 
+## Interest?
+
+- I like [明透 (ASU)][asu].
+- I like [Gakuen iDOLM@STER][gakumas], including their voice actors.
+- I like [Elixir][elixir].
+- I read a lot of comics,
+  right now my favourite ongoing is 这一世我要当至尊 (The Ultimate of All Ages).
+- I like cycling.
+
+[asu]: https://www.youtube.com/channel/UCBLGjbYv6-xxju1i44RjnnA
+[gakumas]: https://en.wikipedia.org/wiki/Gakuen_Idolmaster
+[elixir]: https://elixir-lang.org/
 
 ## Food?
 
@@ -21,7 +33,9 @@ where I don't have to worry about writing useless sentences.
 - I like pasta.
 - I love cheese roll.
 - Fish? I like [bandeng][bandeng], salmon, and tuna.
-- Fruits? I like pineapple, lemon, and banana. Apple is also kinda nice.
+- Fruits? I like banana, white grapes, lemon, and pineapple.
+  Apple is also kinda nice.
+- I thought I would like berries (straw, blue, rasp), turns out no :(
 - I like stir fried beef with black pepper.
 - I like salty snacks.
 - Kue kering (cookies)? I like [nastar][nastar] and [kastengel][kastengel].
@@ -113,7 +127,7 @@ Some example songs are:
   The Quarry.
   Watching, not playing, because I don't have a PS4.
 
-- I used to collect games on Steam. At the time of writing, I have 1077 games.
+- I used to collect games on Steam. At the time of writing, I have 1081 games.
 
 - I used to spent a lot of hours in online games like [Grand Chase][grandchase],
   [Elsword][elsword], and [Warframe][warframe].

@@ -1,7 +1,7 @@
 ---
 title: "Mac Setup"
 date: 2025-05-23T23:40:07+10:00
-draft: true
+showToc: true
 ---
 
 ## No mouse and keyboard tab can't focus?
@@ -33,7 +33,26 @@ Cmd+Opt+F5 -> Motor -> Full Keyboard Access
 
 ### Firefox
 
-TODO
+Sign in to existing Firefox account.
+Otherwise, import bookmarks and install these add-ons manually:
+
+- 10ten Japanese Reader (Rikaichamp)
+- Alt or not
+- Bitwarden Password Manager
+- Dark Reader
+- Disable WebRTC
+- Don't Fuck With Paste
+- Export Cookies
+- I still don't care about cookies
+- Link Hints
+- Minimal Theme for Twitter / X
+- Old Reddit Redirect
+- SearXNG
+- Stylus
+- uBlock Origin
+  - [Hide YouTube Shorts List](https://github.com/gijsdev/ublock-hide-yt-shorts)
+- Violentmonkey
+- YouTube Music Volume Fixer
 
 ### Paste
 
@@ -41,7 +60,9 @@ Restore old version from backup.
 
 ### iTerm2
 
-#### Theming
+- Use macOS text editing shortcuts (e.g. Opt+<-/-> for word jumps), Settings -> Profiles -> Keys -> Key Bindings -> Presets -> Natural Text Editing
+
+For theming, use presets:
 
 ```bash
 bash -c "$(curl -sLo- https://git.io/vQgMr)"
@@ -96,6 +117,7 @@ tlrc
 ```bash
 brew install --cask \
 font-fantasque-sans-mono-nerd-font \
+iina \
 raycast \
 zed
 ```
@@ -114,4 +136,5 @@ brew install iperf iperf3 nuttcp owamp
 
 ## Changelog
 
+- 2025-05-30: add Firefox add-ons
 - 2025-05-24: initial version

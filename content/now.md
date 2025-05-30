@@ -5,18 +5,26 @@ draft: false
 
 > 🔖 This is [a now page](https://nownownow.com/about).
 
-Updated on 14th Jan, 2025, from Jakarta, Indonesia.
+Updated on 30th May, 2025, from Melbourne, Australia.
 
-## Crawling in front of big crossroad of life
+## Winter is here?
 
-Yes, I still work on that same place.
-Yes, it has been 7 years.
+I am now living in a place where the climate is pretty wild.
+I thought room temperature of 25ºC was pretty cold before.
+Nope, hot or cold is relative to your temperature tolerance.
+Here, indoor temp easily goes under 20ºC during winter.
+I'm trying hard to acclimatize, but wearing minimal layers doesn't seem
+to do it fast enough.
+I tried taking a cold shower, it feels like a torture.
+So I'm doing it only when my mental can handle it.
+Let's see where I am in few more months.
+Can I reach the point where I can walk around in shorts and a t-shirt?
 
-Right now I'm waiting for visa and a bunch of other things.
-All this waiting is making me anxious.
+## Cycling, in this weather?
 
-I kept suggesting myself everything will be alright.
-I'll get that visa.
-Once I got it, I can escape this hell on earth.
-
-One could only hope.
+I miss cycling.
+I didn't brought my bike with me.
+So I'm looking buy one here.
+Budget is tight though,
+still looking for a good match in the second-hand market.
+Torn between getting a cheapo commuter bike or a decent road bike.
