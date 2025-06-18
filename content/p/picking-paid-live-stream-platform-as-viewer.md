@@ -33,8 +33,21 @@ Previously watched:
 - 2025-02-08, 学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Nagoya, special, day-night)
 - 2025-02-11, 学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Umeda, day-night)
 - 2025-02-16, 学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Shibuya, day-night)
+- 2025-05-24, 学園アイドルマスター The 1st Period Spotlight Star DAY1
+- 2025-05-25, 学園アイドルマスター The 1st Period Spotlight Star DAY2
+- 2025-05-31, 学園アイドルマスター The 1st Period Harmony Star DAY1
+- 2025-06-01, 学園アイドルマスター The 1st Period Harmony Star DAY2
+- 2025-06-15, 学園アイドルマスター 初星学園放送部 公開録音2025 ～放送部の優雅で軽やかで大騒ぎな一日～
 
 **Verdict: totally worth it to watch Idolm@ster live in real time!**
+
+### 2025 notes
+
+Sometimes the 1080p stutters. BUT, there's 1062p option.
+That's not a resolution option I usually see, but it looks good enough,
+and it doesn't stutter!
+
+### 2024 impression
 
 The platform is pretty good, there are no major problems.
 There are hiccups where video does not play but comments keep flowing,
@@ -214,8 +227,10 @@ Previously watched:
 - 2024-09-15, RIM 3rd one-man live "NEUROMANCE III"
 - 2024-11-02, KAMITSUBAKI WARS 2024 DAY-1 "Re:The PhenomenonⅡ"
 - 2024-12-28, ASU 1st ONE-MAN LIVE "RAY"
+- 2025-05-14, KOKO 3rd ONE-MAN LIVE "PLAYER III"
+- 2025-06-14, KAMITSUBAKI KORAKUEN BATTLEFRONT KAMITSUBAKI XPERIENCE DAY 2
 
-**Verdict: superb, my first choice these days 🌟 (assuming it's not hololive event)**
+**Verdict: superb, my first choice these days 🌟**
 
 ### Latest impression (2024-12-28)
 
@@ -313,6 +328,7 @@ Even when there are choices, at most it's 2, it's pick bad or the less bad one �
 
 ## Changelog
 
+- 2025-06-18: good track record for ASOBI STAGE and Z-aN
 - 2025-02-18: ASOBI STAGE still going strong
 - 2025-01-14: more Kamitsubaki and Im@s live
 - 2024-10-27: more Gakumas live via ASOBI STAGE
