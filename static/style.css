@@ -9,9 +9,20 @@ img:not([aria-label="logo"]) {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 4px;
 }
+
+.post-content figure > img {
+  margin: 0px;
+}
+
 .post-content figure > figcaption {
   text-align: center;
+  margin: 0px;
+}
+
+.post-content figcaption > p {
+  margin-bottom: 0px;
 }
 
 /* Undo nowrap set by theme. */
