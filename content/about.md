@@ -30,7 +30,7 @@ where I don't have to worry about writing useless sentences.
 ## Food?
 
 - I like potato and any potato derivatives 🥔.
-- I like pasta.
+- I like pasta. Fusilli with pesto or creamy lemon sauce is pretty high in my list.
 - I love cheese roll.
 - Fish? I like [bandeng][bandeng], salmon, and tuna.
 - Fruits? I like banana, white grapes, lemon, and pineapple.
