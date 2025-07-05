@@ -30,33 +30,36 @@ And now, here we are with a list of coffee I've tried and barely remember the ta
 
 ## Every grounded coffee I've ever bought (or barely remember)
 
-Brand/Shop | Variant | Taste | Comment
---- | --- | --- | --- | ---
-Excelso | Arabica Gold | 😐 | -
-Excelso | Brazilian Santos | 😏 | It has that unique burnt coffee taste
-Excelso | Kalosi Toraja | 😐 | -
-Excelso | Robusta Gold | 😐 | -
-Inglewood | Bloom Seasonal Espresso blend (All Ethiopia: Hambela, Dikitu, Tulise) | ? | -
-Inglewood | Roosevelt blend (Brazil, Tanzania) | 🙂 | Okayish good, nothing remarkable
-Inglewood | Sunset BLVD blend (Papua New Guinea, Peru, Chinese catimore) | 😐 | Meh, too bland for my taste
-Kopi Boutique | Arabica Toraja Sulotco Sulawesi | 😐 | -
-Kopi Boutique | Robusta Java Dampit | 😐 | -
-Macehat | Arabica Sumatra Mandheling | 🤔 | Not a good latte material for me
-Northsider | Aceh Gayo Wine | 🤢 | Well it kinda look like wine, but the taste, ugh I can't bear it, sorry
-Northsider | Arabica Flores Bajawa Fully-washed | 😐 | -
-Northsider | Arabica Gunung Halu Banana Honey | 😐 | -
-Northsider | Arabica Ijen Blue Mountain Honey | 😐 | -
-Northsider | Arabica Java Malabar Red Honey | 😐 | -
-Northsider | Arabica Toraja Bittuang Natural | 😐 | -
-Northsider | Black Onyx blend (Robusta Java, Arabica West Java & Aceh) | 😐 | -
-Northsider | Classic blend (Robusta Dampit, Arabica Flores) | 😀 | Starting tad bland, but feels strong later on, not bad!
-Northsider | Cold White blend (Robusta Temanggung, Arabica West Java & Gayo) | 😐 | -
-Northsider | North blend (All Arabica: Columbia, Brazil, Ethiopia) | 😐 | Feels weird at first, but it tastes just okay after a while.
-Northsider | Razeta'55 blend (Arabica Brazil, Arabica Gayo, Robusta Temanggung) | ❤️ | I've been buying this blend for more than a year straight, probably my favorite blend so far.
-Northsider | Sweet Gayo blend (Arabica Gayo, Robusta Temanggung) | 😊 | Just like the name suggests, it smells sweet. With milk, not so much, but I still like it.
-Sido Mulia | Sido Mulia Premium (Robusta Dampit is my assumption) | 😐 | Meh, tastes like your usual bitter bland coffee. Not worth the premium price from this brand.
+Country | Brand/Shop | Variant | Taste | Comment
+--- | --- | --- | --- | --- | ---
+🇮🇩 | Excelso | Arabica Gold | 😐 | -*
+🇮🇩 | Excelso | Brazilian Santos | 😏 | It has that unique burnt coffee taste
+🇮🇩 | Excelso | Kalosi Toraja | 😐 | -*
+🇮🇩 | Excelso | Robusta Gold | 😐 | -*
+🇦🇺 | Inglewood | Bloom Seasonal Espresso blend (All Ethiopia: Hambela, Dikitu, Tulise) | 😔 | I realized I'm not a fan of Ethiopian coffee :(
+🇦🇺 | Inglewood | Roosevelt blend (Brazil, Tanzania) | 🙂 | Okayish good, nothing remarkable
+🇦🇺 | Inglewood | Sunset BLVD blend (Papua New Guinea, Peru, Chinese catimore) | 😐 | Meh, too bland for my taste
+🇮🇩 | Kopi Boutique | Arabica Toraja Sulotco Sulawesi | 😐 | -*
+🇮🇩 | Kopi Boutique | Robusta Java Dampit | 😐 | -*
+🇮🇩 | Macehat | Arabica Sumatra Mandheling | 🤔 | Not a good latte material for me
+🇮🇩 | Northsider | Aceh Gayo Wine | 🤢 | Well it kinda look like wine, but the taste, ugh I can't bear it, sorry
+🇮🇩 | Northsider | Arabica Flores Bajawa Fully-washed | 😐 | -*
+🇮🇩 | Northsider | Arabica Gunung Halu Banana Honey | 😐 | -*
+🇮🇩 | Northsider | Arabica Ijen Blue Mountain Honey | 😐 | -*
+🇮🇩 | Northsider | Arabica Java Malabar Red Honey | 😐 | -*
+🇮🇩 | Northsider | Arabica Toraja Bittuang Natural | 😐 | -*
+🇮🇩 | Northsider | Black Onyx blend (Robusta Java, Arabica West Java & Aceh) | 😐 | -*
+🇮🇩 | Northsider | Classic blend (Robusta Dampit, Arabica Flores) | 😀 | Starting tad bland, but feels strong later on, not bad!
+🇮🇩 | Northsider | Cold White blend (Robusta Temanggung, Arabica West Java & Gayo) | 😐 | -*
+🇮🇩 | Northsider | North blend (All Arabica: Columbia, Brazil, Ethiopia) | 😐 | Feels weird at first, but it tastes just okay after a while.
+🇮🇩 | Northsider | Razeta'55 blend (Arabica Brazil, Arabica Gayo, Robusta Temanggung) | ❤️ | I've been buying this blend for more than a year straight, probably my favorite blend so far.
+🇮🇩 | Northsider | Sweet Gayo blend (Arabica Gayo, Robusta Temanggung) | 😊 | Just like the name suggests, it smells sweet. With milk, not so much, but I still like it.
+🇮🇩 | Sido Mulia | Sido Mulia Premium (Robusta Dampit is my assumption) | 😐 | Meh, tastes like your usual bitter bland coffee. Not worth the premium price from this brand.
+🇦🇺 | St. ALi | Orthodox blend (60% Colombia, 40% Brazil, Caturra + Colombia + Castillo + Red Bourbon) | ? | Still testing...
+🇦🇺 | St. ALi | Wide Awake blend (60% Alta Mogiana, 40% Santa Ana) | 👍 | Good, real dark roast, but still can't beat dark field, something is missing.
+🇦🇺 | Stitch Coffee | Dark Field blend | ❤️ | So far this is the best dark roast. Dark choco taste so good.
 
-I can barely remember the taste for some of the coffee in the list,
+*) I can barely remember the taste for some of the coffee in the list,
 some are too acidic, some has that floral smell,
 but I lost those notes.
 So some of the taste and comments is kinda outdated until I bought them again for
@@ -113,6 +116,16 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
 ## Other Photos?
 
 {{< figure
+ src="st-ali.jpg"
+ caption="Starting a hunt to find the best dark roast in Melbourne for revenge gift. First candidate, St. ALi, taken at 2025-06-16."
+>}}
+
+{{< figure
+ src="stitch-dark-roast.jpg"
+ caption="I just moved to a new place and don't have a functional table yet. Hence the coffee is on unfinished table, I don't have screwdriver at that time. The ultimate dark roast was gift from a friend, thanks Em! Taken at 2025-04-08."
+>}}
+
+{{< figure
  src="sido-mulia.jpg"
  caption="Trying some brand mentioned by friend, it's pricey and not that good 😂, taken at 2024-12-08."
 >}}
@@ -154,6 +167,7 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
 
 ## Changelog
 
+- 2025-07-05: add Stitch, St. ALi and country flags to table
 - 2025-05-24: add Inglewood brand
 - 2024-12-08: add Sido Mulia brand
 - 2024-06-16: add sweet gayo blend
