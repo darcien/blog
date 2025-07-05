@@ -10,5 +10,5 @@ fi
 # https://imagemagick.org/script/convert.php
 for img in $(find $input_dir -type f \( -iname "*.HEIC" \)); do
   echo converting $img to jpg
-  convert $img -set filename:f '%t' $input_dir/'%[filename:f].jpg'
+  magick $img -set filename:f '%t' $input_dir/'%[filename:f].jpg'
 done

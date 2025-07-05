@@ -7,12 +7,31 @@ if [[ -z "$input_dir" ]]; then
   exit 1
 fi
 
-# https://github.com/fhanau/Efficient-Compression-Tool
-for img in $(find $input_dir -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \)); do
-  echo optimizing sizes $img
-  # -9 is the max optimization and is really slow
-  # --mt-deflate for compression using multi-threading
-  # -strip metadata
-  # -keep for keep original modification time after compressing the image in place
-  ect -9 --mt-deflate -strip -keep $img
+# Find and optimize PNG files with oxipng
+# https://github.com/oxipng/oxipng
+for img in $(find "$input_dir" -type f \( -iname "*.png" \)); do
+  # -o max to use max optimization level
+  # --strip safe removes metadata that doesn't affect image rendering
+  # --preserve preserves file modification time
+  oxipng -o max --strip safe --preserve "$img"
+done
+
+# Find and optimize JPEG files with jpegtran
+for img in $(find "$input_dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" \)); do
+  echo "Optimizing JPEG: $img"
+  temp_file=$(mktemp)
+
+  # -optimize enables optimization
+  # -progressive creates progressive JPEG
+  # -copy none removes metadata
+  jpegtran -optimize -progressive -copy none -report -outfile "$temp_file" "$img"
+
+  if [[ -s "$temp_file" ]]; then
+    # Preserve the original file's modification time
+    touch -r "$img" "$temp_file"
+    mv "$temp_file" "$img"
+  else
+    echo "Warning: Failed to optimize $img"
+    rm -f "$temp_file"
+  fi
 done
