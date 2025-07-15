@@ -22,8 +22,10 @@ Cmd+Opt+F5 -> Motor -> Full Keyboard Access
 10. Desktop & Dock -> Mission Control -> Automatically rearrange Spaces based on most recent use -> turn off
 11. Displays -> Night Shift... -> Schedule -> Sunset to Sunrise
 12. Privacy & Security -> Security -> FileVault -> turn on
-13. Keyboard -> Keyboard Shortcuts... -> Modifier Keys -> Select keyboard (all keyboards) -> Caps Lock key -> set to Escape
-14. Keyboard -> Dictation -> Shortcut -> turn off
+13. Keyboard -> Keyboard Shortcuts... -> Input Sources -> Untick all, these conflicts with ctrl + space in code editor
+14. Keyboard -> Keyboard Shortcuts... -> Services -> File and Folders -> Tick "New iTerm Tab/Window here" (for opening iTerm2 via Finder context menu)
+15. Keyboard -> Keyboard Shortcuts... -> Modifier Keys -> Select keyboard (all keyboards) -> Caps Lock key -> set to Escape
+16. Keyboard -> Dictation -> Shortcut -> turn off
 
 ## Finder
 
