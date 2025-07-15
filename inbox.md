@@ -33,3 +33,7 @@
   - foliate
 - karabiner
 - caffeine (software)
+
+## Theme
+
+- disable sentence casing in tags

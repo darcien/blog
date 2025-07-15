@@ -138,5 +138,6 @@ brew install iperf iperf3 nuttcp owamp
 
 ## Changelog
 
+- 2025-07-15: iTerm2 in finder and disable conflicting shortcuts
 - 2025-05-30: add Firefox add-ons
 - 2025-05-24: initial version

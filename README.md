@@ -27,7 +27,7 @@ brew install hugo just
 Last known working `hugo version`:
 
 ```
-hugo v0.147.9+extended+withdeploy darwin/arm64 BuildDate=2025-06-23T08:22:20Z VendorInfo=brew
+hugo v0.148.0+extended+withdeploy darwin/arm64 BuildDate=2025-07-08T13:34:49Z VendorInfo=brew
 ```
 
 ## Deployment
