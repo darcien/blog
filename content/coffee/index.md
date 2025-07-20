@@ -1,7 +1,6 @@
 ---
 title: "Coffee"
 date: 2023-10-12T14:38:06Z
-draft: false
 ---
 
 ## Long, long time ago...
@@ -32,6 +31,9 @@ And now, here we are with a list of coffee I've tried and barely remember the ta
 
 Country | Brand/Shop | Variant | Taste | Comment
 --- | --- | --- | --- | --- | ---
+🇦🇺 | Black Vice | Decaf blend (Colombia, Piedra Grande, Tolima + Pitalito, Hulia)  | ? | Still testing...
+🇦🇺 | Black Vice | Genesis dark roast blend (Colombia, Finca Villa Sofia + Nicaragua, La Cordillera) | 🤔 | Not quite the dark roast I'm expecting. Over the time it grows on me, but still not my ideal.
+🇦🇺 | Black Vice | Hursty blend (Colombia, Andino Co-Op + Guatemala, Los Ancestros + Honduras, Edgar Urquia) | ? | Still testing...
 🇮🇩 | Excelso | Arabica Gold | 😐 | -*
 🇮🇩 | Excelso | Brazilian Santos | 😏 | It has that unique burnt coffee taste
 🇮🇩 | Excelso | Kalosi Toraja | 😐 | -*
@@ -55,7 +57,7 @@ Country | Brand/Shop | Variant | Taste | Comment
 🇮🇩 | Northsider | Razeta'55 blend (Arabica Brazil, Arabica Gayo, Robusta Temanggung) | ❤️ | I've been buying this blend for more than a year straight, probably my favorite blend so far.
 🇮🇩 | Northsider | Sweet Gayo blend (Arabica Gayo, Robusta Temanggung) | 😊 | Just like the name suggests, it smells sweet. With milk, not so much, but I still like it.
 🇮🇩 | Sido Mulia | Sido Mulia Premium (Robusta Dampit is my assumption) | 😐 | Meh, tastes like your usual bitter bland coffee. Not worth the premium price from this brand.
-🇦🇺 | St. ALi | Orthodox blend (60% Colombia, 40% Brazil, Caturra + Colombia + Castillo + Red Bourbon) | ? | Still testing...
+🇦🇺 | St. ALi | Orthodox blend (60% Colombia, 40% Brazil, Caturra + Colombia + Castillo + Red Bourbon) | 🙂 | Taste like the "coffee". Not too strong, not too bland, aptly named orthodox.
 🇦🇺 | St. ALi | Wide Awake blend (60% Alta Mogiana, 40% Santa Ana) | 👍 | Good, real dark roast, but still can't beat dark field, something is missing.
 🇦🇺 | Stitch Coffee | Dark Field blend | ❤️ | So far this is the best dark roast. Dark choco taste so good.
 
@@ -64,6 +66,13 @@ some are too acidic, some has that floral smell,
 but I lost those notes.
 So some of the taste and comments is kinda outdated until I bought them again for
 curiosity.
+
+## Your coffee taste description sucks!
+
+I know. I'm making this list to remind myself how a certain blend tastes like.
+But it's totally different story when trying to describe how coffee tastes
+to someone else.
+I still need to work on that and have more descriptive report instead of just good vs not good.
 
 ## How did you make the coffee?
 
@@ -114,6 +123,11 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
 
 
 ## Other Photos?
+
+{{< figure
+ src="black-vice.jpg"
+ caption="Same journey, different brand. Second candidate, Black Vice, taken at 2025-07-20."
+>}}
 
 {{< figure
  src="st-ali.jpg"
@@ -167,6 +181,7 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
 
 ## Changelog
 
+- 2025-07-20: add Black Vice brand
 - 2025-07-05: add Stitch, St. ALi and country flags to table
 - 2025-05-24: add Inglewood brand
 - 2024-12-08: add Sido Mulia brand
