@@ -38,6 +38,7 @@ Previously watched:
 - 2025-05-31, 学園アイドルマスター The 1st Period Harmony Star DAY1
 - 2025-06-01, 学園アイドルマスター The 1st Period Harmony Star DAY2
 - 2025-06-15, 学園アイドルマスター 初星学園放送部 公開録音2025 ～放送部の優雅で軽やかで大騒ぎな一日～
+- 2025-07-04, 学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Shinjuku addition, special, day-night)
 
 **Verdict: totally worth it to watch Idolm@ster live in real time!**
 
@@ -154,6 +155,45 @@ Previously watched:
 So far the most platform I've been using and has the least problem with.
 From time to time has bad connection to Indo
 even after turning on low latency mode on their video player.
+
+
+## Stagecrowd (JP)
+
+Stagecrowd has 2 separate sites, JP and international.
+This will be for the JP site.
+
+Link: https://stagecrowd.live
+
+Previously watched:
+- 2025-08-03, 春咲暖 presents　「☆夏のうたたねまつり☆ 〜トキめく準備はできてるか〜」
+- 2025-08-03, 陽高真白 presents　「☆夏の大暴走まつり☆ 〜ハジける準備はできてるか〜」
+
+**Verdict: okay-ish website and has DRM protection for the stream**
+
+### Impression
+
+Video streaming itself is okay, basic funcionality is there.
+No stream quality issue too.
+Theater mode hides the chat for some reason, but that's just my pet peeve.
+For the event I watched, the archive is available for 1 week.
+
+But the stream itself is DRM protected.
+So, no archival (yet) for this one.
+Looking at the manifest, it's CENC.
+Seems like there's an [open PR for it][cenc-wip] in yt-dlp,
+might be doable in the future.
+
+[cenc-wip]: https://github.com/yt-dlp/yt-dlp/pull/11167
+
+Outside of streaming, the user registration is really bad.
+I had to register twice, on iccomotto.com and stagecrowd.live.
+I think it's because the event is limited to FC only,
+which is another paid subscription.
+(I probably could figure it out if read everything,
+but I just want to watch these 2 events.)
+And both registration requires JP address and phone number.
+Why would you need all these just to watch an online live stream? 😣
+
 
 ## YouTube (member only live, kinda counts)
 
@@ -328,6 +368,7 @@ Even when there are choices, at most it's 2, it's pick bad or the less bad one �
 
 ## Changelog
 
+- 2025-08-10: add Stagecrowd and uijin addition
 - 2025-06-18: good track record for ASOBI STAGE and Z-aN
 - 2025-02-18: ASOBI STAGE still going strong
 - 2025-01-14: more Kamitsubaki and Im@s live

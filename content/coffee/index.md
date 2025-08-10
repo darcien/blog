@@ -25,9 +25,12 @@ difference and have some preference?
 And because there are so many of coffee variations,
 I need a way to avoid the bad ones and keep tab on my favorites.
 
-And now, here we are with a list of coffee I've tried and barely remember the tastes.
+~And now, here we are with a list of coffee I've tried and barely remember the tastes.~
+Over the past few years, I've made sure to keep track of new coffee.
+So the tastes are from freshly brewed coffee now.
 
-## Every grounded coffee I've ever bought (or barely remember)
+
+## Every grounded coffee I've ever bought
 
 Country | Brand/Shop | Variant | Taste | Comment
 --- | --- | --- | --- | --- | ---
@@ -70,7 +73,7 @@ curiosity.
 ## Your coffee taste description sucks!
 
 I know. I'm making this list to remind myself how a certain blend tastes like.
-But it's totally different story when trying to describe how coffee tastes
+And it's totally different story when trying to describe how coffee tastes
 to someone else.
 I still need to work on that and have more descriptive report instead of just good vs not good.
 
