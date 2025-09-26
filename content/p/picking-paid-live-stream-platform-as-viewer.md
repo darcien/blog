@@ -39,6 +39,8 @@ Previously watched:
 - 2025-06-01, 学園アイドルマスター The 1st Period Harmony Star DAY2
 - 2025-06-15, 学園アイドルマスター 初星学園放送部 公開録音2025 ～放送部の優雅で軽やかで大騒ぎな一日～
 - 2025-07-04, 学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Shinjuku addition, special, day-night)
+- 2025-09-20, 学園アイドルマスター クラス対抗初星大運動会 DAY1
+- 2025-09-21, 学園アイドルマスター クラス対抗初星大運動会 DAY2
 
 **Verdict: totally worth it to watch Idolm@ster live in real time!**
 
@@ -216,6 +218,7 @@ Link: https://zaiko.io
 Previously watched:
 - 2023-01-28, Hoshimachi Suisei 2nd solo live "Shout in Crisis"
 - 2024-05-04, Hanabasami Kyo 4th one-man live "FLORIST"
+- 2025-09-06, 薄井友里・川村玲奈のすーぱーかわちぃ☆ゆりれいしょん レク1〜なちゅまちゅり〜
 
 **Verdict: works great except for the occasional stutters**
 
@@ -269,6 +272,7 @@ Previously watched:
 - 2024-12-28, ASU 1st ONE-MAN LIVE "RAY"
 - 2025-05-14, KOKO 3rd ONE-MAN LIVE "PLAYER III"
 - 2025-06-14, KAMITSUBAKI KORAKUEN BATTLEFRONT KAMITSUBAKI XPERIENCE DAY 2
+- 2025-08-30, ASU 2nd ONE-MAN LIVE "BIRTH"
 
 **Verdict: superb, my first choice these days 🌟**
 
@@ -368,6 +372,7 @@ Even when there are choices, at most it's 2, it's pick bad or the less bad one �
 
 ## Changelog
 
+- 2025-09-26: add suukawa + gakumas undoukai
 - 2025-08-10: add Stagecrowd and uijin addition
 - 2025-06-18: good track record for ASOBI STAGE and Z-aN
 - 2025-02-18: ASOBI STAGE still going strong

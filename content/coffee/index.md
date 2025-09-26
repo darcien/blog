@@ -36,7 +36,7 @@ Country | Brand/Shop | Variant | Taste | Comment
 --- | --- | --- | --- | --- | ---
 🇦🇺 | Black Vice | Decaf blend (Colombia, Piedra Grande, Tolima + Pitalito, Hulia)  | ? | Still testing...
 🇦🇺 | Black Vice | Genesis dark roast blend (Colombia, Finca Villa Sofia + Nicaragua, La Cordillera) | 🤔 | Not quite the dark roast I'm expecting. Over the time it grows on me, but still not my ideal.
-🇦🇺 | Black Vice | Hursty blend (Colombia, Andino Co-Op + Guatemala, Los Ancestros + Honduras, Edgar Urquia) | ? | Still testing...
+🇦🇺 | Black Vice | Hursty blend (Colombia, Andino Co-Op + Guatemala, Los Ancestros + Honduras, Edgar Urquia) | 🤨 | Has that slightly sweet aftertaste. Could be worse but this is not for me.
 🇮🇩 | Excelso | Arabica Gold | 😐 | -*
 🇮🇩 | Excelso | Brazilian Santos | 😏 | It has that unique burnt coffee taste
 🇮🇩 | Excelso | Kalosi Toraja | 😐 | -*
