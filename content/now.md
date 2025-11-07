@@ -5,26 +5,19 @@ draft: false
 
 > 🔖 This is [a now page](https://nownownow.com/about).
 
-Updated on 30th May, 2025, from Melbourne, Australia.
+Updated on 11th November, 2025, from Melbourne, Australia.
 
-## Winter is here?
+## Back to cycling
 
-I am now living in a place where the climate is pretty wild.
-I thought room temperature of 25ºC was pretty cold before.
-Nope, hot or cold is relative to your temperature tolerance.
-Here, indoor temp easily goes under 20ºC during winter.
-I'm trying hard to acclimatize, but wearing minimal layers doesn't seem
-to do it fast enough.
-I tried taking a cold shower, it feels like a torture.
-So I'm doing it only when my mental can handle it.
-Let's see where I am in few more months.
-Can I reach the point where I can walk around in shorts and a t-shirt?
+After few months of settling down here, and monitoring the used bike market...
+I finally got a suitable road bike!
 
-## Cycling, in this weather?
+Now I'm trying to push my weekly ride to >5 hours, but it's not that easy :/
+The weather here is seriously wild.
+One day I went out thinking it was some light rain and wind.
+1 hour later, it transformed to a 50 kmph wind and rainstorm.
+Thanks to that, checking wind speed before going out is a must.
 
-I miss cycling.
-I didn't brought my bike with me.
-So I'm looking buy one here.
-Budget is tight though,
-still looking for a good match in the second-hand market.
-Torn between getting a cheapo commuter bike or a decent road bike.
+It's spring now, and initially I thought it's going to be warm and breezy.
+Nah, next week is full of rain, and temp stays under 20°C.
+I guess I'll wait for summer and start saving for indoor bike trainer.

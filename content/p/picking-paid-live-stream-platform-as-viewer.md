@@ -140,6 +140,33 @@ been good regardless of ISP.
 Plus, to watch archive (Timeshift in Niconico) you need to subscribe to their
 premium service(2023-06-17: cost JPY 550 per month).
 
+## OPENREC.tv
+
+Link: https://www.openrec.tv
+
+Previously watched:
+- 2025-11-01, 第１回 お花さん みーてぃんぐっ！ (day, night)
+
+**Verdict: Good! I didn't know this website has ticketing**
+
+### Notes
+
+I've been on OPENREC.tv for watching uchitore stream.
+It's a subscription-based model with monthly billing.
+And when uchitore announced their first event,
+I didn't expect it to be on the same website...
+Which is great! Also there's discount when already subscribed,
+not sure if limited to this event only or not.
+
+The video player / viewer itself is pretty much the same as the usual stream.
+Relatively good, all basic functionalities are there.
+The most unique thing is that you can adjust the forward/backward seek time.
+Usually this is hardcoded and only offline players have this.
+
+The chat overlay in the fullscreen or theater mode is a bit annoying though.
+It overlays either on the left or right side, and sometimes covers the view.
+Better stay windowed and maximize the window instead.
+
 ## SPWN
 
 Link: https://virtual.spwn.jp
@@ -372,6 +399,7 @@ Even when there are choices, at most it's 2, it's pick bad or the less bad one �
 
 ## Changelog
 
+- 2025-11-08: add OPENREC.tv
 - 2025-09-26: add suukawa + gakumas undoukai
 - 2025-08-10: add Stagecrowd and uijin addition
 - 2025-06-18: good track record for ASOBI STAGE and Z-aN

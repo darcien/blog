@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/internet/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 17 Jun 2023 21:28:02 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/internet/index.xml" rel="self" type="application/rss+xml"/><item><title>Picking Paid Live Stream Platform as Viewer</title><link>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</link><pubDate>Sat, 17 Jun 2023 21:28:02 +0700</pubDate><guid>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</guid><description>Short note comparing between available live stream platform</description><content:encoded><![CDATA[<blockquote>
 <p>🔖 Assumed post audience: someone who wants to watch concert/3D live online
-but not sure which host to pick (if choices exists).</p></blockquote>
+but not sure which host to pick (if choices exists).</p>
+</blockquote>
 <p>These are non-exhaustive list of platforms that I&rsquo;ve watched on before.
 I&rsquo;ve included my rough take on each platform and the dates.
 Over the time these list might get outdated as the streaming platform keep updating their site.</p>
@@ -94,6 +95,27 @@ I don&rsquo;t know if what&rsquo;s causing it, but Niconico connection to Indo h
 been good regardless of ISP.
 Plus, to watch archive (Timeshift in Niconico) you need to subscribe to their
 premium service(2023-06-17: cost JPY 550 per month).</p>
+<h2 id="openrectv">OPENREC.tv</h2>
+<p>Link: <a href="https://www.openrec.tv">https://www.openrec.tv</a></p>
+<p>Previously watched:</p>
+<ul>
+<li>2025-11-01, 第１回 お花さん みーてぃんぐっ！ (day, night)</li>
+</ul>
+<p><strong>Verdict: Good! I didn&rsquo;t know this website has ticketing</strong></p>
+<h3 id="notes">Notes</h3>
+<p>I&rsquo;ve been on OPENREC.tv for watching uchitore stream.
+It&rsquo;s a subscription-based model with monthly billing.
+And when uchitore announced their first event,
+I didn&rsquo;t expect it to be on the same website&hellip;
+Which is great! Also there&rsquo;s discount when already subscribed,
+not sure if limited to this event only or not.</p>
+<p>The video player / viewer itself is pretty much the same as the usual stream.
+Relatively good, all basic functionalities are there.
+The most unique thing is that you can adjust the forward/backward seek time.
+Usually this is hardcoded and only offline players have this.</p>
+<p>The chat overlay in the fullscreen or theater mode is a bit annoying though.
+It overlays either on the left or right side, and sometimes covers the view.
+Better stay windowed and maximize the window instead.</p>
 <h2 id="spwn">SPWN</h2>
 <p>Link: <a href="https://virtual.spwn.jp">https://virtual.spwn.jp</a></p>
 <p>Previously watched:</p>
@@ -306,6 +328,7 @@ Most of the time there&rsquo;s no choices though.
 Even when there are choices, at most it&rsquo;s 2, it&rsquo;s pick bad or the less bad one 🥲.</p>
 <h2 id="changelog">Changelog</h2>
 <ul>
+<li>2025-11-08: add OPENREC.tv</li>
 <li>2025-09-26: add suukawa + gakumas undoukai</li>
 <li>2025-08-10: add Stagecrowd and uijin addition</li>
 <li>2025-06-18: good track record for ASOBI STAGE and Z-aN</li>

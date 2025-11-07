@@ -54,7 +54,8 @@ The theme? I highly doubt it, but let&rsquo;s check it anyway.</p>
 What happened here, I&rsquo;m pretty sure I commited the entire theme to the repo.</p>
 <p>Is it because I used <code>git submodule</code> to add the theme? A quick googling tells me that this is case.</p>
 <blockquote>
-<p>When you clone a project with submodule in it, by default you get the directories that contain submodules, but none of the files within them yet.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p></blockquote>
+<p>When you clone a project with submodule in it, by default you get the directories that contain submodules, but none of the files within them yet.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
 <p>OMG, all the time I spent debugging this.
 I probably could save them if I actually read how to use submodules first.</p>
 <p>Since I already cloned the repo, all I need is to fetch the missing submodules.

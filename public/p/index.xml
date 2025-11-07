@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/p/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 15 Jul 2025 21:04:00 +1000</lastBuildDate><atom:link href="https://darcien.dev/p/index.xml" rel="self" type="application/rss+xml"/><item><title>Whisper and Joy</title><link>https://darcien.dev/p/whisper-and-joy/</link><pubDate>Tue, 15 Jul 2025 21:04:00 +1000</pubDate><guid>https://darcien.dev/p/whisper-and-joy/</guid><description>I should write more about the makings of my dumb side project before it gets shelved and never written about again.</description><content:encoded><![CDATA[<blockquote>
 <p>🔖 Assumed post audience: me.
 This is not a tutorial for whisper.cpp.
-I am writing up my usage, and if I don&rsquo;t write it now, I&rsquo;ll never write about it.</p></blockquote>
+I am writing up my usage, and if I don&rsquo;t write it now, I&rsquo;ll never write about it.</p>
+</blockquote>
 <p>I want to analyze the words used in an internet radio series.
 It&rsquo;s for a <a href="https://github.com/darcien/gkms">dumb side project</a>.</p>
 <p>I already heard about <a href="https://openai.com/index/whisper/">Whisper from OpenAI</a> before.
@@ -812,7 +813,8 @@ There&rsquo;s no built in feature to use other users codespace.</p>
 <p>engineer 1: How did that happen!?</p>
 <p>engineer 2: Hey, that&rsquo;s my code!</p>
 <p>engineer 3: Ooh, somehow I got the same diff in mine.</p>
-<p>(Wait what? There are others?)</p></blockquote>
+<p>(Wait what? There are others?)</p>
+</blockquote>
 <p>No one has ideas on the cause.
 We end up opening a support ticket to GitHub.</p>
 <p>I didn&rsquo;t hear any replies yet from support.
@@ -824,7 +826,8 @@ mistakenly got allocated the same working directory? 🤔</p>
 <p>Post 23 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
 ]]></content:encoded></item><item><title>Monitoring air quality with AirGradient and Home Assistant</title><link>https://darcien.dev/p/airgradient/</link><pubDate>Fri, 08 Sep 2023 20:46:41 +0700</pubDate><guid>https://darcien.dev/p/airgradient/</guid><description>My journey for better air quality.</description><content:encoded><![CDATA[<blockquote>
 <p>🔖 Assumed post audience: someone who wants to know what it takes to setup
-self hosted air quality monitor.</p></blockquote>
+self hosted air quality monitor.</p>
+</blockquote>
 <p>Recently I pulled the trigger and bought air quality monitor from <a href="https://www.airgradient.com/">AirGradient</a>.
 Definitely not because my city has plummeted from bad to worst<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>This post will contain everything I did to set up AirGradient, all the way
@@ -852,7 +855,8 @@ My kit includes:
 </ul>
 <h3 id="for-storing-and-viewing-sensor-data">For storing and viewing sensor data</h3>
 <blockquote>
-<p>TL;DR I&rsquo;m using Home Assistant container on old MacBook for local server.</p></blockquote>
+<p>TL;DR I&rsquo;m using Home Assistant container on old MacBook for local server.</p>
+</blockquote>
 <p>AirGradient has their own home server to host the data sent from the sensor.
 I got free 2 year subscription for their server from buying their pro kit.</p>
 <p>That means:</p>
@@ -988,7 +992,8 @@ For the <code>home_assistant_encryption_key</code>, it needs to be base64 string
 The <a href="https://esphome.io/components/api.html">docs page</a> from ESPHome has a generator for it.
 <blockquote>
 <p>✅ Make sure to backup <code>secrets.yaml</code>, otherwise you will need to reflash
-if you lose access.</p></blockquote>
+if you lose access.</p>
+</blockquote>
 </li>
 <li>Run <a href="https://esphome.io/guides/getting_started_command_line">ESPHome CLI</a> to compile and upload the firmware to the microcontroller.
 I&rsquo;m using Docker to run it, so mine looks like this:
@@ -1058,7 +1063,8 @@ with the <code>lima</code> keyword accidentally matching on the <a href="https:/
 <li>Install Home Assistant on Docker</li>
 <li>Set up Home Assistant</li>
 </ol>
-<p><a href="https://blog.illixion.com/2023/04/colima-home-assistant/">https://blog.illixion.com/2023/04/colima-home-assistant/</a></p></blockquote>
+<p><a href="https://blog.illixion.com/2023/04/colima-home-assistant/">https://blog.illixion.com/2023/04/colima-home-assistant/</a></p>
+</blockquote>
 <p>With some exceptions:</p>
 <ul>
 <li>When configuring Lima to use <code>socket_vmnet</code>, my path for <code>socket_vmnet</code> is different.
@@ -1739,7 +1745,8 @@ But it feels dirty since it&rsquo;ll also affect root user.</p>
 <h3 id="words-of-warning"><a href="https://github.com/nix-community/home-manager#words-of-warning">Words of warning</a></h3>
 <p>Unfortunately, it is quite possible to get difficult to understand errors when working with Home Manager. You should therefore be comfortable using the Nix language and the various tools in the Nix ecosystem.</p>
 <p>If you are not very familiar with Nix but still want to use Home Manager then you are strongly encouraged to start with a small and very simple configuration and gradually make it more elaborate as you learn.</p>
-<p>&hellip;</p></blockquote>
+<p>&hellip;</p>
+</blockquote>
 <p>Well, I&rsquo;m new and not familiar with Nix,
 let&rsquo;s try it anyway,
 what could possibly go wrong?</p>
@@ -1848,7 +1855,8 @@ but I doubt it&rsquo;s worth to do on a throwaway VM.</p>
 <h3 id="what-is-this">What is this?</h3>
 <p>A script to install NixOS on non-NixOS hosts.</p>
 <p>NixOS-Infect is so named because of the high likelihood of rendering a system inoperable. Use with extreme caution and preferably only on newly provisioned systems.</p>
-<p><a href="https://github.com/elitak/nixos-infect">https://github.com/elitak/nixos-infect</a></p></blockquote>
+<p><a href="https://github.com/elitak/nixos-infect">https://github.com/elitak/nixos-infect</a></p>
+</blockquote>
 <p>I stumbled over this when searching around NixOS.
 And seeing nixos-infect support the latest LTS Ubuntu (22.04 atm)
 on Digital Ocean is trigger to use this instead of VM on my desktop.</p>
@@ -2221,7 +2229,8 @@ I don&rsquo;t know how useful it would be, but I love this kind of book.</p>
 or driving cross-country, to &ldquo;survive&rdquo; means &ldquo;to outlive, to remain alive or in existence;
 live on. To continue to exist or live after.&rdquo;
 After all, that&rsquo;s what it&rsquo;s really all about—about continuing to exist,
-no matter how dire the circumstances.</p></blockquote>
+no matter how dire the circumstances.</p>
+</blockquote>
 <blockquote>
 <ul>
 <li>You have to be prepared—mentally, physijcally, and equipment-wise.</li>
@@ -2229,35 +2238,43 @@ no matter how dire the circumstances.</p></blockquote>
 stay calm and do not panic.</li>
 <li>You must have a survival plan that considers the following essential elements:
 food, fire, water, and shelter (as well as signals and first aid).</li>
-</ul></blockquote>
+</ul>
+</blockquote>
 <blockquote>
 <p>And you just never know when things might take a turn for the worse.
-Or the worst.</p></blockquote>
+Or the worst.</p>
+</blockquote>
 <blockquote>
 <p>Thankfully, the first key to surviving any worst-case scenario is simply this:</p>
-<p>Do Not Panic.</p></blockquote>
+<p>Do Not Panic.</p>
+</blockquote>
 <blockquote>
 <p>Destroy your passport (unless you’re French).
 A passport will allow pirates to quickly identify you and demand ransom from
 family members; Americans, Brits, and citizens of other wealthy Western nations
 make appealing targets. Pirates are less likely to kidnap French citizens,
 due to the French government’s steadfast refusal to negotiate—and recent
-deadly counterattacks by the French military. If you speak French, use it.</p></blockquote>
+deadly counterattacks by the French military. If you speak French, use it.</p>
+</blockquote>
 <blockquote>
 <p>High-risk search teams keep the following phrase in mind at all times:
-<em>Look for the presence of the unusual or the absence of the usual</em></p></blockquote>
+<em>Look for the presence of the unusual or the absence of the usual</em></p>
+</blockquote>
 <blockquote>
 <p><strong>Admit your own fallibility, even if the gaslighter will not.</strong></p>
 <p>&hellip;</p>
 <p>&ldquo;We are all occasionally name-callers, or hypocrites, or incorrect
 in our beliefs—I am simply able to acknowledge to that.
-You seem unable to do so.&rdquo;</p></blockquote>
+You seem unable to do so.&rdquo;</p>
+</blockquote>
 <blockquote>
 <p><strong>Agree to disagree.</strong></p>
 <p>You will never win an argument with a gaslighter—just stay true to your own
-values and beliefs, and let the conflict subside.</p></blockquote>
+values and beliefs, and let the conflict subside.</p>
+</blockquote>
 <blockquote>
-<p><strong>Do not immediately assume that a clown is dangerous.</strong></p></blockquote>
+<p><strong>Do not immediately assume that a clown is dangerous.</strong></p>
+</blockquote>
 <blockquote>
 <ul>
 <li>
@@ -2268,18 +2285,22 @@ values and beliefs, and let the conflict subside.</p></blockquote>
 <p>Is the clown hiding in the woods, bushes, or a sewer drain?</p>
 <p>Likelihood: <strong>DANGEROUS</strong></p>
 </li>
-</ul></blockquote>
+</ul>
+</blockquote>
 <blockquote>
-<p>The sun rises in the east and sets in the west—even in Australia.</p></blockquote>
+<p>The sun rises in the east and sets in the west—even in Australia.</p>
+</blockquote>
 <blockquote>
 <p>Though seemingly impossible, begin to limit your time online.
 Start with five hours online a day,
 and slowly reduce time online by one hour a day for four days.
 Consider learning a new skill (cooking, painting, surgery)
-to fill your newly free time.</p></blockquote>
+to fill your newly free time.</p>
+</blockquote>
 <blockquote>
 <p>The longer the water boils, the more microorganisms that are killed.
-Beyond 10 minutes, however, no further purification occurs.</p></blockquote>
+Beyond 10 minutes, however, no further purification occurs.</p>
+</blockquote>
 <p>I thoroughly enjoyed their mix of useful trivia, I-probably-will-never-use-this information,
 examples and illustrations. And the sprinkled jokes here and there is the icing
 on the cake.</p>
@@ -2297,7 +2318,8 @@ definition of assholes.</li>
 <p>Post 14 of <a href="https://100daystooffload.com/">#100DaysToOffload</a>.</p>
 ]]></content:encoded></item><item><title>Picking Paid Live Stream Platform as Viewer</title><link>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</link><pubDate>Sat, 17 Jun 2023 21:28:02 +0700</pubDate><guid>https://darcien.dev/p/picking-paid-live-stream-platform-as-viewer/</guid><description>Short note comparing between available live stream platform</description><content:encoded><![CDATA[<blockquote>
 <p>🔖 Assumed post audience: someone who wants to watch concert/3D live online
-but not sure which host to pick (if choices exists).</p></blockquote>
+but not sure which host to pick (if choices exists).</p>
+</blockquote>
 <p>These are non-exhaustive list of platforms that I&rsquo;ve watched on before.
 I&rsquo;ve included my rough take on each platform and the dates.
 Over the time these list might get outdated as the streaming platform keep updating their site.</p>
@@ -2391,6 +2413,27 @@ I don&rsquo;t know if what&rsquo;s causing it, but Niconico connection to Indo h
 been good regardless of ISP.
 Plus, to watch archive (Timeshift in Niconico) you need to subscribe to their
 premium service(2023-06-17: cost JPY 550 per month).</p>
+<h2 id="openrectv">OPENREC.tv</h2>
+<p>Link: <a href="https://www.openrec.tv">https://www.openrec.tv</a></p>
+<p>Previously watched:</p>
+<ul>
+<li>2025-11-01, 第１回 お花さん みーてぃんぐっ！ (day, night)</li>
+</ul>
+<p><strong>Verdict: Good! I didn&rsquo;t know this website has ticketing</strong></p>
+<h3 id="notes">Notes</h3>
+<p>I&rsquo;ve been on OPENREC.tv for watching uchitore stream.
+It&rsquo;s a subscription-based model with monthly billing.
+And when uchitore announced their first event,
+I didn&rsquo;t expect it to be on the same website&hellip;
+Which is great! Also there&rsquo;s discount when already subscribed,
+not sure if limited to this event only or not.</p>
+<p>The video player / viewer itself is pretty much the same as the usual stream.
+Relatively good, all basic functionalities are there.
+The most unique thing is that you can adjust the forward/backward seek time.
+Usually this is hardcoded and only offline players have this.</p>
+<p>The chat overlay in the fullscreen or theater mode is a bit annoying though.
+It overlays either on the left or right side, and sometimes covers the view.
+Better stay windowed and maximize the window instead.</p>
 <h2 id="spwn">SPWN</h2>
 <p>Link: <a href="https://virtual.spwn.jp">https://virtual.spwn.jp</a></p>
 <p>Previously watched:</p>
@@ -2603,6 +2646,7 @@ Most of the time there&rsquo;s no choices though.
 Even when there are choices, at most it&rsquo;s 2, it&rsquo;s pick bad or the less bad one 🥲.</p>
 <h2 id="changelog">Changelog</h2>
 <ul>
+<li>2025-11-08: add OPENREC.tv</li>
 <li>2025-09-26: add suukawa + gakumas undoukai</li>
 <li>2025-08-10: add Stagecrowd and uijin addition</li>
 <li>2025-06-18: good track record for ASOBI STAGE and Z-aN</li>
@@ -2654,13 +2698,15 @@ End up sending an email to HealthFit support about this.</p>
 <blockquote>
 <p>From S. Lizeray</p>
 <p>&hellip;</p>
-<p>Apple Health does not support cycling power, only running power. Hence it can’t be uploaded to the fitness platforms.</p></blockquote>
+<p>Apple Health does not support cycling power, only running power. Hence it can’t be uploaded to the fitness platforms.</p>
+</blockquote>
 <p>Okay, so it&rsquo;s not a HealthFit issue, apparently it is an Apple Health limitation?</p>
 <p>I did another search and found some lead:</p>
 <blockquote>
 <p><a href="https://forum.intervals.icu/t/healthfit-sync-for-activities-and-health-metrics/2718/35">From slizeray</a></p>
 <p>HealthFit mirrors Apple Health and Apple Health is the only source of truth for HealthFit.</p>
-<p>In addition, power data is not supported in Apple Health, so there is no power data in it.</p></blockquote>
+<p>In addition, power data is not supported in Apple Health, so there is no power data in it.</p>
+</blockquote>
 <p>Hey, this confirms it!</p>
 <p>I guess this means I would just stop using HealthFit and upload FIT files directly to intervals.icu if I want to see the power data 🥺.</p>
 <p>P.S. Shoutout to Stéphane Lizeray, I&rsquo;m not sure if this person is a one person army building HealthFit,
@@ -2989,7 +3035,8 @@ And here I am, trying to write my story and the dilemma that comes with the choi
 <blockquote>
 <p>The point the critic wants to make is that life is short and a zero-sum game. You lose a third of the day to sleep, another third to making a living, and now you’ve little left. To be really productive, you can’t divide your energies across multiple cultures—you can’t be truly successful in mainstream culture, and at the same time be able to devote enough effort in the field of, say, mechanical models⁠, to be called an Otaking⁠. A straddler takes onto his head the overhead of learning and participating in both, and receives no benefits (he will suffer socially in the esteem of the ‘normals’, and will be able to achieve little in his ‘hobby’ due to lack of time and a desire to not go overboard).⁠⁠</p>
 <p>The otaku &amp; hikikomori recognizes this dilemma and he chooses—to reject normal life! He rejects life in the larger culture for his subculture⁠⁠. It’s a simple matter of comparative advantage⁠; it’s easier to be a big fish in a small pond than in a large one.⁠⁠</p>
-<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#opting-out">The Melancholy of Subculture Society</a></p></blockquote>
+<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#opting-out">The Melancholy of Subculture Society</a></p>
+</blockquote>
 <p>Time is arguably one of the most important resources a person can have.
 And it&rsquo;s finite (until someone proves time travel or immortality is feasible).
 So, if a person decides to dedicate their time into something they like instead of what is mainstream, that is a rational choice.</p>
@@ -3007,7 +3054,8 @@ Maybe it&rsquo;s fine to be thrown out like a piece of gear that does not fit an
 <blockquote>
 <p>The national identity fragments under the assault of burgeoning subcultures. At last, the critic beholds the natural endpoint of this process: the long nightmare of nationalism falls like a weight from the minds of the living, as the nation becomes some lines on a map, some laws you follow. No one particularly cares. The geek thinks, ‘Meh: here, Canada, London, Japan, Singapore—as long as FedEx can reach me and there’s a good Internet connection, what’s the difference?’ (Nor are the technically-inclined alone in this.⁠⁠)</p>
 <p>You can test this yourself. Tell yourself —‘The country I live in now is the best country in the world for people like me; I would be terribly unhappy if I was exiled.’ If your mental reply goes something like, ‘Why, what’s so special about the USA? It’s not particularly economically or politically free, it’s not the only civilized English-speaking country, it’s not the wealthiest⁠⁠…’, then you are headed down the path of opting out.</p>
-<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#the-bigger-screen">The Melancholy of Subculture Society</a></p></blockquote>
+<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#the-bigger-screen">The Melancholy of Subculture Society</a></p>
+</blockquote>
 <p>I can&rsquo;t help but to say yes and yes here.
 During the time of peace, it&rsquo;s really hard to fight for your own country.
 Especially not when your own countrymen judges yourself based of your grandparents origin.
@@ -3029,7 +3077,8 @@ Being forced into living a culture because the people around you did so is not f
 <h2 id="coping-mechanism">Coping Mechanism</h2>
 <blockquote>
 <p>Leaving a culture, and joining a subculture, is a way for the monkey mind to cope with the modern world.</p>
-<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#subcultures-set-you-free">The Melancholy of Subculture Society</a></p></blockquote>
+<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#subcultures-set-you-free">The Melancholy of Subculture Society</a></p>
+</blockquote>
 <p>I totally agree with this section where being part of a subculture is a way to free yourself from the bigger culture.
 Not to the point it become escapism.
 But to be a healthy person, not under any pressure to be the very best while sacrificing everything.</p>
@@ -3039,7 +3088,8 @@ a kid want to be the fastest kid in the class, that kid wouldn&rsquo;t care abou
 <h2 id="congratulations-you-have-won-the-knowledge">Congratulations! You Have Won The Knowledge</h2>
 <blockquote>
 <p>This is the curse of knowledge: those who know, do not do—and those who do not know, do.</p>
-<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#a-winner-is-you">The Melancholy of Subculture Society</a></p></blockquote>
+<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#a-winner-is-you">The Melancholy of Subculture Society</a></p>
+</blockquote>
 <p>The curse of knowledge, that is probably my favourite quote from the essay.
 Calling it a curse is really clever.
 Some times it&rsquo;s painful, holding a knowledge, you agonize over telling the truth to the other person.
@@ -3047,7 +3097,8 @@ You can lessen your pain by sharing the burden of knowledge, at the cost of hurt
 <h2 id="subculture-for-life">Subculture for Life</h2>
 <blockquote>
 <p>If someone really prefers their subculture, which gives them mental ease and physical health, then what right do the rest have to interfere and drag them into the main culture? Large homogeneous cultures are accomplished only with great effort, and much bloodshed of body and mind. Their benefits are unclear, and the justifications transparently self-serving. Perhaps we should accept gracefully the inevitable sundering of ‘national’ cultures, and learn to operate within a truly multicultural world. Each of us with a niche of our own, on respectful (if uncomprehending) terms with all the other subcultures.</p>
-<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#sympathy-for-the-poor-devil">The Melancholy of Subculture Society</a></p></blockquote>
+<p>Gwern Branwen, <a href="https://www.gwern.net/The-Melancholy-of-Subculture-Society#sympathy-for-the-poor-devil">The Melancholy of Subculture Society</a></p>
+</blockquote>
 <p>As the subcultures are formed as a resting place and coping mechanism,
 people with the same subculture will naturally flock together after some time.
 Are the bigger cultures destinied to be broken into pieces?
@@ -3258,7 +3309,8 @@ people trying to figure out some magic algorithm to pair it:</p>
 <ul>
 <li>New users will not be able to install the Zwift Game or Companion apps</li>
 <li>Legacy users will be able to use the watch apps, but will receive no updates to either app</li>
-</ul></blockquote>
+</ul>
+</blockquote>
 <p>Okay, cool. At least at this point I know I can give up peacefully.
 Apple Watch has never been the perfect device for workout partner.
 The GPS acquisition time could take over 30 minutes.
@@ -3273,7 +3325,8 @@ At the same time, I feel sad that I can&rsquo;t use what I already own and need 
 ]]></content:encoded></item><item><title>SQLFluff Is a Thing</title><link>https://darcien.dev/p/sqlfluff-is-a-thing/</link><pubDate>Thu, 08 Dec 2022 22:09:26 +0700</pubDate><guid>https://darcien.dev/p/sqlfluff-is-a-thing/</guid><description>A fluff that I wish I had known earlier.</description><content:encoded><![CDATA[<blockquote>
 <p>The SQL Linter for Humans</p>
 <p>Bored of not having a good SQL linter that works with whichever dialect you’re working with? Fluff is an extensible and modular linter designed to help you write good SQL and catch errors and bad SQL before it hits your database.</p>
-<p>From <a href="https://www.sqlfluff.com">https://www.sqlfluff.com</a></p></blockquote>
+<p>From <a href="https://www.sqlfluff.com">https://www.sqlfluff.com</a></p>
+</blockquote>
 <p>Earlier today at work, I was helping my coworker debugging his SQL.
 The SQL was fairly simple.
 It creates a few tables, create some foreign keys, and insert some data.</p>
@@ -3452,7 +3505,8 @@ Next time, I should focus more on the goal and resist the distractions.</p>
 <p>Other reviewers here have noted all the pros about this monitor, I will just add that 1-) the adjustable stand is especially easy to use and useful for long hours and avoiding neck pain and 2-) reminder that they ship only a display port/USB cable and an HDMI cable with it even though monitor is USB -C enabled. if you are running Mojave 10.14 or later the adapters for display port and HDMI simply will not work, the mac book will never see the monitor. You <em>must</em> get a USB-C 3.1 to C cable. Then you can just plug it all in. Also need to add a shout out to Anne at Amazon (complimentary) tech support for helping figure all this out by coordinating with ViewSonic because it wasn&rsquo;t documented anywhere at the point at which I was trying to do it. Thank you Anne!</p>
 <ul>
 <li>bookkook, 2019 March</li>
-</ul></blockquote>
+</ul>
+</blockquote>
 <p>Hey, that problem sounds familiar.</p>
 <p>So I just learned there&rsquo;s a lot of USB-C variant, and USB-C 3.1 gen 2 is a thing.</p>
 <p>Currently ordering a new cable, will update later.</p>
@@ -3904,7 +3958,8 @@ The theme? I highly doubt it, but let&rsquo;s check it anyway.</p>
 What happened here, I&rsquo;m pretty sure I commited the entire theme to the repo.</p>
 <p>Is it because I used <code>git submodule</code> to add the theme? A quick googling tells me that this is case.</p>
 <blockquote>
-<p>When you clone a project with submodule in it, by default you get the directories that contain submodules, but none of the files within them yet.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p></blockquote>
+<p>When you clone a project with submodule in it, by default you get the directories that contain submodules, but none of the files within them yet.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
 <p>OMG, all the time I spent debugging this.
 I probably could save them if I actually read how to use submodules first.</p>
 <p>Since I already cloned the repo, all I need is to fetch the missing submodules.

@@ -27,7 +27,8 @@ But it feels dirty since it&rsquo;ll also affect root user.</p>
 <h3 id="words-of-warning"><a href="https://github.com/nix-community/home-manager#words-of-warning">Words of warning</a></h3>
 <p>Unfortunately, it is quite possible to get difficult to understand errors when working with Home Manager. You should therefore be comfortable using the Nix language and the various tools in the Nix ecosystem.</p>
 <p>If you are not very familiar with Nix but still want to use Home Manager then you are strongly encouraged to start with a small and very simple configuration and gradually make it more elaborate as you learn.</p>
-<p>&hellip;</p></blockquote>
+<p>&hellip;</p>
+</blockquote>
 <p>Well, I&rsquo;m new and not familiar with Nix,
 let&rsquo;s try it anyway,
 what could possibly go wrong?</p>
@@ -136,7 +137,8 @@ but I doubt it&rsquo;s worth to do on a throwaway VM.</p>
 <h3 id="what-is-this">What is this?</h3>
 <p>A script to install NixOS on non-NixOS hosts.</p>
 <p>NixOS-Infect is so named because of the high likelihood of rendering a system inoperable. Use with extreme caution and preferably only on newly provisioned systems.</p>
-<p><a href="https://github.com/elitak/nixos-infect">https://github.com/elitak/nixos-infect</a></p></blockquote>
+<p><a href="https://github.com/elitak/nixos-infect">https://github.com/elitak/nixos-infect</a></p>
+</blockquote>
 <p>I stumbled over this when searching around NixOS.
 And seeing nixos-infect support the latest LTS Ubuntu (22.04 atm)
 on Digital Ocean is trigger to use this instead of VM on my desktop.</p>

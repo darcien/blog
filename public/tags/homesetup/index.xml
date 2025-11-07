@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yosua Ian Sebastian's blog</title><link>https://darcien.dev/tags/homesetup/</link><description>Recent posts in my blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 08 Sep 2023 20:46:41 +0700</lastBuildDate><atom:link href="https://darcien.dev/tags/homesetup/index.xml" rel="self" type="application/rss+xml"/><item><title>Monitoring air quality with AirGradient and Home Assistant</title><link>https://darcien.dev/p/airgradient/</link><pubDate>Fri, 08 Sep 2023 20:46:41 +0700</pubDate><guid>https://darcien.dev/p/airgradient/</guid><description>My journey for better air quality.</description><content:encoded><![CDATA[<blockquote>
 <p>🔖 Assumed post audience: someone who wants to know what it takes to setup
-self hosted air quality monitor.</p></blockquote>
+self hosted air quality monitor.</p>
+</blockquote>
 <p>Recently I pulled the trigger and bought air quality monitor from <a href="https://www.airgradient.com/">AirGradient</a>.
 Definitely not because my city has plummeted from bad to worst<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>This post will contain everything I did to set up AirGradient, all the way
@@ -28,7 +29,8 @@ My kit includes:
 </ul>
 <h3 id="for-storing-and-viewing-sensor-data">For storing and viewing sensor data</h3>
 <blockquote>
-<p>TL;DR I&rsquo;m using Home Assistant container on old MacBook for local server.</p></blockquote>
+<p>TL;DR I&rsquo;m using Home Assistant container on old MacBook for local server.</p>
+</blockquote>
 <p>AirGradient has their own home server to host the data sent from the sensor.
 I got free 2 year subscription for their server from buying their pro kit.</p>
 <p>That means:</p>
@@ -164,7 +166,8 @@ For the <code>home_assistant_encryption_key</code>, it needs to be base64 string
 The <a href="https://esphome.io/components/api.html">docs page</a> from ESPHome has a generator for it.
 <blockquote>
 <p>✅ Make sure to backup <code>secrets.yaml</code>, otherwise you will need to reflash
-if you lose access.</p></blockquote>
+if you lose access.</p>
+</blockquote>
 </li>
 <li>Run <a href="https://esphome.io/guides/getting_started_command_line">ESPHome CLI</a> to compile and upload the firmware to the microcontroller.
 I&rsquo;m using Docker to run it, so mine looks like this:
@@ -234,7 +237,8 @@ with the <code>lima</code> keyword accidentally matching on the <a href="https:/
 <li>Install Home Assistant on Docker</li>
 <li>Set up Home Assistant</li>
 </ol>
-<p><a href="https://blog.illixion.com/2023/04/colima-home-assistant/">https://blog.illixion.com/2023/04/colima-home-assistant/</a></p></blockquote>
+<p><a href="https://blog.illixion.com/2023/04/colima-home-assistant/">https://blog.illixion.com/2023/04/colima-home-assistant/</a></p>
+</blockquote>
 <p>With some exceptions:</p>
 <ul>
 <li>When configuring Lima to use <code>socket_vmnet</code>, my path for <code>socket_vmnet</code> is different.
