@@ -34,7 +34,7 @@ So the tastes are from freshly brewed coffee now.
 
 Country | Brand/Shop | Variant | Taste | Comment
 --- | --- | --- | --- | --- | ---
-🇦🇺 | Black Vice | Decaf blend (Colombia, Piedra Grande, Tolima + Pitalito, Hulia)  | ? | Still testing...
+🇦🇺 | Black Vice | Decaf blend (Colombia, Piedra Grande, Tolima + Pitalito, Hulia)  | 😌 | Wouldn't say I like the taste, but being decaf gives me reason to brew it at night!
 🇦🇺 | Black Vice | Genesis dark roast blend (Colombia, Finca Villa Sofia + Nicaragua, La Cordillera) | 🤔 | Not quite the dark roast I'm expecting. Over the time it grows on me, but still not my ideal.
 🇦🇺 | Black Vice | Hursty blend (Colombia, Andino Co-Op + Guatemala, Los Ancestros + Honduras, Edgar Urquia) | 🤨 | Has that slightly sweet aftertaste. Could be worse but this is not for me.
 🇮🇩 | Excelso | Arabica Gold | 😐 | -*
@@ -77,7 +77,56 @@ And it's totally different story when trying to describe how coffee tastes
 to someone else.
 I still need to work on that and have more descriptive report instead of just good vs not good.
 
-## How did you make the coffee?
+At some point, I shared the list with friends,
+and they said I should've put the tasting notes or profiles,
+not just the beans and blend.
+Oops, maybe for another future revision.
+
+## Is latte an upgrade to coffee with milk?
+
+My friend from the office offered me an old espresso machine he wants to get rid of.
+He said it leaks on high pressure, otherwise it's still perfectly functional.
+Well, why not? I accepted.
+
+Yeah, just like what he said, the first few attempts fail spectacularly.
+I suck at grinding the beans and adjusting the coffee amount.
+I had to do 3 tries just to get coffee flowing out of the portafilter.
+
+{{< figure
+ src="sunbeam.jpg"
+ caption="My first ever (successful?) espresso along with the Sunbeam espresso machine and grinder. Taken at 2025-10-10."
+>}}
+
+Now that I know the grind size needed and got better at eyeballing the coffee amount,
+no more failed attempts!
+
+
+## How did you make the coffee? (after October 2025)
+
+The espresso machine is now my primary coffee source.
+To be specific, it's a Sunbeam Cafe Series EM6910 (probably at least 10 y.o.).
+
+Since it's an espresso machine, I have to start from beans.
+(Otherwise all the coffee nerds around me will yell at me for not using fresh beans)
+
+Grind the beans to espresso size.
+Fill and stamp the portafilter until it's around ~3mm from the top of the container.
+(I'm just following the machine manual, not sure if this is the "correct" way.)
+
+Hit the 2 shots button while watching the pressure gauge.
+Always the 2 shots because that's the only filter size I have inherited.
+
+Pour 200 mL of milk and steam it using the steam wand.
+Stop around 60ºC-ish.
+
+Pour the milk to the coffee, making 2 cups of lattes, done!
+
+{{< figure
+ src="latte.jpg"
+ caption="The latte art looks pretty good considering I suck at it. Taken at 2025-11-15."
+>}}
+
+## How did you make the coffee? (before October 2025)
 
 It's almost always pour over grounded coffee using paper filter.
 I've been using the same Hario V60 dripper for years.
@@ -126,6 +175,12 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
 
 
 ## Other Photos?
+
+{{< figure
+ src="stitch-1-kg.jpg"
+ caption="My first 1 kg coffee beans. I've never hold this much coffee in one hand before. Taken at 2025-12-06."
+>}}
+
 
 {{< figure
  src="black-vice.jpg"
@@ -184,6 +239,7 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
 
 ## Changelog
 
+- 2025-12-06: add Sunbeam espresso machine
 - 2025-07-20: add Black Vice brand
 - 2025-07-05: add Stitch, St. ALi and country flags to table
 - 2025-05-24: add Inglewood brand
