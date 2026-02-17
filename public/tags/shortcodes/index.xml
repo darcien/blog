@@ -48,9 +48,9 @@ and can be resized at build time with <code>resize</code> parameter.</p>
 </span></span><span class="line"><span class="cl">    <span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">&#34;load&#34;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="nx">Lightense</span><span class="p">(</span><span class="s1">&#39;img:not(.no-lightense, [aria-label=&#34;logo&#34;])&#39;</span><span class="p">,</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="c1">// Override the bg color behind the overlayed image when lightbox is opened.
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// Using secondary value from theme with high opacity to make it work with
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// both light and dark mode because we don&#39;t have access to theme variable here.
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nx">background</span><span class="o">:</span> <span class="s1">&#39;rgb(155, 156, 157 / 60%)&#39;</span><span class="p">,</span>
+</span></span></span><span class="line"><span class="cl">        <span class="c1">// Using secondary value from theme with high opacity to make it work with
+</span></span></span><span class="line"><span class="cl">        <span class="c1">// both light and dark mode because we don&#39;t have access to theme variable here.
+</span></span></span><span class="line"><span class="cl">        <span class="nx">background</span><span class="o">:</span> <span class="s1">&#39;rgb(155, 156, 157 / 60%)&#39;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="p">});</span>
 </span></span><span class="line"><span class="cl">    <span class="p">},</span> <span class="kc">false</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
@@ -89,7 +89,7 @@ and can be resized at build time with <code>resize</code> parameter.</p>
   
 
   <figure><img
-      loading="lazy" src="/p/lightense/bogor_hu_b48056aef9547978.jpg"
+      loading="lazy" src="/p/lightense/bogor_hu_8a42bda3ec4e2636.jpg"
       
       alt="One word, green. Behind the iron fence there is a river not visible in the photo.
 Also resized down to height=360px."><figcaption>
@@ -107,7 +107,7 @@ Also resized down to height=360px.</p>
   
 
   <figure><img
-      loading="lazy" src="/img/shiromedia-penguin-front_hu_21cf5c28d409a250.jpg"
+      loading="lazy" src="/img/shiromedia-penguin-front_hu_4b96362f91780bc9.jpg"
       
       alt="This figure use global resource.
 The shortcode can handle both page and global resource.
@@ -152,21 +152,21 @@ It was painful.</p>
 <p>Yes I mentioned the same thing 3 times.
 It&rsquo;s painful enough that I can&rsquo;t do:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// This is JS syntax for example
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">foo</span>
+</span></span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">foo</span>
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="c1">// This doesn&#39;t work in Hugo:
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">foo</span> <span class="o">=</span> <span class="nx">doSomething</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+</span></span></span><span class="line"><span class="cl">  <span class="nx">foo</span> <span class="o">=</span> <span class="nx">doSomething</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">  <span class="c1">// What Hugo does is more like this,
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// it creates a new variable in the current scope.
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// And the variable in the parent scope is untouched.
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kd">let</span> <span class="nx">foo</span> <span class="o">=</span> <span class="nx">doSomething</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+</span></span></span><span class="line"><span class="cl">  <span class="c1">// it creates a new variable in the current scope.
+</span></span></span><span class="line"><span class="cl">  <span class="c1">// And the variable in the parent scope is untouched.
+</span></span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">foo</span> <span class="o">=</span> <span class="nx">doSomething</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>And having no ternary here is like rubbing salt on the wounds.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// In JS I would write something like this
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">img</span> <span class="o">=</span> <span class="nx">resize</span> <span class="o">?</span> <span class="nx">img</span><span class="p">.</span><span class="nx">resizeTo</span><span class="p">(</span><span class="nx">resize</span><span class="p">)</span> <span class="o">:</span> <span class="nx">img</span>
+</span></span></span><span class="line"><span class="cl"><span class="nx">img</span> <span class="o">=</span> <span class="nx">resize</span> <span class="o">?</span> <span class="nx">img</span><span class="p">.</span><span class="nx">resizeTo</span><span class="p">(</span><span class="nx">resize</span><span class="p">)</span> <span class="o">:</span> <span class="nx">img</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1">// But I had to write it like this
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">truthy</span> <span class="o">=</span> <span class="nx">img</span><span class="p">.</span><span class="nx">resizeTo</span><span class="p">(</span><span class="nx">resize</span> <span class="o">||</span> <span class="s1">&#39;1x1&#39;</span><span class="p">)</span>
+</span></span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">truthy</span> <span class="o">=</span> <span class="nx">img</span><span class="p">.</span><span class="nx">resizeTo</span><span class="p">(</span><span class="nx">resize</span> <span class="o">||</span> <span class="s1">&#39;1x1&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">falsy</span> <span class="o">=</span> <span class="nx">img</span>
 </span></span><span class="line"><span class="cl"><span class="nx">img</span> <span class="o">=</span> <span class="nx">cond</span><span class="p">(</span><span class="nx">isSet</span><span class="p">(</span><span class="nx">params</span><span class="p">,</span> <span class="s2">&#34;resize&#34;</span><span class="p">),</span> <span class="nx">truthy</span><span class="p">,</span> <span class="nx">falsy</span><span class="p">)</span> 
 </span></span><span class="line"><span class="cl">
