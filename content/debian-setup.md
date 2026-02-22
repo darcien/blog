@@ -180,6 +180,19 @@ SSO with Tailscale, then you should be logged in.
 
 Disable Tailscale key expiry if this is a permanent machine.
 
+## Eternal Terminal (et)
+
+See https://eternalterminal.dev/download/
+
+```bash
+echo "deb [signed-by=/etc/apt/keyrings/et.gpg] https://mistertea.github.io/debian-et/debian-source/ $(grep VERSION_CODENAME /etc/os-release | cut -d= -f2) main" | sudo tee -a /etc/apt/sources.list.d/et.list
+curl -sSL https://github.com/MisterTea/debian-et/raw/master/et.gpg | sudo tee /etc/apt/keyrings/et.gpg >/dev/null
+sudo apt update
+sudo apt install et
+```
+
+Make sure the default et port (2022) is not blocked.
+
 ## Zsh + Git etc.
 
 In case the debian is super slim
@@ -187,7 +200,7 @@ In case the debian is super slim
 Need these for homebrew + chezmoi + dotfiles.
 
 ```bash
-sudo apt-get install git rsync unzip zsh
+sudo apt-get install git jq rsync unzip zsh
 ```
 
 Change default shell to zsh (yes, needs sudo because chsh needs to authenticate
@@ -246,4 +259,5 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 
 ## Changelog
 
+- 2026-02-22: add et
 - 2026-02-16: initial version
