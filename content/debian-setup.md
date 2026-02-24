@@ -257,7 +257,24 @@ sudo swapon /swapfile
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 ```
 
+## unattended-upgrades
+
+You don't want outdated OS over the time.
+See https://wiki.debian.org/PeriodicUpdates
+
+Usually already installed, try configuring and answer yes:
+
+```bash
+sudo dpkg-reconfigure unattended-upgrades
+```
+
+Check next trigger time:
+```bash
+sudo systemctl status apt-daily.timer
+```
+
 ## Changelog
 
+- 2026-02-24: add unattended-upgrades
 - 2026-02-22: add et
 - 2026-02-16: initial version

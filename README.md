@@ -20,15 +20,25 @@ git submodule update --init --recursive
 
 You need Hugo and [just](https://just.systems/man/en/). Every commands is documented in `justfile`.
 
-```shell
-brew install hugo just
+```bash
+curl -L https://github.com/gohugoio/hugo/releases/download/v0.155.3/hugo_extended_0.155.3_darwin-universal.pkg -o hugo.pkg
+sudo installer -pkg hugo.pkg -target /
+rm hugo.pkg
+```
+
+```bash
+brew install just
 ```
 
 Last known working `hugo version`:
 
 ```
-hugo v0.155.3+extended+withdeploy darwin/arm64 BuildDate=2026-02-08T16:40:42Z VendorInfo=Homebrew
+hugo v0.155.3-8a858213b73907e823e2be2b5640a0ce4c04d295+extended darwin/arm64 BuildDate=2026-02-08T16:40:42Z VendorInfo=gohugoio
 ```
+
+## Hugo???
+
+I can't take it anymore, it's like every minor release fail the build and breaks stuff.
 
 ## Deployment
 
