@@ -1,9 +1,26 @@
 ---
 title: "Coffee"
 date: 2023-10-12T14:38:06Z
-layout: ../layouts/Base.astro
+layout: ../../layouts/Base.astro
 ---
-import Figure from "../components/Figure.astro";
+import Figure from "../../components/Figure.astro";
+import harioImg from "./hario.jpg";
+import back_sideImg from "./back-side.jpg";
+import macehat_backImg from "./macehat-back.jpg";
+import manual_grindImg from "./manual-grind.jpg";
+import black_viceImg from "./black-vice.jpg";
+import sunbeamImg from "./sunbeam.jpg";
+import toraja_bittuangImg from "./toraja-bittuang.jpg";
+import ijen_blue_mountainImg from "./ijen-blue-mountain.jpg";
+import cold_white_blendImg from "./cold-white-blend.jpg";
+import sido_muliaImg from "./sido-mulia.jpg";
+import dampitImg from "./dampit.jpg";
+import stitch_dark_roastImg from "./stitch-dark-roast.jpg";
+import latteImg from "./latte.jpg";
+import macehat_frontImg from "./macehat-front.jpg";
+import kopsusImg from "./kopsus.jpg";
+import st_aliImg from "./st-ali.jpg";
+import stitch_1_kgImg from "./stitch-1-kg.jpg";
 
 
 ## Long, long time ago...
@@ -95,7 +112,7 @@ Yeah, just like what he said, the first few attempts fail spectacularly.
 I suck at grinding the beans and adjusting the coffee amount.
 I had to do 3 tries just to get coffee flowing out of the portafilter.
 
-<Figure src="/coffee/sunbeam.jpg" caption="My first ever (successful?) espresso along with the Sunbeam espresso machine and grinder. Taken at 2025-10-10." />
+<Figure src={sunbeamImg} caption="My first ever (successful?) espresso along with the Sunbeam espresso machine and grinder. Taken at 2025-10-10." />
 
 Now that I know the grind size needed and got better at eyeballing the coffee amount,
 no more failed attempts!
@@ -121,14 +138,14 @@ Stop around 60ºC-ish.
 
 Pour the milk to the coffee, making 2 cups of lattes, done!
 
-<Figure src="/coffee/latte.jpg" caption="The latte art looks pretty good considering I suck at it. Taken at 2025-11-15." />
+<Figure src={latteImg} caption="The latte art looks pretty good considering I suck at it. Taken at 2025-11-15." />
 
 ## How did you make the coffee? (before October 2025)
 
 It's almost always pour over grounded coffee using paper filter.
 I've been using the same Hario V60 dripper for years.
 
-<Figure src="/coffee/hario.jpg" caption="Good old manual coffee dripper." />
+<Figure src={harioImg} caption="Good old manual coffee dripper." />
 
 
 For the coffee, I use around 16g coffee for 3 servings.
@@ -137,7 +154,7 @@ low-fat mochachino.
 Pour the milk to the mug first.
 Then pour the coffee, done!
 
-<Figure src="/coffee/kopsus.jpg" caption="A warm coffee with milk, calms my mind 👌" />
+<Figure src={kopsusImg} caption="A warm coffee with milk, calms my mind 👌" />
 
 (Maybe one day I'll upgrade my kit and include practicing making latte art 🤔)
 
@@ -159,35 +176,35 @@ Antarctica. One of their coffee is [3 years old][3-yo-coffee]!
 
 [3-yo-coffee]: https://brr.fyi/posts/the-last-egg#:~:text=A%20tolerable%20latte%2C%20with%20powdered%20milk%20and%20coffee%20beans%20roasted%203%20years%20ago.
 
-<Figure src="/coffee/back-side.jpg" caption="Back side of some Northsider's coffee bags, it says production date: 2023-10-17, and best before: 2024-10. Taken at 2023-10-26." />
+<Figure src={back_sideImg} caption="Back side of some Northsider's coffee bags, it says production date: 2023-10-17, and best before: 2024-10. Taken at 2023-10-26." />
 
 
 ## Other Photos?
 
-<Figure src="/coffee/stitch-1-kg.jpg" caption="My first 1 kg coffee beans. I've never hold this much coffee in one hand before. Taken at 2025-12-06." />
+<Figure src={stitch_1_kgImg} caption="My first 1 kg coffee beans. I've never hold this much coffee in one hand before. Taken at 2025-12-06." />
 
 
-<Figure src="/coffee/black-vice.jpg" caption="Same journey, different brand. Second candidate, Black Vice, taken at 2025-07-20." />
+<Figure src={black_viceImg} caption="Same journey, different brand. Second candidate, Black Vice, taken at 2025-07-20." />
 
-<Figure src="/coffee/st-ali.jpg" caption="Starting a hunt to find the best dark roast in Melbourne for revenge gift. First candidate, St. ALi, taken at 2025-06-16." />
+<Figure src={st_aliImg} caption="Starting a hunt to find the best dark roast in Melbourne for revenge gift. First candidate, St. ALi, taken at 2025-06-16." />
 
-<Figure src="/coffee/stitch-dark-roast.jpg" caption="I just moved to a new place and don't have a functional table yet. Hence the coffee is on unfinished table, I don't have screwdriver at that time. The ultimate dark roast was gift from a friend, thanks Em! Taken at 2025-04-08." />
+<Figure src={stitch_dark_roastImg} caption="I just moved to a new place and don't have a functional table yet. Hence the coffee is on unfinished table, I don't have screwdriver at that time. The ultimate dark roast was gift from a friend, thanks Em! Taken at 2025-04-08." />
 
-<Figure src="/coffee/sido-mulia.jpg" caption="Trying some brand mentioned by friend, it's pricey and not that good 😂, taken at 2024-12-08." />
+<Figure src={sido_muliaImg} caption="Trying some brand mentioned by friend, it's pricey and not that good 😂, taken at 2024-12-08." />
 
-<Figure src="/coffee/macehat-front.jpg" caption="Got some freshly roasted beans from Sumatra, taken at 2023-11-19." />
+<Figure src={macehat_frontImg} caption="Got some freshly roasted beans from Sumatra, taken at 2023-11-19." />
 
-<Figure src="/coffee/macehat-back.jpg" caption="Back side showing it was roasted 11 days prior to the photo. My sister literally told me to drink it before 14 days pass from roasted date. Taken at 2023-11-19." />
+<Figure src={macehat_backImg} caption="Back side showing it was roasted 11 days prior to the photo. My sister literally told me to drink it before 14 days pass from roasted date. Taken at 2023-11-19." />
 
-<Figure src="/coffee/cold-white-blend.jpg" caption="Finally trying out new blend after drinking the same blend for a year, taken at 2023-10-26." />
+<Figure src={cold_white_blendImg} caption="Finally trying out new blend after drinking the same blend for a year, taken at 2023-10-26." />
 
-<Figure src="/coffee/ijen-blue-mountain.jpg" caption="Northsider's Ijen Blue Mountain packaging, taken at 2020-07-14." />
+<Figure src={ijen_blue_mountainImg} caption="Northsider's Ijen Blue Mountain packaging, taken at 2020-07-14." />
 
-<Figure src="/coffee/toraja-bittuang.jpg" caption="Northsider's Toraja Bittuang packaging, a bit different than the usual since this one use cylindrical carton. Taken at 2020-07-14." />
+<Figure src={toraja_bittuangImg} caption="Northsider's Toraja Bittuang packaging, a bit different than the usual since this one use cylindrical carton. Taken at 2020-07-14." />
 
-<Figure src="/coffee/dampit.jpg" caption="The packaging for Dampit coffee from Kopi Boutique, taken at 2020-05-31." />
+<Figure src={dampitImg} caption="The packaging for Dampit coffee from Kopi Boutique, taken at 2020-05-31." />
 
-<Figure src="/coffee/manual-grind.jpg" caption="I mistakenly bought roasted coffee beans. Having no coffee grinders, I had to resort to drastic measures. Taken at 2019-03-30." />
+<Figure src={manual_grindImg} caption="I mistakenly bought roasted coffee beans. Having no coffee grinders, I had to resort to drastic measures. Taken at 2019-03-30." />
 
 ## Changelog
 

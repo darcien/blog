@@ -4,7 +4,10 @@ date: 2023-09-07T19:30:47+07:00
 tags: ["japan", "import", "100DaysToOffload"]
 summary: "Tried changing package type to gift to reduce import tax, it's not very effective."
 ---
-import Figure from "../../components/Figure.astro";
+import Figure from "../../../components/Figure.astro";
+import package_tapestryImg from "./package-tapestry.jpg";
+import tax_receiptImg from "./tax-receipt.jpg";
+import tapestryImg from "./tapestry.jpg";
 
 
 I bought more goods from BOOTH.pm for the who knows how many time.
@@ -68,11 +71,11 @@ I want to pay even less!
 
 ## Omake - pictures
 
-<Figure src="/p/bought-goods-from-booth-again/package-tapestry.jpg" caption="How BOOTH.pm package their goods, it's a hard 1mm cardbox with no fillings." />
+<Figure src={package_tapestryImg} caption="How BOOTH.pm package their goods, it's a hard 1mm cardbox with no fillings." />
 
-<Figure src="/p/bought-goods-from-booth-again/tapestry.jpg" caption="The B2 tapestry, unpacked and hanged on the wall. Drawn by Hatsuno-sensei and sold [here](https://booth.pm/en/items/5019934)." resize="x1440" />
+<Figure src={tapestryImg} caption="The B2 tapestry, unpacked and hanged on the wall. Drawn by Hatsuno-sensei and sold [here](https://booth.pm/en/items/5019934)." resize="x1440" />
 
-<Figure src="/p/bought-goods-from-booth-again/tax-receipt.jpg" caption="I still don't understand how to calculate import tax on my own. Or how Indonesia's post office does not always give me this tax receipt. At least these days they have package notifications via WhatsApp business account." resize="x720" />
+<Figure src={tax_receiptImg} caption="I still don't understand how to calculate import tax on my own. Or how Indonesia's post office does not always give me this tax receipt. At least these days they have package notifications via WhatsApp business account." resize="x720" />
 
 ---
 

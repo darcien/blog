@@ -5,7 +5,17 @@ tags: ["homesetup", "100DaysToOffload"]
 summary: "My journey for better air quality."
 show_toc: true
 ---
-import Figure from "../../components/Figure.astro";
+import Figure from "../../../components/Figure.astro";
+import airgradient_box_openImg from "./airgradient-box-open.jpg";
+import airgradient_back_sideImg from "./airgradient-back-side.jpg";
+import airgradient_packageImg from "./airgradient-package.jpg";
+import airgradient_on_wallImg from "./airgradient-on-wall.jpg";
+import ha_dashboardImg from "./ha-dashboard.png";
+import macbook_power_usageImg from "./macbook-power-usage.jpg";
+import airgradient_assembledImg from "./airgradient-assembled.jpg";
+import airgradient_unassembledImg from "./airgradient-unassembled.jpg";
+import airgradient_boxesImg from "./airgradient-boxes.jpg";
+import power_supplyImg from "./power-supply.jpg";
 
 
 > 🔖 Assumed post audience: someone who wants to know what it takes to setup
@@ -144,10 +154,10 @@ sticking sensor to the correct places.
 
 [airgradient-instructions]: https://www.airgradient.com/open-airgradient/instructions/
 
-<Figure src="/p/airgradient/airgradient-unassembled.jpg" caption="Pre-soldered AirGradient kit that comes with the display and PM sensor already attached." />
+<Figure src={airgradient_unassembledImg} caption="Pre-soldered AirGradient kit that comes with the display and PM sensor already attached." />
 
 
-<Figure src="/p/airgradient/airgradient-assembled.jpg" caption="Fully assembled kit, with everything sticked in." />
+<Figure src={airgradient_assembledImg} caption="Fully assembled kit, with everything sticked in." />
 
 
 ### Sanity checking the kit
@@ -322,7 +332,7 @@ From the HA dashboard, do:
 
 That's all! I can see my AirGradient sensors in HA dashboard.
 
-<Figure src="/p/airgradient/ha-dashboard.png" caption="My HA dashboard after connecting one AirGradient kit." />
+<Figure src={ha_dashboardImg} caption="My HA dashboard after connecting one AirGradient kit." />
 
 
 ## Why I'm getting `Can't connect to ESP.` when connecting AirGradient to HA?
@@ -397,7 +407,7 @@ now that's expensive for a single sensor with closed design.
 
 ## How much electricity does this setup use?
 
-<Figure src="/p/airgradient/macbook-power-usage.jpg" caption="A power meter showing 0.945 KWh after 6 days 15 hours 10 minutes for the server (from empty battery)." resize="x640" />
+<Figure src={macbook_power_usageImg} caption="A power meter showing 0.945 KWh after 6 days 15 hours 10 minutes for the server (from empty battery)." resize="x640" />
 
 0.945 KWh = 6 days 15 hours 10 minutes
 
@@ -453,23 +463,23 @@ bedroom and livingroom!
 
 ### AirGradient packaging and boxes
 
-<Figure src="/p/airgradient/airgradient-package.jpg" caption="AirGradient package that looks manually packaged by hand and sent from Thailand." resize="720x" />
+<Figure src={airgradient_packageImg} caption="AirGradient package that looks manually packaged by hand and sent from Thailand." resize="720x" />
 
-<Figure src="/p/airgradient/airgradient-boxes.jpg" caption="Two boxes of AirGradient Pro DIY kit." resize="720x" />
+<Figure src={airgradient_boxesImg} caption="Two boxes of AirGradient Pro DIY kit." resize="720x" />
 
-<Figure src="/p/airgradient/airgradient-box-open.jpg" caption="First look after opening the kit." resize="x1080" />
+<Figure src={airgradient_box_openImg} caption="First look after opening the kit." resize="x1080" />
 
 
 ### AirGradient
 
-<Figure src="/p/airgradient/airgradient-on-wall.jpg" caption="AirGradient in action. Yes, the CO2 is high, my room has bad air circulation. Yes, the electric socket below has slight openings and is hazardous, I need to fix it eventually." />
+<Figure src={airgradient_on_wallImg} caption="AirGradient in action. Yes, the CO2 is high, my room has bad air circulation. Yes, the electric socket below has slight openings and is hazardous, I need to fix it eventually." />
 
-<Figure src="/p/airgradient/airgradient-back-side.jpg" caption="Back side view of AirGradient. To avoid punching a hole in the wall, I'm using knitting thread to hang the unit." resize="x720" />
+<Figure src={airgradient_back_sideImg} caption="Back side view of AirGradient. To avoid punching a hole in the wall, I'm using knitting thread to hang the unit." resize="x720" />
 
 
 ### Others
 
-<Figure src="/p/airgradient/power-supply.jpg" caption="The 5V 3A power supply I'm using for powering AirGradient." resize="1080x" />
+<Figure src={power_supplyImg} caption="The 5V 3A power supply I'm using for powering AirGradient." resize="1080x" />
 
 
 ## Changelog

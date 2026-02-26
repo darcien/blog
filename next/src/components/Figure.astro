@@ -1,6 +1,9 @@
 ---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
 interface Props {
-	src: string;
+	src: string | ImageMetadata;
 	alt?: string;
 	caption?: string;
 	resize?: string;
@@ -8,9 +11,14 @@ interface Props {
 
 const { src, alt, caption } = Astro.props;
 const altText = alt ?? caption ?? '';
+const isImported = typeof src !== 'string';
 ---
 <figure>
-	<img loading="lazy" src={src} alt={altText} />
+	{isImported ? (
+		<Image src={src} alt={altText} loading="lazy" />
+	) : (
+		<img loading="lazy" src={src} alt={altText} />
+	)}
 	{caption && (
 		<figcaption>
 			<p set:html={caption} />
