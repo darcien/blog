@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts', ({ data }) => {
+	return import.meta.env.PROD ? data.draft !== true : true;
+})).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Group posts by year
+const postsByYear = new Map<number, typeof posts>();
+for (const post of posts) {
+	const year = post.data.date.getFullYear();
+	if (!postsByYear.has(year)) {
+		postsByYear.set(year, []);
+	}
+	postsByYear.get(year)!.push(post);
+}
+---
+<Base title="Archive">
+	<h1>Archive</h1>
+	{[...postsByYear.entries()].map(([year, yearPosts]) => (
+		<section>
+			<h2>{year}</h2>
+			<ul>
+				{yearPosts.map((post) => (
+					<li>
+						<a href={`/p/${post.id}/`}>{post.data.title}</a>
+						<time datetime={post.data.date.toISOString()}>
+							{post.data.date.toISOString().slice(0, 10)}
+						</time>
+					</li>
+				))}
+			</ul>
+		</section>
+	))}
+</Base>
