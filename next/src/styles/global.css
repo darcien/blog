@@ -164,6 +164,47 @@ figcaption {
     padding-block-start: 1em;
 }
 
+/* -- Site header -- */
+.site-header {
+    margin-block-end: 2rem;
+    padding-block-end: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.site-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    color: var(--text);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.site-title:hover {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.site-logo {
+    display: inline-block;
+}
+
+nav {
+    margin-block-start: 0.5rem;
+}
+
+.nav-link {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+    padding: 0.15em 0.1em;
+}
+
+.nav-link:hover {
+    color: var(--text);
+    background: var(--bg-secondary);
+    text-decoration: none;
+}
+
 /* -- Time / metadata -- */
 time {
     color: var(--text-secondary);

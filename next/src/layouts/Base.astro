@@ -7,6 +7,15 @@ interface Props {
 }
 
 const { title, description } = Astro.props;
+
+const navLinks = [
+	{ name: 'now', url: '/now' },
+	{ name: 'about', url: '/about' },
+	{ name: 'uses', url: '/uses' },
+	{ name: 'archive', url: '/archive' },
+	{ name: 'tags', url: '/tags' },
+	{ name: 'search', url: '/search' },
+];
 ---
 <!doctype html>
 <html lang="en">
@@ -17,6 +26,19 @@ const { title, description } = Astro.props;
 		{description && <meta name="description" content={description} />}
 	</head>
 	<body>
-		<slot />
+		<header class="site-header">
+			<a href="/" class="site-title">
+				<img src="/whale_goth.svg" alt="" class="site-logo" width="28" height="28" />
+				Yosua Ian Sebastian
+			</a>
+			<nav>
+				{navLinks.map((link) => (
+					<a href={link.url} class="nav-link">[{link.name}]</a>
+				))}
+			</nav>
+		</header>
+		<main>
+			<slot />
+		</main>
 	</body>
 </html>
