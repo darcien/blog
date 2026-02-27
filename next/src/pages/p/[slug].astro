@@ -43,7 +43,7 @@ const showToc = post.data.show_toc && headings.length > 0;
         post.data.tags && (
           <div class="post-tags">
             {post.data.tags.map((tag) => (
-              <a href={`/tags/${tag}/`}>#{tag}</a>
+              <a href={`/tags/${tag.toLowerCase()}/`}>#{tag}</a>
             ))}
           </div>
         )

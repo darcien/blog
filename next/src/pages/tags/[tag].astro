@@ -7,20 +7,29 @@ export async function getStaticPaths() {
     return import.meta.env.PROD ? data.draft !== true : true;
   });
 
-  const tagMap = new Map<string, typeof posts>();
-  for (const post of posts) {
-    for (const tag of post.data.tags ?? []) {
-      if (!tagMap.has(tag)) {
-        tagMap.set(tag, []);
+  const tagMap = posts
+    .flatMap((post) =>
+      (post.data.tags ?? []).map((tag) => ({
+        slug: tag.toLowerCase(),
+        display: tag,
+        post,
+      })),
+    )
+    .reduce((acc, { slug, display, post }) => {
+      const existing = acc.get(slug);
+      if (existing) {
+        existing.posts.push(post);
+      } else {
+        acc.set(slug, { display, posts: [post] });
       }
-      tagMap.get(tag)!.push(post);
-    }
-  }
+      return acc;
+    }, new Map<string, { display: string; posts: typeof posts }>());
 
-  return [...tagMap.entries()].map(([tag, posts]) => ({
-    params: { tag },
+  return [...tagMap.entries()].map(([slug, { display, posts }]) => ({
+    params: { tag: slug },
     props: {
-      posts: posts.sort(
+      display,
+      posts: posts.toSorted(
         (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
       ),
     },
@@ -28,12 +37,12 @@ export async function getStaticPaths() {
 }
 
 const { tag } = Astro.params;
-const { posts } = Astro.props;
+const { posts, display } = Astro.props;
 ---
 
-<Base title={`Tag: ${tag}`}>
+<Base title={`Tag: ${display}`}>
   <div data-pagefind-ignore>
-    <h1>Tag: {tag}</h1>
+    <h1>Tag: {display}</h1>
     <ul>
       {
         posts.map((post) => (

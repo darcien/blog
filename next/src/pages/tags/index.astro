@@ -6,13 +6,14 @@ const posts = await getCollection("posts", ({ data }) => {
   return import.meta.env.PROD ? data.draft !== true : true;
 });
 
-const tagCounts = new Map<string, number>();
-for (const post of posts) {
-  for (const tag of post.data.tags ?? []) {
-    tagCounts.set(tag, (tagCounts.get(tag) ?? 0) + 1);
-  }
-}
-const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
+const sortedTags = Object.entries(
+  posts
+    .flatMap((post) => post.data.tags ?? [])
+    .reduce<Record<string, number>>((acc, tag) => {
+      acc[tag] = (acc[tag] ?? 0) + 1;
+      return acc;
+    }, {}),
+).toSorted((a, b) => b[1] - a[1]);
 ---
 
 <Base title="Tags">
@@ -22,7 +23,7 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
       {
         sortedTags.map(([tag, count]) => (
           <li>
-            <a href={`/tags/${tag}/`}>
+            <a href={`/tags/${tag.toLowerCase()}/`}>
               {tag} ({count})
             </a>
           </li>
