@@ -27,6 +27,11 @@ const showToc = post.data.show_toc && headings.length > 0;
 <Base
   title={post.data.title}
   description={post.data.summary ?? post.data.description}
+  canonicalUrl={post.data.canonical_url}
+  article={{
+    publishedTime: post.data.date.toISOString(),
+    tags: post.data.tags,
+  }}
 >
   <article>
     <header class="post-header">

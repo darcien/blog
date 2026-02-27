@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { getCollection } from "astro:content";
+import { SITE_NAME } from "../consts";
 
 const posts = (
   await getCollection("posts", ({ data }) => {
@@ -15,7 +16,7 @@ const postsByYear = Object.entries(
   .toReversed();
 ---
 
-<Base title="A blog by Yosua Ian Sebastian">
+<Base title={SITE_NAME}>
   <div data-pagefind-ignore>
     {
       postsByYear.map(([year, yearPosts]) => (

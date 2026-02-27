@@ -1,11 +1,18 @@
 ---
 import "../styles/global.css";
+import { FULL_NAME, SITE_NAME } from "../consts";
+
+type Article = {
+  publishedTime: string;
+  tags?: string[];
+};
 
 type MarkdownLayoutProps = {
   frontmatter: {
     title: string;
     description?: string;
     show_title?: boolean;
+    canonical_url?: string;
   };
 };
 
@@ -13,28 +20,44 @@ type DirectProps = {
   title: string;
   description?: string;
   showTitle?: boolean;
+  /**
+   * Override canonical URL for cross-posted content.
+   * Defaults to current page URL.
+   */
+  canonicalUrl?: string;
+  /** Set for blog posts to emit article-specific OG meta tags. */
+  article?: Article;
 };
 
 type Props = MarkdownLayoutProps | DirectProps;
 
 // Markdown pages (about.md, uses.md, etc.) pass props wrapped in `frontmatter`.
 // Astro components (index.astro, [slug].astro, etc.) pass props directly.
-const { title, description, showTitle } =
+const { title, description, showTitle, canonicalUrl, article } =
   "frontmatter" in Astro.props
     ? {
         title: Astro.props.frontmatter.title,
         description: Astro.props.frontmatter.description,
         showTitle: Astro.props.frontmatter.show_title ?? true,
+        canonicalUrl: Astro.props.frontmatter.canonical_url,
+        article: undefined as Article | undefined,
       }
     : {
         title: Astro.props.title,
         description: Astro.props.description,
         showTitle: Astro.props.showTitle ?? false,
+        canonicalUrl: Astro.props.canonicalUrl,
+        article: Astro.props.article,
       };
 
-const FULL_NAME = "Yosua Ian Sebastian";
+if (!Astro.site) {
+  throw new Error("site must be set in astro.config.mjs");
+}
+const SITE_URL = Astro.site.origin;
 const isHome = Astro.url.pathname === "/";
 const pageTitle = isHome ? title : `${title} | ${FULL_NAME}`;
+const canonical = canonicalUrl ?? `${SITE_URL}${Astro.url.pathname}`;
+const ogType = article ? "article" : "website";
 
 const navLinks = [
   { name: "posts", url: "/" },
@@ -53,6 +76,27 @@ const navLinks = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     {description && <meta name="description" content={description} />}
+    <link rel="canonical" href={canonical} />
+
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content={ogType} />
+    {
+      article && (
+        <meta
+          property="article:published_time"
+          content={article.publishedTime}
+        />
+      )
+    }
+    {article?.tags?.map((tag) => <meta property="article:tag" content={tag} />)}
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    {description && <meta name="twitter:description" content={description} />}
 
     <link
       rel="apple-touch-icon"

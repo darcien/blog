@@ -1,6 +1,7 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
 import type { APIContext } from "astro";
+import { SITE_NAME, SITE_DESCRIPTION } from "../consts";
 
 export async function GET(context: APIContext) {
   const posts = (
@@ -10,8 +11,8 @@ export async function GET(context: APIContext) {
   ).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
   return rss({
-    title: "A blog by Yosua Ian Sebastian",
-    description: "Personal blog by Yosua Ian Sebastian.",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
     site: context.site!,
     items: posts.map((post) => ({
       title: post.data.title,
