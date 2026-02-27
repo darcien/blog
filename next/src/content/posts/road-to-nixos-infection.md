@@ -50,9 +50,9 @@ but I doubt it's worth to do on a throwaway VM.
 ## NixOS-Infect entered the room
 
 > ### What is this?
-> 
+>
 > A script to install NixOS on non-NixOS hosts.
-> 
+>
 > NixOS-Infect is so named because of the high likelihood of rendering a system inoperable. Use with extreme caution and preferably only on newly provisioned systems.
 >
 > https://github.com/elitak/nixos-infect
@@ -102,6 +102,9 @@ Post 17 of [#100DaysToOffload](https://100daystooffload.com/).
 ---
 
 [^indo-extra-holiday]: https://web.archive.org/web/20230703173600/https://en.tempo.co/read/1739780/govt-announces-2-eid-al-adha-joint-leave-days-jokowi-confirms
+
 [^wsl-nixos-docker-issue]: https://github.com/nix-community/NixOS-WSL/issues/235#issuecomment-1575977960
+
 [^nixos-manual-installation]: https://nixos.org/manual/nixos/stable/index.html#sec-installation-manual
+
 [^less-follow-tail]: https://unix.stackexchange.com/a/474

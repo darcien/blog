@@ -9,7 +9,6 @@ summary: "I should write more about the makings of my dumb side project before i
 > This is not a tutorial for whisper.cpp.
 > I am writing up my usage, and if I don't write it now, I'll never write about it.
 
-
 I want to analyze the words used in an internet radio series.
 It's for a [dumb side project][gkms].
 
@@ -44,7 +43,6 @@ Great.
 It's 2025 and Python ecosystem is still as messy as ever.
 I didn't miss it at all.
 
-
 ## Attempt 2 - MacWhisper
 
 I found MacWhisper in a [GH discussion][macwhisper].
@@ -63,7 +61,6 @@ Ok, time to try something else.
 Sorry, not a fan of that default behavior of wasting bandwidth and CPU before asking for money.
 I lost my interest even before retrying with "free" model.
 
-
 ## Attempt 3 - whisper.cpp
 
 I'm going to start with: no dependencies is awesome.
@@ -72,6 +69,7 @@ That's [whisper.cpp][].
 [whisper.cpp]: https://github.com/ggml-org/whisper.cpp
 
 I cheated a bit and installed via Homebrew though.
+
 ```shell
 brew install whisper-cpp
 ```
@@ -98,6 +96,7 @@ Next, preparing the audio input.
 ## Preparing the audio
 
 > Note that the whisper-cli example currently runs only with 16-bit WAV files, so make sure to convert your input before running the tool. For example, you can use ffmpeg like this:
+>
 > ```shell
 > ffmpeg -i input.mp3 -ar 16000 -ac 1 -c:a pcm_s16le output.wav
 > ```
@@ -132,6 +131,7 @@ ggml_metal_free: deallocating
 ```
 
 I'm using `--detect-language` just for sanity check, but it's looking great!
+
 ```shell
 -dl, --detect-language [false] exit after automatically detecting language
 ```
@@ -140,6 +140,7 @@ Onwards to the real test run!
 I tested with default parameters, and the live output looks great.
 
 Until I saw this:
+
 ```text
 [00:33:06.200 --> 00:33:08.520]  シン・スミカでラブ&ジョイ
 [00:33:08.920 --> 00:33:30.900]  さよならを告げた後悔
@@ -160,6 +161,7 @@ to "さよならを告げてください".
 Literally translated, it's "I said goodbye. Regret" changed to "Please say goodbye".
 
 So what I have now is:
+
 ```text
 Please say goodbye
 Please say goodbye
@@ -176,6 +178,7 @@ But I already listened to that episode.
 I know nobody is repeating that same sentence for 3 minutes straight.
 
 Actual lyrics are[^love-and-joy]:
+
 ```text
 さよならを告げた 後悔
 一歩ずつ前へ進んでも
@@ -223,6 +226,6 @@ the LLM slop I deal with on daily basis.
 
 Post 26 of [#100DaysToOffload](https://100daystooffload.com/).
 
-
-[^love-and-joy]: The song was ["Love & Joy" by 紫雲清夏 (CV. 湊 みや)](https://www.youtube.com/watch?v=YzBr_c61TsU).
-Honestly it's just so good that I don't enough vocabulary to describe it.
+[^love-and-joy]:
+    The song was ["Love & Joy" by 紫雲清夏 (CV. 湊 みや)](https://www.youtube.com/watch?v=YzBr_c61TsU).
+    Honestly it's just so good that I don't enough vocabulary to describe it.

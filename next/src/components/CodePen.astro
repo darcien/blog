@@ -1,22 +1,22 @@
 ---
 interface Props {
-	id: string;
-	height?: number;
-	tab?: string;
-	user?: string;
+  id: string;
+  height?: number;
+  tab?: string;
+  user?: string;
 }
 
-const { id, height = 640, tab = 'result', user = 'darcien' } = Astro.props;
+const { id, height = 640, tab = "result", user = "darcien" } = Astro.props;
 ---
+
 <div class="codepen-embed">
-	<script
-		is:inline
-		data-slug-hash={id}
-		data-user={user}
-		data-height={height}
-		data-default-tab={tab}
-		class="codepen"
-		async
-		src="//codepen.io/assets/embed/ei.js"
-	></script>
+  <script
+    is:inline
+    data-slug-hash={id}
+    data-user={user}
+    data-height={height}
+    data-default-tab={tab}
+    class="codepen"
+    async
+    src="//codepen.io/assets/embed/ei.js"></script>
 </div>

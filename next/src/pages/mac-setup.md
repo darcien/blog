@@ -70,6 +70,7 @@ For theming, use presets:
 ```bash
 bash -c "$(curl -sLo- https://git.io/vQgMr)"
 ```
+
 Catppuccin Mocha (number 97)
 
 https://github.com/Gogh-Co/Gogh

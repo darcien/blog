@@ -5,6 +5,7 @@ tags: ["homesetup", "100DaysToOffload"]
 summary: "My journey for better air quality."
 show_toc: true
 ---
+
 import Figure from "../../../components/Figure.astro";
 import airgradient_box_openImg from "./airgradient-box-open.jpg";
 import airgradient_back_sideImg from "./airgradient-back-side.jpg";
@@ -17,7 +18,6 @@ import airgradient_unassembledImg from "./airgradient-unassembled.jpg";
 import airgradient_boxesImg from "./airgradient-boxes.jpg";
 import power_supplyImg from "./power-supply.jpg";
 
-
 > 🔖 Assumed post audience: someone who wants to know what it takes to setup
 > self hosted air quality monitor.
 
@@ -25,6 +25,7 @@ Recently I pulled the trigger and bought air quality monitor from [AirGradient][
 Definitely not because my city has plummeted from bad to worst[^jakarta-polluted].
 
 [airgradient]: https://www.airgradient.com/
+
 [^jakarta-polluted]: https://edition.cnn.com/2023/08/16/asia/indonesia-pollution-jokowi-cough-intl-hnk/index.html
 
 This post will contain everything I did to set up AirGradient, all the way
@@ -56,7 +57,6 @@ to storing and viewing historical data locally.
 [sensirion-sgp41]: https://www.sensirion.com/products/catalog/SGP41/
 [sensirion-sht40]: https://sensirion.com/products/catalog/SHT40
 [oled-display]: https://www.smart-prototyping.com/1_3-inch-OLED-Display-SH1106-SPI-I2C-128-64
-
 [recommended-power]: https://web.archive.org/web/20230908145102/https://forum.airgradient.com/t/pro-kit-power-supply-requirements/374/3#:~:text=For%20the%20D1%20v4%20we%20recommend%205v%20and%20at%20least%202.4A.
 [3m-hooks]: https://www.3m.com/3M/en_US/p/c/home/storage-organization/clips-hooks-adhesive-strips/
 
@@ -68,6 +68,7 @@ AirGradient has their own home server to host the data sent from the sensor.
 I got free 2 year subscription for their server from buying their pro kit.
 
 That means:
+
 - I need 24/7 internet connection to send the data,
 - and sending all sensor data to uncontrolled server 🙁.
 
@@ -83,6 +84,7 @@ And reflash the AirGradient microcontroller to send the data to my server instea
 [search-3]: https://forum.airgradient.com/t/sharing-my-experiences/152
 
 My options for hosting HA are:
+
 1. reuse Raspberry Pi 2 model B that already runs [Pi-hole](../my-first-pi-hole.md),
 2. use old 15" MacBook from 2015,
 3. use cheapo 14" Lenovo laptop from 2015 (it runs Arch btw),
@@ -96,6 +98,7 @@ I went through the possible [HA installation methods][ha-install] to cross-check
 which host should I use for HA.
 
 Possible HA installation methods are:
+
 - Supervised: this requires strict dependencies setup and maintaining them, no go.
 - OS: this requires wiping the host OS or running VM inside the host, which requires non-trivial overhead for CPU consumption etc. Keen to avoid this.
 - Core: oh it's Python, sorry but I do not want to manage Python installation, no go.
@@ -110,6 +113,7 @@ But that is fine, I could live without the add-ons.)
 [esp-ha-add-ons]: https://esphome.io/guides/getting_started_hassio
 
 Going back to my hosting choices and by the process of elimination:
+
 - Raspberry Pi 2 probably won't be strong enough, HA recommends Pi 3 or 4. So, no go.
   (I saw [some people][ha-pi-2b] tried running HA on Pi 2B, it's kinda hit and miss.)
 - Cloud VM probably will work, but requires internet connection. Keeping this as last resort.
@@ -133,6 +137,7 @@ I have no idea how to do it though, reading ESPHome website feels overwhelming a
 After furiously reading the docs, FAQ, and a mug of coffee, I think I get it.
 
 With ESPHome, you:
+
 1. write declarative config (in YAML) for the micrcontroller firmware instead of writing the code directly.
 2. use [ESPHome CLI][esp-cli] to compile the YAML config into a runnable firmware and upload it to the microcontroller.
 
@@ -154,11 +159,15 @@ sticking sensor to the correct places.
 
 [airgradient-instructions]: https://www.airgradient.com/open-airgradient/instructions/
 
-<Figure src={airgradient_unassembledImg} caption="Pre-soldered AirGradient kit that comes with the display and PM sensor already attached." />
+<Figure
+  src={airgradient_unassembledImg}
+  caption="Pre-soldered AirGradient kit that comes with the display and PM sensor already attached."
+/>
 
-
-<Figure src={airgradient_assembledImg} caption="Fully assembled kit, with everything sticked in." />
-
+<Figure
+  src={airgradient_assembledImg}
+  caption="Fully assembled kit, with everything sticked in."
+/>
 
 ### Sanity checking the kit
 
@@ -196,6 +205,7 @@ Specifically [this file][config-file] that's intended for AirGradient Pro versio
 [config-file]: https://github.com/ajfriesen/ESPHome-AirGradient/blob/e21604d3455b6fc5429789a8046ff045d4c2a8f9/air-gradient-pro-diy.yaml
 
 Steps I did for compiling the firmware:
+
 1. Copy the AirGradient config YAML and `secrets.yaml`,
    save them in a new directory somewhere in the computer.
 2. Modify the config as needed, the instruction comments in there is pretty self explanatory.
@@ -213,6 +223,7 @@ Steps I did for compiling the firmware:
 
 In my case, the upload step failed because `esphome` unable to find my device.
 Error log:
+
 ```log
 ...
 Linking .pioenvs/airgradient-pro-0/firmware.elf
@@ -230,6 +241,7 @@ ERROR Error resolving IP address: Error resolving address with mDNS: Did not res
 
 So I had to [setup static IP][esp-static-ip] in the config
 and rerun the docker command.
+
 ```yaml
 wifi:
   ...
@@ -250,6 +262,7 @@ wifi:
 After rerunning the compile command and a successful uploads,
 the CLI will start streaming the logs from the device nonstop.
 Success logs:
+
 ```
 ...
 INFO Successfully compiled program.
@@ -266,6 +279,7 @@ INFO Successfully connected to 192.168.100.152
 [19:48:18][I][app:102]: ESPHome version 2023.8.2 compiled on Sep  8 2023, 19:46:22
 ...
 ```
+
 Can terminate the CLI safely after upload succeeds and it start streaming the logs.
 
 The display should also lit up and start showing the pages specified in the config YAML.
@@ -290,6 +304,7 @@ with the `lima` keyword accidentally matching on the [`colima`][colima] used in 
 [ha-macos-install]: https://www.home-assistant.io/installation/macos
 
 What I did to set up HA is exactly as described in Ixion's post, summarized as:
+
 > 1. Install Colima and Docker on macOS (using brew)
 > 2. Start Colima
 > 3. Configure Colima to use the host network
@@ -299,6 +314,7 @@ What I did to set up HA is exactly as described in Ixion's post, summarized as:
 > https://blog.illixion.com/2023/04/colima-home-assistant/
 
 With some exceptions:
+
 - When configuring Lima to use `socket_vmnet`, my path for `socket_vmnet` is different.
   I had to a bit of manual `cd` and `ls` ritual, and found mine on `/usr/local/opt/socket_vmnet/bin/socket_vmnet`
   instead of `/opt/homebrew/bin/socket_vmnet`.
@@ -322,6 +338,7 @@ to HA.
 [ha-esp-integration]: https://www.home-assistant.io/integrations/esphome/
 
 From the HA dashboard, do:
+
 1. Open "Settings > Devices & Services",
 2. In "Integrations" tab, press "ADD INTEGRATION" in bottom right,
 3. Search and click "ESPHome" integration,
@@ -332,8 +349,10 @@ From the HA dashboard, do:
 
 That's all! I can see my AirGradient sensors in HA dashboard.
 
-<Figure src={ha_dashboardImg} caption="My HA dashboard after connecting one AirGradient kit." />
-
+<Figure
+  src={ha_dashboardImg}
+  caption="My HA dashboard after connecting one AirGradient kit."
+/>
 
 ## Why I'm getting `Can't connect to ESP.` when connecting AirGradient to HA?
 
@@ -349,6 +368,7 @@ adding AirGradient worked!
 [tailscale-magic-dns]: https://tailscale.com/kb/1081/magicdns/
 
 The tunnel command looked something like this:
+
 ```bash
 ssh -L 8123:localhost:8123 -N -T darcien@unicorn
 ```
@@ -377,6 +397,7 @@ FATA[0003] error starting vm: error at 'starting': exit status 1
 ```
 
 It was a permission issue, and running the command specified in the hint fixed it.
+
 ```bash
 limactl sudoers >etc_sudoers.d_lima && sudo install -o root etc_sudoers.d_lima "/private/etc/sudoers.d/lima"
 ```
@@ -403,11 +424,16 @@ It is sold at 1.990.000 IDR and have 30 days pre-order[^airtest-price],
 now that's expensive for a single sensor with closed design.
 
 [aria-airtest]: https://aria.tech/airtest
+
 [^airtest-price]: https://web.archive.org/web/20230909181316/https://www.tokopedia.com/ariatechnologies/indoor-air-quality-pm2-5-monitor-aria-airtest
 
 ## How much electricity does this setup use?
 
-<Figure src={macbook_power_usageImg} caption="A power meter showing 0.945 KWh after 6 days 15 hours 10 minutes for the server (from empty battery)." resize="x640" />
+<Figure
+  src={macbook_power_usageImg}
+  caption="A power meter showing 0.945 KWh after 6 days 15 hours 10 minutes for the server (from empty battery)."
+  resize="x640"
+/>
 
 0.945 KWh = 6 days 15 hours 10 minutes
 
@@ -463,24 +489,44 @@ bedroom and livingroom!
 
 ### AirGradient packaging and boxes
 
-<Figure src={airgradient_packageImg} caption="AirGradient package that looks manually packaged by hand and sent from Thailand." resize="720x" />
+<Figure
+  src={airgradient_packageImg}
+  caption="AirGradient package that looks manually packaged by hand and sent from Thailand."
+  resize="720x"
+/>
 
-<Figure src={airgradient_boxesImg} caption="Two boxes of AirGradient Pro DIY kit." resize="720x" />
+<Figure
+  src={airgradient_boxesImg}
+  caption="Two boxes of AirGradient Pro DIY kit."
+  resize="720x"
+/>
 
-<Figure src={airgradient_box_openImg} caption="First look after opening the kit." resize="x1080" />
-
+<Figure
+  src={airgradient_box_openImg}
+  caption="First look after opening the kit."
+  resize="x1080"
+/>
 
 ### AirGradient
 
-<Figure src={airgradient_on_wallImg} caption="AirGradient in action. Yes, the CO2 is high, my room has bad air circulation. Yes, the electric socket below has slight openings and is hazardous, I need to fix it eventually." />
+<Figure
+  src={airgradient_on_wallImg}
+  caption="AirGradient in action. Yes, the CO2 is high, my room has bad air circulation. Yes, the electric socket below has slight openings and is hazardous, I need to fix it eventually."
+/>
 
-<Figure src={airgradient_back_sideImg} caption="Back side view of AirGradient. To avoid punching a hole in the wall, I'm using knitting thread to hang the unit." resize="x720" />
-
+<Figure
+  src={airgradient_back_sideImg}
+  caption="Back side view of AirGradient. To avoid punching a hole in the wall, I'm using knitting thread to hang the unit."
+  resize="x720"
+/>
 
 ### Others
 
-<Figure src={power_supplyImg} caption="The 5V 3A power supply I'm using for powering AirGradient." resize="1080x" />
-
+<Figure
+  src={power_supplyImg}
+  caption="The 5V 3A power supply I'm using for powering AirGradient."
+  resize="1080x"
+/>
 
 ## Changelog
 

@@ -5,11 +5,11 @@ tags: ["hugo", "shortcodes", "100DaysToOffload"]
 draft: false
 summary: "I finally added image zoom functionality here."
 ---
+
 import Figure from "../../../components/Figure.astro";
 import shiromedia_penguin_frontImg from "../../../assets/img/shiromedia-penguin-front.jpg";
 import bogorImg from "./bogor.jpg";
 import catImg from "./cat.jpg";
-
 
 ---
 
@@ -21,6 +21,7 @@ and can be resized at build time with `resize` parameter.
 ## Where is the code?
 
 Here, put it in `layouts/shortcodes/figure.html`.
+
 ```html
 {{- $src := .Get "src" -}}
 
@@ -41,7 +42,7 @@ Here, put it in `layouts/shortcodes/figure.html`.
       alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ $caption | markdownify | plainify }}{{ end }}"
       {{- end -}}
     >
-  
+
     {{- if $caption -}}
       <figcaption>
         {{/* The extra <p> is intentional. */}}
@@ -52,7 +53,7 @@ Here, put it in `layouts/shortcodes/figure.html`.
         </p>
       </figcaption>
     {{- end }}
-  
+
   </figure>
 
 {{- else -}}
@@ -79,11 +80,23 @@ Here, put it in `layouts/shortcodes/figure.html`.
 
 Sure, here are some cat photo I took and other random things.
 
-<Figure src={catImg} alt="Cute cat sitting on chair." caption="A cat I saw when I went to the company trip." />
+<Figure
+  src={catImg}
+  alt="Cute cat sitting on chair."
+  caption="A cat I saw when I went to the company trip."
+/>
 
-<Figure src={bogorImg} caption="One word, green. Behind the iron fence there is a river not visible in the photo. Also resized down to height=360px." resize="x360" />
+<Figure
+  src={bogorImg}
+  caption="One word, green. Behind the iron fence there is a river not visible in the photo. Also resized down to height=360px."
+  resize="x360"
+/>
 
-<Figure src={shiromedia_penguin_frontImg} caption="This figure use global resource. The shortcode can handle both page and global resource. I don't understand why Hugo don't have this out of the box." resize="x640" />
+<Figure
+  src={shiromedia_penguin_frontImg}
+  caption="This figure use global resource. The shortcode can handle both page and global resource. I don't understand why Hugo don't have this out of the box."
+  resize="x640"
+/>
 
 ## But why?
 
@@ -121,6 +134,7 @@ During the making, I spent more time trying to figure out how to do x with Hugo.
 It was painful.
 
 Now I know that in Hugo I can't:
+
 - set variable value from condionals to outside context
 - set variable value from condionals to outside context
 - set variable value from condionals to outside context
@@ -129,16 +143,17 @@ Now I know that in Hugo I can't:
 
 Yes I mentioned the same thing 3 times.
 It's painful enough that I can't do:
+
 ```js
 // This is JS syntax for example
-let foo
+let foo;
 if (x) {
   // This doesn't work in Hugo:
-  foo = doSomething(x)
+  foo = doSomething(x);
   // What Hugo does is more like this,
   // it creates a new variable in the current scope.
   // And the variable in the parent scope is untouched.
-  let foo = doSomething(x)
+  let foo = doSomething(x);
 }
 ```
 
@@ -146,12 +161,12 @@ And having no ternary here is like rubbing salt on the wounds.
 
 ```js
 // In JS I would write something like this
-img = resize ? img.resizeTo(resize) : img
+img = resize ? img.resizeTo(resize) : img;
 
 // But I had to write it like this
-let truthy = img.resizeTo(resize || '1x1')
-let falsy = img
-img = cond(isSet(params, "resize"), truthy, falsy) 
+let truthy = img.resizeTo(resize || "1x1");
+let falsy = img;
+img = cond(isSet(params, "resize"), truthy, falsy);
 
 // Actual Hugo template code:
 // {{ $img := cond (isset .Params "resize") ($img.Resize (.Get "resize" | default "1x1")) $img }}

@@ -50,6 +50,7 @@ where I don't have to worry about writing useless sentences.
 
 Water, water, and water. Plain water is good for you.
 When it's not water, I drink:
+
 - [a hot cup of coffee with milk][coffee] almost daily.
   Might be up to 3 cups on stressful days.
 - flavoured milk, like mochacinno or strawberry.
@@ -79,10 +80,10 @@ Oof, thats a hard question.
 For now, I just want to be in a state where being alive doesn't feel like
 living hell.
 To achieve that, my strategies are:
+
 - I need to accept what I have right now
 - I should not be sad for things I don't have
 - I should improve something day-by-day, whether it's living condition, knowledge, or fitness
-
 
 ## Music?
 
@@ -106,11 +107,12 @@ instruments produce a good melody.
 I think it's called [polyphony](https://en.wikipedia.org/wiki/Polyphony) but I'm not too sure.
 
 Some example songs are:
-  - "Abysal Zone" by Nornis
-  - "Ray of Hope" by Nornis
-  - "divergence -Yumemiru Futari-" by Meramipop & nayuta
-  - "刹那ティックコード" by ときのそら & AZKi
-  - "餞の鳥" by D/Zeal
+
+- "Abysal Zone" by Nornis
+- "Ray of Hope" by Nornis
+- "divergence -Yumemiru Futari-" by Meramipop & nayuta
+- "刹那ティックコード" by ときのそら & AZKi
+- "餞の鳥" by D/Zeal
 
 ## Games?
 
@@ -135,15 +137,12 @@ Some example songs are:
 [splatoon]: https://en.wikipedia.org/wiki/Splatoon
 [pokemon]: https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series)
 [ys]: https://en.wikipedia.org/wiki/Ys_(series)
-
 [ror]: https://en.wikipedia.org/wiki/Risk_of_Rain
 [ror2]: https://en.wikipedia.org/wiki/Risk_of_Rain_2
 [deadcells]: https://en.wikipedia.org/wiki/Dead_Cells
-
 [grandchase]: https://en.wikipedia.org/wiki/Grand_Chase
 [elsword]: https://en.wikipedia.org/wiki/Elsword
 [warframe]: https://en.wikipedia.org/wiki/Warframe
-
 [supermassive]: https://en.wikipedia.org/wiki/Supermassive_Games
 
 ## Random facts?

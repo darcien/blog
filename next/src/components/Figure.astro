@@ -3,10 +3,10 @@ import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 
 interface Props {
-    src: string | ImageMetadata;
-    alt?: string;
-    caption?: string;
-    resize?: string;
+  src: string | ImageMetadata;
+  alt?: string;
+  caption?: string;
+  resize?: string;
 }
 
 const { src, alt, caption } = Astro.props;
@@ -15,24 +15,24 @@ const isImported = typeof src !== "string";
 ---
 
 <figure>
-    {
-        isImported ? (
-            <Image src={src} alt={altText} loading="lazy" />
-        ) : (
-            <img loading="lazy" src={src} alt={altText} />
-        )
-    }
-    {
-        caption && (
-            <figcaption>
-                <p set:html={caption} />
-            </figcaption>
-        )
-    }
+  {
+    isImported ? (
+      <Image src={src} alt={altText} loading="lazy" />
+    ) : (
+      <img loading="lazy" src={src} alt={altText} />
+    )
+  }
+  {
+    caption && (
+      <figcaption>
+        <p set:html={caption} />
+      </figcaption>
+    )
+  }
 </figure>
 <script>
-    import mediumZoom from "medium-zoom";
-    mediumZoom("img:not(.site-logo)", {
-        background: "color-mix(in srgb, var(--bg) 90%, transparent)",
-    });
+  import mediumZoom from "medium-zoom";
+  mediumZoom("img:not(.site-logo)", {
+    background: "color-mix(in srgb, var(--bg) 90%, transparent)",
+  });
 </script>

@@ -5,7 +5,6 @@ tags: ["nixos", "linux", "100DaysToOffload"]
 summary: "Adding zsh, Home Manager, and VS Code Remote - SSH"
 ---
 
-
 Okay, at this point I know that in NixOS
 everything is configured via `/etc/nixos/configuration.nix`.
 But what do I need to write in the config?
@@ -47,7 +46,7 @@ Initially I ignored Home Manager since it has a bit scary warning:
 > Unfortunately, it is quite possible to get difficult to understand errors when working with Home Manager. You should therefore be comfortable using the Nix language and the various tools in the Nix ecosystem.
 >
 > If you are not very familiar with Nix but still want to use Home Manager then you are strongly encouraged to start with a small and very simple configuration and gradually make it more elaborate as you learn.
-> 
+>
 > ...
 
 Well, I'm new and not familiar with Nix,
@@ -65,13 +64,16 @@ it worked!
 
 It was the release channel.
 I didn't read the manual close enough and just run this:
+
 ```zsh
 sudo nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
 ```
+
 It doesn't work because it's the master branch release channel.
 While I'm at 22.11.
 So the weird error I'm seeing is from the release channel mismatch.
 Rebuild works after I added the correct release channel:
+
 ```zsh
 sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-22.11.tar.gz home-manager
 ```

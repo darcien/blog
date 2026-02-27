@@ -8,6 +8,7 @@ show_toc: true
 Setup for Debian VPS.
 
 Tested on:
+
 - Debian 13 on BinaryLane
 
 ## Invalid locale warning
@@ -39,6 +40,7 @@ _____________________________________________________________________
 ELI5: Your client is asking locale not installed in the debian.
 
 Install it as directed:
+
 ```bash
 sudo dpkg-reconfigure locales
 ```
@@ -57,6 +59,7 @@ visudo -f /etc/sudoers.d/darcien
 ```
 
 Put this in the file then save.
+
 ```
 darcien ALL=(ALL) NOPASSWD: ALL
 ```
@@ -72,6 +75,7 @@ chmod 600 /home/darcien/.ssh/authorized_keys
 ```
 
 Test the ssh as regular user
+
 ```bash
 ssh -v darcien@<server>
 ```
@@ -79,6 +83,7 @@ ssh -v darcien@<server>
 ## Hardening SSH
 
 Check ssh version in the server
+
 ```bash
 sshd -V
 # or ssh if no sshd from regular user
@@ -88,6 +93,7 @@ ssh -V
 Should be newer than 6.7, then we can apply [modern config](https://infosec.mozilla.org/guidelines/openssh.html).
 
 Modify the server ssh config as needed:
+
 ```bash
 nano /etc/ssh/sshd_config
 ```
@@ -126,6 +132,7 @@ PermitRootLogin No
 ```
 
 Any ssh config change:
+
 ```bash
 # Validate new config
 sshd -t
@@ -162,16 +169,19 @@ tailscale set --ssh
 ```
 
 Then test SSH from existing Tailscale device:
+
 ```bash
 ssh -v <device-name>
 ```
 
 Debug logs contain this:
+
 ```
 debug1: Remote protocol version 2.0, remote software version Tailscale
 ```
 
 And it should output:
+
 ```
 # Tailscale SSH requires an additional check.
 # To authenticate, visit: https://login.tailscale.com/a/<blah>
@@ -206,6 +216,7 @@ sudo apt-get install git jq rsync unzip zsh
 
 Change default shell to zsh (yes, needs sudo because chsh needs to authenticate
 the user, but the regular user is passwordless)
+
 ```bash
 sudo chsh -s $(which zsh) darcien
 ```
@@ -270,6 +281,7 @@ sudo dpkg-reconfigure unattended-upgrades
 ```
 
 Check next trigger time:
+
 ```bash
 sudo systemctl status apt-daily.timer
 ```

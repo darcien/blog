@@ -5,9 +5,9 @@ tags: ["til", "typscript", "100DaysToOffload"]
 draft: false
 summary: "First TIL of 2023"
 ---
+
 import Figure from "../../components/Figure.astro";
 import til_inlay_hintImg from "../../assets/img/til-inlay-hint.png";
-
 
 TIL inlay hints for TypeScript already exists on VSCode[^ts-inlay-hints].
 I thought it was a Deno only thing[^deno-inlay-hints].
@@ -24,8 +24,14 @@ But there are times where the function is coming from a 3rd party SDK or used in
 And it was really hard to read and understand all those pesky inline booleans.
 
 From today, those issues are no longer a thing!
-<Figure src={til_inlay_hintImg} alt="Comparison of TS inlay hints off vs on." caption="Comparison of TS inlay hints turned off vs on. Left is off; right is on." />
-These inlay hints settings are configured under `typescript.inlayHints.*` in the `settings.json`.
+
+<Figure
+  src={til_inlay_hintImg}
+  alt="Comparison of TS inlay hints off vs on."
+  caption="Comparison of TS inlay hints turned off vs on. Left is off; right is on."
+/>
+These inlay hints settings are configured under `typescript.inlayHints.*` in the
+`settings.json`.
 
 ---
 
@@ -34,8 +40,13 @@ Post 9 of [#100DaysToOffload](https://100daystooffload.com/).
 ---
 
 [^ts-inlay-hints]: https://code.visualstudio.com/docs/typescript/typescript-editing#_inlay-hints
+
 [^rust-inlay-hints]: https://rust-analyzer.github.io/manual.html#inlay-hints
+
 [^deno-inlay-hints]: https://deno.com/blog/v1.27#inlay-hints
+
 [^deno-inlay-hints-enabled-by-default]: https://deno.com/blog/v1.29#inlay-hints-are-enabled-by-default-in-vscode-extension
+
 [^ts-named-args]: https://github.com/microsoft/TypeScript/issues/467
+
 [^reasonml-named-args]: https://reasonml.github.io/docs/en/function#named-arguments

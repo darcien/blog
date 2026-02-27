@@ -10,12 +10,15 @@ TIL about `systemd-cgtop` from [here](https://superuser.com/questions/1060670/sy
 when trying to debug tailscaled high CPU usage.
 
 `systemd-cgtop` is interactive, but using:
+
 ```
 systemd-cgtop -c
 ```
+
 will sort the "control groups" by CPU usage.
 
 Example output:
+
 ```
 Control Group                                     Tasks   %CPU   Memory  Input/s Output/s
 user.slice                                           63    1.1   401.0M        -        -

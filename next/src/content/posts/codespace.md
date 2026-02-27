@@ -23,17 +23,16 @@ Seems like a WIP code?
 I'm pretty sure codespace is a per user thing.
 There's no built in feature to use other users codespace.
 
-
 Anyway, I asked in the big engineering group:
 
 > me: Did someone use my codespace during lunch?
-> 
+>
 > engineer 1: How did that happen!?
-> 
+>
 > engineer 2: Hey, that's my code!
-> 
+>
 > engineer 3: Ooh, somehow I got the same diff in mine.
-> 
+>
 > (Wait what? There are others?)
 
 No one has ideas on the cause.

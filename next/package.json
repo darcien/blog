@@ -6,7 +6,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "fmt": "prettier --write .",
+    "fmt:check": "prettier --check ."
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",
@@ -16,5 +18,9 @@
     "medium-zoom": "^1.1.0",
     "rehype-external-links": "^3.0.0",
     "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
