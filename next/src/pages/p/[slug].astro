@@ -22,7 +22,7 @@ const { Content } = await render(post);
 			{post.data.date.toISOString().slice(0, 10)}
 		</time>
 		{post.data.tags && (
-			<div>
+			<div class="post-tags">
 				{post.data.tags.map((tag) => (
 					<a href={`/tags/${tag}/`}>#{tag}</a>
 				))}
