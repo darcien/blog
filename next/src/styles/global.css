@@ -14,15 +14,16 @@
   --code-bg: #2a2a2a;
 
   --font-mono:
-    "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono",
-    "Courier New", monospace;
+    ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
 
   --content-width: 680px;
+  --section-gap: 2rem;
 }
 
 /* -- Base -- */
 html {
-  font-size: 16px;
+  font-size: clamp(16px, 1vw + 14px, 18px);
   color-scheme: dark;
 }
 
@@ -36,7 +37,7 @@ body {
   padding: 1.5rem 1rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: var(--section-gap);
   overflow: visible;
 }
 
@@ -83,16 +84,16 @@ h4 {
 }
 
 h1 {
-  font-size: 1.4rem;
+  font-size: 1.75rem;
 }
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 h4 {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 p {
@@ -112,9 +113,9 @@ a:hover {
 
 a[target="_blank"]::after {
   content: "↗";
-  font-size: 0.85em;
-  margin-inline-start: 0.1em;
-  vertical-align: super;
+  font-size: 0.8em;
+  vertical-align: 0.7em;
+  line-height: 0;
 }
 
 /* -- Lists -- */
@@ -224,15 +225,18 @@ figcaption p {
 .footnotes {
   font-size: 0.85em;
   color: var(--text-secondary);
-  margin-block-start: 2em;
+  margin-block-start: var(--section-gap);
   border-top: 1px solid var(--border);
-  padding-block-start: 1em;
+  padding-block-start: var(--section-gap);
 }
 
 /* -- Site header -- */
 .site-header {
-  padding-block-end: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   border-bottom: 1px solid var(--border);
+  padding-block-end: 0.5rem;
 }
 
 .site-title {
@@ -241,7 +245,8 @@ figcaption p {
   gap: 0.5em;
   color: var(--text);
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.75rem;
+  line-height: 1;
   text-decoration: none;
 }
 
@@ -252,10 +257,11 @@ figcaption p {
 
 .site-logo {
   display: inline-block;
+  width: 1.5cap;
+  height: 1.5cap;
 }
 
-nav {
-  margin-block-start: 0.5rem;
+.site-header nav {
   display: flex;
   flex-wrap: wrap;
   gap: 0.25em;
@@ -315,10 +321,9 @@ nav {
   list-style: none;
   padding-inline-start: 0;
   margin-block-start: 0.5em;
-}
-
-.toc li {
-  margin-block-start: 0.25em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
 }
 
 .toc-marker {
@@ -332,9 +337,17 @@ nav {
 /* -- Post navigation -- */
 .post-nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 1em;
-  margin-block: 2em;
+  gap: var(--section-gap);
+}
+
+.post-nav::before {
+  content: "* * *";
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: var(--text-secondary);
 }
 
 .post-nav-next {
@@ -349,8 +362,8 @@ time {
 
 /* -- Footer -- */
 .site-footer {
-  padding-block-start: 1rem;
   border-top: 1px solid var(--border);
+  padding-block-start: var(--section-gap);
   font-size: 0.85em;
   color: var(--text-secondary);
   text-align: center;

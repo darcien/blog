@@ -1,5 +1,55 @@
 # CSS Guide
 
+## Spacing: gap vs margin
+
+Use `gap` for component containers where children are controlled (nav, header, card layouts).
+Use `margin-block-start` for prose/flow content where different elements need different spacing.
+
+### When to use gap
+
+```css
+/* Component containers with uniform spacing */
+.site-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Lists with equal item spacing */
+.toc ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+```
+
+### When to keep margin
+
+```css
+/* Prose flow — different elements need different spacing */
+p { margin-block-start: 1em; }
+h2 { margin-block-start: 1.5em; }
+figure { margin-block-start: 1.5em; }
+```
+
+### Section separators
+
+Use a CSS variable for consistent spacing around separators (borders, `* * *`, `hr`):
+
+```css
+:root { --section-gap: 2rem; }
+
+/* body gap handles spacing between top-level sections */
+body { gap: var(--section-gap); }
+
+/* bordered sections use the same variable for padding around the border */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding-block-start: var(--section-gap);
+}
+```
+
+
 ## Nesting
 
 CSS nesting is parsed by the browser, not pre-compiled like Sass.
