@@ -27,9 +27,15 @@ Use `margin-block-start` for prose/flow content where different elements need di
 
 ```css
 /* Prose flow — different elements need different spacing */
-p { margin-block-start: 1em; }
-h2 { margin-block-start: 1.5em; }
-figure { margin-block-start: 1.5em; }
+p {
+  margin-block-start: 1em;
+}
+h2 {
+  margin-block-start: 1.5em;
+}
+figure {
+  margin-block-start: 1.5em;
+}
 ```
 
 ### Section separators
@@ -37,10 +43,14 @@ figure { margin-block-start: 1.5em; }
 Use a CSS variable for consistent spacing around separators (borders, `* * *`, `hr`):
 
 ```css
-:root { --section-gap: 2rem; }
+:root {
+  --section-gap: 2rem;
+}
 
 /* body gap handles spacing between top-level sections */
-body { gap: var(--section-gap); }
+body {
+  gap: var(--section-gap);
+}
 
 /* bordered sections use the same variable for padding around the border */
 .site-footer {
@@ -48,7 +58,6 @@ body { gap: var(--section-gap); }
   padding-block-start: var(--section-gap);
 }
 ```
-
 
 ## Nesting
 
