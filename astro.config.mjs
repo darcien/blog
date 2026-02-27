@@ -9,7 +9,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://darcien.dev/",
+  site: "https://darcien.me/",
   integrations: [mdx(), sitemap()],
   markdown: {
     rehypePlugins: [
