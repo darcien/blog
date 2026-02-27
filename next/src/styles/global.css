@@ -227,7 +227,15 @@ figcaption p {
   color: var(--text-secondary);
   margin-block-start: var(--section-gap);
   border-top: 1px solid var(--border);
-  padding-block-start: var(--section-gap);
+  padding-block-start: 1em;
+}
+
+.footnotes > hr {
+  display: none;
+}
+
+.footnotes > ol {
+  margin-block-end: 0;
 }
 
 /* -- Site header -- */
