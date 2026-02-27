@@ -1,48 +1,84 @@
 ---
-import '../styles/global.css';
+import "../styles/global.css";
 
-interface Props {
-	title: string;
-	description?: string;
-}
+type MarkdownLayoutProps = {
+    frontmatter: {
+        title: string;
+        description?: string;
+        show_title?: boolean;
+    };
+};
 
-const { title, description } = Astro.props;
+type DirectProps = {
+    title: string;
+    description?: string;
+    showTitle?: boolean;
+};
+
+type Props = MarkdownLayoutProps | DirectProps;
+
+// Markdown pages (about.md, uses.md, etc.) pass props wrapped in `frontmatter`.
+// Astro components (index.astro, [slug].astro, etc.) pass props directly.
+const { title, description, showTitle } =
+    "frontmatter" in Astro.props
+        ? {
+              title: Astro.props.frontmatter.title,
+              description: Astro.props.frontmatter.description,
+              showTitle: Astro.props.frontmatter.show_title ?? true,
+          }
+        : {
+              title: Astro.props.title,
+              description: Astro.props.description,
+              showTitle: Astro.props.showTitle ?? false,
+          };
 
 const navLinks = [
-	{ name: 'posts', url: '/' },
-	{ name: 'now', url: '/now' },
-	{ name: 'about', url: '/about' },
-	{ name: 'uses', url: '/uses' },
-	{ name: 'tags', url: '/tags' },
-	{ name: 'search', url: '/search' },
+    { name: "posts", url: "/" },
+    { name: "now", url: "/now" },
+    { name: "about", url: "/about" },
+    { name: "uses", url: "/uses" },
+    { name: "tags", url: "/tags" },
+    { name: "search", url: "/search" },
 ];
 ---
+
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>{title}</title>
-		{description && <meta name="description" content={description} />}
-	</head>
-	<body>
-		<header class="site-header">
-			<a href="/" class="site-title">
-				<img src="/whale_goth.svg" alt="" class="site-logo" width="28" height="28" />
-				Yosua Ian Sebastian
-			</a>
-			<nav>
-				{navLinks.map((link) => (
-					<a href={link.url} class="nav-link">[{link.name}]</a>
-				))}
-			</nav>
-		</header>
-		<main>
-			<slot />
-		</main>
-		<footer class="site-footer">
-			<span>&copy; {new Date().getFullYear()} Yosua Ian Sebastian</span>
-			<div class="footer-blank">This space intentionally left blank.</div>
-		</footer>
-	</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{title}</title>
+        {description && <meta name="description" content={description} />}
+    </head>
+    <body>
+        <header class="site-header">
+            <a href="/" class="site-title">
+                <img
+                    src="/whale_goth.svg"
+                    alt=""
+                    class="site-logo"
+                    width="28"
+                    height="28"
+                />
+                Yosua Ian Sebastian
+            </a>
+            <nav>
+                {
+                    navLinks.map((link) => (
+                        <a href={link.url} class="nav-link">
+                            [{link.name}]
+                        </a>
+                    ))
+                }
+            </nav>
+        </header>
+        <main>
+            {showTitle && <h1>{title}</h1>}
+            <slot />
+        </main>
+        <footer class="site-footer">
+            <span>&copy; {new Date().getFullYear()} Yosua Ian Sebastian</span>
+            <div class="footer-blank">This space intentionally left blank.</div>
+        </footer>
+    </body>
 </html>
