@@ -168,6 +168,11 @@ figcaption {
     text-align: center;
 }
 
+/* -- CodePen embed -- */
+.codepen-embed {
+    margin-block-start: 1em;
+}
+
 /* -- Footnotes -- */
 .footnotes {
     font-size: 0.85em;

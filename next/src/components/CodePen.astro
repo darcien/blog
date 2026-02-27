@@ -8,12 +8,15 @@ interface Props {
 
 const { id, height = 640, tab = 'result', user = 'darcien' } = Astro.props;
 ---
-<script
-	data-slug-hash={id}
-	data-user={user}
-	data-height={height}
-	data-default-tab={tab}
-	class="codepen"
-	async
-	src="//codepen.io/assets/embed/ei.js"
-></script>
+<div class="codepen-embed">
+	<script
+		is:inline
+		data-slug-hash={id}
+		data-user={user}
+		data-height={height}
+		data-default-tab={tab}
+		class="codepen"
+		async
+		src="//codepen.io/assets/embed/ei.js"
+	></script>
+</div>
