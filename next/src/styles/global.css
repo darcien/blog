@@ -200,7 +200,7 @@ figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
+  gap: 0.5em;
   margin-block-start: 1.5em;
   margin-inline: 0;
 }
@@ -209,6 +209,10 @@ figcaption {
   font-size: 0.85em;
   color: var(--text-secondary);
   text-align: center;
+}
+
+figcaption p {
+  margin-block-start: 0;
 }
 
 /* -- CodePen embed -- */
