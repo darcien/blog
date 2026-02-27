@@ -36,6 +36,7 @@ body {
   padding: 1.5rem 1rem;
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 
 main {
@@ -48,9 +49,13 @@ h2,
 h3,
 h4 {
   color: var(--text);
-  margin-block-start: 1.5em;
   font-weight: 700;
 }
+
+:is(h1, h2, h3, h4):not(:first-child) {
+  margin-block-start: 1.5em;
+}
+
 
 :is(h1, h2, h3, h4) a {
   color: inherit;
@@ -88,6 +93,13 @@ a {
 a:hover {
   color: var(--bg);
   background: var(--accent);
+}
+
+a[target="_blank"]::after {
+  content: "↗";
+  font-size: 0.85em;
+  margin-inline-start: 0.1em;
+  vertical-align: super;
 }
 
 /* -- Lists -- */
@@ -200,7 +212,6 @@ figcaption {
 
 /* -- Site header -- */
 .site-header {
-  margin-block-end: 2rem;
   padding-block-end: 1rem;
   border-bottom: 1px solid var(--border);
 }
@@ -250,10 +261,6 @@ nav {
   gap: 0.25em;
   margin-block-end: 2em;
   line-height: 1.1;
-}
-
-.post-header h1 {
-  margin-block-start: 0;
 }
 
 /* -- Post tags -- */
@@ -323,7 +330,6 @@ time {
 
 /* -- Footer -- */
 .site-footer {
-  margin-block-start: 2rem;
   padding-block-start: 1rem;
   border-top: 1px solid var(--border);
   font-size: 0.85em;
