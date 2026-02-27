@@ -20,7 +20,8 @@ export async function getStaticPaths() {
 }
 
 const { post, prev, next } = Astro.props;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+const showToc = post.data.show_toc && headings.length > 0;
 ---
 
 <Base
@@ -43,6 +44,31 @@ const { Content } = await render(post);
         )
       }
     </header>
+    {
+      showToc && (
+        <nav class="toc">
+          <details open>
+            <summary>Table of contents</summary>
+            <ul>
+              {headings
+                .filter((h) => h.depth <= 3)
+                .map((h) => (
+                  <li>
+                    <span
+                      class={
+                        h.depth === 2 ? "toc-marker" : "toc-marker toc-nested"
+                      }
+                    >
+                      {h.depth === 2 ? "»" : "›"}
+                    </span>
+                    <a href={`#${h.slug}`}>{h.text}</a>
+                  </li>
+                ))}
+            </ul>
+          </details>
+        </nav>
+      )
+    }
     <Content />
   </article>
   <nav class="post-nav" slot="after-main">

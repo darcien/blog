@@ -46,6 +46,16 @@ h4 {
   font-weight: 700;
 }
 
+:is(h1, h2, h3, h4) a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:is(h1, h2, h3, h4) a:hover {
+  color: var(--bg);
+  background: var(--accent);
+}
+
 h1 {
   font-size: 1.4rem;
 }
@@ -256,6 +266,35 @@ nav {
 .post-tags a:hover {
   color: var(--bg);
   background: var(--accent);
+}
+
+/* -- Table of contents -- */
+.toc {
+  font-size: 0.85em;
+  margin-block-end: 2em;
+}
+
+.toc summary {
+  cursor: pointer;
+  color: var(--text-secondary);
+}
+
+.toc ul {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-block-start: 0.5em;
+}
+
+.toc li {
+  margin-block-start: 0.25em;
+}
+
+.toc-marker {
+  color: var(--text-secondary);
+}
+
+.toc-nested {
+  margin-inline-start: 1.5em;
 }
 
 /* -- Post navigation -- */
