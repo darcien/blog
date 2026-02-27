@@ -17,7 +17,6 @@
 ## Next: Features
 
 - [ ] Search page (Fuse.js + JSON index)
-- [ ] Post navigation (prev/next links)
 - [ ] Table of contents for posts with `show_toc: true`
 
 ## Cleanup

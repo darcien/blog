@@ -3,16 +3,23 @@ import Base from "../../layouts/Base.astro";
 import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("posts", ({ data }) => {
-    return import.meta.env.PROD ? data.draft !== true : true;
-  });
-  return posts.map((post) => ({
+  const posts = (
+    await getCollection("posts", ({ data }) =>
+      import.meta.env.PROD ? data.draft !== true : true,
+    )
+  ).toSorted((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+  return posts.map((post, i) => ({
     params: { slug: post.id },
-    props: { post },
+    props: {
+      post,
+      prev: posts[i + 1],
+      next: posts[i - 1],
+    },
   }));
 }
 
-const { post } = Astro.props;
+const { post, prev, next } = Astro.props;
 const { Content } = await render(post);
 ---
 
@@ -21,19 +28,31 @@ const { Content } = await render(post);
   description={post.data.summary ?? post.data.description}
 >
   <article>
-    <h1>{post.data.title}</h1>
-    <time datetime={post.data.date.toISOString()}>
-      {post.data.date.toISOString().slice(0, 10)}
-    </time>
-    {
-      post.data.tags && (
-        <div class="post-tags">
-          {post.data.tags.map((tag) => (
-            <a href={`/tags/${tag}/`}>#{tag}</a>
-          ))}
-        </div>
-      )
-    }
+    <header class="post-header">
+      <h1>{post.data.title}</h1>
+      <time datetime={post.data.date.toISOString()}>
+        {post.data.date.toISOString().slice(0, 10)}
+      </time>
+      {
+        post.data.tags && (
+          <div class="post-tags">
+            {post.data.tags.map((tag) => (
+              <a href={`/tags/${tag}/`}>#{tag}</a>
+            ))}
+          </div>
+        )
+      }
+    </header>
     <Content />
   </article>
+  <nav class="post-nav" slot="after-main">
+    {prev && <a href={`/p/${prev.id}/`}>&larr; {prev.data.title}</a>}
+    {
+      next && (
+        <a class="post-nav-next" href={`/p/${next.id}/`}>
+          {next.data.title} &rarr;
+        </a>
+      )
+    }
+  </nav>
 </Base>

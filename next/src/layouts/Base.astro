@@ -98,6 +98,7 @@ const navLinks = [
       {showTitle && <h1>{title}</h1>}
       <slot />
     </main>
+    <slot name="after-main" />
     <footer class="site-footer">
       <span>&copy; {new Date().getFullYear()} Yosua Ian Sebastian</span>
       <div class="footer-blank">This space intentionally left blank.</div>

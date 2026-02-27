@@ -227,12 +227,47 @@ nav {
   text-decoration: none;
 }
 
+/* -- Post header -- */
+.post-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  margin-block-end: 2em;
+  line-height: 1.1;
+}
+
+.post-header h1 {
+  margin-block-start: 0;
+}
+
 /* -- Post tags -- */
 .post-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5em;
-  margin-block-start: 0.5em;
+  font-size: 0.85em;
+  color: var(--text-secondary);
+}
+
+.post-tags a {
+  color: color-mix(in srgb, var(--accent) 60%, var(--text-secondary));
+}
+
+.post-tags a:hover {
+  color: var(--bg);
+  background: var(--accent);
+}
+
+/* -- Post navigation -- */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  margin-block: 2em;
+}
+
+.post-nav-next {
+  margin-inline-start: auto;
 }
 
 /* -- Time / metadata -- */
@@ -243,7 +278,7 @@ time {
 
 /* -- Footer -- */
 .site-footer {
-  margin-block-start: 3rem;
+  margin-block-start: 2rem;
   padding-block-start: 1rem;
   border-top: 1px solid var(--border);
   font-size: 0.85em;
