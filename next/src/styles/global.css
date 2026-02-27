@@ -2,12 +2,14 @@
 
 /* -- Colors (dark first) -- */
 :root {
+    --hue: 18.22;
+    --chroma: 0.2;
+
     --bg: #1a1a1a;
     --bg-secondary: #242424;
     --text: #e0e0e0;
     --text-secondary: #999;
-    --accent: #8cb4ff;
-    --accent-hover: #b0cfff;
+    --accent: oklch(0.6787 var(--chroma) var(--hue));
     --border: #333;
     --code-bg: #2a2a2a;
 
@@ -64,12 +66,12 @@ p {
 /* -- Links -- */
 a {
     color: var(--accent);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: var(--accent-hover);
-    text-decoration: underline;
+    color: var(--bg);
+    background: var(--accent);
 }
 
 /* -- Lists -- */
@@ -144,6 +146,11 @@ th {
     font-weight: 700;
 }
 
+/* -- Images -- */
+img {
+    height: auto;
+}
+
 /* -- Figure -- */
 figure {
     display: flex;
@@ -182,12 +189,13 @@ figcaption {
     gap: 0.5em;
     color: var(--text);
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.4rem;
+    text-decoration: none;
 }
 
 .site-title:hover {
     color: var(--text);
-    text-decoration: none;
+    background: none;
 }
 
 .site-logo {
@@ -196,17 +204,20 @@ figcaption {
 
 nav {
     margin-block-start: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em;
 }
 
 .nav-link {
     color: var(--text-secondary);
-    font-size: 0.85em;
-    padding: 0.15em 0.1em;
+    font-size: 1rem;
+    text-decoration: none;
 }
 
 .nav-link:hover {
-    color: var(--text);
-    background: var(--bg-secondary);
+    color: var(--bg);
+    background: var(--accent);
     text-decoration: none;
 }
 

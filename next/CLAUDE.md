@@ -1,7 +1,11 @@
 # Blog (Astro)
 
+<important-instructions>
+- Never modify ./src/styles/reset.css. Override or extend it.
+- Read ./CSS_GUIDE.md before doing styling with CSS
+</important-instructions>
+
 ## Commands
-- `bun run dev` - dev server
 - `bun run build` - static build to `dist/`
 - `bun run preview` - preview built site
 
