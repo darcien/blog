@@ -5,19 +5,26 @@ import { getCollection } from 'astro:content';
 const posts = (await getCollection('posts', ({ data }) => {
 	return import.meta.env.PROD ? data.draft !== true : true;
 })).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const postsByYear = Object.entries(
+	Object.groupBy(posts, (post) => post.data.date.getFullYear())
+).map(([year, yearPosts]) => [Number(year), yearPosts ?? []] as const)
+.toReversed();
 ---
 <Base title="A blog by Yosua Ian Sebastian">
-	<h1>A blog by Yosua Ian Sebastian</h1>
-	<ul>
-		{posts.map((post) => (
-			<li>
-				<a href={`/p/${post.id}/`}>
-					{post.data.title}
-				</a>
-				<time datetime={post.data.date.toISOString()}>
-					{post.data.date.toISOString().slice(0, 10)}
-				</time>
-			</li>
-		))}
-	</ul>
+	{postsByYear.map(([year, yearPosts]) => (
+		<section>
+			<h2>{year}</h2>
+			<ul>
+				{yearPosts.map((post) => (
+					<li>
+						<a href={`/p/${post.id}/`}>{post.data.title}</a>
+						<time datetime={post.data.date.toISOString()}>
+							{post.data.date.toISOString().slice(0, 10)}
+						</time>
+					</li>
+				))}
+			</ul>
+		</section>
+	))}
 </Base>
