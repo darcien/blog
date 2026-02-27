@@ -15,9 +15,9 @@ const isImported = typeof src !== 'string';
 ---
 <figure>
 	{isImported ? (
-		<Image src={src} alt={altText} loading="lazy" />
+		<Image src={src} alt={altText} loading="lazy" style="max-width: 100%; height: auto;" />
 	) : (
-		<img loading="lazy" src={src} alt={altText} />
+		<img loading="lazy" src={src} alt={altText} style="max-width: 100%; height: auto;" />
 	)}
 	{caption && (
 		<figcaption>

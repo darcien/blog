@@ -6,6 +6,7 @@ draft: false
 summary: "First TIL of 2023"
 ---
 import Figure from "../../components/Figure.astro";
+import til_inlay_hintImg from "../../assets/img/til-inlay-hint.png";
 
 
 TIL inlay hints for TypeScript already exists on VSCode[^ts-inlay-hints].
@@ -23,7 +24,7 @@ But there are times where the function is coming from a 3rd party SDK or used in
 And it was really hard to read and understand all those pesky inline booleans.
 
 From today, those issues are no longer a thing!
-<Figure src="/img/til-inlay-hint.png" alt="Comparison of TS inlay hints off vs on." caption="Comparison of TS inlay hints turned off vs on. Left is off; right is on." />
+<Figure src={til_inlay_hintImg} alt="Comparison of TS inlay hints off vs on." caption="Comparison of TS inlay hints turned off vs on. Left is off; right is on." />
 These inlay hints settings are configured under `typescript.inlayHints.*` in the `settings.json`.
 
 ---

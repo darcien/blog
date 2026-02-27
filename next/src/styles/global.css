@@ -1,0 +1,171 @@
+@import "./reset.css";
+
+/* -- Colors (dark first) -- */
+:root {
+    --bg: #1a1a1a;
+    --bg-secondary: #242424;
+    --text: #e0e0e0;
+    --text-secondary: #999;
+    --accent: #8cb4ff;
+    --accent-hover: #b0cfff;
+    --border: #333;
+    --code-bg: #2a2a2a;
+
+    --font-mono: "SFMono-Regular", "Menlo", "Monaco", "Consolas",
+        "Liberation Mono", "Courier New", monospace;
+
+    --content-width: 680px;
+}
+
+/* -- Base -- */
+html {
+    font-size: 16px;
+    color-scheme: dark;
+}
+
+body {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    color: var(--text);
+    background: var(--bg);
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+
+/* -- Typography -- */
+h1,
+h2,
+h3,
+h4 {
+    color: var(--text);
+    margin-block-start: 1.5em;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+h2 {
+    font-size: 1.2rem;
+}
+h3 {
+    font-size: 1.1rem;
+}
+h4 {
+    font-size: 1rem;
+}
+
+p {
+    margin-block-start: 1em;
+}
+
+/* -- Links -- */
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
+/* -- Lists -- */
+ul,
+ol {
+    margin-block-start: 1em;
+    padding-inline-start: 1.5em;
+}
+
+li + li {
+    margin-block-start: 0.25em;
+}
+
+/* -- Code -- */
+code {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    background: var(--code-bg);
+    padding: 0.15em 0.3em;
+    border-radius: 3px;
+}
+
+pre {
+    background: var(--code-bg);
+    padding: 1em;
+    overflow-x: auto;
+    margin-block-start: 1em;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    font-size: 0.85em;
+}
+
+/* -- Blockquote -- */
+blockquote {
+    border-inline-start: 3px solid var(--border);
+    padding-inline-start: 1em;
+    color: var(--text-secondary);
+    margin-block-start: 1em;
+}
+
+/* -- Horizontal rule -- */
+hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin-block: 2em;
+}
+
+/* -- Table -- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block-start: 1em;
+    font-size: 0.85em;
+    overflow-x: auto;
+    display: block;
+}
+
+th,
+td {
+    padding: 0.4em 0.6em;
+    border: 1px solid var(--border);
+    text-align: left;
+}
+
+th {
+    background: var(--bg-secondary);
+    font-weight: 700;
+}
+
+/* -- Figure -- */
+figure {
+    margin-block-start: 1.5em;
+    margin-inline: 0;
+}
+
+figcaption {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    margin-block-start: 0.5em;
+}
+
+/* -- Footnotes -- */
+.footnotes {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    margin-block-start: 2em;
+    border-top: 1px solid var(--border);
+    padding-block-start: 1em;
+}
+
+/* -- Time / metadata -- */
+time {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+}

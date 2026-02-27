@@ -6,6 +6,7 @@ draft: false
 summary: "I finally added image zoom functionality here."
 ---
 import Figure from "../../../components/Figure.astro";
+import shiromedia_penguin_frontImg from "../../../assets/img/shiromedia-penguin-front.jpg";
 import bogorImg from "./bogor.jpg";
 import catImg from "./cat.jpg";
 
@@ -82,7 +83,7 @@ Sure, here are some cat photo I took and other random things.
 
 <Figure src={bogorImg} caption="One word, green. Behind the iron fence there is a river not visible in the photo. Also resized down to height=360px." resize="x360" />
 
-<Figure src="/img/shiromedia-penguin-front.jpg" caption="This figure use global resource. The shortcode can handle both page and global resource. I don't understand why Hugo don't have this out of the box." resize="x640" />
+<Figure src={shiromedia_penguin_frontImg} caption="This figure use global resource. The shortcode can handle both page and global resource. I don't understand why Hugo don't have this out of the box." resize="x640" />
 
 ## But why?
 

@@ -7,6 +7,9 @@ summary: "My personal experiences from buying VTuber goods through Buyee and Gee
 show_toc: true
 ---
 import Figure from "../../components/Figure.astro";
+import buyee_statusImg from "../../assets/img/buyee-status.png";
+import buyee_shipping_methodImg from "../../assets/img/buyee-shipping-method.png";
+import buyee_air_bagImg from "../../assets/img/buyee-air-bag.jpg";
 
 
 ## Intro
@@ -43,7 +46,7 @@ Both services provide the order status. Buyee displays the order status on the s
 Geek Jack only show something like "Order Status Succeeded" in the site. Everything else goes to the email.
 They'll sent something like "The benefits of [Goods Name] will arrive at our warehouse next week. We will start shipping as soon as possible."
 
-<Figure src="/img/buyee-status.png" alt="Buyee order status" caption="Here's how it looks on Buyee's site" />
+<Figure src={buyee_statusImg} alt="Buyee order status" caption="Here's how it looks on Buyee's site" />
 
 Overall, there's not much difference for the order status udaptes other than the misleading status in the Geek Jack site.
 
@@ -63,7 +66,7 @@ Both Buyee and Geek Jack doesn't work really well for limited quantity goods. I 
 Buyee support various delivery, but most of them have low upper limit for size or weight[^1].
 So most of the time, the only ones available are EMS(Japan Post International Courier), DHL, and Japan Post Seamail.
 
-<Figure src="/img/buyee-shipping-method.png" alt="Buyee shipping methods" caption="These are the available methods at Buyee on March 2021" />
+<Figure src={buyee_shipping_methodImg} alt="Buyee shipping methods" caption="These are the available methods at Buyee on March 2021" />
 
 Meanwhile, Geek Jack only ships with EMS, so there's no choice there[^2].
 
@@ -84,7 +87,7 @@ Package consolidation is just a service to consolidate multiple packages into a 
 They might still split it into multiple packages if it's too big though.
 And the protective packaging is another optional service which they add a bunch of air bags and other protective packaging to the goods[^4].
 
-<Figure src="/img/buyee-air-bag.jpg" alt="Air bag from buyee" caption="These are the air bags from Buyee" />
+<Figure src={buyee_air_bagImg} alt="Air bag from buyee" caption="These are the air bags from Buyee" />
 
 It costs 1500 JPY, which is pretty expensive in my opinion.
 But I don't want to take any risk when buying fragile goods like acrylic panel, so I opted in anyway.
