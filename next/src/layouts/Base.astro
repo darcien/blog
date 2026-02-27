@@ -32,6 +32,10 @@ const { title, description, showTitle } =
         showTitle: Astro.props.showTitle ?? false,
       };
 
+const FULL_NAME = "Yosua Ian Sebastian";
+const isHome = Astro.url.pathname === "/";
+const pageTitle = isHome ? title : `${title} | ${FULL_NAME}`;
+
 const navLinks = [
   { name: "posts", url: "/" },
   { name: "now", url: "/now" },
@@ -47,7 +51,7 @@ const navLinks = [
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title}</title>
+    <title>{pageTitle}</title>
     {description && <meta name="description" content={description} />}
 
     <link
@@ -82,7 +86,7 @@ const navLinks = [
           width="28"
           height="28"
         />
-        Yosua Ian Sebastian
+        {FULL_NAME}
       </a>
       <nav>
         {
@@ -100,7 +104,7 @@ const navLinks = [
     </main>
     <slot name="after-main" />
     <footer class="site-footer">
-      <span>&copy; {new Date().getFullYear()} Yosua Ian Sebastian</span>
+      <span>&copy; {new Date().getFullYear()} {FULL_NAME}</span>
       <div class="footer-blank">This space intentionally left blank.</div>
     </footer>
   </body>
