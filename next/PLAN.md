@@ -14,10 +14,6 @@
 
 - [ ] Dark/light theme toggle (defaultTheme: auto)
 
-## Next: Features
-
-- [ ] Search page (Fuse.js + JSON index)
-
 ## Cleanup
 
 - [ ] Remove Hugo source files once migration is confirmed

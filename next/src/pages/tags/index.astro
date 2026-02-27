@@ -16,16 +16,18 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
 ---
 
 <Base title="Tags">
-  <h1>Tags</h1>
-  <ul>
-    {
-      sortedTags.map(([tag, count]) => (
-        <li>
-          <a href={`/tags/${tag}/`}>
-            {tag} ({count})
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+  <div data-pagefind-ignore>
+    <h1>Tags</h1>
+    <ul>
+      {
+        sortedTags.map(([tag, count]) => (
+          <li>
+            <a href={`/tags/${tag}/`}>
+              {tag} ({count})
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
 </Base>

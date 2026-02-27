@@ -32,17 +32,19 @@ const { posts } = Astro.props;
 ---
 
 <Base title={`Tag: ${tag}`}>
-  <h1>Tag: {tag}</h1>
-  <ul>
-    {
-      posts.map((post) => (
-        <li>
-          <a href={`/p/${post.id}/`}>{post.data.title}</a>
-          <time datetime={post.data.date.toISOString()}>
-            {post.data.date.toISOString().slice(0, 10)}
-          </time>
-        </li>
-      ))
-    }
-  </ul>
+  <div data-pagefind-ignore>
+    <h1>Tag: {tag}</h1>
+    <ul>
+      {
+        posts.map((post) => (
+          <li>
+            <a href={`/p/${post.id}/`}>{post.data.title}</a>
+            <time datetime={post.data.date.toISOString()}>
+              {post.data.date.toISOString().slice(0, 10)}
+            </time>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
 </Base>

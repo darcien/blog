@@ -3,6 +3,44 @@ import Base from "../layouts/Base.astro";
 ---
 
 <Base title="Search">
-  <h1>Search</h1>
-  <p>Search functionality coming soon.</p>
+  <div id="search" class="search-container" data-pagefind-ignore></div>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <style is:inline>
+    :root {
+      --pagefind-ui-scale: 1;
+      --pagefind-ui-primary: var(--accent);
+      --pagefind-ui-text: var(--text);
+      --pagefind-ui-background: var(--bg);
+      --pagefind-ui-border: var(--border);
+      --pagefind-ui-tag: var(--bg-secondary);
+      --pagefind-ui-border-width: 1px;
+      --pagefind-ui-border-radius: 3px;
+      --pagefind-ui-font: var(--font-mono);
+    }
+  </style>
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    window.addEventListener("DOMContentLoaded", () => {
+      new PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        showImages: false,
+      });
+    });
+  </script>
 </Base>
+
+<style is:global>
+  .search-container {
+    margin-block-start: 1em;
+  }
+
+  .pagefind-ui__result:last-of-type {
+    border-bottom: none !important;
+  }
+
+  .pagefind-ui__result-nested .pagefind-ui__result-link::before {
+    font-size: 1.5em !important;
+    top: -0.4em !important;
+  }
+</style>

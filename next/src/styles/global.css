@@ -34,6 +34,12 @@ body {
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 /* -- Typography -- */
