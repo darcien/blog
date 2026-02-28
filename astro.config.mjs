@@ -10,6 +10,7 @@ import { defineConfig } from "astro/config";
 // https://astro.build/config
 export default defineConfig({
   site: "https://darcien.me/",
+  trailingSlash: "never",
   integrations: [mdx(), sitemap()],
   markdown: {
     rehypePlugins: [

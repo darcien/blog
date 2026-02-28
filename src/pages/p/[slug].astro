@@ -43,7 +43,7 @@ const showToc = post.data.show_toc && headings.length > 0;
         post.data.tags && (
           <div class="post-tags">
             {post.data.tags.map((tag) => (
-              <a href={`/tags/${tag.toLowerCase()}/`}>#{tag}</a>
+              <a href={`/tags/${tag.toLowerCase()}`}>#{tag}</a>
             ))}
           </div>
         )
@@ -77,10 +77,10 @@ const showToc = post.data.show_toc && headings.length > 0;
     <Content />
   </article>
   <nav class="post-nav" slot="after-main">
-    {prev && <a href={`/p/${prev.id}/`}>&larr; {prev.data.title}</a>}
+    {prev && <a href={`/p/${prev.id}`}>&larr; {prev.data.title}</a>}
     {
       next && (
-        <a class="post-nav-next" href={`/p/${next.id}/`}>
+        <a class="post-nav-next" href={`/p/${next.id}`}>
           {next.data.title} &rarr;
         </a>
       )

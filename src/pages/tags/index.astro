@@ -23,7 +23,7 @@ const sortedTags = Object.entries(
       {
         sortedTags.map(([tag, count]) => (
           <li>
-            <a href={`/tags/${tag.toLowerCase()}/`}>
+            <a href={`/tags/${tag.toLowerCase()}`}>
               {tag} ({count})
             </a>
           </li>
