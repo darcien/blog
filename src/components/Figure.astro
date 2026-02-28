@@ -30,14 +30,11 @@ const isImported = typeof src !== "string";
     )
   }
 </figure>
-<style is:global>
-  .medium-zoom-image--opened {
-    visibility: visible !important;
-  }
-</style>
 <script>
-  import mediumZoom from "medium-zoom";
-  mediumZoom("img:not(.site-logo)", {
+  // @ts-ignore
+  import Lightense from "lightense-images";
+  Lightense("img:not(.site-logo)", {
     background: "color-mix(in srgb, var(--bg) 90%, transparent)",
+    padding: 16,
   });
 </script>
