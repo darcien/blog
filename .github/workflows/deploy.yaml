@@ -1,0 +1,38 @@
+name: Deploy
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-slim
+    environment: prod
+    steps:
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+
+      - uses: oven-sh/setup-bun@3d267786b128fe76c2f16a390aa2448b815359f3 # v2.1.2
+
+      - run: bun install --frozen-lockfile
+
+      - run: bun run build
+
+      - name: Deploy to VPS
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          VPS_HOST_KEY: ${{ secrets.VPS_HOST_KEY }}
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$VPS_HOST_KEY" > ~/.ssh/known_hosts
+          eval "$(ssh-agent -s)"
+          echo "$SSH_PRIVATE_KEY" | ssh-add -
+          rsync -az --delete dist/ deploy-blog@"$VPS_HOST":/srv/blog/
