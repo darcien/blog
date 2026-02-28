@@ -23,7 +23,22 @@ jobs:
 
       - run: bun install --frozen-lockfile
 
+      - name: Restore Astro cache
+        id: astro-cache
+        uses: actions/cache/restore@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
+        with:
+          path: node_modules/.astro
+          key: astro-${{ runner.os }}-${{ github.sha }}
+          restore-keys: astro-${{ runner.os }}-
+
       - run: bun run build
+
+      - name: Save Astro cache
+        if: steps.astro-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
+        with:
+          path: node_modules/.astro
+          key: ${{ steps.astro-cache.outputs.cache-primary-key }}
 
       - name: Deploy to VPS
         env:
