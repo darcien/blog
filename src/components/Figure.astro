@@ -30,6 +30,11 @@ const isImported = typeof src !== "string";
     )
   }
 </figure>
+<style is:global>
+  .medium-zoom-image--opened {
+    visibility: visible !important;
+  }
+</style>
 <script>
   import mediumZoom from "medium-zoom";
   mediumZoom("img:not(.site-logo)", {
