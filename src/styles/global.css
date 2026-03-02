@@ -286,14 +286,6 @@ figcaption {
   flex-wrap: wrap;
   gap: 0.5em;
   font-size: 0.85em;
-  color: var(--text-secondary);
-  a {
-    color: color-mix(in srgb, var(--accent) 60%, var(--text-secondary));
-    &:hover {
-      color: var(--bg);
-      background: var(--accent);
-    }
-  }
 }
 
 /* -- Table of contents -- */
