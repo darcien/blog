@@ -22,13 +22,13 @@ const postsByYear = Object.entries(
       postsByYear.map(([year, yearPosts]) => (
         <section>
           <h2>{year}</h2>
-          <ul>
+          <ul class="post-list">
             {yearPosts.map((post) => (
               <li>
-                <a href={`/p/${post.id}`}>{post.data.title}</a>
                 <time datetime={post.data.date.toISOString()}>
                   {post.data.date.toISOString().slice(0, 10)}
                 </time>
+                <a href={`/p/${post.id}`}>{post.data.title}</a>
               </li>
             ))}
           </ul>
