@@ -59,26 +59,21 @@ h4 {
 :is(h1, h2, h3, h4) a {
   color: inherit;
   text-decoration: none;
-}
-
-:is(h1, h2, h3, h4) a:hover {
-  color: var(--bg);
-  background: var(--accent);
-}
-
-:is(h1, h2, h3, h4) a {
   position: relative;
-}
-
-:is(h1, h2, h3, h4) a:hover::before {
-  content: "#";
-  color: var(--bg);
-  background: var(--accent);
-  position: absolute;
-  right: 100%;
-  top: 0;
-  bottom: 0;
-  padding-inline-end: 0.25em;
+  &:hover {
+    color: var(--bg);
+    background: var(--accent);
+    &::before {
+      content: "#";
+      color: var(--bg);
+      background: var(--accent);
+      position: absolute;
+      right: 100%;
+      top: 0;
+      bottom: 0;
+      padding-inline-end: 0.25em;
+    }
+  }
 }
 
 h1 {
@@ -102,18 +97,16 @@ p {
 a {
   color: var(--accent);
   text-decoration: underline;
-}
-
-a:hover {
-  color: var(--bg);
-  background: var(--accent);
-}
-
-a[target="_blank"]::after {
-  content: "↗";
-  font-size: 0.8em;
-  vertical-align: 0.7em;
-  line-height: 0;
+  &:hover {
+    color: var(--bg);
+    background: var(--accent);
+  }
+  &[target="_blank"]::after {
+    content: "↗";
+    font-size: 0.8em;
+    vertical-align: 0.7em;
+    line-height: 0;
+  }
 }
 
 /* -- Lists -- */
@@ -143,12 +136,11 @@ pre {
   margin-block-start: 1em;
   border: 1px solid var(--border);
   border-radius: 3px;
-}
-
-pre code {
-  background: none;
-  padding: 0;
-  font-size: 0.85em;
+  code {
+    background: none;
+    padding: 0;
+    font-size: 0.85em;
+  }
 }
 
 /* -- Blockquote -- */
@@ -208,10 +200,9 @@ figcaption {
   font-size: 0.85em;
   color: var(--text-secondary);
   text-align: center;
-}
-
-figcaption p {
-  margin-block-start: 0;
+  p {
+    margin-block-start: 0;
+  }
 }
 
 /* -- CodePen embed -- */
@@ -226,14 +217,12 @@ figcaption p {
   margin-block-start: var(--section-gap);
   border-top: 1px solid var(--border);
   padding-block-start: 1em;
-}
-
-.footnotes > hr {
-  display: none;
-}
-
-.footnotes > ol {
-  margin-block-end: 0;
+  > hr {
+    display: none;
+  }
+  > ol {
+    margin-block-end: 0;
+  }
 }
 
 /* -- Site header -- */
@@ -243,6 +232,11 @@ figcaption p {
   gap: 0.5rem;
   border-bottom: 1px solid var(--border);
   padding-block-end: 0.5rem;
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em;
+  }
 }
 
 .site-title {
@@ -254,11 +248,10 @@ figcaption p {
   font-size: 1.75rem;
   line-height: 1;
   text-decoration: none;
-}
-
-.site-title:hover {
-  color: var(--text);
-  background: none;
+  &:hover {
+    color: var(--text);
+    background: none;
+  }
 }
 
 .site-logo {
@@ -267,22 +260,15 @@ figcaption p {
   height: 1.5cap;
 }
 
-.site-header nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25em;
-}
-
 .nav-link {
   color: var(--text-secondary);
   font-size: 1rem;
   text-decoration: none;
-}
-
-.nav-link:hover {
-  color: var(--bg);
-  background: var(--accent);
-  text-decoration: none;
+  &:hover {
+    color: var(--bg);
+    background: var(--accent);
+    text-decoration: none;
+  }
 }
 
 /* -- Post header -- */
@@ -301,35 +287,31 @@ figcaption p {
   gap: 0.5em;
   font-size: 0.85em;
   color: var(--text-secondary);
-}
-
-.post-tags a {
-  color: color-mix(in srgb, var(--accent) 60%, var(--text-secondary));
-}
-
-.post-tags a:hover {
-  color: var(--bg);
-  background: var(--accent);
+  a {
+    color: color-mix(in srgb, var(--accent) 60%, var(--text-secondary));
+    &:hover {
+      color: var(--bg);
+      background: var(--accent);
+    }
+  }
 }
 
 /* -- Table of contents -- */
 .toc {
   font-size: 0.85em;
   margin-block-end: 2em;
-}
-
-.toc summary {
-  cursor: pointer;
-  color: var(--text-secondary);
-}
-
-.toc ul {
-  list-style: none;
-  padding-inline-start: 0;
-  margin-block-start: 0.5em;
-  display: flex;
-  flex-direction: column;
-  gap: 0.25em;
+  summary {
+    cursor: pointer;
+    color: var(--text-secondary);
+  }
+  ul {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-block-start: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+  }
 }
 
 .toc-marker {
@@ -346,14 +328,13 @@ figcaption p {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: var(--section-gap);
-}
-
-.post-nav::before {
-  content: "* * *";
-  display: block;
-  width: 100%;
-  text-align: center;
-  color: var(--text-secondary);
+  &::before {
+    content: "* * *";
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: var(--text-secondary);
+  }
 }
 
 .post-nav-next {
