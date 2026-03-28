@@ -286,8 +286,29 @@ Check next trigger time:
 sudo systemctl status apt-daily.timer
 ```
 
+## terminfo
+
+When using cmux or other ghostty based terminal,
+some commands may not work over SSH/et
+because the server lacks the `xterm-ghostty` terminfo.
+
+e.g.:
+
+```shell
+❯ sudo journalctl -u findmu --since "1 hour ago"
+WARNING: terminal is not fully functional
+Press RETURN to continue
+```
+
+From the client, install the terminfo system-wide on the server:
+
+```bash
+infocmp -x xterm-ghostty | ssh darcien@<server> -- sudo tic -x -
+```
+
 ## Changelog
 
+- 2026-03-28: add terminfo
 - 2026-02-24: add unattended-upgrades
 - 2026-02-22: add et
 - 2026-02-16: initial version
