@@ -254,7 +254,7 @@ Follow the official setup above, then install:
 sudo apt-get install -y angie
 
 # Install extra modules
-sudo apt-get install -y angie-module-brotli angie-module-zstd
+sudo apt-get install -y angie-module-brotli angie-module-zstd angie-module-headers-more
 ```
 
 ## Swap
@@ -308,6 +308,7 @@ infocmp -x xterm-ghostty | ssh darcien@<server> -- sudo tic -x -
 
 ## Changelog
 
+- 2026-03-28: add more headers module for angie
 - 2026-03-28: add terminfo
 - 2026-02-24: add unattended-upgrades
 - 2026-02-22: add et
