@@ -106,7 +106,7 @@ Extracted 698 cookies from firefox
 [FixupM3u8] Fixing MPEG-TS in MP4 container of "index [index].mp4"
 ```
 
-In some cases it fails with HTTP 401.
+In some cases it fails with HTTP 401[^expiry].
 Even the stream viewing page also shows popup about unstable network and
 same 401 in the network inspector. Abort yt-dlp for now.
 
@@ -140,6 +140,8 @@ Find and copy URL to the same file so yt-dlp can resume the previous download
 instead of restarting.
 e.g. if using `index.m3u8` before, find URL, same suffix, different JWT.
 
+
+[^expiry]: The JWT expiry seems to be 2.5 hours. No idea why 401 happens before that.
 
 ## Changelog
 
