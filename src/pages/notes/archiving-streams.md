@@ -41,7 +41,7 @@ KeyError: 'jwt_token_url'
 ```
 
 For the extractor issue, there's an open PR, either build from the PR or
-extract the URL manually.
+extract the URL manually. I'm doing the manual way here.
 
 Open browser network inspector tool, and load the stream viewing page.
 
