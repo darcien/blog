@@ -280,6 +280,9 @@ figcaption {
     align-items: baseline;
     gap: 1em;
   }
+  time {
+    white-space: nowrap;
+  }
 }
 
 /* -- Post header -- */
