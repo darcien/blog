@@ -49,10 +49,10 @@ Find the requests that return the actual streaming,
 either the main index that list all the available bandwidth or a specific one.
 
 Usually it's:
+
 - cloudfront.net CDN,
 - file type `application/x-mpegURL` (.m3u8),
 - has JWT in the URL (eyJ...)
-
 
 The main index response probably look like this:
 
@@ -71,6 +71,7 @@ index_4.m3u8
 ```
 
 Example URL:
+
 ```
 https://d2y3mlel7uksux.cloudfront.net/8SCsPFERLvhK.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIwMjYwNDVfOTM2YTk5NzI3MzU3ODFkYmU0ZWYifQ.<redacted>/event_13f3ef50bc214d97dbdce2c6f240b35768f189c770186f4b470c32d4b2cb96af_b9603409fd62441ec5cbc4c62298b699bf5e54363876255b1c2ae380c5d230f4/index.m3u8
 ```
@@ -139,7 +140,6 @@ Go back to the stream viewer page, and reload the page so it generates new JWT.
 Find and copy URL to the same file so yt-dlp can resume the previous download
 instead of restarting.
 e.g. if using `index.m3u8` before, find URL, same suffix, different JWT.
-
 
 [^expiry]: The JWT expiry seems to be 2.5 hours. No idea why 401 happens before that.
 

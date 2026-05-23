@@ -12,10 +12,10 @@
     "fmt:check": "prettier --check ."
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.13",
-    "@astrojs/rss": "^4.0.15",
-    "@astrojs/sitemap": "^3.7.0",
-    "astro": "^5.17.1",
+    "@astrojs/mdx": "^5.0.6",
+    "@astrojs/rss": "^4.0.18",
+    "@astrojs/sitemap": "^3.7.2",
+    "astro": "^6.3.7",
     "lightense-images": "^1.0.17",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-external-links": "^3.0.0",
