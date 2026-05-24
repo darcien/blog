@@ -259,10 +259,10 @@ sudo apt-get install -y angie-module-brotli angie-module-zstd angie-module-heade
 
 ## Swap
 
-Create 1 GB swap file if machine has no swap by default
+Create 2 GB swap file if machine has no swap by default
 
 ```bash
-sudo fallocate -l 1G /swapfile
+sudo fallocate -l 2G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
@@ -308,6 +308,7 @@ infocmp -x xterm-ghostty | ssh darcien@<server> -- sudo tic -x -
 
 ## Changelog
 
+- 2026-05-24: increase swapfile 1 -> 2G
 - 2026-03-28: add more headers module for angie
 - 2026-03-28: add terminfo
 - 2026-02-24: add unattended-upgrades
