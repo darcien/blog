@@ -154,6 +154,7 @@ e.g. if using `index.m3u8` before, find URL, same suffix, different JWT.
 > — [PR #9978](https://github.com/yt-dlp/yt-dlp/pull/9978)
 
 Example Sheeta-based websites:
+
 - https://nicochannel.jp
 - https://qlover.jp
 
@@ -166,6 +167,7 @@ before the Sheeta extractor runs. A plugin cannot fix this, so a fork
 is needed.
 
 The fork contains:
+
 - the unmerged PR changes,
 - a [header fix](https://github.com/yt-dlp/yt-dlp/pull/9978#discussion_r2194387468) suggested in the PR,
 - merged with latest upstream.
@@ -182,7 +184,6 @@ uv run --extra default yt-dlp '<URL>'
 decryption. Without it, yt-dlp falls back to ffmpeg which fails[^sheeta-ffmpeg].
 
 [^sheeta-ffmpeg]: Sheeta's CDN (`hls-auth.cloud.stream.co.jp`) returns HTTP 404 when the request contains a `Range: bytes=0-` header, which ffmpeg sends by default on all HTTP requests.
-
 
 <details>
 <summary>Sheeta rant</summary>
@@ -206,7 +207,7 @@ But, somewhere in January 2026, it breaks on Firefox.
 
 > Oops!, something went wrong
 >
-> invalid_request: You may have pressed the back button, refreshed during login, opened too many login dialogs, or there is some issue with cookies, since we couldn't find your session. Try logging in again from the application and if the problem persists please contact the administrator. 
+> invalid_request: You may have pressed the back button, refreshed during login, opened too many login dialogs, or there is some issue with cookies, since we couldn't find your session. Try logging in again from the application and if the problem persists please contact the administrator.
 
 I hate the fact that I recognized the error page layout, it's the template from Auth0.
 
@@ -252,9 +253,10 @@ broken auth or shitty SPA.
 
 </details>
 
-[^not-using-email]: I regret not using email-password to login.
-Remember kids, don't log in with 3rd party unless you really really need something that only works via 3rd party login.
-You will eventually get screwed by that 3rd party and then lose your access for no good reason.
+[^not-using-email]:
+    I regret not using email-password to login.
+    Remember kids, don't log in with 3rd party unless you really really need something that only works via 3rd party login.
+    You will eventually get screwed by that 3rd party and then lose your access for no good reason.
 
 [^enable-pip]: I want PiP enough to the point I wrote [userscript](https://github.com/darcien/userscripts/tree/master/disable-disablepictureinpicture) to enable it.
 

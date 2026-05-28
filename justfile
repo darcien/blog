@@ -23,7 +23,7 @@ fmt:
     bun run fmt
 
 # Commit staged changes
-commit MESSAGE:
+commit MESSAGE: fmt
     git add --all
     git commit -m "{{ MESSAGE }}"
 
