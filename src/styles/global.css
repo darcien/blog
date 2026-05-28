@@ -95,6 +95,18 @@ p {
 
 article > details {
   margin-block-start: 1em;
+  & > summary {
+    cursor: pointer;
+    width: fit-content;
+    &:hover {
+      color: var(--bg);
+      background: var(--accent);
+    }
+  }
+  &::details-content {
+    border-inline-start: 3px solid var(--border);
+    padding-inline-start: 1em;
+  }
 }
 
 /* -- Links -- */
