@@ -93,6 +93,10 @@ p {
   margin-block-start: 1em;
 }
 
+article > details {
+  margin-block-start: 1em;
+}
+
 /* -- Links -- */
 a {
   color: var(--accent);

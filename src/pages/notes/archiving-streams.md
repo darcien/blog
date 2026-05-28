@@ -184,7 +184,7 @@ decryption. Without it, yt-dlp falls back to ffmpeg which fails[^sheeta-ffmpeg].
 [^sheeta-ffmpeg]: Sheeta's CDN (`hls-auth.cloud.stream.co.jp`) returns HTTP 404 when the request contains a `Range: bytes=0-` header, which ffmpeg sends by default on all HTTP requests.
 
 
-<details style="margin-block-start: 1em;">
+<details>
 <summary>Sheeta rant</summary>
 
 Initially, I hesitated on forking the PR to make it runnable.
