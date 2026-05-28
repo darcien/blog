@@ -144,10 +144,3 @@ Some example songs are:
 [elsword]: https://en.wikipedia.org/wiki/Elsword
 [warframe]: https://en.wikipedia.org/wiki/Warframe
 [supermassive]: https://en.wikipedia.org/wiki/Supermassive_Games
-
-## Random facts?
-
-- I am born in Jakarta, Indonesia in 1997 during the [financial crisis](https://en.wikipedia.org/wiki/1997_Asian_financial_crisis).
-- I have never met nor seen both of my grandfathers ever, even as a baby.
-- My first name, [Yosua](https://www.behindthename.com/name/yosua/submitted), is not given by my parents.
-- I hiked [Mt. Semeru (3676m)](https://en.wikipedia.org/wiki/Semeru) as my first mountain, reached the top and survived! (Thanks KF mountaineers)
