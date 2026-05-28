@@ -62,20 +62,6 @@ What the actual \*\*\*\*.
 Haha, I can only laugh.
 This timeline is a joke.
 
-For starters, I stood up [Anubis][][^why-anubis],
-but my personal vendetta against AI crawlers is a story for a different post.
-
-[Anubis]: https://anubis.techaro.lol
-
-[^why-anubis]:
-    Yes, it's the anime girl loading page.
-    Yes, it's the JS-based proof-of-work challenge.
-    No, I don't want to use Cloudflare.
-    Yes, I don't mind if some real human gets blocked.
-    The ship has sailed.
-    I just want to put something on my website without being DDoS-ed to death.
-    Making sure as many humans as possible can read it is not part of it.
-
 That was my peak point of sadness.
 I'm not angry.
 I'm just sad.
@@ -85,17 +71,30 @@ is kinda nice.
 Then it became a chore of keeping the tooling up to date[^was-hugo].
 Then what's the point of writing the commonly seen posts like migrating from x to y?
 From there, why would I want to write unique information if it will just end up
-being AI training data?
+being AI training data?[^anubis]
 
 [^was-hugo]:
     Was using hugo, which is not exactly known for its backward
     If it works for you, great. It's open source, you're free to build from source
     and keep running an old version. But it's not for me.
 
+[^anubis]:
+    For now, I stood up [Anubis][],
+    but my personal vendetta against AI crawlers is a story for a different post.
+    Yes, it's the anime girl loading page.
+    Yes, it's the JS-based proof-of-work challenge.
+    No, I don't want to use Cloudflare.
+    Yes, I don't mind if some real human gets blocked.
+    The ship has sailed.
+    I just want to put something on my website without being DDoS-ed to death.
+    Making sure as many humans as possible can read it is not part of it.
+
+[Anubis]: https://anubis.techaro.lol
+
 Now that I've written it down, it feels like I was walking towards nihilism.
 I don't like it.
 
-what if I just start writing again?
+What if I just start writing again?
 Write whatever, swallow my pride of keeping the writing good enough.
 Stop with the eternally unpublished drafts.
 
