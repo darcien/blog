@@ -108,7 +108,7 @@ I am still the [lucky ten thousand][] for that moment.
 
 Is there any point in writing down my own thoughts on the public internet?
 In this age of [dark forest][]?
-Maybe there is.
+Maybe there isn't.
 Maybe it doesn't matter, I am doing it anyway.
 This is my website.
 I can write whatever I want here.
