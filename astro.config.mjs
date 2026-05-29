@@ -1,5 +1,6 @@
 // @ts-check
 
+import { unified } from "@astrojs/markdown-remark";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
@@ -13,10 +14,12 @@ export default defineConfig({
   trailingSlash: "never",
   integrations: [mdx(), sitemap()],
   markdown: {
-    rehypePlugins: [
-      rehypeSlug,
-      [rehypeAutolinkHeadings, { behavior: "wrap" }],
-      [rehypeExternalLinks, { target: "_blank", rel: ["noreferrer"] }],
-    ],
+    processor: unified({
+      rehypePlugins: [
+        rehypeSlug,
+        [rehypeAutolinkHeadings, { behavior: "wrap" }],
+        [rehypeExternalLinks, { target: "_blank", rel: ["noreferrer"] }],
+      ],
+    }),
   },
 });
