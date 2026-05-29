@@ -18,6 +18,25 @@ build:
 preview: build
     bun run preview
 
+# Create a new post: just new my-post-slug
+new SLUG:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    file="src/content/posts/{{ SLUG }}.md"
+    if [ -e "$file" ]; then
+        echo "Error: $file already exists" >&2
+        exit 1
+    fi
+    cat > "$file" <<EOF
+    ---
+    title: ""
+    date: $(date -u +%Y-%m-%dT%H:%M:%SZ)
+    tags: ["100DaysToOffload"]
+    draft: true
+    ---
+    EOF
+    echo "Created $file"
+
 # Format code with Prettier
 fmt:
     bun run fmt
