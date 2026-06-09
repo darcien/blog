@@ -56,24 +56,33 @@ h4 {
   margin-block-start: 1.5em;
 }
 
+/* permalink anchor injected by rehype-autolink-headings */
 :is(h1, h2, h3, h4) a {
   color: inherit;
   text-decoration: none;
-  position: relative;
-  &:hover {
+  &::before {
+    /* "" alt stops screen readers announcing the "#"; the heading text already
+       names the link, and the level comes from the markup */
+    content: "# " / "";
+    color: var(--text-secondary);
+  }
+  &:hover,
+  &:focus-visible {
     color: var(--bg);
     background: var(--accent);
     &::before {
-      content: "#";
       color: var(--bg);
-      background: var(--accent);
-      position: absolute;
-      right: 100%;
-      top: 0;
-      bottom: 0;
-      padding-inline-end: 0.25em;
     }
   }
+}
+h2 a::before {
+  content: "## " / "";
+}
+h3 a::before {
+  content: "### " / "";
+}
+h4 a::before {
+  content: "#### " / "";
 }
 
 h1 {

@@ -49,7 +49,7 @@ but I doubt it's worth to do on a throwaway VM.
 
 ## NixOS-Infect entered the room
 
-> ### What is this?
+> **What is this?**
 >
 > A script to install NixOS on non-NixOS hosts.
 >

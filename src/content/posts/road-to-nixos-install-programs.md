@@ -39,9 +39,9 @@ Onwards! I found out the existance of Home Manager
 
 ## Unto the Home Manager
 
-Initially I ignored Home Manager since it has a bit scary warning:
+Initially I ignored Home Manager since it has a bit scary [warning](https://github.com/nix-community/home-manager#words-of-warning):
 
-> ### [Words of warning](https://github.com/nix-community/home-manager#words-of-warning)
+> **Words of warning**
 >
 > Unfortunately, it is quite possible to get difficult to understand errors when working with Home Manager. You should therefore be comfortable using the Nix language and the various tools in the Nix ecosystem.
 >
