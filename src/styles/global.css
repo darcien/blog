@@ -242,6 +242,8 @@ figcaption {
   margin-block-start: var(--section-gap);
   border-top: 1px solid var(--border);
   padding-block-start: 1em;
+  /* footnotes are often bare URLs with no spaces to break on */
+  overflow-wrap: break-word;
   > hr {
     display: none;
   }
