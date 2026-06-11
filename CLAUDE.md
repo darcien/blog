@@ -2,7 +2,7 @@
 
 <important-instructions>
 - Never modify ./src/styles/reset.css. Override or extend it.
-- Read ./CSS_GUIDE.md before doing styling with CSS
+- Read ./docs/CSS_GUIDE.md before doing styling with CSS
 </important-instructions>
 
 ## Commands
