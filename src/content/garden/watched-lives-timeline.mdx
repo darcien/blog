@@ -1,0 +1,11 @@
+---
+title: "Watched Lives: Timeline"
+created: 2026-06-12
+---
+
+import Timeline from "../../components/Timeline.astro";
+import { watchedLivesGroups } from "../../data/watched-lives";
+
+A Steam Replay-style timeline of lives I've watched online.
+
+<Timeline groups={watchedLivesGroups()} />

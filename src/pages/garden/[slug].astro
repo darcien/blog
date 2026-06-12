@@ -1,0 +1,81 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("garden");
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+const { title, description, created, updated } = entry.data;
+const showToc = entry.data.show_toc && headings.length > 0;
+---
+
+<Base
+  title={title}
+  description={description}
+  article={{ publishedTime: created.toISOString() }}
+>
+  <article>
+    <header class="post-header">
+      <h1>{title}</h1>
+      <div class="garden-dates">
+        planted <time datetime={created.toISOString()}>
+          {created.toISOString().slice(0, 10)}
+        </time>
+        {
+          updated && (
+            <Fragment>
+              {" · last tended "}
+              <time datetime={updated.toISOString()}>
+                {updated.toISOString().slice(0, 10)}
+              </time>
+            </Fragment>
+          )
+        }
+      </div>
+    </header>
+    {
+      showToc && (
+        <nav class="toc">
+          <details open>
+            <summary>Table of contents</summary>
+            <ul>
+              {headings
+                .filter((h) => h.depth <= 3)
+                .map((h) => (
+                  <li>
+                    <span
+                      class={
+                        h.depth === 2 ? "toc-marker" : "toc-marker toc-nested"
+                      }
+                    >
+                      {h.depth === 2 ? "»" : "›"}
+                    </span>
+                    <a href={`#${h.slug}`}>{h.text}</a>
+                  </li>
+                ))}
+            </ul>
+          </details>
+        </nav>
+      )
+    }
+    <Content />
+  </article>
+</Base>
+
+<style>
+  .garden-dates {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    /* time already inherits this color; reset size so it isn't compounded */
+    time {
+      font-size: inherit;
+    }
+  }
+</style>

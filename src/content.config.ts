@@ -24,4 +24,15 @@ const posts = defineCollection({
   }),
 });
 
-export const collections = { posts };
+const garden = defineCollection({
+  loader: glob({ base: "./src/content/garden", pattern: "**/*.{md,mdx}" }),
+  schema: z.object({
+    title: z.string(),
+    created: z.coerce.date(),
+    updated: z.coerce.date().optional(),
+    show_toc: z.boolean().optional(),
+    description: z.string().optional(),
+  }),
+});
+
+export const collections = { posts, garden };

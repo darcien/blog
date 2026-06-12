@@ -1,0 +1,48 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const entries = (await getCollection("garden")).toSorted((a, b) =>
+  a.data.title.localeCompare(b.data.title),
+);
+---
+
+<Base title="Garden" showTitle={true}>
+  <blockquote>
+    <p>
+      A digital garden is an approach to publishing personal knowledge on the
+      web. Different than a blog that contains polished articles in reverse
+      chronological order. Digital gardens are a collection of unrefined,
+      incomplete ideas that grow and evolve over time through constant tending
+      (editing, rewriting and revising).
+    </p>
+    <p>
+      - <a
+        href="https://garden.bradwoods.io/about"
+        target="_blank"
+        rel="noreferrer">garden.bradwoods.io</a
+      >
+    </p>
+  </blockquote>
+  <ul class="garden-list" data-pagefind-ignore>
+    {
+      entries.map((entry) => (
+        <li>
+          <a href={`/garden/${entry.id}`}>{entry.data.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>
+
+<style>
+  .garden-list {
+    list-style: none;
+    padding-inline-start: 0;
+    /* marker reuses the TOC convention: muted "»" before each entry */
+    li::before {
+      content: "» ";
+      color: var(--text-secondary);
+    }
+  }
+</style>

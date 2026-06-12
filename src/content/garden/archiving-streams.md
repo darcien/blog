@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/Note.astro
 title: "Archiving Streams"
 created: 2026-04-18
 show_toc: true

@@ -1,3 +1,5 @@
+import type { TimelineGroup } from "../components/Timeline.astro";
+
 export type Platform =
   | "ASOBI STAGE"
   | "eplus"
@@ -249,3 +251,32 @@ export const WATCHED_LIVES: WatchedLive[] = [
     platform: "Zaiko",
   },
 ];
+
+const monthName = (yearMonth: string) =>
+  new Date(`${yearMonth}-01T00:00:00Z`).toLocaleString("en", {
+    month: "long",
+    timeZone: "UTC",
+  });
+
+/** Group watched lives by month, newest first, for the Timeline component. */
+export function watchedLivesGroups(): TimelineGroup[] {
+  const byYearMonth = Map.groupBy(
+    WATCHED_LIVES.toSorted((a, b) => b.date.localeCompare(a.date)),
+    (live) => live.date.slice(0, 7),
+  );
+
+  // show each year once, on its newest month
+  return [...byYearMonth.entries()].map(([yearMonth, lives], i, entries) => {
+    const year = yearMonth.slice(0, 4);
+    const prevYear = entries[i - 1]?.[0].slice(0, 4);
+    return {
+      separatorLabel: year === prevYear ? undefined : year,
+      label: monthName(yearMonth),
+      items: lives.map((live) => ({
+        title: live.title,
+        date: live.date,
+        detail: live.platform,
+      })),
+    };
+  });
+}
