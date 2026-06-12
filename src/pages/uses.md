@@ -10,7 +10,7 @@ Keeping track of things I'm using daily.
 
 ### Machines
 
-- The cheapest Mac mini M4 you can buy but with 24 GB of RAM
+- Mac mini M4, 24 GB
 - Refurbished iPhone 15 Pro with replaced display, back gesture sometimes
   doesn't register
 - MacBook 15" from 2015 for home server (Home Assistant etc.)\*
@@ -35,10 +35,12 @@ Keeping track of things I'm using daily.
 - ViewSonic XG2431, 24", IPS, has horizontal banding all over the screen after 3 years of usage :(\*
 - Dell U2417H, 24", IPS\*
 - HP 527pu, 27", IPS
+- HP OMEN 27q, 27", IPS
 
 ### Audio
 
 - [Audio Technica ATH-M50x](https://www.audio-technica.com/en-eu/ath-m50x) from 2016\*
+- Audio Technica ATH-R70xa
 - AfterShokz Aeropex AS800 bone conducting headset from 2021
 - [Yamaha AG06](https://ca.yamaha.com/en/products/music_production/interfaces/ag_series/index.html):
   an overkill mixer to consolidate audio sources so I can hear them all at once\*
@@ -62,9 +64,8 @@ Keeping track of things I'm using daily.
 
 ### CLI programs
 
-For CLI, non exhaustive list are over [here](https://github.com/darcien/nixos-config/tree/master/nixos/apps)
-written in [Nix](https://nixos.org/manual/nix/stable/language/index.html)
-for my personal NixOS config.
+For CLI, the first thing I check and install is Homebrew,
+followed up by this [Brewfile](https://git.darcien.me/darcien/dotfiles/src/branch/master/Brewfile).
 
 ### Browser extensions
 
@@ -113,6 +114,7 @@ for my personal NixOS config.
 
 ## Changelog
 
+- 2026-06-12: remove old nix setup
 - 2025-05-30: 2025 updates, mark items as left behind
 - 2025-01-14: add Tanchjim IEM
 - 2024-05-05: add JOIN cycling training planner
