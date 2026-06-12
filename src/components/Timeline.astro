@@ -1,0 +1,200 @@
+---
+/**
+ * Generic alternating vertical timeline.
+ * Groups alternate left/right of a center dotted line,
+ * collapsing to a single left-lined column on narrow screens.
+ */
+export type TimelineItem = {
+  title: string;
+  /** ISO date (YYYY-MM-DD), shown when showDates is true. */
+  date?: string;
+  /** Muted secondary line, e.g. platform or location. */
+  detail?: string;
+};
+
+export type TimelineGroup = {
+  /** Optional label centered on the line before the group, e.g. a year. */
+  separatorLabel?: string;
+  /** Group label shown at the top of the group's side, e.g. "September". */
+  label: string;
+  items: TimelineItem[];
+};
+
+type Props = {
+  groups: TimelineGroup[];
+  showDates?: boolean;
+};
+
+const { groups, showDates = true } = Astro.props;
+---
+
+<ol class="timeline" role="list">
+  {
+    groups.map((group) => (
+      <li class="timeline-group">
+        {group.separatorLabel && (
+          <span class="timeline-separator">{group.separatorLabel}</span>
+        )}
+        <span class="timeline-label">{group.label}</span>
+        <ul class="timeline-items" role="list">
+          {group.items.map((item) => (
+            <li>
+              {showDates && item.date && (
+                <time datetime={item.date}>{item.date}</time>
+              )}
+              <span class="timeline-title">{item.title}</span>
+              {item.detail && <span class="timeline-meta">{item.detail}</span>}
+            </li>
+          ))}
+        </ul>
+      </li>
+    ))
+  }
+</ol>
+
+<style>
+  .timeline {
+    position: relative;
+    margin-block-start: 1em;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset-block: 0;
+      left: 50%;
+      border-inline-start: 2px dotted var(--border);
+    }
+  }
+
+  .timeline-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+  }
+
+  /* the flex gap on .timeline handles spacing, undo global li + li margin */
+  .timeline-group + .timeline-group {
+    margin-block-start: 0;
+  }
+
+  /* positioned so it paints above the absolutely positioned line */
+  .timeline-separator {
+    position: relative;
+    grid-column: 1 / -1;
+    justify-self: center;
+    padding-inline: 0.75em;
+    background: var(--bg);
+    color: var(--text-secondary);
+    font-size: 1.125em;
+  }
+
+  .timeline-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    color: var(--text-secondary);
+  }
+
+  /* dotted leader connecting the label to the central line */
+  .timeline-label::before,
+  .timeline-label::after {
+    border-block-start: 2px dotted var(--border);
+    flex: 1;
+  }
+
+  .timeline-group:nth-child(odd) .timeline-label {
+    grid-column: 1;
+  }
+
+  .timeline-group:nth-child(odd) .timeline-label::after {
+    content: "";
+  }
+
+  .timeline-group:nth-child(even) .timeline-label {
+    grid-column: 2;
+  }
+
+  .timeline-group:nth-child(even) .timeline-label::before {
+    content: "";
+    /* keep the stub clear of the 2px center line drawn just inside this column */
+    margin-inline-start: 2px;
+  }
+
+  .timeline-items {
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    li + li {
+      margin-block-start: 0;
+    }
+  }
+
+  .timeline-group:nth-child(odd) .timeline-items {
+    grid-column: 1;
+    padding-inline-end: 1.25em;
+    text-align: end;
+  }
+
+  .timeline-group:nth-child(even) .timeline-items {
+    grid-column: 2;
+    padding-inline-start: 1.25em;
+  }
+
+  time,
+  .timeline-title,
+  .timeline-meta {
+    display: block;
+  }
+
+  .timeline-meta {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+  }
+
+  @media (max-width: 540px) {
+    .timeline::before {
+      left: 0;
+    }
+
+    .timeline-group {
+      grid-template-columns: 1fr;
+    }
+
+    .timeline-separator {
+      justify-self: start;
+      /* line is at the left edge here, no need to pad past it */
+      padding-inline-start: 0;
+    }
+
+    .timeline-group:nth-child(odd) .timeline-label,
+    .timeline-group:nth-child(even) .timeline-label {
+      grid-column: 1;
+    }
+
+    .timeline-group:nth-child(odd) .timeline-label::after {
+      content: none;
+    }
+
+    /* same leader style as desktop: dots run from the line to the label
+       at the outer edge, so the label stands apart from the items */
+    .timeline-group:nth-child(odd) .timeline-label::before,
+    .timeline-group:nth-child(even) .timeline-label::before {
+      content: "";
+      margin-inline-start: 2px;
+    }
+
+    .timeline-group:nth-child(odd) .timeline-items,
+    .timeline-group:nth-child(even) .timeline-items {
+      grid-column: 1;
+      padding-inline: 1.25em 0;
+      text-align: start;
+    }
+  }
+</style>

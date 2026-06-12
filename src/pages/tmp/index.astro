@@ -1,0 +1,21 @@
+---
+import Base from "../../layouts/Base.astro";
+
+const pages = [{ title: "Watched Lives", url: "/tmp/watched-lives" }];
+---
+
+<Base title="Temporary" showTitle={true}>
+  <p>
+    Experiments and half-built ideas. Anything here may change or disappear
+    without notice.
+  </p>
+  <ul data-pagefind-ignore>
+    {
+      pages.map((page) => (
+        <li>
+          <a href={page.url}>{page.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>
