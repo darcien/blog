@@ -211,6 +211,13 @@ img {
   height: auto;
 }
 
+/* Figure images get role="button" + tabindex from Figure.astro's lightense
+   enhancement; show a focus ring for keyboard users (WCAG 2.4.7). */
+img[role="button"]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 0;
+}
+
 /* -- Figure -- */
 figure {
   display: flex;

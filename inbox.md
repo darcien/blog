@@ -26,3 +26,7 @@
 
 - include the ffmpeg range header, maybe debug or find a fix
 - add asobichannel archive notes
+
+## a11y
+
+- not sure why code block is focusable, horizontal scroll?

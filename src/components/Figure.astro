@@ -33,8 +33,28 @@ const isImported = typeof src !== "string";
 <script>
   // @ts-ignore
   import Lightense from "lightense-images";
-  Lightense("img:not(.site-logo)", {
+
+  const selector = "img:not(.site-logo)";
+  Lightense(selector, {
     background: "color-mix(in srgb, var(--bg) 90%, transparent)",
     padding: 16,
   });
+
+  // Lightense binds mouse-click only (fails WCAG 2.1.1 Keyboard). Make each image
+  // a focusable button opened via Enter/Space through lightense's click handler
+  // (Escape-close already works). Done in JS so it stays a plain image without JS.
+  for (const img of document.querySelectorAll<HTMLImageElement>(selector)) {
+    img.setAttribute("role", "button");
+    img.tabIndex = 0;
+    // a button needs an accessible name; fall back when the image has no alt
+    if (!img.alt && !img.getAttribute("aria-label")) {
+      img.setAttribute("aria-label", "View image larger");
+    }
+    img.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        img.click();
+      }
+    });
+  }
 </script>

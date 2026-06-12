@@ -39,9 +39,10 @@ const entries = (await getCollection("garden")).toSorted((a, b) =>
   .garden-list {
     list-style: none;
     padding-inline-start: 0;
-    /* marker reuses the TOC convention: muted "»" before each entry */
+    /* marker reuses the TOC convention: muted "»" before each entry.
+       "" alt keeps screen readers from announcing the glyph. */
     li::before {
-      content: "» ";
+      content: "» " / "";
       color: var(--text-secondary);
     }
   }
