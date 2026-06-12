@@ -4,7 +4,9 @@ created: 2026-04-18
 show_toc: true
 ---
 
-Notes around how to archive live streams.
+These are notes on how I _might_ archive some streams to appreciate later.
+Just in theory, of course.
+Even if I accidentally did it, it would be for personal fair use only.
 
 ## Zaiko
 
