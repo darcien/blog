@@ -124,6 +124,46 @@ export const WATCHED_LIVES: WatchedLive[] = [
     title: "学園アイドルマスター クラス対抗初星大運動会 DAY2",
     platform: "ASOBI STAGE",
   },
+  {
+    date: "2025-12-13",
+    title: "THE IDOLM@STER M@STERS OF IDOL WORLD 2025 DAY1",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2025-12-14",
+    title: "THE IDOLM@STER M@STERS OF IDOL WORLD 2025 DAY2",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-02-28",
+    title: "学園アイドルマスター 初星音楽祭 DAY1",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-03-01",
+    title: "学園アイドルマスター 初星音楽祭 DAY2",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-05-16",
+    title: "学園アイドルマスター H.I.F選抜試験",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-05-17",
+    title: "学園アイドルマスター H.I.F選抜試験",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-06-06",
+    title: "学園アイドルマスター The 2nd Period Hatsuboshi IDOL FESTIVAL DAY1",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-06-07",
+    title: "学園アイドルマスター The 2nd Period Hatsuboshi IDOL FESTIVAL DAY2",
+    platform: "ASOBI STAGE",
+  },
   // eplus
   { date: "2023-03-18", title: "hololive 4th fes.", platform: "eplus" },
   // Niconico
@@ -248,6 +288,18 @@ export const WATCHED_LIVES: WatchedLive[] = [
     date: "2025-09-06",
     title:
       "薄井友里・川村玲奈のすーぱーかわちぃ☆ゆりれいしょん レク1〜なちゅまちゅり〜",
+    platform: "Zaiko",
+  },
+  {
+    date: "2025-12-25",
+    title:
+      "薄井友里・川村玲奈のすーぱーかわちぃ☆ゆりれいしょん レク2〜くりちゅまちゅ〜",
+    platform: "Zaiko",
+  },
+  {
+    date: "2026-04-18",
+    title:
+      "薄井友里・川村玲奈のすーぱーかわちぃ☆ゆりれいしょん レク3〜おはにゃみ〜!",
     platform: "Zaiko",
   },
 ];
