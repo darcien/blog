@@ -1,8 +1,11 @@
 ---
 title: "Mac Setup"
 created: 2025-05-23T23:40:07+10:00
+updated: 2026-06-13T09:03:06Z
 show_toc: true
 ---
+
+Personal setup for macOS, staying on Sequoia (v15) until Apple realize that liquid glass is stupid.
 
 ## No mouse and keyboard tab can't focus?
 
@@ -54,6 +57,7 @@ Otherwise, import bookmarks and install these add-ons manually:
 - uBlock Origin
   - [Hide YouTube Shorts List](https://github.com/gijsdev/ublock-hide-yt-shorts)
 - Violentmonkey
+  - Install personal userscripts as needed - https://github.com/darcien/userscripts/
 - YouTube Music Volume Fixer
 
 ### Paste
@@ -95,39 +99,18 @@ https://github.com/Gogh-Co/Gogh
 
 ## Software (CLI)
 
-### Homebrew
+Setup Homebrow, follow official docs https://brew.sh/
 
-https://brew.sh/
+Then follow the readme in the dotfiles https://git.darcien.me/darcien/dotfiles
 
-```bash
-brew install \
-bat \
-btop \
-doggo \
-fnm \
-gh \
-git \
-jesseduffield/lazydocker/lazydocker \
-jesseduffield/lazygit/lazygit \
-just \
-lsd \
-mcfly \
-micro \
-starship \
-tlrc
-```
+For personal use, might want to install these additional casks:
 
 ```bash
 brew install --cask \
-font-fantasque-sans-mono-nerd-font \
 iina \
 raycast \
 zed
 ```
-
-### zsh
-
-https://github.com/darcien/dotfiles/blob/master/.zshrc
 
 ### Network Troubleshooting
 
@@ -139,6 +122,7 @@ brew install iperf iperf3 nuttcp owamp
 
 ## Changelog
 
+- 2026-06-13: point CLI to dotfiles setup
 - 2025-07-15: iTerm2 in finder and disable conflicting shortcuts
 - 2025-05-30: add Firefox add-ons
 - 2025-05-24: initial version
