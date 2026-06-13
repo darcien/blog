@@ -12,6 +12,7 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   site: "https://darcien.me/",
   trailingSlash: "never",
+  redirects: { "/coffee": "/garden/coffee" },
   integrations: [mdx(), sitemap()],
   markdown: {
     processor: unified({

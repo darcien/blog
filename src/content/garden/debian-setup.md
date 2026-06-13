@@ -1,7 +1,6 @@
 ---
-layout: ../layouts/Base.astro
 title: "Debian Setup"
-date: 2026-02-16T20:54:00+10:00
+created: 2026-02-16T20:54:00+10:00
 show_toc: true
 ---
 

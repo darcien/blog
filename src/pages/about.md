@@ -58,7 +58,7 @@ When it's not water, I drink:
 - cola, when I need that extra oomph in a day.
   Oooh all the sugars and soda rushing in 🫨
 
-[coffee]: ../coffee
+[coffee]: /garden/coffee
 
 ## Life philosophy?
 

@@ -1,7 +1,6 @@
 ---
-layout: ../layouts/Base.astro
 title: "Mac Setup"
-date: 2025-05-23T23:40:07+10:00
+created: 2025-05-23T23:40:07+10:00
 show_toc: true
 ---
 
