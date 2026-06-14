@@ -1,7 +1,7 @@
 ---
 title: "Road to NixOS: How do I install programs?"
 date: 2023-07-08T02:14:14+07:00
-tags: ["nixos", "linux", "100DaysToOffload"]
+tags: ["nixos", "linux"]
 summary: "Adding zsh, Home Manager, and VS Code Remote - SSH"
 ---
 
@@ -146,7 +146,3 @@ Some time this is fun, but doing this after working hour is a bit tiring.
 I need to find a good balance between this and other more relaxing hobbies.
 
 Next will be making Tailscale working!
-
----
-
-Post 18 of [#100DaysToOffload](https://100daystooffload.com/).

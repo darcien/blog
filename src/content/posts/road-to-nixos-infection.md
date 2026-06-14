@@ -1,7 +1,7 @@
 ---
 title: "Road to NixOS: The Infection"
 date: 2023-07-03T15:46:46Z
-tags: ["nixos", "linux", "100DaysToOffload"]
+tags: ["nixos", "linux"]
 summary: "The start of a journey; migrating a hobby server to NixOS."
 ---
 
@@ -94,12 +94,6 @@ write anything after it.
 This time I'm determined to leave some notes on the new journey.
 
 Next post is about making the NixOS more sane as dev environment!
-
----
-
-Post 17 of [#100DaysToOffload](https://100daystooffload.com/).
-
----
 
 [^indo-extra-holiday]: https://web.archive.org/web/20230703173600/https://en.tempo.co/read/1739780/govt-announces-2-eid-al-adha-joint-leave-days-jokowi-confirms
 

@@ -1,7 +1,7 @@
 ---
 title: "My 2022 Without Context"
 date: 2022-12-01T19:52:09+07:00
-tags: ["writingexperiment", "100DaysToOffload"]
+tags: ["writingexperiment"]
 draft: false
 summary: "Would writing out past events with less context help me see it more objectively? A writing experiment!"
 ---
@@ -28,7 +28,3 @@ In 2022:
 Yeah, some of these sounds pretty crazy if you're missing the context.
 This might be a good way to start a conversation.
 I need to try this on someone from the office tomorrow.
-
----
-
-Post 3 of [#100DaysToOffload](https://100daystooffload.com/).

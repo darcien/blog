@@ -1,7 +1,7 @@
 ---
 title: "Who used my codespace?"
 date: 2024-03-24T19:04:24+07:00
-tags: ["codespace", "github", "100DaysToOffload"]
+tags: ["codespace", "github"]
 summary: "A wild diff appeared!"
 ---
 
@@ -44,7 +44,3 @@ So this mystery will stay unsolved for a while.
 I couldn't find similar issue being reported in the internet.
 Maybe this is just a rare happening when different codespaces
 mistakenly got allocated the same working directory? 🤔
-
----
-
-Post 23 of [#100DaysToOffload](https://100daystooffload.com/).

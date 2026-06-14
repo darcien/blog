@@ -1,7 +1,7 @@
 ---
 title: "SQLFluff Is a Thing"
 date: 2022-12-08T22:09:26+07:00
-tags: ["til", "100DaysToOffload"]
+tags: ["til"]
 summary: "A fluff that I wish I had known earlier."
 ---
 
@@ -54,7 +54,3 @@ So, I am today years old when I learned:
 - [SQLFluff](https://www.sqlfluff.com/) is a thing.
 
 [^pgql]: https://www.postgresql.org/docs/current/sql-syntax-lexical.html
-
----
-
-Post 4 of [#100DaysToOffload](https://100daystooffload.com/).

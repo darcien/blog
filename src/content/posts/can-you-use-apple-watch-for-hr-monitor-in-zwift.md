@@ -2,7 +2,7 @@
 title: "Can you use Apple Watch for HR monitor in Zwift?"
 summary: "Spoiler: no 😔"
 date: 2022-12-08T23:27:06+07:00
-tags: ["musing", "cycling", "100DaysToOffload"]
+tags: ["musing", "cycling"]
 ---
 
 I've been using [Zwift](https://www.zwift.com/) for a month or two.
@@ -48,7 +48,3 @@ Now I'm feeling conflicted, I'm happy that I got my answers.
 At the same time, I feel sad that I can't use what I already own and need to spent more money on dedicated device.
 
 I guess I'll just browse for cheap and good HR monitor, and feel excited about my upcoming device instead.
-
----
-
-Post 5 of [#100DaysToOffload](https://100daystooffload.com/).

@@ -1,7 +1,7 @@
 ---
 title: "Rationalizing Irrationality"
 date: 2026-05-28T11:52:36Z
-tags: ["musing", "100DaysToOffload"]
+tags: ["musing"]
 ---
 
 It's been over 1 year since I moved to work in another country.

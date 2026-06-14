@@ -1,7 +1,7 @@
 ---
 title: "The Melancholy of the Melancholy of Subculture Society"
 date: 2022-12-29T20:10:22+07:00
-tags: ["psychology", "100DaysToOffload"]
+tags: ["psychology"]
 draft: false
 summary: 'Thoughts around "The Melancholy of Subculture Society" by Gwern Branwen'
 show_toc: true
@@ -128,11 +128,5 @@ Here I am, continuing my journey on understanding myself and shaping my own subc
 Someone mentioned this essay is hard to read and grok because it's like a puzzle made by stream of consciousness[^hard-grok].
 And I think it's amazing, being able to write your consciousness into an actual writings.
 I know I have thoughts for each sections of the essay, but it was really hard to pour these thoughts into writings.
-
----
-
-Post 8 of [#100DaysToOffload](https://100daystooffload.com/).
-
----
 
 [^hard-grok]: https://news.ycombinator.com/item?id=6587295

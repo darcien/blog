@@ -1,7 +1,7 @@
 ---
 title: "Focusing Is Hard For Current Me"
 date: 2022-11-25T01:30:43+07:00
-tags: ["life", "100DaysToOffload"]
+tags: ["life"]
 summary: "These days, I can not focus on one thing for extended amount of time."
 ---
 
@@ -71,5 +71,3 @@ Next time, I should focus more on the goal and resist the distractions.
 ---
 
 I already had the plan for updating this blog this month, but the final push is seeing this [post](https://garrit.xyz/posts/2022-11-24-smart-move-google) in HN and saw the 100 posts challenge.
-
-Post 1 of [#100DaysToOffload](https://100daystooffload.com/).

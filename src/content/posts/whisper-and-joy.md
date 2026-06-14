@@ -1,7 +1,7 @@
 ---
 title: "Whisper and Joy"
 date: 2025-07-15T21:04:00+10:00
-tags: ["gkms", "100DaysToOffload"]
+tags: ["gkms"]
 summary: "I should write more about the makings of my dumb side project before it gets shelved and never written about again."
 ---
 
@@ -221,10 +221,6 @@ and all other open source project maintainers.
 
 Also, playing around with speech recognition was a nice change of pace from
 the LLM slop I deal with on daily basis.
-
----
-
-Post 26 of [#100DaysToOffload](https://100daystooffload.com/).
 
 [^love-and-joy]:
     The song was ["Love & Joy" by 紫雲清夏 (CV. 湊 みや)](https://www.youtube.com/watch?v=YzBr_c61TsU).

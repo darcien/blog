@@ -1,7 +1,7 @@
 ---
 title: "Human Cooldown"
 date: 2026-05-29T12:40:16Z
-tags: ["musing", "uv", "100DaysToOffload"]
+tags: ["musing", "uv"]
 ---
 
 I'm so glad `uv` exists.

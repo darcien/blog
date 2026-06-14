@@ -1,7 +1,7 @@
 ---
 title: "I Have No Power Here"
 date: 2023-04-26T19:28:39+07:00
-tags: ["til", "100DaysToOffload", "cycling"]
+tags: ["til", "cycling"]
 draft: false
 summary: "Workout data synced from HealthFit to intervals.icu does not include data that's not supported by Apple Health."
 ---
@@ -53,7 +53,3 @@ P.S. Shoutout to Stéphane Lizeray, I'm not sure if this person is a one person 
 but thanks for HealthFit, fast support response, and all the informative replies in intervals.icu forum.
 
 P.S.S. Dear Apple, I wish power data is supported in Apple Health 🙏.
-
----
-
-Post 11 of [#100DaysToOffload](https://100daystooffload.com/).
