@@ -51,9 +51,8 @@ deploy:
     git push -u origin master
 
 # Commit all changes and deploy it
-doit: build
-    git add --all
-    git commit -m "just do it 🫶"
+doit:
+    just commit "just do it 🫶"
     just deploy
 
 # Pull and rebase from remote

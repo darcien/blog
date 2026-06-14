@@ -8,8 +8,8 @@
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
-    "fmt": "prettier --write .",
-    "fmt:check": "prettier --check ."
+    "fmt": "prettier --cache --cache-strategy content --write .",
+    "fmt:check": "prettier --cache --cache-strategy content --check ."
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.2.0",
