@@ -15,6 +15,7 @@ export type IsoDate = `${number}-${number}-${number}`;
 
 export type WatchedLive = { date: IsoDate; title: string; platform: Platform };
 
+// After editing entries, bump `updated` in garden/watched-lives-timeline.mdx.
 export const WATCHED_LIVES: WatchedLive[] = [
   // ASOBI STAGE
   {
@@ -25,14 +26,12 @@ export const WATCHED_LIVES: WatchedLive[] = [
   },
   {
     date: "2024-08-17",
-    title:
-      "学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- (Umeda, day-night)",
+    title: "学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- (Umeda)",
     platform: "ASOBI STAGE",
   },
   {
     date: "2024-08-25",
-    title:
-      "学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- (Shibuya, day-night)",
+    title: "学園アイドルマスター DEBUT LIVE 初 TOUR -初声公演- (Shibuya)",
     platform: "ASOBI STAGE",
   },
   {
@@ -44,19 +43,17 @@ export const WATCHED_LIVES: WatchedLive[] = [
   {
     date: "2024-10-14",
     title:
-      "学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Umeda, special, day-night)",
+      "学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Umeda, special)",
     platform: "ASOBI STAGE",
   },
   {
     date: "2024-10-19",
-    title:
-      "学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Hiroshima, day-night)",
+    title: "学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Hiroshima)",
     platform: "ASOBI STAGE",
   },
   {
     date: "2024-10-27",
-    title:
-      "学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Shibuya, day-night)",
+    title: "学園アイドルマスター DEBUT LIVE 初 TOUR -初恋公演- (Shibuya)",
     platform: "ASOBI STAGE",
   },
   {
@@ -67,19 +64,17 @@ export const WATCHED_LIVES: WatchedLive[] = [
   {
     date: "2025-02-08",
     title:
-      "学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Nagoya, special, day-night)",
+      "学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Nagoya, special)",
     platform: "ASOBI STAGE",
   },
   {
     date: "2025-02-11",
-    title:
-      "学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Umeda, day-night)",
+    title: "学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Umeda)",
     platform: "ASOBI STAGE",
   },
   {
     date: "2025-02-16",
-    title:
-      "学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Shibuya, day-night)",
+    title: "学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Shibuya)",
     platform: "ASOBI STAGE",
   },
   {
@@ -111,7 +106,7 @@ export const WATCHED_LIVES: WatchedLive[] = [
   {
     date: "2025-07-04",
     title:
-      "学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Shinjuku addition, special, day-night)",
+      "学園アイドルマスター DEBUT LIVE 初 TOUR -初陣公演- (Shinjuku addition, special)",
     platform: "ASOBI STAGE",
   },
   {
@@ -146,12 +141,12 @@ export const WATCHED_LIVES: WatchedLive[] = [
   },
   {
     date: "2026-05-16",
-    title: "学園アイドルマスター H.I.F選抜試験",
+    title: "学園アイドルマスター H.I.F選抜試験 DAY1",
     platform: "ASOBI STAGE",
   },
   {
     date: "2026-05-17",
-    title: "学園アイドルマスター H.I.F選抜試験",
+    title: "学園アイドルマスター H.I.F選抜試験 DAY2",
     platform: "ASOBI STAGE",
   },
   {
@@ -171,7 +166,7 @@ export const WATCHED_LIVES: WatchedLive[] = [
   // OPENREC.tv
   {
     date: "2025-11-01",
-    title: "第１回 お花さん みーてぃんぐっ！ (day, night)",
+    title: "第１回 お花さん みーてぃんぐっ！",
     platform: "OPENREC.tv",
   },
   // SPWN
@@ -271,6 +266,11 @@ export const WATCHED_LIVES: WatchedLive[] = [
   {
     date: "2025-08-30",
     title: 'ASU 2nd ONE-MAN LIVE "BIRTH"',
+    platform: "Z-aN",
+  },
+  {
+    date: "2026-06-14",
+    title: "縁結びのゆかり様1stイベント 結び、結ばれ、桃源郷",
     platform: "Z-aN",
   },
   // Zaiko
