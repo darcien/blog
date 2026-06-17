@@ -19,7 +19,7 @@ export default defineConfig({
       rehypePlugins: [
         rehypeSlug,
         [rehypeAutolinkHeadings, { behavior: "wrap" }],
-        [rehypeExternalLinks, { target: "_blank", rel: ["noreferrer"] }],
+        [rehypeExternalLinks, { rel: ["noreferrer", "external"] }],
       ],
     }),
   },

@@ -126,7 +126,7 @@ a {
     color: var(--bg);
     background: var(--accent);
   }
-  &[target="_blank"]::after {
+  &[rel~="external"]::after {
     content: "↗";
     font-size: 0.8em;
     vertical-align: 0.7em;
