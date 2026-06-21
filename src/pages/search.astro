@@ -43,4 +43,11 @@ import Base from "../layouts/Base.astro";
     font-size: 1.5em !important;
     top: -0.4em !important;
   }
+
+  /* break long URLs; !important beats pagefind's `mark { all: revert }` that resets wrap */
+  .pagefind-ui__result-excerpt,
+  .pagefind-ui__result-link,
+  .pagefind-ui mark {
+    overflow-wrap: anywhere !important;
+  }
 </style>
