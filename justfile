@@ -31,7 +31,7 @@ new SLUG:
     ---
     title: ""
     date: $(date -u +%Y-%m-%dT%H:%M:%SZ)
-    tags: ["100DaysToOffload"]
+    tags: [""]
     draft: true
     ---
     EOF
