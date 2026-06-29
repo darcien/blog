@@ -1,11 +1,13 @@
 ---
 title: "Mac Setup"
 created: 2025-05-23T23:40:07+10:00
-updated: 2026-06-13T09:03:06Z
+updated: 2026-06-25T21:56:00+10:00
 show_toc: true
 ---
 
 Personal setup for macOS, staying on Sequoia (v15) until Apple realize that liquid glass is stupid.
+
+Unfortunately, work laptop requires latest and greatest version, so some will be marked for Tahoe (v26) only.
 
 ## No mouse and keyboard tab can't focus?
 
@@ -17,9 +19,12 @@ Cmd+Opt+F5 -> Motor -> Full Keyboard Access
 2. General -> About -> Name -> rename to unique and easy to remember name
 3. General -> Date & Time -> 24-hour time -> turn on
 4. Network -> Firewall -> turn on
+5. Appearance -> Dark
+5. (Tahoe) Appearance -> Liquid Glass -> Tinted
 5. Appearance -> Show scroll bars -> Always
+5. Appearance -> Theme -> Colour -> Orange (or depends on the mood)
 6. Control Center -> Menu Bar Only -> Spotlight -> Don't Show in Menu Bar
-7. Desktop & Dock -> Position on screen -> Left (or Right, depends on display arrangement)
+7. Desktop & Dock -> Position on screen -> Left (depends on display arrangement)
 8. Desktop & Dock -> Automatically hide and show the Dock -> turn on
 9. Desktop & Dock -> Tiled windows have margins -> turn off
 10. Desktop & Dock -> Mission Control -> Automatically rearrange Spaces based on most recent use -> turn off
@@ -122,6 +127,7 @@ brew install iperf iperf3 nuttcp owamp
 
 ## Changelog
 
+- 2026-06-25: add Tahoe specific setting
 - 2026-06-13: point CLI to dotfiles setup
 - 2025-07-15: iTerm2 in finder and disable conflicting shortcuts
 - 2025-05-30: add Firefox add-ons

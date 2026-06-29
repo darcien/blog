@@ -8,11 +8,14 @@ where I don't have to worry about writing useless sentences.
 
 ## How do I see myself?
 
+- I am very susceptible to [nerd sniping][nerd-sniping]. Please be careful when telling me about an interesting problem.
 - I used to think I'm a bit weird, turns out [everyone are](https://viruscomix.com/page500.html)!
 - I consider myself really bad at communicating things, especially feelings.
 - I feel like I'm lacking attachment to life.
 - I feel like I'm too harsh on others or myself (sometimes).
 - I'm one of those people that is really quiet at first then become noisy after getting familiar (sometimes).
+
+[nerd-sniping]: https://xkcd.com/356/
 
 ## Interest?
 
