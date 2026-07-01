@@ -20,20 +20,20 @@ Cmd+Opt+F5 -> Motor -> Full Keyboard Access
 3. General -> Date & Time -> 24-hour time -> turn on
 4. Network -> Firewall -> turn on
 5. Appearance -> Dark
-5. (Tahoe) Appearance -> Liquid Glass -> Tinted
-5. Appearance -> Show scroll bars -> Always
-5. Appearance -> Theme -> Colour -> Orange (or depends on the mood)
-6. Control Center -> Menu Bar Only -> Spotlight -> Don't Show in Menu Bar
-7. Desktop & Dock -> Position on screen -> Left (depends on display arrangement)
-8. Desktop & Dock -> Automatically hide and show the Dock -> turn on
-9. Desktop & Dock -> Tiled windows have margins -> turn off
-10. Desktop & Dock -> Mission Control -> Automatically rearrange Spaces based on most recent use -> turn off
-11. Displays -> Night Shift... -> Schedule -> Sunset to Sunrise
-12. Privacy & Security -> Security -> FileVault -> turn on
-13. Keyboard -> Keyboard Shortcuts... -> Input Sources -> Untick all, these conflicts with ctrl + space in code editor
-14. Keyboard -> Keyboard Shortcuts... -> Services -> File and Folders -> Tick "New iTerm Tab/Window here" (for opening iTerm2 via Finder context menu)
-15. Keyboard -> Keyboard Shortcuts... -> Modifier Keys -> Select keyboard (all keyboards) -> Caps Lock key -> set to Escape
-16. Keyboard -> Dictation -> Shortcut -> turn off
+6. (Tahoe) Appearance -> Liquid Glass -> Tinted
+7. Appearance -> Show scroll bars -> Always
+8. Appearance -> Theme -> Colour -> Orange (or depends on the mood)
+9. Control Center -> Menu Bar Only -> Spotlight -> Don't Show in Menu Bar
+10. Desktop & Dock -> Position on screen -> Left (depends on display arrangement)
+11. Desktop & Dock -> Automatically hide and show the Dock -> turn on
+12. Desktop & Dock -> Tiled windows have margins -> turn off
+13. Desktop & Dock -> Mission Control -> Automatically rearrange Spaces based on most recent use -> turn off
+14. Displays -> Night Shift... -> Schedule -> Sunset to Sunrise
+15. Privacy & Security -> Security -> FileVault -> turn on
+16. Keyboard -> Keyboard Shortcuts... -> Input Sources -> Untick all, these conflicts with ctrl + space in code editor
+17. Keyboard -> Keyboard Shortcuts... -> Services -> File and Folders -> Tick "New iTerm Tab/Window here" (for opening iTerm2 via Finder context menu)
+18. Keyboard -> Keyboard Shortcuts... -> Modifier Keys -> Select keyboard (all keyboards) -> Caps Lock key -> set to Escape
+19. Keyboard -> Dictation -> Shortcut -> turn off
 
 ## Finder
 
