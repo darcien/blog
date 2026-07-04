@@ -37,6 +37,32 @@ new SLUG:
     EOF
     echo "Created $file"
 
+# Set a post's `updated` frontmatter to the current time
+touch FILE:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    file="{{ FILE }}"
+    if [ ! -e "$file" ]; then
+        echo "Error: $file not found" >&2
+        exit 1
+    fi
+    if [ "$(head -n1 "$file")" != "---" ]; then
+        echo "Error: $file has no frontmatter (first line not '---')" >&2
+        exit 1
+    fi
+    now=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+    tmp=$(mktemp)
+    awk -v now="$now" '
+        BEGIN { infm=0; done=0; seen=0 }
+        /^---[[:space:]]*$/ {
+            if (!seen) { seen=1; infm=1; print; next }
+            if (infm)  { if (!done) print "updated: " now; infm=0; done=1; print; next }
+        }
+        infm && !done && /^updated:[[:space:]]*/ { print "updated: " now; done=1; next }
+        { print }
+    ' "$file" > "$tmp" && mv "$tmp" "$file"
+    echo "$file -> $now"
+
 # Format code with Prettier
 fmt:
     bun run fmt
