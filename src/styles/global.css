@@ -145,6 +145,11 @@ li + li {
   margin-block-start: 0.25em;
 }
 
+/* nested lists shouldn't get the full prose-list top margin */
+li > :is(ul, ol) {
+  margin-block-start: 0.25em;
+}
+
 /* -- Code -- */
 code {
   font-family: var(--font-mono);
@@ -198,7 +203,6 @@ th,
 td {
   padding: 0.4em 0.6em;
   border: 1px solid var(--border);
-  text-align: left;
 }
 
 th {
