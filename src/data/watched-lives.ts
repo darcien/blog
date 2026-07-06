@@ -15,7 +15,7 @@ export type IsoDate = `${number}-${number}-${number}`;
 
 export type WatchedLive = { date: IsoDate; title: string; platform: Platform };
 
-// After editing entries, bump `updated` in garden/watched-lives-timeline.mdx.
+// After editing entries, run: just touch src/content/garden/watched-lives-timeline.mdx
 export const WATCHED_LIVES: WatchedLive[] = [
   // ASOBI STAGE
   {
@@ -300,6 +300,12 @@ export const WATCHED_LIVES: WatchedLive[] = [
     date: "2026-04-18",
     title:
       "薄井友里・川村玲奈のすーぱーかわちぃ☆ゆりれいしょん レク3〜おはにゃみ〜!",
+    platform: "Zaiko",
+  },
+  {
+    date: "2026-07-05",
+    title:
+      "薄井友里・川村玲奈のすーぱーかわちぃ☆ゆりれいしょん レク4〜たにゃばた〜",
     platform: "Zaiko",
   },
 ];
