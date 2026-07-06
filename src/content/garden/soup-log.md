@@ -1,6 +1,7 @@
 ---
 title: "Soup Log"
 created: 2026-07-04
+updated: 2026-07-06T13:40:43Z
 description: "A list of canned soups to remind me which ones are good or bad."
 ---
 
@@ -9,8 +10,10 @@ A list of canned soups to remind me which ones are good or bad.
 | Buy again? | Soup                                     | Price (AUD) | Saturated fat (g/100g) | Sugars (g/100g) | Sodium (mg/100g) | Notes                        |
 | :--------: | ---------------------------------------- | ----------: | ---------------------: | --------------: | ---------------: | ---------------------------- |
 |     ✅     | CC Beef & Veg                            |  4.5 (2.25) |                 🟢 0.2 |          🟢 1.5 |           🟡 288 | top pick                     |
+|     ✅     | HZ Chunky Peppered Steak                 |   4.4 (3.5) |                 🟢 0.4 |          🟢 1.4 |           🟡 230 | don't add too much pepper    |
 |     ✅     | CC Irish Stew                            |  4.5 (2.25) |                 🟢 0.3 |          🟢 1.5 |           🟡 285 | lesser version of beef & veg |
 |     ✅     | CL Chicken & Sweet Corn                  |  4.5 (2.25) |                 🟢 0.1 |          🟢 3.1 |           🟡 294 | corn soup is always nice     |
+|     ✅     | HZ Chicken & Sweetcorn                   |   4.4 (2.2) |                 🟢 0.4 |          🟢 1.4 |           🟡 300 | idem                         |
 |     ✅     | CC Ravioli, Beef & Tomato                |  4.5 (2.25) |                 🟢 0.8 |          🟢 3.0 |           🟡 268 | not bad                      |
 |     🤔     | CL Hearty Beef & Veg                     |  4.5 (2.25) |                 🟢 0.5 |          🟢 1.6 |           🟡 276 |                              |
 |     🤔     | CL Creamy Chicken                        |  4.5 (2.25) |                 🟢 0.5 |          🟢 0.7 |           🟡 290 |                              |
@@ -19,8 +22,6 @@ A list of canned soups to remind me which ones are good or bad.
 |     ❌     | CL Rich & Creamy Pumpkin                 |  4.5 (2.25) |                 🟢 0.6 |          🟢 4.3 |           🟡 235 | plain pumpkin                |
 |     ❌     | CL Minestrone                            |  4.5 (2.25) |                🟢 <0.1 |          🟢 3.2 |           🟡 283 | taste bad                    |
 |     ❌     | CL Pea & Ham                             |  4.5 (2.25) |                 🟢 0.2 |          🟢 2.3 |           🟡 283 |                              |
-|     ?      | HZ Chunky Peppered Steak                 |   4.4 (3.5) |                 🟢 0.4 |          🟢 1.4 |           🟡 230 |                              |
-|     ?      | HZ Chicken & Sweetcorn                   |   4.4 (2.2) |                 🟢 0.4 |          🟢 1.4 |           🟡 300 |                              |
 |     ?      | HZ Creamy Tomato                         |   4.4 (2.2) |                 🟢 0.9 |          🟢 4.0 |           🟡 360 |                              |
 
 ## Legend
