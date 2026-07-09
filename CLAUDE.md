@@ -3,13 +3,13 @@
 <important-instructions>
 - Never modify ./src/styles/reset.css. Override or extend it.
 - Read ./docs/CSS_GUIDE.md before doing styling with CSS
+- After any code change, run `bun run precommit`. Fix any errors before finishing.
 </important-instructions>
 
 ## Commands
 
 - `bun run build` - static build to `dist/`
-- `bun run preview` - preview built site
-- `bun fmt` - format whole codebase
+- `bun run precommit` - format + `astro check` type check; run after code changes
 
 ## Structure
 
@@ -18,7 +18,7 @@
 - `src/pages/` - root pages (about, uses, now, etc.)
 - `src/pages/tags/` - tag index and per-tag pages
 - `src/components/` - Figure.astro, CodePen.astro
-- `src/assets/img/` - shared images (Astro-optimized)
+- `src/assets/img/` - shared images
 - `public/` - favicons, manifest, static assets (served as-is, no optimization)
 
 ## Content conventions

@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "fmt": "prettier --cache --cache-strategy content --write .",
-    "fmt:check": "prettier --cache --cache-strategy content --check ."
+    "fmt:check": "prettier --cache --cache-strategy content --check .",
+    "precommit": "bun run fmt && astro check"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.2.0",
@@ -24,8 +25,10 @@
     "sharp": "0.35.3"
   },
   "devDependencies": {
+    "@astrojs/check": "0.9.9",
     "pagefind": "1.5.2",
     "prettier": "3.9.4",
-    "prettier-plugin-astro": "0.14.1"
+    "prettier-plugin-astro": "0.14.1",
+    "typescript": "6"
   }
 }
