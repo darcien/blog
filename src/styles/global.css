@@ -215,11 +215,20 @@ img {
   height: auto;
 }
 
-/* Figure images get role="button" + tabindex from Figure.astro's lightense
-   enhancement; show a focus ring for keyboard users (WCAG 2.4.7). */
-img[role="button"]:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 0;
+/* Figure.astro wraps images in a link to the full-size file. Cap the anchor
+   so the img can't overflow the column; focus ring for keyboard users
+   (WCAG 2.4.7). */
+.figure-zoom {
+  max-width: 100%;
+  /* Remove the a:hover accent background, it's very flashy when the image
+  moved because of zoom or hover before img loaded. */
+  &:hover {
+    background: none;
+  }
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 0;
+  }
 }
 
 /* -- Figure -- */

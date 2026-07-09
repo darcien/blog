@@ -1,27 +1,49 @@
 ---
-import { Image } from "astro:assets";
+import { Image, getImage } from "astro:assets";
 import type { ImageMetadata } from "astro";
 
 interface Props {
-  src: string | ImageMetadata;
+  src: ImageMetadata;
   alt?: string;
   caption?: string;
-  resize?: string;
 }
 
 const { src, alt, caption } = Astro.props;
 const altText = alt ?? caption ?? "";
-const isImported = typeof src !== "string";
+
+// 680/1360/2040 covers 1x/2x/3x DPR at --content-width (global.css);
+// keep the ladder and the sizes string in sync with that variable.
+// Animated GIFs skip resizing: it would re-encode every frame.
+const fullWidth = src.format !== "gif" ? Math.min(2040, src.width) : undefined;
+// The browser picks from srcset candidates only, so fullWidth has to be one
+// of them for the zoom upgrade to reach it.
+const widths = fullWidth
+  ? [...[680, 1360].filter((w) => w < fullWidth), fullWidth]
+  : undefined;
+// `auto`: supporting browsers size lazy-loaded images from the measured
+// layout width; the rest skip the unknown entry and use the manual list.
+const sizes = widths ? "auto, (max-width: 680px) 100vw, 680px" : undefined;
+
+// Same transform as the fallback src: anchor, fallback, and top srcset
+// candidate share one URL.
+const zoomHref = (await getImage({ src, width: fullWidth })).src;
 ---
 
 <figure>
-  {
-    isImported ? (
-      <Image src={src} alt={altText} loading="lazy" />
-    ) : (
-      <img loading="lazy" src={src} alt={altText} />
-    )
-  }
+  <a
+    class="figure-zoom"
+    href={zoomHref}
+    aria-label={altText ? undefined : "View full-size image"}
+  >
+    <Image
+      src={src}
+      alt={altText}
+      loading="lazy"
+      width={fullWidth}
+      widths={widths}
+      sizes={sizes}
+    />
+  </a>
   {
     caption && (
       <figcaption>
@@ -34,27 +56,71 @@ const isImported = typeof src !== "string";
   // @ts-ignore
   import Lightense from "lightense-images";
 
-  const selector = "img:not(.site-logo)";
-  Lightense(selector, {
+  // Lightense zooms by CSS-scaling the inline img, and measures the scale by
+  // fetching the img's fallback src (the full-size URL). Pointing `sizes` at
+  // that width makes the browser display the same file: one download shared
+  // by measuring, zoom, and display.
+  function loadFullSize(img: HTMLImageElement) {
+    if (img.getAttribute("sizes")) {
+      img.sizes = `${img.getAttribute("width")}px`;
+    }
+  }
+
+  const reducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  ).matches;
+
+  Lightense("img:not(.site-logo)", {
     background: "color-mix(in srgb, var(--bg) 90%, transparent)",
     padding: 16,
+    // The anchor's native new-tab handling replaces lightense's Cmd/Ctrl
+    // window.open (both active would open two tabs).
+    keyboard: false,
+    // `time` drives the CSS transitions and the JS teardown timeout.
+    // 1ms keeps transitionend firing.
+    time: reducedMotion ? 1 : 300,
+    beforeShow: (config: { target: HTMLImageElement }) =>
+      loadFullSize(config.target),
   });
 
-  // Lightense binds mouse-click only (fails WCAG 2.1.1 Keyboard). Make each image
-  // a focusable button opened via Enter/Space through lightense's click handler
-  // (Escape-close already works). Done in JS so it stays a plain image without JS.
-  for (const img of document.querySelectorAll<HTMLImageElement>(selector)) {
-    img.setAttribute("role", "button");
-    img.tabIndex = 0;
-    // a button needs an accessible name; fall back when the image has no alt
-    if (!img.alt && !img.getAttribute("aria-label")) {
-      img.setAttribute("aria-label", "View image larger");
-    }
-    img.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") {
+  // The anchor covers no-JS visitors with plain navigation to the file;
+  // with JS it becomes the zoom trigger.
+  for (const anchor of document.querySelectorAll<HTMLAnchorElement>(
+    "a.figure-zoom",
+  )) {
+    const img = anchor.querySelector("img");
+    if (!img) continue;
+    // Warm the full-size fetch on zoom intent. Hover fires while scrolling
+    // past figures and would download every image.
+    const preload = () => loadFullSize(img);
+    anchor.addEventListener("pointerdown", preload, { once: true });
+    anchor.addEventListener("focus", preload, { once: true });
+    // Anchors activate on Enter only; add Space for parity with buttons.
+    anchor.addEventListener("keydown", (event) => {
+      if (event.key === " ") {
         event.preventDefault();
-        img.click();
+        anchor.click();
       }
     });
+    // Capture runs before lightense's handler on the img.
+    anchor.addEventListener(
+      "click",
+      (event) => {
+        // Modifier clicks: native anchor new-tab/window behavior; stop the
+        // event so lightense doesn't also zoom.
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+          event.stopPropagation();
+          return;
+        }
+        event.preventDefault();
+        // Keyboard clicks land on the anchor; forward to the img where
+        // lightense listens. Clicks on the img only need the navigation
+        // cancelled.
+        if (event.target === anchor) {
+          img.click();
+        }
+      },
+      { capture: true },
+    );
   }
 </script>
