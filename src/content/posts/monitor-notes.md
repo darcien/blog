@@ -8,8 +8,8 @@ show_toc: true
 
 ## Monitors Used
 
-- Dell U2417H [24" 60Hz IPS Monitor]
-- ViewSonic XG2431 [24" 240Hz IPS Monitor]
+- Dell U2417H [24” 60Hz IPS Monitor]
+- ViewSonic XG2431 [24” 240Hz IPS Monitor]
 
 ## MacOS + ViewSonic Issues
 

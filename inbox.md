@@ -26,6 +26,10 @@
 
 - include the ffmpeg range header, maybe debug or find a fix
 - add asobichannel archive notes
+- satteri smart quotes: unpaired `"` after digit (inch marks like `24"`) curls the
+  wrong way (`24“`); old remark pipeline gave `24”`. Existing spots edited to literal
+  `”`; for new writing use `”` or escape `24\"` for straight quote. Consider filing
+  upstream at bruits/satteri (still broken in 0.9.5); if fixed, plain `"` works again.
 
 ## a11y
 

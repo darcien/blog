@@ -56,7 +56,7 @@ h4 {
   margin-block-start: 1.5em;
 }
 
-/* permalink anchor injected by rehype-autolink-headings */
+/* permalink anchor injected by the autolink-headings plugin in astro.config.mjs */
 :is(h1, h2, h3, h4) a {
   color: inherit;
   text-decoration: none;
@@ -256,7 +256,7 @@ figcaption {
 }
 
 /* Visually hides an element while keeping it in the accessibility tree.
-   Right now only used by footnotes <h2> label that mdast-util-to-hast injects. */
+   Right now only used by footnotes <h2> label that the markdown processor injects. */
 .sr-only {
   position: absolute;
   width: 1px;

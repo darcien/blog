@@ -13,7 +13,7 @@ Keeping track of things I'm using daily.
 - Mac mini M4, 24 GB
 - Refurbished iPhone 15 Pro with replaced display, back gesture sometimes
   doesn't register
-- MacBook 15" from 2015 for home server (Home Assistant etc.)\*
+- MacBook 15” from 2015 for home server (Home Assistant etc.)\*
 
 ### Docks
 
@@ -32,10 +32,10 @@ Keeping track of things I'm using daily.
 
 ### Display
 
-- ViewSonic XG2431, 24", IPS, has horizontal banding all over the screen after 3 years of usage :(\*
-- Dell U2417H, 24", IPS\*
-- HP 527pu, 27", IPS
-- HP OMEN 27q, 27", IPS
+- ViewSonic XG2431, 24”, IPS, has horizontal banding all over the screen after 3 years of usage :(\*
+- Dell U2417H, 24”, IPS\*
+- HP 527pu, 27”, IPS
+- HP OMEN 27q, 27”, IPS
 
 ### Audio
 
