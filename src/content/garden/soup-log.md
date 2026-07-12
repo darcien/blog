@@ -1,7 +1,7 @@
 ---
 title: "Soup Log"
 created: 2026-07-04
-updated: 2026-07-06T13:40:43Z
+updated: 2026-07-12T11:34:33Z
 description: "A list of canned soups to remind me which ones are good or bad."
 ---
 
@@ -22,7 +22,7 @@ A list of canned soups to remind me which ones are good or bad.
 |     ❌     | CL Rich & Creamy Pumpkin                 |  4.5 (2.25) |                 🟢 0.6 |          🟢 4.3 |           🟡 235 | plain pumpkin                |
 |     ❌     | CL Minestrone                            |  4.5 (2.25) |                🟢 <0.1 |          🟢 3.2 |           🟡 283 | taste bad                    |
 |     ❌     | CL Pea & Ham                             |  4.5 (2.25) |                 🟢 0.2 |          🟢 2.3 |           🟡 283 |                              |
-|     ?      | HZ Creamy Tomato                         |   4.4 (2.2) |                 🟢 0.9 |          🟢 4.0 |           🟡 360 |                              |
+|     ❌     | HZ Creamy Tomato                         |   4.4 (2.2) |                 🟢 0.9 |          🟢 4.0 |           🟡 360 | like tomato juice, just base |
 
 ## Legend
 
