@@ -68,6 +68,7 @@ export default defineConfig({
   site: "https://darcien.me/",
   trailingSlash: "never",
   redirects: { "/coffee": "/garden/coffee" },
+  prefetch: { prefetchAll: true, defaultStrategy: "hover" },
   integrations: [mdx(), sitemap()],
   markdown: {
     processor: satteri({
