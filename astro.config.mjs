@@ -63,6 +63,72 @@ const externalLinks = {
   },
 };
 
+const ALERT_MARKER = /^\[!([a-zA-Z]+)\][ \t]*\r?\n?/;
+
+// Accented for these kinds supported by GH,
+// plain for everything else.
+// https://github.com/orgs/community/discussions/16925
+const ACCENTED_ALERTS = new Set(["important", "warning", "caution"]);
+
+/**
+ * Rewrite a `> [!WARNING]` blockquote to `<div class="alert accent">` with the
+ * marker as a title line.
+ */
+const alerts = {
+  name: "alerts",
+  element: {
+    filter: ["blockquote"],
+    /** @param {import("hast").Element} node */
+    visit(node) {
+      const lead = node.children.find((child) => child.type === "element");
+      if (lead?.tagName !== "p") return;
+      const text = lead.children[0];
+      if (text?.type !== "text") return;
+      const match = text.value.match(ALERT_MARKER);
+      if (!match) return;
+
+      const kind = match[1].toLowerCase();
+      const rest = text.value.slice(match[0].length);
+      // Strip the marker, omit the paragraph when nothing follows it
+      /** @type {import("hast").ElementContent[]} */
+      const body =
+        rest || lead.children.length > 1
+          ? [
+              {
+                ...lead,
+                children: [
+                  { type: "text", value: rest },
+                  ...lead.children.slice(1),
+                ],
+              },
+            ]
+          : [];
+
+      return {
+        type: "element",
+        tagName: "div",
+        properties: {
+          class: ACCENTED_ALERTS.has(kind) ? "alert accent" : "alert",
+        },
+        children: [
+          {
+            type: "element",
+            tagName: "p",
+            properties: {},
+            // Format the marker so it reads nicer in DOM
+            children: [
+              { type: "text", value: kind[0].toUpperCase() + kind.slice(1) },
+            ],
+          },
+          ...node.children.flatMap((child) =>
+            child === lead ? body : [child],
+          ),
+        ],
+      };
+    },
+  },
+};
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://darcien.me/",
@@ -71,7 +137,7 @@ export default defineConfig({
   integrations: [mdx(), sitemap()],
   markdown: {
     processor: satteri({
-      hastPlugins: [autolinkHeadings, externalLinks],
+      hastPlugins: [autolinkHeadings, externalLinks, alerts],
     }),
   },
 });

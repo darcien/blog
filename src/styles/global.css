@@ -182,6 +182,28 @@ blockquote {
   margin-block-start: 1em;
 }
 
+/* -- Alerts -- */
+/* `> [!WARNING]` callouts from the alerts plugin in astro.config.mjs. */
+.alert {
+  --alert: var(--text-secondary);
+  border-inline-start: 3px solid var(--alert);
+  padding-inline-start: 1em;
+  margin-block-start: 1em;
+  &.accent {
+    --alert: var(--accent);
+  }
+  /* The title line. */
+  > p:first-child {
+    color: var(--alert);
+    font-weight: 700;
+    margin-block-start: 0;
+    /* Keep alert title and content close. */
+    + * {
+      margin-block-start: 0.25em;
+    }
+  }
+}
+
 /* -- Horizontal rule -- */
 hr {
   border: none;
