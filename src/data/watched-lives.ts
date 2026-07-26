@@ -159,6 +159,21 @@ export const WATCHED_LIVES: WatchedLive[] = [
     title: "学園アイドルマスター The 2nd Period Hatsuboshi IDOL FESTIVAL DAY2",
     platform: "ASOBI STAGE",
   },
+  {
+    date: "2026-07-24",
+    title: "THE IDOLM@STER IDOL WORLD SUPER FESTIVAL 2026 -YAKUDOU-",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-07-25",
+    title: "THE IDOLM@STER IDOL WORLD SUPER FESTIVAL 2026 -ZESSYOU-",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-07-26",
+    title: "THE IDOLM@STER IDOL WORLD SUPER FESTIVAL 2026 -KYOUMEI-",
+    platform: "ASOBI STAGE",
+  },
   // eplus
   { date: "2023-03-18", title: "hololive 4th fes.", platform: "eplus" },
   // Niconico
