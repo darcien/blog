@@ -2,14 +2,16 @@
 
 /* -- Colors -- */
 :root {
-  --bg: #1a1a1a;
-  --bg-secondary: #242424;
-  --text: #e0e0e0;
-  --text-secondary: #999;
-
+  --bg: oklch(0.2177 0 0);
+  --text: oklch(0.9067 0 0);
   --accent: oklch(0.65 0.1901 18.29);
-  --border: #333;
-  --code-bg: #2a2a2a;
+
+  /* Surfaces, lightest-on-top of --bg. */
+  --bg-secondary: oklch(from var(--bg) calc(l + 0.043) c h);
+  --code-bg: oklch(from var(--bg) calc(l + 0.067) c h);
+  --border: oklch(from var(--bg) calc(l + 0.103) c h);
+
+  --text-secondary: color-mix(in oklch, var(--text), var(--bg) 32.5%);
 
   --font-mono:
     ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
@@ -66,13 +68,9 @@ h4 {
        title, so markers start at "#" for h2. */
     color: var(--text-secondary);
   }
-  &:hover,
-  &:focus-visible {
+  /* Colors come from the shared highlight rule below */
+  &:is(:hover, :focus-visible)::before {
     color: var(--bg);
-    background: var(--accent);
-    &::before {
-      color: var(--bg);
-    }
   }
 }
 h2 a::before {
@@ -107,10 +105,6 @@ article > details {
   & > summary {
     cursor: pointer;
     width: fit-content;
-    &:hover {
-      color: var(--bg);
-      background: var(--accent);
-    }
   }
   &::details-content {
     border-inline-start: 3px solid var(--border);
@@ -118,14 +112,21 @@ article > details {
   }
 }
 
+/* -- Highlight on hover/focus -- */
+a:is(:hover, :focus-visible),
+.nav-link:is(:hover, :focus-visible),
+/* .code-btn is hover-only: its focus state is the accent outline below, which
+   would vanish against an accent background. */
+.code-btn:hover,
+article > details > summary:is(:hover, :focus-visible) {
+  color: var(--bg);
+  background: var(--accent);
+}
+
 /* -- Links -- */
 a {
   color: var(--accent);
   text-decoration: underline;
-  &:hover {
-    color: var(--bg);
-    background: var(--accent);
-  }
   &[rel~="external"]::after {
     content: "↗";
     font-size: 0.8em;
@@ -218,10 +219,6 @@ pre {
   background: none;
   border: none;
   cursor: pointer;
-  &:hover {
-    color: var(--bg);
-    background: var(--accent);
-  }
   &:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 1px;
@@ -297,9 +294,10 @@ img {
    (WCAG 2.4.7). */
 .figure-zoom {
   max-width: 100%;
-  /* Remove the a:hover accent background, it's very flashy when the image
+  /* Opts out of the shared highlight rule, the accent background is very
+  flashy when the image
   moved because of zoom or hover before img loaded. */
-  &:hover {
+  &:is(:hover, :focus-visible) {
     background: none;
   }
   &:focus-visible {
@@ -385,7 +383,8 @@ figcaption {
   font-size: 1.75rem;
   line-height: 1;
   text-decoration: none;
-  &:hover {
+  /* Opts out of the shared highlight rule */
+  &:is(:hover, :focus-visible) {
     color: var(--text);
     background: none;
   }
@@ -401,11 +400,6 @@ figcaption {
   color: var(--text-secondary);
   font-size: 1rem;
   text-decoration: none;
-  &:hover {
-    color: var(--bg);
-    background: var(--accent);
-    text-decoration: none;
-  }
 }
 
 /* -- Post list (home page) -- */
