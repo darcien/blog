@@ -19,16 +19,19 @@ Use `margin-block-start` for prose/flow content where different elements need di
 .toc ul {
   display: flex;
   flex-direction: column;
-  gap: 0.25em;
+  gap: var(--flow-space-tight);
 }
 ```
 
 ### When to keep margin
 
+`gap` applies to flex, grid, and multi-column. Prose is block layout, so flow
+spacing is margin and it varies per element:
+
 ```css
 /* Prose flow — different elements need different spacing */
 p {
-  margin-block-start: 1em;
+  margin-block-start: var(--flow-space);
 }
 h2 {
   margin-block-start: 1.5em;
@@ -58,6 +61,22 @@ body {
   padding-block-start: var(--section-gap);
 }
 ```
+
+## Typography
+
+`--font-size-secondary` is metadata text: captions, timestamps, footnotes, table
+cells. Usually paired with `color: var(--text-secondary)`.
+
+It's `em`, so it compounds where two elements carrying it nest. Set
+`font-size: inherit` on the inner one — see `garden/[slug].astro`.
+
+Heading sizes stay literal: the element name already carries the semantic, so a
+token would only add a hop.
+
+## Colors
+
+Three main color: `--bg`, `--text`, `--accent`. Surfaces and secondary text derive
+from them via relative color syntax (`oklch(from …)`) and `color-mix()`.
 
 ## Nesting
 

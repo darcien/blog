@@ -17,8 +17,25 @@
     ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
     "DejaVu Sans Mono", monospace;
 
+  /* Metadata text: captions, timestamps, footnotes. Pairs with
+     --text-secondary color. */
+  --font-size-secondary: 0.85em;
+
   --content-width: 680px;
+  /* rem, unlike the flow tokens below: section spacing stays constant even
+     inside smaller-font sections like .footnotes. */
   --section-gap: 2rem;
+
+  /* Space between prose blocks, applied as margin-block-start because block layout
+     has no `gap`.
+     reset.css zeroes margin-block-end on p/headings/figure/blockquote,
+     so those are separate. */
+  --flow-space: 1em;
+  /* Tighter, for the parts of a single unit: list items, toc entries, an
+     alert's title against its body. Applied as margin or gap. Being `em` it
+     tracks the element, so 0.25em inside .toc (0.85em) is smaller than in body
+     text. */
+  --flow-space-tight: 0.25em;
 }
 
 /* -- Base -- */
@@ -97,11 +114,11 @@ h4 {
 }
 
 p {
-  margin-block-start: 1em;
+  margin-block-start: var(--flow-space);
 }
 
 article > details {
-  margin-block-start: 1em;
+  margin-block-start: var(--flow-space);
   & > summary {
     cursor: pointer;
     width: fit-content;
@@ -138,17 +155,17 @@ a {
 /* -- Lists -- */
 ul,
 ol {
-  margin-block-start: 1em;
+  margin-block-start: var(--flow-space);
   padding-inline-start: 1.5em;
 }
 
 li + li {
-  margin-block-start: 0.25em;
+  margin-block-start: var(--flow-space-tight);
 }
 
 /* nested lists shouldn't get the full prose-list top margin */
 li > :is(ul, ol) {
-  margin-block-start: 0.25em;
+  margin-block-start: var(--flow-space-tight);
 }
 
 /* -- Code -- */
@@ -165,7 +182,7 @@ code {
 
 pre {
   padding: 0.5em 1em;
-  margin-block-start: 1em;
+  margin-block-start: var(--flow-space);
   border: 1px solid var(--border);
   border-radius: 3px;
   /* Astro's highlighter marks every <pre> tabindex="0", so the scroll region
@@ -184,7 +201,7 @@ pre {
 /* Wrapper, toolbar and buttons come from src/lib/code-block.ts. */
 .code-block {
   position: relative;
-  margin-block-start: 1em;
+  margin-block-start: var(--flow-space);
   > pre {
     margin-block-start: 0;
     padding-block-start: 1.5em;
@@ -209,7 +226,7 @@ pre {
 }
 
 .code-btn {
-  font-size: 0.85em;
+  font-size: var(--font-size-secondary);
   min-inline-size: 24px;
   min-block-size: 24px;
   display: inline-flex;
@@ -231,7 +248,7 @@ blockquote {
   padding-inline-start: 1em;
   margin-inline-start: 0;
   color: var(--text-secondary);
-  margin-block-start: 1em;
+  margin-block-start: var(--flow-space);
 }
 
 /* -- Alerts -- */
@@ -240,7 +257,7 @@ blockquote {
   --alert: var(--text-secondary);
   border-inline-start: 3px solid var(--alert);
   padding-inline-start: 1em;
-  margin-block-start: 1em;
+  margin-block-start: var(--flow-space);
   &.accent {
     --alert: var(--accent);
   }
@@ -251,7 +268,7 @@ blockquote {
     margin-block-start: 0;
     /* Keep alert title and content close. */
     + * {
-      margin-block-start: 0.25em;
+      margin-block-start: var(--flow-space-tight);
     }
   }
 }
@@ -267,8 +284,8 @@ hr {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-block-start: 1em;
-  font-size: 0.85em;
+  margin-block-start: var(--flow-space);
+  font-size: var(--font-size-secondary);
   overflow-x: auto;
   display: block;
 }
@@ -317,7 +334,7 @@ figure {
 }
 
 figcaption {
-  font-size: 0.85em;
+  font-size: var(--font-size-secondary);
   color: var(--text-secondary);
   text-align: center;
   p {
@@ -327,7 +344,7 @@ figcaption {
 
 /* -- CodePen embed -- */
 .codepen-embed {
-  margin-block-start: 1em;
+  margin-block-start: var(--flow-space);
 }
 
 /* Visually hides an element while keeping it in the accessibility tree. */
@@ -345,7 +362,7 @@ figcaption {
 
 /* -- Footnotes -- */
 .footnotes {
-  font-size: 0.85em;
+  font-size: var(--font-size-secondary);
   color: var(--text-secondary);
   margin-block-start: var(--section-gap);
   border-top: 1px solid var(--border);
@@ -420,7 +437,7 @@ figcaption {
 .post-header {
   display: flex;
   flex-direction: column;
-  gap: 0.25em;
+  gap: var(--flow-space-tight);
   margin-block-end: 2em;
   line-height: 1.1;
 }
@@ -430,12 +447,12 @@ figcaption {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5em;
-  font-size: 0.85em;
+  font-size: var(--font-size-secondary);
 }
 
 /* -- Table of contents -- */
 .toc {
-  font-size: 0.85em;
+  font-size: var(--font-size-secondary);
   margin-block-end: 2em;
   summary {
     cursor: pointer;
@@ -447,7 +464,7 @@ figcaption {
     margin-block-start: 0.5em;
     display: flex;
     flex-direction: column;
-    gap: 0.25em;
+    gap: var(--flow-space-tight);
   }
 }
 
@@ -481,14 +498,14 @@ figcaption {
 /* -- Time / metadata -- */
 time {
   color: var(--text-secondary);
-  font-size: 0.85em;
+  font-size: var(--font-size-secondary);
 }
 
 /* -- Footer -- */
 .site-footer {
   border-top: 1px solid var(--border);
   padding-block-start: var(--section-gap);
-  font-size: 0.85em;
+  font-size: var(--font-size-secondary);
   color: var(--text-secondary);
   text-align: center;
 }

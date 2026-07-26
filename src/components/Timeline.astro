@@ -55,7 +55,7 @@ const { groups, showDates = true } = Astro.props;
 <style>
   .timeline {
     position: relative;
-    margin-block-start: 1em;
+    margin-block-start: var(--flow-space);
     padding-inline-start: 0;
     display: flex;
     flex-direction: column;
@@ -155,7 +155,7 @@ const { groups, showDates = true } = Astro.props;
 
   .timeline-meta {
     color: var(--text-secondary);
-    font-size: 0.85em;
+    font-size: var(--font-size-secondary);
   }
 
   @media (max-width: 540px) {
