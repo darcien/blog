@@ -153,23 +153,78 @@ li > :is(ul, ol) {
 /* -- Code -- */
 code {
   font-family: var(--font-mono);
-  font-size: 0.9em;
+}
+
+/* Inline code: `echo foo` */
+:not(pre) > code {
   background: var(--code-bg);
   padding: 0.15em 0.3em;
   border-radius: 3px;
 }
 
 pre {
-  background: var(--code-bg);
-  padding: 1em;
-  overflow-x: auto;
+  padding: 0.5em 1em;
   margin-block-start: 1em;
   border: 1px solid var(--border);
   border-radius: 3px;
+  /* Astro's highlighter marks every <pre> tabindex="0", so the scroll region
+     takes focus and needs a visible ring (WCAG 2.4.7). */
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: -1px;
+  }
   code {
-    background: none;
-    padding: 0;
-    font-size: 0.85em;
+    display: block;
+    line-height: 1.45;
+  }
+}
+
+/* -- Code block toolbar -- */
+/* Wrapper, toolbar and buttons come from src/lib/code-block.ts. */
+.code-block {
+  position: relative;
+  margin-block-start: 1em;
+  > pre {
+    margin-block-start: 0;
+    padding-block-start: 1.5em;
+  }
+  /* toggled by the [wrap] button */
+  &[data-wrap] > pre {
+    white-space: pre-wrap;
+    /* break long unbroken tokens: URLs, hashes */
+    overflow-wrap: anywhere;
+  }
+}
+
+.code-toolbar {
+  position: absolute;
+  inset-block-start: 0.25em;
+  inset-inline-end: 0.25em;
+  display: flex;
+  user-select: none;
+  @media print {
+    display: none;
+  }
+}
+
+.code-btn {
+  font-size: 0.85em;
+  min-inline-size: 24px;
+  min-block-size: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  background: none;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    color: var(--bg);
+    background: var(--accent);
+  }
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
   }
 }
 
@@ -277,8 +332,7 @@ figcaption {
   margin-block-start: 1em;
 }
 
-/* Visually hides an element while keeping it in the accessibility tree.
-   Right now only used by footnotes <h2> label that the markdown processor injects. */
+/* Visually hides an element while keeping it in the accessibility tree. */
 .sr-only {
   position: absolute;
   width: 1px;

@@ -151,5 +151,10 @@ const navLinks = [
       <span>&copy; {new Date().getFullYear()} {FULL_NAME}</span>
       <div class="footer-blank">This space intentionally left blank.</div>
     </footer>
+    <script>
+      import { enhanceCodeBlocks } from "../lib/code-block";
+
+      enhanceCodeBlocks(document.querySelectorAll("main pre"));
+    </script>
   </body>
 </html>
