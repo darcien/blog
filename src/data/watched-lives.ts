@@ -323,6 +323,11 @@ export const WATCHED_LIVES: WatchedLive[] = [
       "薄井友里・川村玲奈のすーぱーかわちぃ☆ゆりれいしょん レク4〜たにゃばた〜",
     platform: "Zaiko",
   },
+  {
+    date: "2026-08-08",
+    title: "声優グランプリPresents 浴衣のキミと夏祭り2026",
+    platform: "Zaiko",
+  },
 ];
 
 const monthName = (yearMonth: string) =>
