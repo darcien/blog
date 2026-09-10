@@ -44,13 +44,11 @@ const zoomHref = (await getImage({ src, width: fullWidth })).src;
       sizes={sizes}
     />
   </a>
-  {
-    caption && (
-      <figcaption>
-        <p set:html={caption} />
-      </figcaption>
-    )
-  }
+  {caption && (
+    <figcaption>
+      <p set:html={caption} />
+    </figcaption>
+  )}
 </figure>
 <script>
   import { attachImageZoom } from "../lib/image-zoom";

@@ -84,15 +84,12 @@ const navLinks = [
     {description && <meta property="og:description" content={description} />}
     <meta property="og:locale" content="en" />
     <meta property="og:type" content={ogType} />
-    {
-      article && (
-        <meta
-          property="article:published_time"
-          content={article.publishedTime}
-        />
-      )
-    }
-    {article?.tags?.map((tag) => <meta property="article:tag" content={tag} />)}
+    {article && (
+      <meta property="article:published_time" content={article.publishedTime} />
+    )}
+    {article?.tags?.map((tag) => (
+      <meta property="article:tag" content={tag} />
+    ))}
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={title} />
@@ -133,13 +130,11 @@ const navLinks = [
         {FULL_NAME}
       </a>
       <nav>
-        {
-          navLinks.map((link) => (
-            <a href={link.url} class="nav-link">
-              [{link.name}]
-            </a>
-          ))
-        }
+        {navLinks.map((link) => (
+          <a href={link.url} class="nav-link">
+            [{link.name}]
+          </a>
+        ))}
       </nav>
     </header>
     <main data-pagefind-body>
@@ -148,7 +143,9 @@ const navLinks = [
     </main>
     <slot name="after-main" />
     <footer class="site-footer">
-      <span>&copy; {new Date().getFullYear()} {FULL_NAME}</span>
+      <span>
+        &copy; {new Date().getFullYear()} {FULL_NAME}
+      </span>
       <div class="footer-blank">This space intentionally left blank.</div>
     </footer>
     <script>

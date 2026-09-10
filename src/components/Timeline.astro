@@ -29,27 +29,25 @@ const { groups, showDates = true } = Astro.props;
 ---
 
 <ol class="timeline" role="list">
-  {
-    groups.map((group) => (
-      <li class="timeline-group">
-        {group.separatorLabel && (
-          <span class="timeline-separator">{group.separatorLabel}</span>
-        )}
-        <span class="timeline-label">{group.label}</span>
-        <ul class="timeline-items" role="list">
-          {group.items.map((item) => (
-            <li>
-              {showDates && item.date && (
-                <time datetime={item.date}>{item.date}</time>
-              )}
-              <span class="timeline-title">{item.title}</span>
-              {item.detail && <span class="timeline-meta">{item.detail}</span>}
-            </li>
-          ))}
-        </ul>
-      </li>
-    ))
-  }
+  {groups.map((group) => (
+    <li class="timeline-group">
+      {group.separatorLabel && (
+        <span class="timeline-separator">{group.separatorLabel}</span>
+      )}
+      <span class="timeline-label">{group.label}</span>
+      <ul class="timeline-items" role="list">
+        {group.items.map((item) => (
+          <li>
+            {showDates && item.date && (
+              <time datetime={item.date}>{item.date}</time>
+            )}
+            <span class="timeline-title">{item.title}</span>
+            {item.detail && <span class="timeline-meta">{item.detail}</span>}
+          </li>
+        ))}
+      </ul>
+    </li>
+  ))}
 </ol>
 
 <style>

@@ -25,46 +25,43 @@ const showToc = entry.data.show_toc && headings.length > 0;
     <header class="post-header">
       <h1>{title}</h1>
       <div class="garden-dates">
-        planted <time datetime={created.toISOString()}>
+        planted{" "}
+        <time datetime={created.toISOString()}>
           {created.toISOString().slice(0, 10)}
         </time>
-        {
-          updated && (
-            <Fragment>
-              {" · last tended "}
-              <time datetime={updated.toISOString()}>
-                {updated.toISOString().slice(0, 10)}
-              </time>
-            </Fragment>
-          )
-        }
+        {updated && (
+          <Fragment>
+            {" · last tended "}
+            <time datetime={updated.toISOString()}>
+              {updated.toISOString().slice(0, 10)}
+            </time>
+          </Fragment>
+        )}
       </div>
     </header>
-    {
-      showToc && (
-        <nav class="toc">
-          <details open>
-            <summary>Table of contents</summary>
-            <ul>
-              {headings
-                .filter((h) => h.depth <= 3)
-                .map((h) => (
-                  <li>
-                    <span
-                      class={
-                        h.depth === 2 ? "toc-marker" : "toc-marker toc-nested"
-                      }
-                    >
-                      {h.depth === 2 ? "»" : "›"}
-                    </span>
-                    <a href={`#${h.slug}`}>{h.text}</a>
-                  </li>
-                ))}
-            </ul>
-          </details>
-        </nav>
-      )
-    }
+    {showToc && (
+      <nav class="toc">
+        <details open>
+          <summary>Table of contents</summary>
+          <ul>
+            {headings
+              .filter((h) => h.depth <= 3)
+              .map((h) => (
+                <li>
+                  <span
+                    class={
+                      h.depth === 2 ? "toc-marker" : "toc-marker toc-nested"
+                    }
+                  >
+                    {h.depth === 2 ? "»" : "›"}
+                  </span>
+                  <a href={`#${h.slug}`}>{h.text}</a>
+                </li>
+              ))}
+          </ul>
+        </details>
+      </nav>
+    )}
     <Content />
   </article>
 </Base>

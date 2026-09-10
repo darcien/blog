@@ -18,22 +18,20 @@ const postsByYear = Object.entries(
 
 <Base title={SITE_NAME}>
   <div data-pagefind-ignore>
-    {
-      postsByYear.map(([year, yearPosts]) => (
-        <section>
-          <h2>{year}</h2>
-          <ul class="post-list">
-            {yearPosts.map((post) => (
-              <li>
-                <time datetime={post.data.date.toISOString()}>
-                  {post.data.date.toISOString().slice(0, 10)}
-                </time>
-                <a href={`/p/${post.id}`}>{post.data.title}</a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))
-    }
+    {postsByYear.map(([year, yearPosts]) => (
+      <section>
+        <h2>{year}</h2>
+        <ul class="post-list">
+          {yearPosts.map((post) => (
+            <li>
+              <time datetime={post.data.date.toISOString()}>
+                {post.data.date.toISOString().slice(0, 10)}
+              </time>
+              <a href={`/p/${post.id}`}>{post.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
   </div>
 </Base>

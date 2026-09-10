@@ -20,15 +20,13 @@ const sortedTags = Object.entries(
   <div data-pagefind-ignore>
     <h1>Tags</h1>
     <ul>
-      {
-        sortedTags.map(([tag, count]) => (
-          <li>
-            <a href={`/tags/${tag.toLowerCase()}`}>
-              {tag} ({count})
-            </a>
-          </li>
-        ))
-      }
+      {sortedTags.map(([tag, count]) => (
+        <li>
+          <a href={`/tags/${tag.toLowerCase()}`}>
+            {tag} ({count})
+          </a>
+        </li>
+      ))}
     </ul>
   </div>
 </Base>
