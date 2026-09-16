@@ -15,7 +15,7 @@ export type IsoDate = `${number}-${number}-${number}`;
 
 export type WatchedLive = { date: IsoDate; title: string; platform: Platform };
 
-// After editing entries, run: just touch src/content/garden/watched-lives-timeline.mdx
+// After editing entries, run: mise run touch src/content/garden/watched-lives-timeline.mdx
 export const WATCHED_LIVES: WatchedLive[] = [
   // ASOBI STAGE
   {
@@ -174,6 +174,36 @@ export const WATCHED_LIVES: WatchedLive[] = [
     title: "THE IDOLM@STER IDOL WORLD SUPER FESTIVAL 2026 -KYOUMEI-",
     platform: "ASOBI STAGE",
   },
+  {
+    date: "2026-08-20",
+    title: "学園アイドルマスター LIVE TOUR -標- (Fukui) DAY1",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-08-21",
+    title: "学園アイドルマスター LIVE TOUR -標- (Fukui) DAY2",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-09-05",
+    title: "学園アイドルマスター LIVE TOUR -標- (Fukuoka) DAY1",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-09-06",
+    title: "学園アイドルマスター LIVE TOUR -標- (Fukuoka) DAY2",
+    platform: "ASOBI STAGE",
+  },
+  // {
+  //   date: "2026-09-22",
+  //   title: "学園アイドルマスター LIVE TOUR -標- (Iwate) DAY1",
+  //   platform: "ASOBI STAGE",
+  // },
+  // {
+  //   date: "2026-09-23",
+  //   title: "学園アイドルマスター LIVE TOUR -標- (Iwate) DAY2",
+  //   platform: "ASOBI STAGE",
+  // },
   // eplus
   { date: "2023-03-18", title: "hololive 4th fes.", platform: "eplus" },
   // Niconico
