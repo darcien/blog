@@ -194,16 +194,16 @@ export const WATCHED_LIVES: WatchedLive[] = [
     title: "学園アイドルマスター LIVE TOUR -標- (Fukuoka) DAY2",
     platform: "ASOBI STAGE",
   },
-  // {
-  //   date: "2026-09-22",
-  //   title: "学園アイドルマスター LIVE TOUR -標- (Iwate) DAY1",
-  //   platform: "ASOBI STAGE",
-  // },
-  // {
-  //   date: "2026-09-23",
-  //   title: "学園アイドルマスター LIVE TOUR -標- (Iwate) DAY2",
-  //   platform: "ASOBI STAGE",
-  // },
+  {
+    date: "2026-09-22",
+    title: "学園アイドルマスター LIVE TOUR -標- (Iwate) DAY1",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-09-23",
+    title: "学園アイドルマスター LIVE TOUR -標- (Iwate) DAY2",
+    platform: "ASOBI STAGE",
+  },
   // eplus
   { date: "2023-03-18", title: "hololive 4th fes.", platform: "eplus" },
   // Niconico
