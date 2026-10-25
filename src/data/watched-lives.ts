@@ -358,6 +358,12 @@ export const WATCHED_LIVES: WatchedLive[] = [
     title: "声優グランプリPresents 浴衣のキミと夏祭り2026",
     platform: "Zaiko",
   },
+  {
+    date: "2026-10-18",
+    title:
+      "薄井友里・川村玲奈のすーぱーかわちぃ☆ゆりれいしょん レク5〜がくえんちゃい〜",
+    platform: "Zaiko",
+  },
 ];
 
 const monthName = (yearMonth: string) =>
