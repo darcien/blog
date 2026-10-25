@@ -2,6 +2,7 @@
 title: "Archiving Streams"
 created: 2026-04-18
 show_toc: true
+updated: 2026-10-25T09:34:47Z
 ---
 
 These are notes on how I _might_ archive some streams to appreciate later.
@@ -10,7 +11,7 @@ Even if I accidentally did it, it would be for personal fair use only.
 
 ## Zaiko
 
-> Last tried 2026-04-18: works. yt-dlp version nightly@2026.04.10.235301
+> Last tried 2026-10-25: works. yt-dlp version 2026.10.23.233055
 
 Zaiko extractor is currently broken.
 Open issue [here](https://github.com/yt-dlp/yt-dlp/issues/16157).
@@ -143,6 +144,17 @@ instead of restarting.
 e.g. if using `index.m3u8` before, find URL, same suffix, different JWT.
 
 [^expiry]: The JWT expiry seems to be 2.5 hours. No idea why 401 happens before that.
+
+And use this yt-dlp args to automatically abort on missing frag.
+Otherwise, if you reach the end of the file while it's skipping,
+yt-dlp will mark it as complete and you can no longer resume from it.
+
+```shell
+yt-dlp_macos --cookies-from-browser firefox \
+  --abort-on-unavailable-fragments \
+  --fragment-retries 20 \
+  'NEW_M3U8_URL'
+```
 
 ## Sheeta-based websites
 
