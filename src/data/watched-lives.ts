@@ -204,6 +204,16 @@ export const WATCHED_LIVES: WatchedLive[] = [
     title: "学園アイドルマスター LIVE TOUR -標- (Iwate) DAY2",
     platform: "ASOBI STAGE",
   },
+  {
+    date: "2026-11-07",
+    title: "学園アイドルマスター LIVE TOUR -標- (Final) DAY1",
+    platform: "ASOBI STAGE",
+  },
+  {
+    date: "2026-11-08",
+    title: "学園アイドルマスター LIVE TOUR -標- (Final) DAY2",
+    platform: "ASOBI STAGE",
+  },
   // eplus
   { date: "2023-03-18", title: "hololive 4th fes.", platform: "eplus" },
   // Niconico
